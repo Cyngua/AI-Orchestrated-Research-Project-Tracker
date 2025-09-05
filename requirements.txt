@@ -1,0 +1,9 @@
+streamlit
+pandas
+requests
+python-dotenv
+networkx
+plotly
+python-docx
+sqlalchemy
+duckdb
