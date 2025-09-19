@@ -1,0 +1,943 @@
+[
+  {
+    "pmid": "40959461",
+    "title": "Application of off-the-shelf thoracoabdominal multibranch endoprosthesis for urgent repair of pararenal and thoracoabdominal aortic aneurysms with occluded target vessels.",
+    "journal": "Journal of vascular surgery cases and innovative techniques",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Han\", \"fore\": \"Kenneth\", \"initials\": \"K\", \"affiliation\": \"Department of Surgery, Comprehensive Aortic Center, Keck Medical Center of University of Southern California, Los Angeles, CA.\"}, {\"last\": \"Pyun\", \"fore\": \"Alyssa J\", \"initials\": \"AJ\", \"affiliation\": \"Department of Surgery, Comprehensive Aortic Center, Keck Medical Center of University of Southern California, Los Angeles, CA.\"}, {\"last\": \"Han\", \"fore\": \"Sukgu M\", \"initials\": \"SM\", \"affiliation\": \"Department of Surgery, Comprehensive Aortic Center, Keck Medical Center of University of Southern California, Los Angeles, CA.\"}]",
+    "abstract": "The Thoracoabdominal Multibranch Endoprosthesis (TAMBE) is a commercially available off-the-shelf four-vessel inner branched endograft for thoracoabdominal aortic aneurysms (TAAA) and pararenal abdominal aortic aneurysms (AAA). However, there is paucity of data on the use of TAMBE in repair of pararenal AAA and TAAA with occluded target vessels. Here, we present two cases demonstrating the feasibility of TAMBE for repair of pararenal AAA and TAAA in patients with occluded target vessels.",
+    "keywords": [
+      "Fenestrated branched endovascular aortic repair (FBEVAR)",
+      "Off-the-shelf multibranched stent grafts",
+      "Pararenal abdominal aortic aneurysm",
+      "Target vessel occlusion",
+      "Thoracoabdominal Multibranched Endoprosthesis (TAMBE)",
+      "Thoracoabdominal abdominal aortic aneurysm (TAAA)",
+      "Urgent repair"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40654328",
+    "title": "Trans-peritoneal Repair of a Juxta-Renal Abdominal Aortic Aneurysm with Horseshoe Kidney Complicated by Urine Leak Successfully Managed with Urinary Diversion and Selective Renal Artery Embolization.",
+    "journal": "Annals of vascular surgery. Brief reports and innovations",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"O'Dell\", \"fore\": \"Jordyn\", \"initials\": \"J\", \"affiliation\": \"West Virginia University School of Medicine.\"}, {\"last\": \"Minc\", \"fore\": \"Samantha D\", \"initials\": \"SD\", \"affiliation\": \"West Virginia University, WVU Heart and Vascular Institute, Department of Cardiovascular and Thoracic Surgery.\"}, {\"last\": \"Ost\", \"fore\": \"Michael C\", \"initials\": \"MC\", \"affiliation\": \"University of Pittsburgh Medical Center, Department of Urology.\"}, {\"last\": \"Grammer\", \"fore\": \"Robert\", \"initials\": \"R\", \"affiliation\": \"West Virginia University, Department of Interventional Radiology.\"}, {\"last\": \"Markovich\", \"fore\": \"Brian\", \"initials\": \"B\", \"affiliation\": \"West Virginia University, Department of Radiology.\"}, {\"last\": \"Pillai\", \"fore\": \"Lakshmikumar\", \"initials\": \"L\", \"affiliation\": \"West Virginia University, WVU Heart and Vascular Institute, Department of Cardiovascular and Thoracic Surgery.\"}]",
+    "abstract": "There are a limited number of case reports describing the division of a horseshoe kidney (HSK) during trans- peritoneal repair of an abdominal aortic aneurysm (AAA). We present case of a juxta-renal AAA overlaid by an L shaped HSK, repaired trans- peritoneal with division of the isthmus. This was complicated by post-operative urinoma which was successfully treated interventionally. This approach was chosen due to the presence of the juxta-renal AAA with the majority of the HSK being perfused by a large left renal artery originating at the neck of the AAA. Temporary bilateral ureteral stents were placed. The isthmus of the HSK was divided followed by open tube graft repair of the AAA. Postoperative workup revealed an abdominal urinoma, which was successfully treated by urinary diversion and selective renal arterial branch embolization. Two years later, patient remains well with no evidence of hydronephrosis or graft infection.",
+    "keywords": [
+      "Abdominal Aortic Aneurysm",
+      "Crossed-fused Renal Ectopia",
+      "Horseshoe Kidney",
+      "Transperitoneal Repair",
+      "Urinoma"
+    ],
+    "grants": [
+      {
+        "agency": "NIDDK NIH HHS",
+        "acronym": "DK",
+        "grant_id": "K23 DK128569",
+        "country": "United States"
+      }
+    ]
+  },
+  {
+    "pmid": "40384912",
+    "title": "Transarterial Embolization Using the Quintet-coaxial Catheter System for a Type II Endoleak after Endovascular Aneurysm Repair.",
+    "journal": "Interventional radiology (Higashimatsuyama-shi (Japan)",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Saguchi\", \"fore\": \"Toru\", \"initials\": \"T\", \"affiliation\": \"Department of Radiology, Tokyo Medical University, Japan.\"}, {\"last\": \"Nakai\", \"fore\": \"Motoki\", \"initials\": \"M\", \"affiliation\": \"Department of Radiology, Tokyo Medical University, Japan.\"}, {\"last\": \"Takara\", \"fore\": \"Yuki\", \"initials\": \"Y\", \"affiliation\": \"Department of Radiology, Tokyo Medical University, Japan.\"}, {\"last\": \"Ikenaga\", \"fore\": \"Shoichi\", \"initials\": \"S\", \"affiliation\": \"Department of Radiology, Tokyo Medical University, Japan.\"}, {\"last\": \"Yamada\", \"fore\": \"Takafumi\", \"initials\": \"T\", \"affiliation\": \"Department of Radiology, Tokyo Medical University, Japan.\"}, {\"last\": \"Tanaka\", \"fore\": \"Taro\", \"initials\": \"T\", \"affiliation\": \"Department of Radiology, Tokyo Medical University, Japan.\"}, {\"last\": \"Ishida\", \"fore\": \"Masanori\", \"initials\": \"M\", \"affiliation\": \"Department of Radiology, Tokyo Medical University, Japan.\"}, {\"last\": \"Sugihara\", \"fore\": \"Eiji\", \"initials\": \"E\", \"affiliation\": \"Department of Radiology, Tokyo Medical University, Japan.\"}, {\"last\": \"Saito\", \"fore\": \"Kazuhiro\", \"initials\": \"K\", \"affiliation\": \"Department of Radiology, Tokyo Medical University, Japan.\"}]",
+    "abstract": "Transarterial embolization of the internal iliac artery-associated type II endoleaks necessitates adequate support to approach the abdominal aortic aneurysm sac. Herein, we report initial experience with transarterial embolization of the internal iliac artery-associated type II endoleaks using the quintet-coaxial catheter system.  The quintet-coaxial catheter system consisted of the following five coaxial devices: a 5-F thin-walled flexible guiding sheath, a 5-F guiding catheter, a 3.4-F large-bore distal access catheter, a 2.7-F high-flow microcatheter, and a 1.9-F microcatheter. From the ipsilateral femoral artery, the system was advanced into the abdominal aortic aneurysm sac via a long, thin, and tortuous access route arising from the lumbar and iliolumbar arteries. Embolization using a 20% mixture of n-butyl 2-cyanoacrylate with iodized oil was successfully performed in three cases with sac expansion caused by a persistent internal iliac artery-associated type II endoleaks. The inflow artery was embolized using metallic coils through the 2.7-F microcatheter. The 3.4-F large-bore distal access catheter improved the stability of the double coaxial microcatheter system and facilitated the access of the 1.9-F microcatheter to the abdominal aortic aneurysm sac.  The quintet-coaxial catheter system enables the embolization of type II endoleaks through long, thin, and tortuous access routes.",
+    "keywords": [
+      "TAE",
+      "balloon anchoring technique",
+      "endoleak",
+      "n-butyl cyanoacrylate",
+      "quintet-coaxial catheter system"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40365147",
+    "title": "Endovascular Aneurysm Repair (EVAR) in Rupture of the Infrarenal Abdominal Aortic Aneurysm (AAA) with Severe Neck Angulation in Conscience of National Health Coverage in Tertiary Referral Hospital in Indonesian: Case Report.",
+    "journal": "The International journal of angiology : official publication of the International College of Angiology, Inc",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Nugroho\", \"fore\": \"Nyityasmono T\", \"initials\": \"NT\", \"affiliation\": \"Department of Vascular Surgery, Faculty of Medicine, Universitas Indonesia - Dr. Cipto Mangunkusumo National Central Public Hospital, Jakarta, Indonesia.\"}, {\"last\": \"Primananda\", \"fore\": \"Ryoga\", \"initials\": \"R\", \"affiliation\": \"Department of Vascular Surgery, Faculty of Medicine, Universitas Indonesia - Dr. Cipto Mangunkusumo National Central Public Hospital, Jakarta, Indonesia.\"}, {\"last\": \"Javier\", \"fore\": \"R Mohamad\", \"initials\": \"RM\", \"affiliation\": \"Department of Vascular Surgery, Faculty of Medicine, Universitas Indonesia - Dr. Cipto Mangunkusumo National Central Public Hospital, Jakarta, Indonesia.\"}, {\"last\": \"Fachriza\", \"fore\": \"Ihza\", \"initials\": \"I\", \"affiliation\": \"Department of Vascular Surgery, Faculty of Medicine, Universitas Indonesia - Dr. Cipto Mangunkusumo National Central Public Hospital, Jakarta, Indonesia.\"}, {\"last\": \"Suhartono\", \"fore\": \"Raden\", \"initials\": \"R\", \"affiliation\": \"Department of Vascular Surgery, Faculty of Medicine, Universitas Indonesia - Dr. Cipto Mangunkusumo National Central Public Hospital, Jakarta, Indonesia.\"}]",
+    "abstract": "An aortic aneurysm is a condition with focal dilation of 50% or more over the normal aortic diameter. The most frequent form of aortic aneurysms is infrarenal. Endovascular aortic aneurysm repair is a valid treatment for treating patients with abdominal aortic aneurysm. Abdominal aortic aneurysms (AAAs) are electively repaired to prevent rupture. We present a case of an elderly man with an impending rupture of intraluminal infrarenal AAA with bilateral common iliac arteries aneurysms. Overall, the patient had completed the procedure and made a good postoperative recovery with fully coverage of Indonesian national health insurance.",
+    "keywords": [
+      "Indonesia",
+      "aortic aneurysm",
+      "endovascular repair",
+      "infrarenal",
+      "national health insurance",
+      "severe neck angulation"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40322152",
+    "title": "[MSB-34] Clinical Outcomes and Applications of Bypass Procedures on Intra-Abdominal Visceral Arteries.",
+    "journal": "Turk gogus kalp damar cerrahisi dergisi",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Sağlam\", \"fore\": \"Muhammet Fethi\", \"initials\": \"MF\", \"affiliation\": \"Department of Cardiovascular Surgery, Ankara Yıldırım Beyazıt University, Ankara, Türkiye.\"}, {\"last\": \"Uğuz\", \"fore\": \"Emrah\", \"initials\": \"E\", \"affiliation\": \"Department of Cardiovascular Surgery, Ankara Yıldırım Beyazıt University, Ankara, Türkiye.\"}]",
+    "abstract": "OBJECTIVE: This study aimed to evaluate the clinical effectiveness, indications, and patient profiles of bypass procedures performed on intra-abdominal visceral arteries.\nMETHODS: Ten patients who underwent between 2019 and 2024 were included in the study.\nRESULTS: In five patients (4 females, 1 male; range, 38 to 64 years), the procedure was part of a hybrid treatment due to aortic pathology. The procedure was performed due to mesenteric ischemia in three patients (2 males, 1 female; range, 50 to 65 years), following left renal artery injury in one female patient (aged 67 years), and due to a pancreatic tumor in another female patient (aged 57 years), which required a bypass to the hepatic artery. During follow-up, no early mortality was observed.\nCONCLUSION: Bypass procedures on intra-abdominal visceral arteries yield successful outcomes in treating arterial stenosis causing mesenteric ischemia, as part of hybrid treatments for aortic pathologies, and in abdominal surgeries requiring revascularization.",
+    "keywords": [
+      "Abdominal aortic aneurysm",
+      "endovascular aneurysm repair",
+      "occlusive mesenteric ischemia."
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40322117",
+    "title": "[MEP-26] Safety and Efficacy of Endovascular Repair Using Multilayer Flow Modulators for Thoracic Aortic Aneurysms After Type 1 Aortic Dissection.",
+    "journal": "Turk gogus kalp damar cerrahisi dergisi",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Doğan\", \"fore\": \"Ömer Faruk\", \"initials\": \"ÖF\", \"affiliation\": \"Department of Cardiovascular Surgery, Adana City Training and Research Hospital, Adana, Türkiye.\"}, {\"last\": \"Samsa\", \"fore\": \"Muhittin Zafer\", \"initials\": \"MZ\", \"affiliation\": \"Department of Cardiovascular Surgery, Adana City Training and Research Hospital, Adana, Türkiye.\"}, {\"last\": \"Kasap\", \"fore\": \"Mete Kubilay\", \"initials\": \"MK\", \"affiliation\": \"Department of Cardiovascular Surgery, Adana City Training and Research Hospital, Adana, Türkiye.\"}, {\"last\": \"Çoban\", \"fore\": \"Özgür\", \"initials\": \"Ö\", \"affiliation\": \"Department of Cardiovascular Surgery, Adana City Training and Research Hospital, Adana, Türkiye.\"}]",
+    "abstract": "OBJECTIVE: This study aimed to explore the outcomes of thoracic endovascular aortic aneurysm repair (TEVAR) for thoracic aortic aneurysms (TAAs) with or without concurrent endovascular abdominal aneurysm repair (EVAR) using multilayer flow modulator stents.\nMETHODS: This study included 23 patients (16 males, 7 females; mean age: 64 years) who underwent acute type 1 ascending aortic dissection repair. Symptoms varied from chest and abdominal pain, dyspnea, and fatigue to asymptomatic cases. Multislice computed tomography (CT) angiography assessed all segments of the aorta. We identified TAAs in all patients, with four also having abdominal aneurysms. All patients underwent TEVAR, and EVAR was added when necessary, using a multilayer flow modulator. Control CT angiography was conducted one month after discharge.\nRESULTS: There were no deaths or major complications. The median interval between primary surgery and CT angiography was 19 months (range, 6 to 60 months). The median hospital stay was 4.2 days. Control angiograms demonstrated 100% technical success with patent aortic lumens and branches. The only complication was a superficial infection in the femoral region. No cases of aortic rupture, stent migration, thrombosis, or stent fracture were observed. One patient had an endoleak at proximal and distal aortic ends, which was addressed with an additional multilayer flow modulator.\nCONCLUSION: Thoracic aortic aneurysms with or without abdominal aneurysms should be considered after type I aortic dissection surgery. We recommend it as an effective treatment method because it does not obstruct blood flow in the visceral arteries in patients with complex aortic aneurysms. Further randomized clinical trials are necessary to validate the effectivity of multilayer flow modulator stent.",
+    "keywords": [
+      "Endovascular treatment",
+      "multilayer flow modulator",
+      "thoracic aortic aneurysm."
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40322098",
+    "title": "[MSB-74] Endovascular Aortic Aneurysm Repair, Thoracic Endovascular Aortic Repair (TEVAR) Methods Used in Our Clinic and Comparison of Results.",
+    "journal": "Turk gogus kalp damar cerrahisi dergisi",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Sevil\", \"fore\": \"Fehim Can\", \"initials\": \"FC\", \"affiliation\": \"Department of Cardiovascular Surgery, Afyonkarahisar Health Sciences University , Faculty of Medicine, Afyonkarahisar, Türkiye.\"}, {\"last\": \"Tort\", \"fore\": \"Mehmet\", \"initials\": \"M\", \"affiliation\": \"Department of Cardiovascular Surgery, Afyonkarahisar Health Sciences University , Faculty of Medicine, Afyonkarahisar, Türkiye.\"}, {\"last\": \"Becit\", \"fore\": \"Necip\", \"initials\": \"N\", \"affiliation\": \"Department of Cardiovascular Surgery, Afyonkarahisar Health Sciences University , Faculty of Medicine, Afyonkarahisar, Türkiye.\"}, {\"last\": \"Güme\", \"fore\": \"Serkan\", \"initials\": \"S\", \"affiliation\": \"Department of Cardiovascular Surgery, Afyonkarahisar Health Sciences University , Faculty of Medicine, Afyonkarahisar, Türkiye.\"}, {\"last\": \"Madatlı\", \"fore\": \"Nigar\", \"initials\": \"N\", \"affiliation\": \"Department of Cardiovascular Surgery, Afyonkarahisar Health Sciences University , Faculty of Medicine, Afyonkarahisar, Türkiye.\"}]",
+    "abstract": "OBJECTIVE: This study aimed to describe the cases treated with endovascular aortic aneurysm repair (EVAR) and thoracic endovascular aneurysm repair (TEVAR) and their results in our clinic.\nMETHODS: This retrospective study included 30 patients (26 males, 4 females; mean age: 62.46 ±16.17 years; range, 18 to 77 years) who underwent endovascular repair for aortic aneurysms between July 2020 and June 2024. Demographic and clinical characteristics of the patients, aneurysm, surgery and methods, short- and long-term follow-up were analyzed.\nRESULTS: Traumatic aortic dissection was observed in four patients, and infrarenal abdominal aortic aneurysms were observed in 19 patients. The surgery was 90 min. All patients underwent complete recovery. No complications were observed in short-term follow-up.\nCONCLUSION: In conclusion, EVAR and TEVAR can be performed safely with increasing experience. Our early surgical results are compatible with the literature.",
+    "keywords": [
+      "EVAR",
+      "TEVAR."
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40322091",
+    "title": "[MSB-28] Treatment of Ruptured Abdominal Aortic Aneurysm: Long-Term Results of Endovascular Aortic Aneurysm Repair Versus Open Surgery.",
+    "journal": "Turk gogus kalp damar cerrahisi dergisi",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Amanvermez Şenarslan\", \"fore\": \"Dilşad\", \"initials\": \"D\", \"affiliation\": \"Department of Cardiovascular Surgery, Manisa Celal Bayar University, Faculty of Medicine, Manisa, Türkiye.\"}, {\"last\": \"Yıldız\", \"fore\": \"Aylin\", \"initials\": \"A\", \"affiliation\": \"Department of Cardiovascular Surgery, Manisa Celal Bayar University, Faculty of Medicine, Manisa, Türkiye.\"}, {\"last\": \"Yıldırım\", \"fore\": \"Funda\", \"initials\": \"F\", \"affiliation\": \"Department of Cardiovascular Surgery, Manisa Celal Bayar University, Faculty of Medicine, Manisa, Türkiye.\"}]",
+    "abstract": "OBJECTIVE: This study aimed to investigate whether endovascular aortic aneurysm repair (EVAR) had a long-term survival benefit compared to open repair in ruptured abdominal aortic aneurysms (rAAAs).\nMETHODS: This retrospective study involved 58 patients (mean age: 69.6±10 years) who underwent either open surgery or EVAR for rAAA between January 2015 and June 2024.\nRESULTS: Open surgery and EVAR groups were similar in terms of age. There were more male patients in the open surgery group. Intensive care unit and hospital stays were similar in both groups. The mean follow-up time was 41.2±40 months. The estimated cumulative survival rate in Kaplan-Meier analysis was %87.9 for the EVAR group and %40 for the open surgery group. Most of the deaths occurred in the first 30 days postoperatively. The reason for high mortality in open surgery was due to the hemodynamic status at arrival to the emergency service. Hemodynamically unstable patients usually had no time to wait for stent graft availability, and direct open surgery was required in these patients. A secondary factor that was important for successful treatment was the patient's anatomic convenience with EVAR treatment. Conversion to open surgery was approximately 40% due to the anatomy of the hostile neck and iliac vessels.\nCONCLUSION: An experienced team and a hybrid operation room with adequate equipment for optimal imaging and conversion to open surgery are essential for reducing mortality in rAAA. Mortality and morbidity with EVAR appear to be low compared to open surgical treatment in patients with rAAA.",
+    "keywords": [
+      "Abdominal aortic aneurysms",
+      "complications",
+      "endovascular aneurysm repair",
+      "mortality.",
+      "open surgery"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40322089",
+    "title": "[MEP-41] Management of Diaphgramatic Dehiscence and Wound Infection After Open Repair of Thoracoabdominal Aortic Aneurysm.",
+    "journal": "Turk gogus kalp damar cerrahisi dergisi",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Yaprak Engin\", \"fore\": \"Aysen\", \"initials\": \"A\", \"affiliation\": \"Department of Cardiovascular Surgery, Ege University Faculty of Medicine, İzmir, Türkiye.\"}, {\"last\": \"Erdinli\", \"fore\": \"Dilek\", \"initials\": \"D\", \"affiliation\": \"Department of Cardiovascular Surgery, Ege University Faculty of Medicine, İzmir, Türkiye.\"}, {\"last\": \"Kahraman\", \"fore\": \"Ümit\", \"initials\": \"Ü\", \"affiliation\": \"Department of Cardiovascular Surgery, Ege University Faculty of Medicine, İzmir, Türkiye.\"}, {\"last\": \"Oğuz\", \"fore\": \"Emrah\", \"initials\": \"E\", \"affiliation\": \"Department of Cardiovascular Surgery, Ege University Faculty of Medicine, İzmir, Türkiye.\"}, {\"last\": \"Posacıoğlu\", \"fore\": \"Hakan\", \"initials\": \"H\", \"affiliation\": \"Department of Cardiovascular Surgery, Ege University Faculty of Medicine, İzmir, Türkiye.\"}, {\"last\": \"Apaydın\", \"fore\": \"Anıl Ziya\", \"initials\": \"AZ\", \"affiliation\": \"Department of Cardiovascular Surgery, Ege University Faculty of Medicine, İzmir, Türkiye.\"}]",
+    "abstract": "Herein, we presented a case of thoracoabdominal aneurysm that was surgically treated and was complicated with diaphragmatic dehiscence and wound infection. Management and treatment methods of this challenging complication were discussed. A 59-year-old male patient with a history of renal operation underwent an open surgical treatment for thoracoabdominal aortic aneurysm. After extubation, the chest radiograph revealed left pneumothorax, and diaphragmatic dehiscence was detected on computed tomography. In the reoperation, steel wires attaching to the arcus costarum were broken off, and the diaphragmatic dehiscence and eventration of organs were observed. Diaphragmatic defect was closed with a Dacron patch, as it was very large for primary closure. Chylothorax was noticed and treated by somatostatin infusion. Vacuum therapy was applied as a purulent discharge started, and necrotic tissue was observed with evidence of infection when debridement was performed. Antibiotic therapy was started according to antibiogram. Vacuum therapy of thoracal incision was stopped as granulation tissue was observed, and the wound was closed by retention sutures. The wound in the abdominal region was closed with an advancement flap by subcutaneous detachment by plastic surgery, and a hemovac drain was placed. Since purulent discharge persisted, the Dacron graft was replaced by bovine pericardium for the diaphragmatic defect. The wound in the abdominal region was closed with retention sutures. The skin was closed primarily. When the infection resolved, the patient was discharged with peroral antibiotics. In open surgical repair of thoracoabdominal aortic aneurysm, rapid diagnosis and surgical intervention in case of diaphragm dehiscence, closure of the wound with appropriate treatment methods, reduction of the wound size with vacuum assisted closure, and initiation of effective antibiotic therapy by taking serial cultures are important in the treatment process.",
+    "keywords": [
+      "Diaphragmatic dehiscence",
+      "thoracoabdominal aortic aneurysm",
+      "vacuum therapy",
+      "wound infection."
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40242143",
+    "title": "Case Report: Emergency endovascular management of a ruptured giant abdominal aortic aneurysm with severely angulated and conical shaped neck using novel multiple stiff wire technique.",
+    "journal": "F1000Research",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Taofan\", \"fore\": \"Taofan\", \"initials\": \"T\", \"affiliation\": \"Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia, National Cardiovascular Center, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Dakota\", \"fore\": \"Iwan\", \"initials\": \"I\", \"affiliation\": \"Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia, National Cardiovascular Center, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Adiarto\", \"fore\": \"Suko\", \"initials\": \"S\", \"affiliation\": \"Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia, National Cardiovascular Center, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Indriani\", \"fore\": \"Suci\", \"initials\": \"S\", \"affiliation\": \"Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia, National Cardiovascular Center, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Aurora\", \"fore\": \"Ruth Grace\", \"initials\": \"RG\", \"affiliation\": \"Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia, National Cardiovascular Center, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Putra\", \"fore\": \"Rendra Mahardhika\", \"initials\": \"RM\", \"affiliation\": \"Department of Cardiology and Vascular Medicine, Faculty of Medicine, Universitas Airlangga, Dr Soetomo General Academic Hospital, Surabaya, Jawa Timur, 60268, Indonesia.\"}, {\"last\": \"Marsudi\", \"fore\": \"Bagas Adhimurda\", \"initials\": \"BA\", \"affiliation\": \"Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia, National Cardiovascular Center, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Afandy\", \"fore\": \"Jonathan Edbert\", \"initials\": \"JE\", \"affiliation\": \"Research Assistant of Vascular Division, Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia Academic Hospital, National Cardiovascular Center Harapan Kita, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Benly\", \"fore\": \"Melani Limenco\", \"initials\": \"ML\", \"affiliation\": \"Research Assistant of Vascular Division, Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia Academic Hospital, National Cardiovascular Center Harapan Kita, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Paramastri\", \"fore\": \"Kanya\", \"initials\": \"K\", \"affiliation\": \"Research Assistant of Vascular Division, Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia Academic Hospital, National Cardiovascular Center Harapan Kita, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Lam\", \"fore\": \"Macmilliac\", \"initials\": \"M\", \"affiliation\": \"Research Assistant of Vascular Division, Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia Academic Hospital, National Cardiovascular Center Harapan Kita, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Iqbal\", \"fore\": \"Muhammad Rafli\", \"initials\": \"MR\", \"affiliation\": \"Research Assistant of Vascular Division, Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia Academic Hospital, National Cardiovascular Center Harapan Kita, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Saputro\", \"fore\": \"Keviano Bobby\", \"initials\": \"KB\", \"affiliation\": \"Research Assistant of Vascular Division, Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia Academic Hospital, National Cardiovascular Center Harapan Kita, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}, {\"last\": \"Kang\", \"fore\": \"Sung Gwon\", \"initials\": \"SG\", \"affiliation\": \"Department of Radiology, Chosun University, Gwangju, Gwangju, South Korea.\"}, {\"last\": \"Widyantoro\", \"fore\": \"Bambang\", \"initials\": \"B\", \"affiliation\": \"Department of Cardiology and Vascular Medicine, Faculty of Medicine University of Indonesia, National Cardiovascular Center, Jakarta, Special Capital Region of Jakarta, 11420, Indonesia.\"}]",
+    "abstract": "BACKGROUND: Ruptured abdominal aortic aneurysm (rAAA) is commonly fatal, with an overall mortality rate of nearly 90%, and the risk of subsequent rupture remains high, especially in large aneurysm diameters or progressive disease. Unfavorable neck anatomy in EVAR is linked to early graft failure and long-term complications. Recently, a novel multiple stiff wire (MSW) technique has been developed to overcome the challenges of hostile neck anatomy without introducing additional devices and procedural complexity. It has also been feasible in a series of elective cases. In this case, we report the first-ever utilization of the MSW technique in an emergency case of an acute contained rAAA with a conical-shaped, severely angulated neck who underwent Endovascular Aortic Repair (EVAR).\nCASE PRESENTATION: A 61-year-old man came with intermittent sharp stomach pain radiating to his back since three weeks ago. Physical examination showed elevated blood pressure and anemic conjunctiva. Laboratory examinations showed anemia, leukocytosis, elevated D-dimer level, high creatinine level, and low eGFR. CT-Scan Angiography (CTA) revealed severely hostile anatomy, a conical-shaped abdominal aorta aneurysm with a length of 13.2 cm and a maximum diameter of 9.3 cm with angulation of 90.1°. The patient was diagnosed with Ruptured AAA with a conical-shaped, severely angulated neck. Endovascular Aortic Repair (EVAR) management with MSW technique was planned for him. After four days, The patient was discharged in a clinically stable condition with optimal medical treatment and education.\nCONCLUSION: The endovascular approach could be performed in emergency settings and has been proven to reduce length of stay, mortality, and morbidity rates. In this case, the endovascular approach with the MSW technique showed promising results for the patient.",
+    "keywords": [
+      "Abdominal Aortic Aneurysm",
+      "Conical-Shaped Neck",
+      "Endovascular Aortic Repair",
+      "Hostile Neck",
+      "Multiple Stiff Wire Technique",
+      "Ruptured Giant AAA",
+      "Humans",
+      "Male",
+      "Aortic Aneurysm, Abdominal",
+      "Middle Aged",
+      "Endovascular Procedures",
+      "Aortic Rupture"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40206967",
+    "title": "Aortic Aneurysm: Dissection from the Root to Pelvis.",
+    "journal": "Journal of medical ultrasound",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Jhang\", \"fore\": \"Lan-Sin\", \"initials\": \"LS\", \"affiliation\": \"Department of Obstetrics and Gynecology, New Taipei Municipal Tucheng Hospital, New Taipei City, Taiwan.\"}, {\"last\": \"Chao\", \"fore\": \"An-Shine\", \"initials\": \"AS\", \"affiliation\": \"Department of Obstetrics and Gynecology, New Taipei Municipal Tucheng Hospital, New Taipei City, Taiwan.\"}, {\"last\": \"Chien\", \"fore\": \"Chih-Wei\", \"initials\": \"CW\", \"affiliation\": \"Department of Obstetrics and Gynecology, New Taipei Municipal Tucheng Hospital, New Taipei City, Taiwan.\"}]",
+    "abstract": "Isolated pelvic pain caused by aortic dissection is a very uncommon clinical presentation. This life-threatening cardiovascular lesion needs prompt diagnosis and intervention to prevent rupture. We report the case of a 45-year-old woman with Marfan syndrome who presented to our gynecologic clinic with low abdominal pain. Bedside point-of-care ultrasound revealed the bilocular echo lucent cystic lesion indicating the dissection of common iliac artery in her pelvis.",
+    "keywords": [
+      "Aortic dissection",
+      "Marfan’s syndrome",
+      "pelvic pain",
+      "pointofcare ultrasound"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40190779",
+    "title": "Patient Selection Criteria for Endovascular Aortic Aneurysm Repair: Optimizing Outcomes.",
+    "journal": "Seminars in interventional radiology",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Taragjini\", \"fore\": \"Christina\", \"initials\": \"C\", \"affiliation\": \"Herbert Wertheim College of Medicine, Florida International University, Miami, Florida.\"}, {\"last\": \"Schiro\", \"fore\": \"Brian\", \"initials\": \"B\", \"affiliation\": \"Herbert Wertheim College of Medicine, Florida International University, Miami, Florida.\"}, {\"last\": \"Bemd\", \"fore\": \"Bente A T van den\", \"initials\": \"BATVD\", \"affiliation\": \"Department of Interventional Oncology, Miami Cancer Institute, Baptist Health South Florida, Miami, Florida.\"}, {\"last\": \"Pena\", \"fore\": \"Constantino S\", \"initials\": \"CS\", \"affiliation\": \"Herbert Wertheim College of Medicine, Florida International University, Miami, Florida.\"}]",
+    "abstract": "Endovascular aortic aneurysm repair (EVAR) has become the preferred treatment for abdominal aortic aneurysms, offering a minimally invasive alternative to open surgery. However, successful outcomes depend on meticulous patient selection. This review explores the key criteria for patient eligibility, including aneurysm size, morphology, and the quality of the proximal and distal aneurysm necks. Additionally, imaging assessment and various device variables, including anatomical suitability, are examined to emphasize their influence on procedural success. As EVAR technology evolves, understanding the nuances of patient selection remains crucial for maximizing technical success and clinical outcomes, while minimizing complications including endoleaks and migration, and extending the benefits of the procedure to a broader range of patients.",
+    "keywords": [
+      "abdominal aortic aneurysm",
+      "aortic aneurysm",
+      "endoleaks",
+      "endovascular aortic aneurysm repair"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40190778",
+    "title": "Aortic Endograft Sizing.",
+    "journal": "Seminars in interventional radiology",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Ray\", \"fore\": \"Andrew T\", \"initials\": \"AT\", \"affiliation\": \"Department of Radiology and Medical Imaging, University of Virginia Health System, Charlottesville, Virginia.\"}, {\"last\": \"Wilkins\", \"fore\": \"Luke R\", \"initials\": \"LR\", \"affiliation\": \"Department of Radiology and Medical Imaging, University of Virginia Health System, Charlottesville, Virginia.\"}, {\"last\": \"Sheeran\", \"fore\": \"Daniel P\", \"initials\": \"DP\", \"affiliation\": \"Department of Radiology and Medical Imaging, University of Virginia Health System, Charlottesville, Virginia.\"}, {\"last\": \"Clouse\", \"fore\": \"W Darrin\", \"initials\": \"WD\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, University of Virginia, Charlottesville, Virginia.\"}, {\"last\": \"Angle\", \"fore\": \"J Fritz\", \"initials\": \"JF\", \"affiliation\": \"Department of Radiology and Medical Imaging, University of Virginia Health System, Charlottesville, Virginia.\"}]",
+    "abstract": "Thoracic endovascular aortic repair (TEVAR) and endovascular abdominal aortic aneurysm repair (EVAR) have become widely accepted techniques for the treatment of aortic aneurysms and dissections. Central to the success of TEVAR and EVAR is accurate endograft sizing. Key aspects to be discussed in this article include the importance of preprocedural centerline imaging with computed tomography angiography to evaluate the proximal and distal seal zones. This article will review TEVAR and EVAR endograft sizing, providing the interventionalist with practical advice to optimize patient selection and to improve procedural success.",
+    "keywords": [
+      "EVAR",
+      "TEVAR",
+      "endograft",
+      "interventional radiology",
+      "sizing"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40190777",
+    "title": "Endovascular Treatment of Type II Endoleaks: Update and Overview.",
+    "journal": "Seminars in interventional radiology",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Dalzell\", \"fore\": \"Christina G\", \"initials\": \"CG\", \"affiliation\": \"Division of Vascular and Interventional Radiology, Department of Radiology and Medical Imaging, University of Virginia Health System, Charlottesville, Virginia.\"}, {\"last\": \"Sheeran\", \"fore\": \"Daniel P\", \"initials\": \"DP\", \"affiliation\": \"Division of Vascular and Interventional Radiology, Department of Radiology and Medical Imaging, University of Virginia Health System, Charlottesville, Virginia.\"}, {\"last\": \"Angle\", \"fore\": \"John F\", \"initials\": \"JF\", \"affiliation\": \"Division of Vascular and Interventional Radiology, Department of Radiology and Medical Imaging, University of Virginia Health System, Charlottesville, Virginia.\"}, {\"last\": \"Wilkins\", \"fore\": \"Luke R\", \"initials\": \"LR\", \"affiliation\": \"Division of Vascular and Interventional Radiology, Department of Radiology and Medical Imaging, University of Virginia Health System, Charlottesville, Virginia.\"}]",
+    "abstract": "Endoleaks are a common complication following endovascular aneurysm repair, despite EVAR being the preferred method for the repair of abdominal aortic aneurysms. Endoleaks are continued blood flow into the aneurysmal sac, or more broadly elevated pressure outside of the endograft, and are classified into five types based on the source of blood flow or elevated pressure. Type II endoleaks are the most common and are a result of retrograde flow to the sac most commonly from the inferior mesenteric artery or lumbar artery. Endovascular treatment options for type II endoleaks include transarterial, transcaval, translumbar, and transabdominal approaches. This review discusses the indication for endovascular treatment of type II endoleaks, the selection of approach, and technical considerations.",
+    "keywords": [
+      "aneurysm",
+      "embolization",
+      "endograft",
+      "endoleak",
+      "interventional radiology"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40190774",
+    "title": "Multidisciplinary Management of Aortic Emergencies: Ruptured Abdominal Aortic Aneurysms.",
+    "journal": "Seminars in interventional radiology",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Jammeh\", \"fore\": \"Momodou L\", \"initials\": \"ML\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, Medical College of Wisconsin, Milwaukee, Wisconsin.\"}, {\"last\": \"Rabaza\", \"fore\": \"Michael\", \"initials\": \"M\", \"affiliation\": \"Division of Vascular and Interventional Radiology, Department of Radiology, Medical College of Wisconsin, Milwaukee, Wisconsin.\"}, {\"last\": \"Patel\", \"fore\": \"Parag J\", \"initials\": \"PJ\", \"affiliation\": \"Division of Vascular and Interventional Radiology, Department of Radiology, Medical College of Wisconsin, Milwaukee, Wisconsin.\"}]",
+    "abstract": "Ruptured abdominal aortic aneurysm are a critical vascular emergency. A coordinated, multidisciplinary management pathway can aid in timely diagnosis, triage, and coordination of best care. We present our institutional care algorithm for rAAA with an accompanying case example.",
+    "keywords": [
+      "EVAR",
+      "multidisciplinary management",
+      "rAAA",
+      "ruptured AAA"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40060213",
+    "title": "First-in-Human Abdominal Aortic Aneurysms Trial with Tricaprin (F-HAAAT): Study Design and Protocol.",
+    "journal": "CJC open",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Kamba\", \"fore\": \"Takahito\", \"initials\": \"T\", \"affiliation\": \"Laboratory of Cardiovascular Disease, Novel, Non-Invasive, and Nutritional Therapeutics (CNT), Department of Triglyceride Science, Graduate School of Medicine, Osaka University, Osaka, Japan.\"}, {\"last\": \"Yanagawa\", \"fore\": \"Masahiro\", \"initials\": \"M\", \"affiliation\": \"Department of Radiology, Osaka University Graduate School of Medicine, Osaka, Japan.\"}, {\"last\": \"Shimamura\", \"fore\": \"Kazuo\", \"initials\": \"K\", \"affiliation\": \"Department of Cardiovascular Surgery, Osaka University Graduate School of Medicine, Osaka, Japan.\"}, {\"last\": \"Yamaguchi\", \"fore\": \"Satoshi\", \"initials\": \"S\", \"affiliation\": \"Tochino Foundation, Osaka, Japan.\"}, {\"last\": \"Shirakura\", \"fore\": \"Kenji\", \"initials\": \"K\", \"affiliation\": \"Medical Center for Translational Research, Department of Medical Innovation, Osaka University Hospital, Osaka, Japan.\"}, {\"last\": \"Okamura\", \"fore\": \"Satomi\", \"initials\": \"S\", \"affiliation\": \"Data Coordinating Center, Department of Medical Innovation, Osaka University Hospital, Osaka, Japan.\"}, {\"last\": \"Nishimura\", \"fore\": \"Yuki\", \"initials\": \"Y\", \"affiliation\": \"Data Coordinating Center, Department of Medical Innovation, Osaka University Hospital, Osaka, Japan.\"}, {\"last\": \"Yamada\", \"fore\": \"Tomomi\", \"initials\": \"T\", \"affiliation\": \"Data Coordinating Center, Department of Medical Innovation, Osaka University Hospital, Osaka, Japan.\"}, {\"last\": \"Sakata\", \"fore\": \"Yasushi\", \"initials\": \"Y\", \"affiliation\": \"Department of Cardiovascular Medicine, Osaka University Graduate School of Medicine, Osaka, Japan.\"}, {\"last\": \"Tomiyama\", \"fore\": \"Noriyuki\", \"initials\": \"N\", \"affiliation\": \"Department of Radiology, Osaka University Graduate School of Medicine, Osaka, Japan.\"}, {\"last\": \"Miyagawa\", \"fore\": \"Shigeru\", \"initials\": \"S\", \"affiliation\": \"Department of Cardiovascular Surgery, Osaka University Graduate School of Medicine, Osaka, Japan.\"}, {\"last\": \"Hirano\", \"fore\": \"Ken-Ichi\", \"initials\": \"KI\", \"affiliation\": \"Laboratory of Cardiovascular Disease, Novel, Non-Invasive, and Nutritional Therapeutics (CNT), Department of Triglyceride Science, Graduate School of Medicine, Osaka University, Osaka, Japan.\"}, {\"last\": \"Zaima\", \"fore\": \"Nobuhiro\", \"initials\": \"N\", \"affiliation\": \"The Laboratory of Applied Cell Biology, Faculty of Agriculture, Kindai University, Nara, Japan.\"}]",
+    "abstract": "Approximately 2%-12% of individuals aged > 65 years worldwide are estimated to have an abdominal aortic aneurysm (AAA), with a mortality rate exceeding 60% in rupture cases. The sole preventive intervention against rupture is timely surgery, which requires substantial medical resources, including postoperative complication management. Although numerous randomized clinical trials have been performed, no oral medication effectively treats AAA. Tricaprin, a medium-chain triglyceride with 3 capric acids, is used in dietary therapy for metabolic and neurological disorders. Our group recently reported that tricaprin, unlike other medium-chain triglycerides, showed reverse remodelliing of AAA in a rat model. Determining whether this basic finding could be translated to clinical practice is important. The irst-in-uman bdominal ortic neurysms trial with ricaprin (F-HAAAT) proposes the first-in-human AAA trial to confirm the safety of tricaprin use in patients with small AAA, exploring novel assessment methods to evaluate treatment efficacy. This single-centre, open-label, single-arm study will include 10 patients (aged 50-85 years) with small AAA (30-45 mm in diameter) receiving daily oral tricaprin (1.5-3.0 g/d) for 52 weeks. Primary endpoints include safety evaluation of tricaprin determined by monitoring all adverse events, particularly major adverse cardiovascular events, AAA-related adverse events, and other unpredictable events. Secondary endpoints include parameters to validate tricaprin efficacy by measuring AAA diameter, volume, and Agatston score, and analyzing computed tomography values of the aortic aneurysmal wall. Outcomes of the trial may provide insights into noninvasive methods for indirectly analyzing AAA pathologic characteristics and revealing aneurysmal reverse remodelliing (jRCTs051240036, Japan Registry of Clinical Trials).",
+    "keywords": [],
+    "grants": []
+  },
+  {
+    "pmid": "40057347",
+    "title": "Managing anxiety in men undergoing surveillance in the NHS abdominal aortic aneurysm screening programme: A survey of screening staff in England.",
+    "journal": "Journal of vascular nursing : official publication of the Society for Peripheral Vascular Nursing",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Lumley\", \"fore\": \"Elizabeth\", \"initials\": \"E\", \"affiliation\": \"The University of Sheffield, SCHARR, Regent Court, 30 Regent Street, Sheffield, S1 4DA, UK. Electronic address: e.lumley@sheffield.ac.uk.\"}, {\"last\": \"Hughes\", \"fore\": \"Jane\", \"initials\": \"J\", \"affiliation\": \"The University of Sheffield, SCHARR, Regent Court, 30 Regent Street, Sheffield, S1 4DA, UK. Electronic address: jane.hughes2@sheffield.ac.uk.\"}, {\"last\": \"Elstone\", \"fore\": \"Alan\", \"initials\": \"A\", \"affiliation\": \"University Hospitals Plymouth NHS Trust, Derriford Road, Plymouth, PL6 8DH, UK. Electronic address: alanelstone@nhs.net.\"}, {\"last\": \"Hall\", \"fore\": \"Jo\", \"initials\": \"J\", \"affiliation\": \"Derbyshire Community Health Services NHS Foundation Trust, Ashgate Road, Chesterfield, S42 7JE, UK. Electronic address: jo.hall1@nhs.net.\"}, {\"last\": \"MacGregor-Smith\", \"fore\": \"Niall\", \"initials\": \"N\", \"affiliation\": \"PPI Member, c/o PCAAAS, The University of Sheffield, Regent Court, 30 Regent Street, S1 4DA, UK. Electronic address: niallms46@gmail.com.\"}, {\"last\": \"Michaels\", \"fore\": \"Jonathan\", \"initials\": \"J\", \"affiliation\": \"The University of Sheffield, SCHARR, Regent Court, 30 Regent Street, Sheffield, S1 4DA, UK. Electronic address: j.michaels@sheffield.ac.uk.\"}, {\"last\": \"Nasim\", \"fore\": \"Akhtar\", \"initials\": \"A\", \"affiliation\": \"Sheffield Vascular Institute, Sheffield Teaching Hospitals NHS Foundation Trust, Northern General Hospital, Herries Road, Sheffield, S5 7AU, UK. Electronic address: Akhtar.nasim@nhs.net.\"}, {\"last\": \"Radley\", \"fore\": \"Stephen\", \"initials\": \"S\", \"affiliation\": \"The University of Sheffield, SCHARR, Regent Court, 30 Regent Street, Sheffield, S1 4DA, UK. Electronic address: stephen.radley@nhs.net.\"}, {\"last\": \"Shackley\", \"fore\": \"Phil\", \"initials\": \"P\", \"affiliation\": \"The University of Sheffield, SCHARR, Regent Court, 30 Regent Street, Sheffield, S1 4DA, UK. Electronic address: p.shackley@sheffield.ac.uk.\"}, {\"last\": \"Stansby\", \"fore\": \"Gerry\", \"initials\": \"G\", \"affiliation\": \"Newcastle Hosptials NHS Foundation Trust, Freeman Hospital, Freeman Road, Newcastle upon Tyne, NE7 7DN, UK. Electronic address: gerry.stansby@nhs.net.\"}, {\"last\": \"Wood\", \"fore\": \"Emily\", \"initials\": \"E\", \"affiliation\": \"The University of Sheffield, SCHARR, Regent Court, 30 Regent Street, Sheffield, S1 4DA, UK. Electronic address: e.f.wood@sheffield.ac.uk.\"}, {\"last\": \"O'Cathain\", \"fore\": \"Alicia\", \"initials\": \"A\", \"affiliation\": \"The University of Sheffield, SCHARR, Regent Court, 30 Regent Street, Sheffield, S1 4DA, UK. Electronic address: a.ocathain@sheffield.ac.uk.\"}]",
+    "abstract": "BACKGROUND: AAA is an enlargement in the aorta that can increase in size and rupture. In England, the National Health Service (NHS) AAA Screening Programme offers screening to all men aged 65 to identify those with an AAA. Men with small or medium sized aneurysm enter surveillance where they receive ultrasound scans annually or every three months respectively. Due to concerns about mortality from AAA rupture, anxiety levels may be high for men and their families and impact on their quality of life.\nAIM: To obtain the views of staff providing Abdominal Aortic Aneurysm (AAA) screening on how best to help men in surveillance to manage AAA-related anxiety.\nMETHODS: A cross-sectional online survey of the 38 AAA regional screening services in England was conducted. Four staff with different roles from each service (doctor, nurse, manager and scanning technician) were asked to complete an online questionnaire.\nRESULTS: The response rate was 71 % (27/38) for regional AAA screening services and 65 % (99/152) for the staff approached. 93 % (79/84) of respondents strongly or somewhat agreed that men in surveillance may need help to manage anxiety. The size of the aneurysm was rated as the factor most likely to cause anxiety. 63 % (51/81) considered AAA Programme Nurses to be the best people to deliver an intervention. Staff suggested that improved information about AAA and associated risks, group support/networking sessions, and more contact with the screening service were ways of helping with management of anxiety.\nCONCLUSION: Staff providing AAA screening recognised that being in surveillance can cause anxiety for men and their families, and identified that potential interventions, such as organised support groups and improved provision of information, might help manage anxiety. Programme Nurses were considered the ideal healthcare professional to help men in surveillance manage AAA-related anxiety.",
+    "keywords": [
+      "AAA Screening",
+      "Abdominal Aortic Aneurysm (AAA)",
+      "Managing Anxiety",
+      "Staff views",
+      "Survey",
+      "anxiety",
+      "Humans",
+      "Aortic Aneurysm, Abdominal",
+      "Male",
+      "Anxiety",
+      "England",
+      "Cross-Sectional Studies",
+      "Mass Screening",
+      "Surveys and Questionnaires",
+      "Aged",
+      "State Medicine",
+      "Middle Aged"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40046404",
+    "title": "Open Aortic Repair After Thoracic Endovascular Aortic Repair: Strategic Insights From a Single Centre Surgical Experience.",
+    "journal": "EJVES vascular forum",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Iba\", \"fore\": \"Yutaka\", \"initials\": \"Y\", \"affiliation\": \"Department of Cardiovascular Surgery, Sapporo Medical University, Sapporo, Hokkaido, Japan.\"}, {\"last\": \"Nakajima\", \"fore\": \"Tomohiro\", \"initials\": \"T\", \"affiliation\": \"Department of Cardiovascular Surgery, Sapporo Medical University, Sapporo, Hokkaido, Japan.\"}, {\"last\": \"Nakazawa\", \"fore\": \"Junji\", \"initials\": \"J\", \"affiliation\": \"Department of Cardiovascular Surgery, Sapporo Medical University, Sapporo, Hokkaido, Japan.\"}, {\"last\": \"Shibata\", \"fore\": \"Tsuyoshi\", \"initials\": \"T\", \"affiliation\": \"Department of Cardiovascular Surgery, Sapporo Medical University, Sapporo, Hokkaido, Japan.\"}, {\"last\": \"Miura\", \"fore\": \"Shuhei\", \"initials\": \"S\", \"affiliation\": \"Department of Cardiovascular Surgery, Sapporo Medical University, Sapporo, Hokkaido, Japan.\"}, {\"last\": \"Kawaharada\", \"fore\": \"Nobuyoshi\", \"initials\": \"N\", \"affiliation\": \"Department of Cardiovascular Surgery, Sapporo Medical University, Sapporo, Hokkaido, Japan.\"}]",
+    "abstract": "OBJECTIVE: Thoracic endovascular aortic repair (TEVAR) is widely used in thoracic aortic surgery. However, for various reasons some patients require secondary open aortic repair. Herein, the surgical outcomes and problems of such open conversion surgery after TEVAR are investigated.\nMETHODS: This was a retrospective and observational study. From January 2010 to June 2022, 20 patients who underwent open aortic repair after TEVAR were included. The indications for open conversion surgery were as follows: aortic enlargement due to endoleak (EL) in seven patients (type Ia:  = 4, type II:  = 1, type V:  = 2; 35%), stent graft infection including aorto-oesophageal fistula (AEF) in six (30%), retrograde type A aortic dissection (RTAD) in three (15%), and dilatation of adjacent distal aorta or false lumen in four (20%).\nRESULTS: Seven patients with type Ia EL or RTAD required open aortic arch repair. Four underwent thoraco-abdominal aortic repair for distal aortic enlargement. Descending thoracic aortic replacement was performed in all six infection cases and two patients with type V EL. Furthermore, three patients with AEF received concomitant oesophagectomy. One patient with persistent type II EL underwent intercostal artery ligation and aneurysmorrhaphy via thoracotomy. There were two in hospital deaths (10%), all with AEF. Thus, the rates of in hospital death were 0% in non-infected cases, 33% in graft infections, with 66% in those with AEF. Stroke and paraplegia were observed in two patients (10%).\nCONCLUSION: When open conversion surgery is required after TEVAR, the indications are complex, often associated with infectious pathology, and are necessarily high risk particularly in patients with AEF. Surgical strategy has to be individualised based on the nature or cause of the complication and extent of aortic involvement.",
+    "keywords": [
+      "Aortic Aneurysm",
+      "Aortic Dissection",
+      "Complication",
+      "Thoracic Endovascular Aneurysm Repair"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40027271",
+    "title": "Leg occlusion of the Ovation Alto stent graft main body caused by twisting of the stent graft: A case report.",
+    "journal": "Journal of vascular surgery cases and innovative techniques",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Naganuma\", \"fore\": \"Masaaki\", \"initials\": \"M\", \"affiliation\": \"Department of Cardiovascular Surgery, Sendai Kosei Hospital, Sendai, Miyagi, Japan.\"}, {\"last\": \"Hayatsu\", \"fore\": \"Yukihiro\", \"initials\": \"Y\", \"affiliation\": \"Department of Cardiovascular Surgery, Sendai Kosei Hospital, Sendai, Miyagi, Japan.\"}, {\"last\": \"Tsuruhara\", \"fore\": \"Ryoichi\", \"initials\": \"R\", \"affiliation\": \"Department of Cardiovascular Surgery, Sendai Kosei Hospital, Sendai, Miyagi, Japan.\"}, {\"last\": \"Nomura\", \"fore\": \"Hayate\", \"initials\": \"H\", \"affiliation\": \"Department of Cardiovascular Surgery, Sendai Kosei Hospital, Sendai, Miyagi, Japan.\"}, {\"last\": \"Terao\", \"fore\": \"Naoya\", \"initials\": \"N\", \"affiliation\": \"Department of Cardiovascular Surgery, Sendai Kosei Hospital, Sendai, Miyagi, Japan.\"}, {\"last\": \"Yamaya\", \"fore\": \"Kazuhiro\", \"initials\": \"K\", \"affiliation\": \"Department of Cardiovascular Surgery, Sendai Kosei Hospital, Sendai, Miyagi, Japan.\"}, {\"last\": \"Hata\", \"fore\": \"Masaki\", \"initials\": \"M\", \"affiliation\": \"Department of Cardiovascular Surgery, Sendai Kosei Hospital, Sendai, Miyagi, Japan.\"}]",
+    "abstract": "The Ovation Alto stent graft is a unique endovascular abdominal aortic aneurysm repair device. A low-viscosity, radiopaque liquid polymer fills the rings located within the legs of the device. We reported a rare case of a patient diagnosed with an abdominal aortic aneurysm who was surgically treated using endovascular abdominal aortic aneurysm repair with an Ovation Alto stent graft. Polymer underfilling due to contralateral leg twisting of the stent graft's main body resulted in limb occlusion. We highlighted the importance of avoiding the rotation of the Ovation Alto stent graft, thus preventing the potential twisting of this device within the sheath after the insertion of the stent graft's main body.",
+    "keywords": [
+      "Abdominal aortic aneurysm",
+      "Endoleak",
+      "Endovascular abdominal aortic aneurysm repair",
+      "Occlusion",
+      "Ovation Alto stent graft"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40027270",
+    "title": "Technical strategies and pitfalls for total transfemoral implantation of off-the-shelf four vessel thoracoabdominal multibranch endoprosthesis with or without utilization of preloaded wires.",
+    "journal": "Journal of vascular surgery cases and innovative techniques",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Han\", \"fore\": \"Sukgu M\", \"initials\": \"SM\", \"affiliation\": \"Comprehensive Aortic Center, Department of Surgery, Keck Medical Center of University of Southern California, Los Angeles, CA.\"}, {\"last\": \"Pyun\", \"fore\": \"Alyssa\", \"initials\": \"A\", \"affiliation\": \"Comprehensive Aortic Center, Department of Surgery, Keck Medical Center of University of Southern California, Los Angeles, CA.\"}, {\"last\": \"Oderich\", \"fore\": \"Gustavo S\", \"initials\": \"GS\", \"affiliation\": \"Department of Cardiothoracic and Vascular Surgery, McGovern School of Medicine, University of Texas, Houston, TX.\"}]",
+    "abstract": "The thoracoabdominal multibranch endoprosthesis is a commercially available off-the-shelf four-vessel inner branched endograft for complex abdominal and thoracoabdominal aortic aneurysms. Although the device is intended to be used with upper extremity access per its instructions for use, total transfemoral approach may be needed in patients with unfavorable arch anatomy and may decrease the risk of cerebrovascular events. This article describes technical strategies and pitfalls of total transfemoral thoracoabdominal multibranch endoprosthesis implantation techniques with conventional co-axial steerable sheath, as well as variations of techniques utilizing preloaded wires in \"up-and-over\" configuration.",
+    "keywords": [
+      "Complex abdominal aortic aneurysms",
+      "Fenestrated-branched endovascular aortic repair",
+      "Off-the-shelf multi-branched stent grafts",
+      "Thoracoabdominal aortic aneurysm",
+      "Thoracoabdominal multibranched endoprosthesis (TAMBE)",
+      "Total transfemoral branched EVAR"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40026645",
+    "title": "Physician modification of the Gore conformable endovascular aortic device using inner branches.",
+    "journal": "Journal of vascular surgery cases and innovative techniques",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Khoury\", \"fore\": \"Mitri K\", \"initials\": \"MK\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, HonorHealth Heart Care, Scottsdale, AZ.\"}, {\"last\": \"Rogers\", \"fore\": \"Richard T\", \"initials\": \"RT\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, HonorHealth Heart Care, Scottsdale, AZ.\"}, {\"last\": \"Ramaiah\", \"fore\": \"Venkatesh\", \"initials\": \"V\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, HonorHealth Heart Care, Scottsdale, AZ.\"}, {\"last\": \"Aldailami\", \"fore\": \"Hasan\", \"initials\": \"H\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, HonorHealth Heart Care, Scottsdale, AZ.\"}]",
+    "abstract": "Endovascular aortic repair has become the preferred treatment modality for patients with abdominal aortic aneurysms. However, there are no commercially available endovascular options in patients with infrarenal necks measuring <4 mm. To address the limitations of commercially available options, physician-modified endografts became a technique used by vascular surgeons. In this report, we describe a case of a patient treated with a physician-modified Gore conformable endograft using inner branches along with how to perform the procedure.",
+    "keywords": [
+      "Aneurysm",
+      "Aorta",
+      "Endovascular",
+      "Inner branches",
+      "Physician modified"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40023595",
+    "title": "Serotonin 3 receptor antagonism reduces angiotensin II-induced abdominal aortic aneurysms: Contribution of periaortic fat-derived serotonin.",
+    "journal": "The Journal of pharmacology and experimental therapeutics",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"AlSiraj\", \"fore\": \"Yasir\", \"initials\": \"Y\", \"affiliation\": \"Department of Pharmacology and Nutritional Sciences, University of Kentucky, Lexington, Kentucky; Department of Pediatrics, University of Kentucky, Lexington, Kentucky.\"}, {\"last\": \"Ensor\", \"fore\": \"Charles M\", \"initials\": \"CM\", \"affiliation\": \"Department of Pharmacology and Nutritional Sciences, University of Kentucky, Lexington, Kentucky.\"}, {\"last\": \"English\", \"fore\": \"Victoria\", \"initials\": \"V\", \"affiliation\": \"Department of Pharmacology and Nutritional Sciences, University of Kentucky, Lexington, Kentucky.\"}, {\"last\": \"Loria\", \"fore\": \"Analia S\", \"initials\": \"AS\", \"affiliation\": \"Department of Pharmacology and Nutritional Sciences, University of Kentucky, Lexington, Kentucky.\"}, {\"last\": \"Ali\", \"fore\": \"Heba\", \"initials\": \"H\", \"affiliation\": \"Department of Pharmacology and Nutritional Sciences, University of Kentucky, Lexington, Kentucky.\"}, {\"last\": \"Cassis\", \"fore\": \"Lisa A\", \"initials\": \"LA\", \"affiliation\": \"Department of Pharmacology and Nutritional Sciences, University of Kentucky, Lexington, Kentucky. Electronic address: lcassis@uky.edu.\"}]",
+    "abstract": "Serotonin (5-HT) has been implicated in cerebral aneurysm rupture, but it is unclear whether 5-HT plays a role in aortic aneurysm development and rupture, despite well known contractile effects of 5-HT through aortic 5-HT receptors. Abdominal aortic aneurysms (AAAs) induced by angiotensin II (AngII) infusion to mice exhibit periaortic inflammation and are prone to rupture. Periaortic fat (PAF), a potential source of 5-HT through tryptophan hydroxylase 1 (Tph1), has been implicated in AAA development. We quantified mRNA abundance of 5-HT receptors (Htr1b, Htr2a, Htr2b, Htr3a, and Htr7) and Tph1 in thoracic and abdominal aortas and surrounding PAF. Compared with other 5-HT receptors, we detected high levels of serotonin 3 receptor type a (Htr3a) mRNA in the abdominal aortas and abdominal PAF. Tph1 mRNA and 5-HT immunostaining were detected in aortas and PAF, with 5-HT levels higher in abdominal than thoracic PAF, and higher in epididymal white than interscapular brown fat. AngII infusion facilitated evoked [H]5-HT release from thoracic PAF and modestly reduced 5-HT levels in thoracic PAF and brown fat. Based on a high level of Htr3a mRNA in abdominal aortas and PAF, we investigated the development of AngII-induced AAAs when serotonin 3 receptors were pharmacologically antagonized with tropisetron. Tropisetron abrogated abdominal aortic lumen diameters, aneurysm (distal thoracic aneurysm and AAA) incidence, maximal AAA diameters, and aortic weights of AngII-infused male mice. These findings indicate a novel role for serotonin 3 receptor in AAA development, with a potential clinically relevant contribution for PAF as a local source of 5-HT. SIGNIFICANCE STATEMENT: Aortic aneurysms are life-threatening vascular disorders with no effective therapeutics. This study identified antagonism of the serotonin 3 receptor as a potential therapeutic target to reduce the formation and severity of experimentally-induced aneurysms in the thoracic and abdominal aorta. Additionally, periaortic fat was identified as a potential site for serotonin production in the development of aortic aneurysms.",
+    "keywords": [
+      "Angiotensin",
+      "Aortic aneurysm",
+      "Periaortic fat",
+      "Serotonin",
+      "Serotonin 3 receptors",
+      "Animals",
+      "Aortic Aneurysm, Abdominal",
+      "Angiotensin II",
+      "Mice",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Receptors, Serotonin, 5-HT3",
+      "Serotonin Antagonists",
+      "Tryptophan Hydroxylase",
+      "Adipose Tissue"
+    ],
+    "grants": [
+      {
+        "agency": "NIGMS NIH HHS",
+        "acronym": "GM",
+        "grant_id": "P30 GM127211",
+        "country": "United States"
+      },
+      {
+        "agency": "NHLBI NIH HHS",
+        "acronym": "HL",
+        "grant_id": "R01 HL168633",
+        "country": "United States"
+      }
+    ]
+  },
+  {
+    "pmid": "39959545",
+    "title": "A Novel Combined Microsurgical and Endovascular Approach for Type II Endoleak Embolization Through Direct Puncture of a Lumbar Segmental Artery: A Technical Case Instruction.",
+    "journal": "Neurosurgery practice",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Nguyen\", \"fore\": \"Vincent N\", \"initials\": \"VN\", \"affiliation\": \"Department of Neurosurgery, University of Southern California, Los Angeles, California, USA.\"}, {\"last\": \"Rennert\", \"fore\": \"Robert C\", \"initials\": \"RC\", \"affiliation\": \"Department of Neurosurgery, University of Southern California, Los Angeles, California, USA.\"}, {\"last\": \"Sternbach\", \"fore\": \"Sarah\", \"initials\": \"S\", \"affiliation\": \"Department of Neurosurgery, University of Southern California, Los Angeles, California, USA.\"}, {\"last\": \"Cavaleri\", \"fore\": \"Jonathon\", \"initials\": \"J\", \"affiliation\": \"Department of Neurosurgery, University of Southern California, Los Angeles, California, USA.\"}, {\"last\": \"Abedi\", \"fore\": \"Aidin\", \"initials\": \"A\", \"affiliation\": \"Department of Neurosurgery, University of Southern California, Los Angeles, California, USA.\"}, {\"last\": \"Atai\", \"fore\": \"Nadia A\", \"initials\": \"NA\", \"affiliation\": \"Department of Neurosurgery, University of Southern California, Los Angeles, California, USA.\"}, {\"last\": \"Han\", \"fore\": \"Sukgu\", \"initials\": \"S\", \"affiliation\": \"Division of Vascular Surgery, Department of Surgery, Keck School of Medicine, University of Southern California, Los Angeles, California, USA.\"}, {\"last\": \"Russin\", \"fore\": \"Jonathan J\", \"initials\": \"JJ\", \"affiliation\": \"Department of Neurosurgery, University of Southern California, Los Angeles, California, USA.\"}]",
+    "abstract": "BACKGROUND AND IMPORTANCE: Despite the advances in endovascular aortic repair techniques, type II endoleaks with aneurysm sac expansion remain frequent and challenging problems.\nCLINICAL PRESENTATION: An elderly gentleman underwent a combined microsurgical and endovascular procedure to address a type 2 endoleak and the growth of a recurrent abdominal aortic aneurysm caused by direct puncture of a lumbar segmental artery. The patient tolerated the procedure well and was discharged without complications. Follow-up imaging revealed no further endoleak and a smaller aneurysm size.\nCONCLUSION: This unique case presents a novel multidisciplinary surgical strategy for treating complex, recurrent aortic aneurysms with type II endoleaks. The approach is tailored to the individual patient and has shown effectiveness. Long-term follow-up data will be crucial for assessing the efficacy and durability of this approach.",
+    "keywords": [
+      "Aneurysm",
+      "Aortic",
+      "Direct puncture",
+      "Embolization",
+      "Endovascular",
+      "Microsurgery",
+      "Segmental artery"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39957026",
+    "title": "Late open conversion: a reliable solution for endoleak management after endovascular aortic aneurysm repair - a single center experience and literature review.",
+    "journal": "Romanian journal of morphology and embryology = Revue roumaine de morphologie et embryologie",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Coman\", \"fore\": \"Horaţiu Flaviu\", \"initials\": \"HF\", \"affiliation\": \"Department of General Surgery, Iuliu Haţieganu University of Medicine and Pharmacy, Cluj-Napoca, Romania; andercou@yahoo.com.\"}, {\"last\": \"Andercou\", \"fore\": \"Octavian Aurel\", \"initials\": \"OA\", \"affiliation\": \"\"}, {\"last\": \"Stancu\", \"fore\": \"Bogdan\", \"initials\": \"B\", \"affiliation\": \"\"}, {\"last\": \"Ciocan\", \"fore\": \"Răzvan Alexandru\", \"initials\": \"RA\", \"affiliation\": \"\"}, {\"last\": \"Gherman\", \"fore\": \"Claudia Diana\", \"initials\": \"CD\", \"affiliation\": \"\"}, {\"last\": \"Trif\", \"fore\": \"Ana\", \"initials\": \"A\", \"affiliation\": \"\"}, {\"last\": \"Farran\", \"fore\": \"Moustafa\", \"initials\": \"M\", \"affiliation\": \"\"}, {\"last\": \"Haldenwang\", \"fore\": \"Peter Lukas\", \"initials\": \"PL\", \"affiliation\": \"\"}, {\"last\": \"Răşcanu\", \"fore\": \"Claudiu George\", \"initials\": \"CG\", \"affiliation\": \"\"}]",
+    "abstract": "BACKGROUND/OBJECTIVES: Despite the efficacy of endovascular approaches for most secondary interventions post-endovascular aortic aneurysm repair (EVAR), a small proportion of patients need open conversion (OC) procedures. We shared our experience regarding patient outcomes after late OCs post-EVAR. We also performed a literature review of data published on this topic.\nPATIENTS, MATERIALS AND METHODS: Medical records of patients who underwent late OCs post-EVAR at a Public Hospital in Germany (2017-2019) were retrospectively analyzed. OC involved total or partial endograft removal followed by aortic reconstruction. Preoperative patients' characteristics, indications for OC, and intra-∕post-operative outcomes were assessed. Studies published in English (2014-2024) on OCs post-EVAR complications were descriptively analyzed.\nRESULTS: Six patients underwent late OCs throughout the study (males: 66.67%; age [mean±standard deviation]: 66.50±2.89 years). Grafts were excised after a median of 72 months (range: 24-132 months), with 2∕6 (33.33%) urgent removals and 4∕6 (66.67%) elective. 4∕6 (66.67%) patients underwent complete removal, and 2∕6 (33.33%) were partial. Clamping site was suprarenal in 3∕6 (50.00%) patients, supraceliac in 2∕6 (33.33%), and infrarenal in 1∕6 (16.67%). Technical success was 100%, with 32 minutes mean clamping time and 1.67 L blood loss. Median follow-up was 13 months. No aneurysm growth was observed, and implanted grafts functioned well. 1∕6 (16.67%) patients died during the postoperative intensive care unit stay. Seven studies were included in our review. The 30-day mortality post-OCs was 6.2-10.0% in elective setting and up to 40% in urgent.\nCONCLUSIONS: Late OC can be a reliable procedure for managing endoleak post-EVAR. Its success relies on accurate preoperative assessment and surgical expertise.",
+    "keywords": [
+      "aortic aneurysm",
+      "complications",
+      "endoleak",
+      "endovascular aneurysm repair",
+      "open conversion",
+      "Humans",
+      "Endovascular Procedures",
+      "Endoleak",
+      "Aged",
+      "Male",
+      "Female",
+      "Retrospective Studies",
+      "Aortic Aneurysm, Abdominal",
+      "Middle Aged",
+      "Aortic Aneurysm"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39950658",
+    "title": "Plasmablastic myeloma with a history of diffuse large B-cell lymphoma.",
+    "journal": "BMJ case reports",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Lee\", \"fore\": \"Rachel Sooyon\", \"initials\": \"RS\", \"affiliation\": \"Geriatrics, Broomfield Hospital, Chelmsford, UK rachelslee150@gmail.com.\"}, {\"last\": \"Lohano\", \"fore\": \"Sunaina\", \"initials\": \"S\", \"affiliation\": \"Geriatrics, Broomfield Hospital, Chelmsford, UK.\"}, {\"last\": \"Safdar\", \"fore\": \"Muhammad\", \"initials\": \"M\", \"affiliation\": \"Geriatrics, Broomfield Hospital, Chelmsford, UK.\"}]",
+    "abstract": "Plasmablastic myeloma is a rare subtype of multiple myeloma, accounting for 5-10% of all cases, associated with poorer survival rates than typical multiple myeloma. This case report presents a man with plasmablastic myeloma with a previous history of diffuse large B-cell lymphoma which was in remission. He presented with paraplegia due to spinal cord compression and severe weakness. Investigations revealed abnormal immunoglobulin levels, hypercalcaemia and 80-90% bone marrow infiltration by plasmablasts. MRI revealed multiple spinal metastases and an incidental 6.1 cm abdominal aortic aneurysm. Treatment given involved radiotherapy, three rounds of chemotherapy and physiotherapy. The patient showed improvement after radiotherapy, though some spinal lesions still remained. Key challenges included differentiating plasmablastic myeloma from plasmablastic lymphoma due to the history of diffuse large B-cell lymphoma as well as balancing treatment risks from concurrent health issues.",
+    "keywords": [
+      "Haematology (incl blood transfusion)",
+      "Long-term care",
+      "Malignant disease and immunosuppression",
+      "Humans",
+      "Male",
+      "Diagnosis, Differential",
+      "Lymphoma, Large B-Cell, Diffuse",
+      "Magnetic Resonance Imaging",
+      "Multiple Myeloma",
+      "Paraplegia",
+      "Plasmablastic Lymphoma",
+      "Spinal Cord Compression"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39944658",
+    "title": "Application of three-dimensional printing in the planning and execution of aortic aneurysm repair.",
+    "journal": "Frontiers in cardiovascular medicine",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Patel\", \"fore\": \"Harshank\", \"initials\": \"H\", \"affiliation\": \"Department of Internal Medicine, Western Michigan University Homer Stryker M.D. School of Medicine, Kalamazoo, MI, United States.\"}, {\"last\": \"Choi\", \"fore\": \"Paul\", \"initials\": \"P\", \"affiliation\": \"Department of Vascular Surgery, Colorado University, Denver, CO, United States.\"}, {\"last\": \"Ku\", \"fore\": \"Jennifer C\", \"initials\": \"JC\", \"affiliation\": \"Department of Surgical Sciences, Western Michigan University Homer Stryker M.D. School of Medicine, Kalamazoo, MI, United States.\"}, {\"last\": \"Vergara\", \"fore\": \"Rosemary\", \"initials\": \"R\", \"affiliation\": \"Department of Surgical Sciences, Western Michigan University Homer Stryker M.D. School of Medicine, Kalamazoo, MI, United States.\"}, {\"last\": \"Malgor\", \"fore\": \"Rafael\", \"initials\": \"R\", \"affiliation\": \"Department of Vascular Surgery, Colorado University, Denver, CO, United States.\"}, {\"last\": \"Patel\", \"fore\": \"Dhiren\", \"initials\": \"D\", \"affiliation\": \"Department of Vascular Surgery, Southern Illinois University, Springfield, IL, United States.\"}, {\"last\": \"Li\", \"fore\": \"Yong\", \"initials\": \"Y\", \"affiliation\": \"Department of Surgical Sciences, Western Michigan University Homer Stryker M.D. School of Medicine, Kalamazoo, MI, United States.\"}]",
+    "abstract": "INTRODUCTION: The accuracy of fenestrations in stent grafts for complex aortic aneurysms and dissections can be significantly improved using three-dimensional (3D)-printed phantoms. Standardization is enhanced by using artificial intelligence (AI) for image pre-processing before 3D printing. These methods address fallacies in centerline image analysis and manual image pre-processing. This review examines the application of 3D printing and AI in complex aortic aneurysm repair, highlighting current clinical trends.\nMETHODS: An exhaustive literature review was performed using keywords such as \"3D printing,\" \"Artificial intelligence,\" \"Thoracoabdominal aneurysm,\" \"Abdominal aortic aneurysm,\" \"Aortic arch aneurysm,\" \"Endovascular repair,\" and \"Open repair\" in PubMed and Google Scholar indexes up to June 2022.\nRESULTS: This analysis included seven studies: four focused on 3D-printed phantoms for endovascular repair of various aortic pathologies (aortic arch, thoracoabdominal aorta, juxtarenal and pararenal aorta), one on open thoracoabdominal aneurysm repair using 3D-printed models for graft construction, and two on the use of convolutional neural networks, an AI-based technology, for the pre-processing of aortic computed tomography angiography images.\nCONCLUSION: The application of 3D printing and AI-based image pre-processing in the planning of complex aortic aneurysms offers several benefits, including enhanced patient and trainee education, more accurate fenestration placement, reduced surgical time and complications, and decreased surgeon stress.",
+    "keywords": [
+      "3D phantoms",
+      "artificial intelligence",
+      "endovascular aneurysm repair",
+      "physician-modified endovascular grafts",
+      "thoracoabdominal aortic aneurysms"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39944078",
+    "title": "Comparative analysis between abdominal aortic aneurysm and popliteal artery aneurysm.",
+    "journal": "JVS-vascular science",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Oliveira\", \"fore\": \"Marcos Vinícius Melo de\", \"initials\": \"MVM\", \"affiliation\": \"Vascular and Endovascular Division, Department of Surgery, University of São Paulo Medical School, São Paulo, Brazil.\"}, {\"last\": \"Brandão\", \"fore\": \"Alexandre Malta\", \"initials\": \"AM\", \"affiliation\": \"Vascular and Endovascular Division, Department of Surgery, University of São Paulo Medical School, São Paulo, Brazil.\"}, {\"last\": \"Silvestre\", \"fore\": \"Gina Camillo Rocha\", \"initials\": \"GCR\", \"affiliation\": \"Vascular and Endovascular Division, Department of Surgery, University of São Paulo Medical School, São Paulo, Brazil.\"}, {\"last\": \"Silva\", \"fore\": \"Alexandre Queiroz\", \"initials\": \"AQ\", \"affiliation\": \"Vascular and Endovascular Division, Department of Surgery, University of São Paulo Medical School, São Paulo, Brazil.\"}, {\"last\": \"Marques\", \"fore\": \"Michele Alberto\", \"initials\": \"MA\", \"affiliation\": \"Vascular and Endovascular Division, Department of Surgery, University of São Paulo Medical School, São Paulo, Brazil.\"}, {\"last\": \"Reis\", \"fore\": \"Marcia Martins\", \"initials\": \"MM\", \"affiliation\": \"Laboratory of Cardiac Pathology, Heart Institute, University of São Paulo Medical School, São Paulo, Brazil.\"}, {\"last\": \"Higuchi\", \"fore\": \"Maria de Lourdes\", \"initials\": \"ML\", \"affiliation\": \"Laboratory of Cardiac Pathology, Heart Institute, University of São Paulo Medical School, São Paulo, Brazil.\"}, {\"last\": \"Silva\", \"fore\": \"Erasmo Simão da\", \"initials\": \"ESD\", \"affiliation\": \"Vascular and Endovascular Division, Department of Surgery, University of São Paulo Medical School, São Paulo, Brazil.\"}]",
+    "abstract": "OBJECTIVE: Infrarenal abdominal aortic aneurysm (AAA) and popliteal artery aneurysm (PAA) are localized arterial dilatations with distinct clinical outcomes. This study aimed to comprehensively compare these two types of aneurysms' biomechanical, histological, and immunohistochemical characteristics.\nMETHODS: This study included 180 patients with AAA and 18 with PAA. Medical history and imaging data were collected. Biomechanical testing assessed arterial wall mechanical strength and elasticity, and histological and immunohistochemical analyses examined tissue composition and inflammatory markers.\nRESULTS: PAA wall fragments demonstrate higher failure strain energy (13.36 N/m vs 9.95 N/m;  = .023), a measure of mechanical strength. Regarding immunohistochemical markers, AAA exhibited more B lymphocyte cells in the adventitia (CD20 1475.50 vs 320;  = .003) compared with PAA. Additionally, AAA demonstrated more adipogenic differentiation in the adventitia (PPARgamma 4854.50 vs 778;  = .009), whereas PAA showed more adipogenic differentiation in the intima (KLF5 283.50 vs 77.50;  = .039).\nCONCLUSIONS: PAA wall fragments demonstrate greater mechanical strength compared with AAA wall fragments. In contrast, AAA walls contain a greater number of B lymphocytes within the adventitia compared with PAA walls. Adipogenic differentiation is more pronounced in the adventitia of AAA than in PAA, whereas in PAA, it is more prominent in the intima compared with AAA.\nCLINICAL RELEVANCE: The clinical significance of this study lies in its potential to enhance our understanding of the distinct pathophysiological mechanisms underlying abdominal aortic aneurysms, which is often associated with rupture, and popliteal artery aneurysms, which are more prone to thrombosis and distal embolization. By comprehensively comparing the biomechanical, histological, and immunohistochemical aspects of these two aneurysm types, the study aims to illuminate the factors contributing to their differing clinical presentations and outcomes.",
+    "keywords": [
+      "Abdominal",
+      "Aneurysm",
+      "Aorta",
+      "Biomechanics",
+      "Immunohistochemistry",
+      "Popliteal artery"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39937558",
+    "title": "Mortality After Ruptured Abdominal Aortic Aneurysm Repair in Women (Open and Endovascular Approaches): A Literature Review and Meta-Analysis.",
+    "journal": "The Journal of surgical research",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Fuentes Pérez\", \"fore\": \"Ana\", \"initials\": \"A\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Mayo Clinic, Jacksonville, Florida.\"}, {\"last\": \"Lozano González\", \"fore\": \"Roberta\", \"initials\": \"R\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Mayo Clinic, Jacksonville, Florida.\"}, {\"last\": \"Lee\", \"fore\": \"Ping-Chang\", \"initials\": \"PC\", \"affiliation\": \"Department of Economics, Stony Brook University, Stony Brook, New York; Department of Family, Population and Preventive Medicine, Stony Brook University, Stony Brook, New York.\"}, {\"last\": \"Vouyouka\", \"fore\": \"Ageliki\", \"initials\": \"A\", \"affiliation\": \"Divsion of Vascular Surgery, Department of Surgery, Mount Sinai Hospital, New York, New York.\"}, {\"last\": \"Erben\", \"fore\": \"Young\", \"initials\": \"Y\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Mayo Clinic, Jacksonville, Florida. Electronic address: erben.young@mayo.edu.\"}]",
+    "abstract": "INTRODUCTION: Ruptured abdominal aortic aneurysm (rAAA) repair outcomes in women have not been extensively studied. The current work examines the outcomes after repair of rAAA in women compared to men. We further analyzed the specific outcomes depending on the type of repair including open surgical repair (OSR) and endovascular repair (EVAR).\nMETHODS: We performed a systematic literature review and meta-analysis to evaluate the outcomes in women after rAAA repair in two subgroups, OSR and EVAR. For quality analysis, two reviewers obtained data from eligible studies, and utilizing the Newcastle-Ottawa Scale the quality of study designs and content was analyzed. A meta-analysis used version 4.2.3 of R software for OSR and EVAR short-term mortality. A random-effects model with inverse variance weighting was employed.\nRESULTS: From the 765 citations initially found, four peer-reviewed articles met the inclusion criteria, with a total population of 25,465 patients, of which 5672 (22.3%) were women. Eighty-three percent underwent OSR, while 16.9% underwent EVAR. Short-term mortality after OSR demonstrated no difference between men and women (HR: 0.38, 95% CI: 0.33-43, P = 0.05). Short-term mortality after EVAR was no different between men and women (HR: 0.28, 95% CI: 0.22-0.34, P = 0.69).\nCONCLUSIONS: This study provides valuable insights into the sex-specific nuances of rAAA repair outcomes. While no significant difference was found between men and women in short-term mortality after rAAA repair, likely a larger sample sizes and specific details regarding the indications to offer repair might be needed to be able to ascertain the true differences between men and women in the setting of rAAA.",
+    "keywords": [
+      "EVAR",
+      "Mortality",
+      "Open surgical repair",
+      "Outcomes",
+      "Ruptured aortic aneurysm",
+      "Female",
+      "Humans",
+      "Male",
+      "Aortic Aneurysm, Abdominal",
+      "Aortic Rupture",
+      "Endovascular Procedures",
+      "Sex Factors",
+      "Treatment Outcome"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39917016",
+    "title": "Prenyl diphosphate synthase subunit 2 is downregulated in abdominal aortic aneurysm and retards the progression of abdominal aortic aneurysm.",
+    "journal": "CytoJournal",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Yong\", \"fore\": \"Jun\", \"initials\": \"J\", \"affiliation\": \"Department of Vascular Surgery, Yantai Yuhuangding Hospital, Yantai, China.\"}, {\"last\": \"Tang\", \"fore\": \"Shanshan\", \"initials\": \"S\", \"affiliation\": \"Emergency Center, Qingdao Central Hospital, University of Health and Rehabilitation Sciences (Qingdao Central Hospital), Qingdao, China.\"}, {\"last\": \"Yu\", \"fore\": \"Lin\", \"initials\": \"L\", \"affiliation\": \"Emergency Center, Qingdao Central Hospital, University of Health and Rehabilitation Sciences (Qingdao Central Hospital), Qingdao, China.\"}, {\"last\": \"Li\", \"fore\": \"Meng\", \"initials\": \"M\", \"affiliation\": \"Department of Imaging, Jinan Zhangqiu District People's Hospital, Jinan, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Fang\", \"initials\": \"F\", \"affiliation\": \"Department of Outpatient, Jinan Zhangqiu District People's Hospital, Jinan, China.\"}, {\"last\": \"Fan\", \"fore\": \"Xiujie\", \"initials\": \"X\", \"affiliation\": \"Medical Laboratory Diagnosis Center, Jinan Central Hospital, Jinan, China.\"}]",
+    "abstract": "OBJECTIVE: Abdominal aortic aneurysm (AAA) is a complex and fatal vascular disease for which specific treatments are still lacking. This study explored the effect and possible mechanisms of prenyl diphosphate synthase subunit 2 (PDSS2) on angiotensin II (Ang II)-induced AAA in human vascular smooth muscle cells (VSMCs).\nMATERIAL AND METHODS: The AAA cell model was established by treating VSMCs with 1 μM Ang II for 24 h. The effect of Ang II on VSMC viability was detected by cell counting kit-8 assay. The role of PDSS2 on VSMC proliferation was examined using the 5-ethynyl-2'-deoxyuridine method. The influence of Ang II and PDSS2 on VSMC apoptosis was analyzed by flow cytometry. The expression changes of PDSS2, apoptosis-related proteins, and phosphatidylinositol 3 kinase/protein kinase B/mechanistic target of rapamycin (PI3K/AKT/mTOR) pathway-related proteins were detected by Western blot analysis.\nRESULTS: After treatment with Ang II, the VSMCs showed decreased viability and increased apoptosis ( < 0.01). PDSS2 expression was low in the AAA tissues and Ang II-treated VSMCs ( < 0.01). PDSS2 promoted the proliferation and blocked the apoptosis of Ang II-treated VSMCs, and si-PDSS2 showed the opposite effect ( < 0.01). PDSS2 also decreased the levels of p-mTOR, p-AKT, and p-PI3K, which, in turn, were increased by si-PDSS2 ( < 0.01).\nCONCLUSION: PDSS2 was downregulated in AAA and retarded the progression of VSMCs partially through the PI3K/AKT/mTOR pathway. This work explored the molecular mechanism of PDSS2 in the prevention, diagnosis, and treatment of AAA.",
+    "keywords": [
+      "Abdominal aortic aneurysm",
+      "Angiotensin II",
+      "Phosphatidylinositol 3 kinase/protein kinase B/mechanistic target of rapamycin",
+      "Prenyl diphosphate synthase subunit 2"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39886219",
+    "title": "Hybrid repair of aortic aneurysm in a patient with a congenital pelvic kidney.",
+    "journal": "Journal of vascular surgery cases and innovative techniques",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Krzyzaniak\", \"fore\": \"Halli\", \"initials\": \"H\", \"affiliation\": \"Libin Cardiovascular Institute, University of Calgary, Calgary, Alberta, Canada.\"}, {\"last\": \"Wedel\", \"fore\": \"Naomi\", \"initials\": \"N\", \"affiliation\": \"Libin Cardiovascular Institute, University of Calgary, Calgary, Alberta, Canada.\"}, {\"last\": \"Fatehi Hassanabad\", \"fore\": \"Ali\", \"initials\": \"A\", \"affiliation\": \"Libin Cardiovascular Institute, University of Calgary, Calgary, Alberta, Canada.\"}, {\"last\": \"Cormack\", \"fore\": \"Richard\", \"initials\": \"R\", \"affiliation\": \"Division of Interventional Radiology, University of Calgary, Calgary, Alberta, Canada.\"}, {\"last\": \"Rommens\", \"fore\": \"Kenton\", \"initials\": \"K\", \"affiliation\": \"Libin Cardiovascular Institute, University of Calgary, Calgary, Alberta, Canada.\"}]",
+    "abstract": "We describe a patient with an asymptomatic infrarenal abdominal aortic aneurysm. Treatment decisions were complicated by the presence of a left congenital pelvic kidney supplied by two renal arteries originating from the proximal common iliac arteries bilaterally and respiratory status that was prohibitive to open repair. A hybrid surgical repair was performed with a bifurcated aortic endograft and parallel grafting to revascularize the pelvic renal arteries. This procedure was combined with a right common iliac endovascular occlusion and femoral-femoral bypass. This case adds to the limited reports of endovascular management of patients with concomitant aneurysmal disease and ectopic kidneys.",
+    "keywords": [
+      "Aortic aneurysm",
+      "Ectopic kidney",
+      "Endovascular repair",
+      "Pelvic kidney"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39881896",
+    "title": "Three-Staged Surgical Hybrid Treatment for an Extended Thoracoabdominal Aneurysm in a High-Risk Patient: A Case Report.",
+    "journal": "Cureus",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Setozaki\", \"fore\": \"Shuji\", \"initials\": \"S\", \"affiliation\": \"Department of Cardiovascular Surgery, Shizuoka General Hospital, Shizuoka, JPN.\"}, {\"last\": \"Katayama\", \"fore\": \"Hideyuki\", \"initials\": \"H\", \"affiliation\": \"Department of Cardiovascular Surgery, Shizuoka General Hospital, Shizuoka, JPN.\"}, {\"last\": \"Shimomura\", \"fore\": \"Shuntaro\", \"initials\": \"S\", \"affiliation\": \"Department of Cardiovascular Surgery, Numazu City Hospital, Shizuoka, JPN.\"}, {\"last\": \"Takeuchi\", \"fore\": \"Akira\", \"initials\": \"A\", \"affiliation\": \"Department of Cardiovascular Surgery, Shizuoka General Hospital, Shizuoka, JPN.\"}, {\"last\": \"Tsuneyoshi\", \"fore\": \"Hiroshi\", \"initials\": \"H\", \"affiliation\": \"Department of Cardiovascular Surgery, Shizuoka General Hospital, Shizuoka, JPN.\"}]",
+    "abstract": "Thoracoabdominal aortic aneurysm (TAAA) repair remains one of the most challenging procedures and is associated with high mortality and complication rates. Careful consideration of the surgical strategy is essential, particularly in cases involving extensive replacement and high-risk patients. A 61-year-old man with a 55-mm TAAA was referred for surgical treatment. Seven years earlier, he had undergone artificial vascular replacement for an infrarenal abdominal aortic aneurysm. His medical history included a myocardial infarction with a left ventricular ejection fraction (LVEF) of 20% and an apical thrombus. Additionally, he had chronic kidney disease, cerebral infarction, angina pectoris, hypertension, dyslipidemia, diabetes mellitus, and hyperuricemia. The preoperative plan involved a staged approach, beginning with total arch replacement (TAR) using the frozen elephant trunk (FET) technique and coronary artery bypass grafting (CABG), followed by thoracic endovascular aortic repair (TEVAR) and hybrid repair with abdominal debranching. The patient was discharged without complications. Although thoracoabdominal aortic surgery carries a high risk of mortality, it can be performed safely with careful preoperative assessment and the development of an individualized surgical strategy.",
+    "keywords": [
+      "endovascular taaa repair",
+      "hybrid taaa repair",
+      "spinal cord ischemia",
+      "staged aortic repair",
+      "thoracoabdominal aortic aneurysm repair"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39872985",
+    "title": "CIDEC/FSP27 exacerbates obesity-related abdominal aortic aneurysm by promoting perivascular adipose tissue inflammation.",
+    "journal": "Life metabolism",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Zhu\", \"fore\": \"Qing\", \"initials\": \"Q\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Luo\", \"fore\": \"Da\", \"initials\": \"D\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Li\", \"fore\": \"Yining\", \"initials\": \"Y\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Yu\", \"fore\": \"Liyang\", \"initials\": \"L\", \"affiliation\": \"State Key Laboratory of Membrane Biology and Tsinghua-Peking Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing 100086, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Zixuan\", \"initials\": \"Z\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Ouyang\", \"fore\": \"Feng\", \"initials\": \"F\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Li\", \"fore\": \"Liangkui\", \"initials\": \"L\", \"affiliation\": \"State Key Laboratory of Membrane Biology and Tsinghua-Peking Center for Life Sciences, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing 100086, China.\"}, {\"last\": \"Lu\", \"fore\": \"Manxi\", \"initials\": \"M\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Hu\", \"fore\": \"Changyong\", \"initials\": \"C\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Dong\", \"fore\": \"Yinuo\", \"initials\": \"Y\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Ma\", \"fore\": \"Chengxin\", \"initials\": \"C\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Liang\", \"fore\": \"Yan\", \"initials\": \"Y\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Zhao\", \"fore\": \"Tong-Jin\", \"initials\": \"TJ\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Chen\", \"fore\": \"Feng-Jung\", \"initials\": \"FJ\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Li\", \"fore\": \"Peng\", \"initials\": \"P\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}, {\"last\": \"Yang\", \"fore\": \"Tian-Shu\", \"initials\": \"TS\", \"affiliation\": \"Shanghai Key Laboratory of Metabolic Remodeling and Health, Institute of Metabolism and Integrative Biology, Institutes of Biomedical Sciences, Fudan University, Shanghai 200438, China.\"}]",
+    "abstract": "Abdominal aortic aneurysm (AAA) is strongly correlated with obesity, partially due to the abnormal expansion of abdominal perivascular adipose tissue (PVAT). Cell death-inducing DNA fragmentation factor-like effector C (CIDEC), also known as fat-specific protein 27 (FSP27) in rodents, is specifically expressed in adipose tissue where it mediates lipid droplet fusion and adipose tissue expansion. Whether and how CIDEC/FSP27 plays a role in AAA pathology remains elusive. Here, we show that FSP27 exacerbates obesity and angiotensin Ⅱ (Ang Ⅱ)-induced AAA progression. FSP27 deficiency in mice inhibited high-fat diet-induced PVAT expansion and inflammation. Both global and adipose tissue-specific FSP27 ablation significantly decreased obesity-related AAA incidence. Deficiency of FSP27 in adipocytes abrogated matrix metalloproteinase-12 (MMP12) expression in aortic tissues. Infiltrated macrophages, which partially colocalize with MMP12, were significantly decreased in the FSP27-deficient aorta. Mechanistically, knockdown of  in 3T3-L1 adipocytes inhibited C-C motif chemokine ligand 2 (CCL2) expression and secretion through a c-Jun N-terminal kinase (JNK)-dependent pathway, thereby leading to reduced induction of macrophage migration, while  overexpression rescued this effect. Overall, our study demonstrates that CIDEC/FSP27 in adipose tissue contributes to obesity-related AAA formation, at least in part, by enhancing PVAT inflammation and macrophage infiltration, thus shedding light on its significance as a key regulator in the context of obesity-related AAA.",
+    "keywords": [
+      "AAA",
+      "CCL2",
+      "Cidec",
+      "PVAT",
+      "inflammation"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39868004",
+    "title": "Transaxillary endovascular aortic aneurysm repair using a reverse mounted Gore Excluder endograft for a patient with abdominal aortic aneurysm and severe iliofemoral occlusive disease.",
+    "journal": "Journal of vascular surgery cases and innovative techniques",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Figueroa\", \"fore\": \"Andres V\", \"initials\": \"AV\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, University of Texas Southwestern Medical Center, Dallas, TX.\"}, {\"last\": \"Scott\", \"fore\": \"Carla\", \"initials\": \"C\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, University of Texas Southwestern Medical Center, Dallas, TX.\"}, {\"last\": \"Babb\", \"fore\": \"Jacqueline\", \"initials\": \"J\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, University of Texas Southwestern Medical Center, Dallas, TX.\"}, {\"last\": \"Solano\", \"fore\": \"Antonio\", \"initials\": \"A\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, University of Texas Southwestern Medical Center, Dallas, TX.\"}, {\"last\": \"Coronel\", \"fore\": \"Natalia\", \"initials\": \"N\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, University of Texas Southwestern Medical Center, Dallas, TX.\"}, {\"last\": \"Timaran\", \"fore\": \"Carlos H\", \"initials\": \"CH\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, University of Texas Southwestern Medical Center, Dallas, TX.\"}, {\"last\": \"Baig\", \"fore\": \"Mirza S\", \"initials\": \"MS\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, University of Texas Southwestern Medical Center, Dallas, TX.\"}]",
+    "abstract": "Adverse iliofemoral anatomy represents a unique challenge for endovascular aortic aneurysm repair (EVAR). This report describes a transaxillary EVAR in a patient with severe iliofemoral occlusive disease and an infrarenal aortic aneurysm. A reversely mounted Gore Excluder graft was advanced and deployed in the infrarenal aorta using the left axillary artery. Lithoangioplasty and stenting were performed on bilateral iliofemoral anatomy. At the 1-year follow-up, the aneurysm sac revealed regression without endoleaks and the iliofemoral stents remained patent. The transaxillary approach may be a feasible access site for EVAR in patients with a high risk for open repair and prohibitive iliofemoral anatomy.",
+    "keywords": [
+      "Adverse iliofemoral anatomy",
+      "Endovascular aortic aneurysm repair",
+      "Peripheral artery disease",
+      "Transaxillary artery approach"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39863975",
+    "title": "Imaging Red Flags In A Symptomatic Abdominal Aortic Aneurysm.",
+    "journal": "Portuguese journal of cardiac thoracic and vascular surgery",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Soares\", \"fore\": \"Margaret\", \"initials\": \"M\", \"affiliation\": \"Angiologia e Cirurgia Vascular, ULS de São João, Porto, Portugal.\"}, {\"last\": \"Jácome\", \"fore\": \"Filipa\", \"initials\": \"F\", \"affiliation\": \"Angiologia e Cirurgia Vascular, ULS de São João, Porto, Portugal.\"}, {\"last\": \"Ramos\", \"fore\": \"José Fernando\", \"initials\": \"JF\", \"affiliation\": \"Angiologia e Cirurgia Vascular, ULS de São João, Porto, Portugal.\"}, {\"last\": \"Dias-Neto\", \"fore\": \"Marina\", \"initials\": \"M\", \"affiliation\": \"Angiologia e Cirurgia Vascular, ULS de São João, Porto, Portugal; UnIC@RISE, Department of Surgery and Physiology, Faculty of Medicine of the University of Porto, Porto, Portugal.\"}]",
+    "abstract": "",
+    "keywords": [],
+    "grants": []
+  },
+  {
+    "pmid": "39844861",
+    "title": "Lucerne milestone approach for benchmarking and education: Towards ultra-low dose endovascular aortic repair.",
+    "journal": "Journal of vascular surgery cases and innovative techniques",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Hakimi\", \"fore\": \"Maani\", \"initials\": \"M\", \"affiliation\": \"Department of Vascular Surgery, University Teaching and Research Hospital Lucerne, Luzern, Switzerland.\"}, {\"last\": \"Reeg\", \"fore\": \"Alina\", \"initials\": \"A\", \"affiliation\": \"Department of Vascular Surgery, University Teaching and Research Hospital Lucerne, Luzern, Switzerland.\"}, {\"last\": \"Celi de la Torre\", \"fore\": \"Juan Antonio\", \"initials\": \"JA\", \"affiliation\": \"Department of Vascular Surgery, University Teaching and Research Hospital Lucerne, Luzern, Switzerland.\"}, {\"last\": \"Jung\", \"fore\": \"Georg\", \"initials\": \"G\", \"affiliation\": \"Department of Vascular Surgery, University Teaching and Research Hospital Lucerne, Luzern, Switzerland.\"}, {\"last\": \"Reyes Del Castillo\", \"fore\": \"Tomàs\", \"initials\": \"T\", \"affiliation\": \"Department of Radiology and Nuclear Medicine, University Teaching and Research Hospital Lucerne, Luzern, Switzerland.\"}, {\"last\": \"Roos\", \"fore\": \"Justus\", \"initials\": \"J\", \"affiliation\": \"Department of Radiology and Nuclear Medicine, University Teaching and Research Hospital Lucerne, Luzern, Switzerland.\"}, {\"last\": \"Lima\", \"fore\": \"Thiago\", \"initials\": \"T\", \"affiliation\": \"Department of Radiology and Nuclear Medicine, University Teaching and Research Hospital Lucerne, Luzern, Switzerland.\"}]",
+    "abstract": "OBJECTIVE: The aim of this single-center case series is to demonstrate that an ultra-low dose (ULD) can be routinely achieved in the hybrid operating room in standard endovascular aortic repair (EVAR) for infrarenal abdominal aortic aneurysm by adjusting the manufacturer's predefined imaging parameters, hardware configurations and user protocols (including benchmarking).\nMETHODS: The hybrid operating room manufacturer predefined EVAR software setup of the dose exposure control software (OPTIQ, Siemens Healthineers, Forchheim, Germany) at our university medical center was screened for possible improvements regarding radiation dose application. Tests on a water-equivalent as well as polymethyl methacrylate phantom model to assess the impact of technical settings were performed, including comparison of settings for exposure control software, different magnification, collimation configurations and detector distance. All results were transferred into modified setups for the exposure control software and a new ULD procedure protocol for EVAR. Additionally, to standardize the clinical pathway, the Lucerne EVAR Milestone Approach (LEMA) was introduced including preoperative, perioperative, and postoperative milestones for technical procedure content and dose benchmarking during EVAR. A validation of the new settings including revised software setup, procedure protocol, and applicability of LEMA on a consecutive EVAR case series was conducted. Ten consecutive patients undergoing EVAR for low and medium complexity infrarenal abdominal aortic aneurysm were included. The primary outcome parameter was intraoperative dose area product (DAP, measured in Gy·cm). Secondary outcomes were median fluoroscopy time (in minutes:seconds), cumulative air kerma (in mGy), clinical success, and occurrence of endoleaks.\nRESULTS: New ULD settings compared with previous manufacturers standard settings of dose exposure control software reduced DAP for both fluoroscopy (0.0382 Gy·cm/min vs 0.3 Gy·cm/min) and angiography (2.36 Gy·cm/min vs 2.48 Gy·cm/min). Digital magnification and collimation decreased DAP. Application of the new ULD standard EVAR protocol resulted in a median DAP of 5.6 Gy·cm (range, 3.54-12.1 Gy·cm). Median fluoroscopy time was 16 minutes and 32 seconds. Type I endoleaks occurred in no patients (0%), type II in five patients (50%), and type III in no patients (0%). No patient had to undergo reintervention owing to endoleak or absence of diameter shrinkage during the first postoperative year.\nCONCLUSIONS: Revision of the manufacturer-predefined EVAR setup by testing and ensuring optimal imaging parameters and hardware configurations in combination with LEMA enabled performance of ULD standard EVAR procedures routinely without compromising imaging quality.",
+    "keywords": [
+      "Aortic aneurysm abdominal",
+      "Dose area product",
+      "Endovascular aneurysm repair",
+      "Radiation dosage"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39839163",
+    "title": "Type B Aortic Dissection Secondary to Non-typhoidal Salmonella Aortitis: A Case Report and Literature Review.",
+    "journal": "Journal of community hospital internal medicine perspectives",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Wagle\", \"fore\": \"Laxman\", \"initials\": \"L\", \"affiliation\": \"Department of Internal Medicine, Ascension Saint Agnes Hospital, Maryland, USA.\"}, {\"last\": \"Regmi\", \"fore\": \"Dhiraj R\", \"initials\": \"DR\", \"affiliation\": \"Department of Internal Medicine, Charak Hospital, Pokhara, Nepal.\"}, {\"last\": \"Reyes\", \"fore\": \"Alexander\", \"initials\": \"A\", \"affiliation\": \"Department of Internal Medicine, Ascension Saint Agnes Hospital, Maryland, USA.\"}, {\"last\": \"Regmi\", \"fore\": \"Rashmita\", \"initials\": \"R\", \"affiliation\": \"Department of Nursing, Karnali Academy of Health Science, Jumla, Nepal.\"}]",
+    "abstract": "Infectious aortitis is an uncommon but potentially fatal condition that can lead to aortic dissection or rupture. We describe a case of a 69-year-old female who developed a Stanford type B aortic dissection, presumptively caused by Salmonella, which was successfully managed with thoracic endovascular aneurysm repair (TEVAR) and long-term antibiotics. A literature review of 17 reported cases from 2000 to 2024 of aortic dissection secondary to infectious aortitis was conducted. The most frequently implicated causative organisms were Salmonella and Staphylococcus species. Presenting symptoms were non-specific, such as fever, chest or abdominal pain, and constitutional symptoms. Predisposing factors included hypertension, malignancy, diabetes, atherosclerosis, and hyperlipidemia. The proposed pathogenesis involves bacterial seeding of the aortic wall, leading to enzymatic degradation and structural weakening. Management requires prompt surgical intervention (open or endovascular) based on Stanford dissection type, combined with long-term antibiotic therapy. Early diagnosis is crucial, as infectious aortitis can rapidly progress to life-threatening sequelae like rupture or dissection. Clinicians must maintain a high index of suspicion in at-risk patients presenting with suggestive symptoms or imaging findings.",
+    "keywords": [
+      "Aortic dissection",
+      "Aortitis",
+      "Fluoroquinolones-associated aortic dissection",
+      "Salmonella aortitis",
+      "Salmonella bacteremia",
+      "Salmonella-associated aortic dissection",
+      "Type B aortic dissection"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39839042",
+    "title": "Optimized contrast enhancement and homogeneity in aortic CT angiography: bolus tracking with personalized post-trigger delay.",
+    "journal": "Quantitative imaging in medicine and surgery",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Qi\", \"fore\": \"Ke\", \"initials\": \"K\", \"affiliation\": \"Department of Radiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.\"}, {\"last\": \"Li\", \"fore\": \"Linfeng\", \"initials\": \"L\", \"affiliation\": \"CT Collaboration, Siemens Healthineers Digital Technology (Shanghai) Co., Ltd., Shanghai, China.\"}, {\"last\": \"Yuan\", \"fore\": \"Dian\", \"initials\": \"D\", \"affiliation\": \"Department of Radiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Yicun\", \"initials\": \"Y\", \"affiliation\": \"Department of Radiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Mengyuan\", \"initials\": \"M\", \"affiliation\": \"Department of Radiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Weiting\", \"initials\": \"W\", \"affiliation\": \"Department of Radiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.\"}, {\"last\": \"Gu\", \"fore\": \"Yanbo\", \"initials\": \"Y\", \"affiliation\": \"Department of Radiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.\"}, {\"last\": \"Wang\", \"fore\": \"Zhihao\", \"initials\": \"Z\", \"affiliation\": \"Department of Radiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.\"}, {\"last\": \"Lyu\", \"fore\": \"Peijie\", \"initials\": \"P\", \"affiliation\": \"Department of Radiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.\"}, {\"last\": \"Gao\", \"fore\": \"Jianbo\", \"initials\": \"J\", \"affiliation\": \"Department of Radiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.\"}, {\"last\": \"Liu\", \"fore\": \"Jie\", \"initials\": \"J\", \"affiliation\": \"Department of Radiology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.\"}]",
+    "abstract": "BACKGROUND: The bolus tracking technique has been used for decades, yet still faces the challenging task of determining the optimal scanning time for individuals. Our study aimed to assess the feasibility of a novel bolus tracking method with a personalized post-trigger delay (PTD) to optimize scanning time and achieve optimized enhancement and contrast homogeneity in aortic computed tomography angiography (CTA).\nMETHODS: Participants undergoing aortic CTA with bolus tracking were prospectively assigned to two different groups: Group A with a fixed 6-second PTD and Group B with a personalized PTD. A reader assessed objective image quality and evaluated enhancement level and contrast homogeneity; two readers rated subjective image quality. Student's -test or Mann-Whitney  test was used to determine quantitative data, whereas the Chi-square test compared categorical variables between the two groups.\nRESULTS: Group A comprised 70 participants [13 female; mean ± standard deviation (SD) age 58±11 years], whereas Group B included 70 participants (18 female, mean ± SD age 59±12 years) with the personalized PTD ranging from 7.8 to 14.1 seconds (mean ± SD, 11.2±1.5 seconds). Group B demonstrated improved mean attenuation and contrast-to-noise ratio (CNR) of aortoiliac artery [417.55±71.55  345.71±60.41 Hounsfield units (HU), 16  13, both P<0.001, respectively]. Enhancement level (78.6%  37.1%, P<0.001), contrast homogeneity (94.3%  64.3%, P<0.001), and subjective ratings (scores greater than or equal to 4, 91.4%  68.6%, P<0.001) were superior in Group B compared to Group A. Enhancement level of abdominal aortic branches in aortic dissection or aortic aneurysm patients was optimized in Group B (74.5%  23.3%, P<0.001).\nCONCLUSIONS: Bolus tracking with a personalized PTD can improve enhancement level and contrast homogeneity in aortic CTA due to reliable scan timing.",
+    "keywords": [
+      "Computed tomography angiography (CTA)",
+      "aorta",
+      "contrast media",
+      "image quality"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39831488",
+    "title": "Ruptured: Retrospective Analysis Undertaken for Patients Treated for Unexplained Retroperitoneal or Abdominal Pain in the Emergency Department.",
+    "journal": "British journal of hospital medicine (London, England : 2005)",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Mroczek\", \"fore\": \"Thomas J\", \"initials\": \"TJ\", \"affiliation\": \"Department of Vascular Surgery, Manchester Royal Infirmary, Manchester University NHS Foundation Trust, Manchester, UK.\"}, {\"last\": \"Ahmed\", \"fore\": \"Shahzad\", \"initials\": \"S\", \"affiliation\": \"Department of General Surgery, Wythenshawe Hospital, Manchester University NHS Foundation Trust, Manchester, UK.\"}, {\"last\": \"Chan\", \"fore\": \"Thim Yung\", \"initials\": \"TY\", \"affiliation\": \"Department of Emergency Medicine, Russells Hall Hospital, Dudley Group NHS Foundation Trust, Dudley, UK.\"}, {\"last\": \"Zajac\", \"fore\": \"John\", \"initials\": \"J\", \"affiliation\": \"Wrocław Medical University, Wrocław, Poland.\"}, {\"last\": \"Al-Idari\", \"fore\": \"Romaih\", \"initials\": \"R\", \"affiliation\": \"Department of Emergency Medicine, Blackpool Teaching Hospitals NHS Foundation Trust, Blackpool, UK.\"}, {\"last\": \"Ravichandran\", \"fore\": \"Anukiran\", \"initials\": \"A\", \"affiliation\": \"Department of Emergency Medicine, Royal Bolton Hospital, Bolton NHS Foundation Trust, Bolton, UK.\"}]",
+    "abstract": "Symptomatic abdominal aortic aneurysms carry significant mortality risk. This is supplemented by the Royal College of Emergency Medicine guidelines which suggest imaging for patients 50 years of age or older presenting with unexplained abdominal, flank, or back pain. This study aimed to evaluate the prevalence and mortality rates of patients with symptomatic abdominal aortic aneurysms in a high-risk population and to assess scanning rates in the accident and emergency department.  Retrospective analysis of patients presenting to the accident and emergency department at a district general hospital over 6 months was performed. Patients 50 years of age or older presenting with abdominal, flank, or back pain were included. Collected data points included; whether or not a scan was performed in the emergency department, the modality of imaging, whether an abdominal aortic aneurysm was identified on the scan, the age of patients with an abdominal aortic aneurysms identified on the scan, size of the identified abdominal aortic aneurysms, primary diagnosis at the time of review in the emergency department, and all-cause mortality rates.  361 patients were identified to have an indicated scan, of which only 122 (33.8%) had a scan in the emergency department. In the syndromic group, the prevalence and 30-day mortality of patients with an abdominal aortic aneurysm were 5.5% and 1.1% respectively. Only 12 out of 20 patients with an abdominal aortic aneurysm were identified in the emergency department.  The criteria outlined by the Royal College of Emergency Medicine does well at identifying patients with abdominal aortic aneurysms when followed. However, this study reveals that scanning rates in the emergency department are low. The encouragement of scanning and improved ultrasound skills among emergency medicine clinicians can reduce missed diagnoses. Additionally, we recommend further studies to assess the mortality rates of emergent abdominal aortic aneurysm presentations.",
+    "keywords": [
+      "abdominal aortic aneurysm",
+      "abdominal pain",
+      "emergency department",
+      "ruptured abdominal aortic aneurysm",
+      "ultrasound",
+      "Humans",
+      "Retrospective Studies",
+      "Emergency Service, Hospital",
+      "Aortic Aneurysm, Abdominal",
+      "Abdominal Pain",
+      "Aged",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Aortic Rupture",
+      "Aged, 80 and over",
+      "Prevalence",
+      "Tomography, X-Ray Computed",
+      "Back Pain",
+      "Flank Pain"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39830550",
+    "title": "Aspergillus Species as a Rare Cause of Primary Mycotic Aneurysm With Aortoenteric Fistula.",
+    "journal": "Cureus",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Alshubaily\", \"fore\": \"Fahad\", \"initials\": \"F\", \"affiliation\": \"General Surgery, King Saud Medical City, Riyadh, SAU.\"}, {\"last\": \"Fatani\", \"fore\": \"Jumana A\", \"initials\": \"JA\", \"affiliation\": \"Surgery, Specialized Medical Center, Riyadh, SAU.\"}, {\"last\": \"Almufarrih\", \"fore\": \"Abdullah\", \"initials\": \"A\", \"affiliation\": \"Vascular Surgery, King Saud Medical City, Riyadh, SAU.\"}, {\"last\": \"Osman\", \"fore\": \"Isam\", \"initials\": \"I\", \"affiliation\": \"Vascular Surgery, King Saud Medical City, Riyadh, SAU.\"}]",
+    "abstract": "Aortoenteric fistula (AEF) is an abnormal connection between the aorta and the adjacent gastrointestinal (GI) tract and is often misdiagnosed in clinical practice. We present the case of a 65-year-old male, who presented with upper GI bleeding and melena. The patient underwent upper and lower GI examinations with no conclusive findings. A computed tomography scan of the abdomen was suggestive of an AEF. The patient experienced a sudden episode of hematemesis with hemorrhagic shock in the ward, leading to an emergent surgery for bleeding control and repair of the aortic aneurysm and AEF with straight aortic interposition graft and primary repair of the duodenum along with debridement for whitish mycotic debris. A tissue culture from the aortic aneurysm during surgery revealed  species infection. AEF is a life-threatening condition with high morbidity and mortality rates, often making it difficult to diagnose. Early surgical intervention is crucial to prevent a fatal outcome. Although rare, fungal infection should be considered in a primary AEF.",
+    "keywords": [
+      "abdominal aortic aneurysm",
+      "aortoenteric",
+      "fistula",
+      "fungal",
+      "gastrointestinal bleeding",
+      "infection",
+      "primary aortoenteric fistula",
+      "secondary aortoenteric fistula"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39830355",
+    "title": "Assessing the relationships of 1,400 blood metabolites with abdominal aortic aneurysm: a Mendelian randomization study.",
+    "journal": "Frontiers in pharmacology",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Guo\", \"fore\": \"Qian\", \"initials\": \"Q\", \"affiliation\": \"Department of Rhinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.\"}, {\"last\": \"Xu\", \"fore\": \"Xinghua\", \"initials\": \"X\", \"affiliation\": \"School of Basic Medicine, Shandong First Medical University & Shandong Academy of Medical Sciences, Jinan, China.\"}, {\"last\": \"Li\", \"fore\": \"Xiaohui\", \"initials\": \"X\", \"affiliation\": \"Department of Cardiology, State Key Laboratory for Innovation and Transformation of Luobing Theory, Key Laboratory of Cardiovascular Remodeling and Function Research, Chinese Ministry of Education, Chinese National Health Commission and Chinese Academy of Medical Sciences, Qilu Hospital of Shandong University, Jinan, China.\"}, {\"last\": \"Mao\", \"fore\": \"Yang\", \"initials\": \"Y\", \"affiliation\": \"Department of Critical Care Medicine, Qilu Hospital of Shandong University, Jinan, China.\"}, {\"last\": \"Li\", \"fore\": \"Shengqiang\", \"initials\": \"S\", \"affiliation\": \"Department of Anesthesiology, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.\"}, {\"last\": \"Yao\", \"fore\": \"Yuxin\", \"initials\": \"Y\", \"affiliation\": \"Department of Cardiology, State Key Laboratory for Innovation and Transformation of Luobing Theory, Key Laboratory of Cardiovascular Remodeling and Function Research, Chinese Ministry of Education, Chinese National Health Commission and Chinese Academy of Medical Sciences, Qilu Hospital of Shandong University, Jinan, China.\"}, {\"last\": \"Li\", \"fore\": \"Xiang\", \"initials\": \"X\", \"affiliation\": \"Department of Cardiology, State Key Laboratory for Innovation and Transformation of Luobing Theory, Key Laboratory of Cardiovascular Remodeling and Function Research, Chinese Ministry of Education, Chinese National Health Commission and Chinese Academy of Medical Sciences, Qilu Hospital of Shandong University, Jinan, China.\"}, {\"last\": \"Li\", \"fore\": \"Yaxing\", \"initials\": \"Y\", \"affiliation\": \"Department of Cardiology, State Key Laboratory for Innovation and Transformation of Luobing Theory, Key Laboratory of Cardiovascular Remodeling and Function Research, Chinese Ministry of Education, Chinese National Health Commission and Chinese Academy of Medical Sciences, Qilu Hospital of Shandong University, Jinan, China.\"}, {\"last\": \"Feng\", \"fore\": \"Jiayue\", \"initials\": \"J\", \"affiliation\": \"Department of Cardiology, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China.\"}, {\"last\": \"Shu\", \"fore\": \"Yan\", \"initials\": \"Y\", \"affiliation\": \"Department of Cardiology, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China.\"}, {\"last\": \"Xu\", \"fore\": \"Xingli\", \"initials\": \"X\", \"affiliation\": \"Department of Cardiology, State Key Laboratory for Innovation and Transformation of Luobing Theory, Key Laboratory of Cardiovascular Remodeling and Function Research, Chinese Ministry of Education, Chinese National Health Commission and Chinese Academy of Medical Sciences, Qilu Hospital of Shandong University, Jinan, China.\"}]",
+    "abstract": "BACKGROUND: Abdominal aortic aneurysm (AAA) is one of the most dangerous types of vascular diseases worldwide. Metabolic disturbance affects disease risk and provide underlying therapeutic targets. Previous studies have reported an association between metabolic disorders and AAA. However, evidence of a causal relationship between blood metabolites and AAA is still lacking at present.\nMETHODS: Using Mendelian randomization (MR), we assessed the causal association between 1,400 serum metabolites and AAA. The inverse variance weighted method (IVW), weighted median, MR-Egger regression, simple mode, as well as weighted mode methods were used for evaluating the causality between blood metabolites and AAA. Pleiotropy and heterogeneity tests were further conducted.\nRESULTS: Through strict screening, 17 known metabolites, 7 unknown metabolites and 5 metabolite ratios related to AAA were identified. Among all the metabolites, 24 were found to have negative associations, while 5 exhibited positive associations. The top five metabolites associated with an increased risk of AAA were Oleoyl-linoleoyl-glycerol (18:1/18:2) [2], Glycosyl-N-(2-hydroxynervonoyl)-sphingosine (d18:1/24:1(2OH)), Glycochenodeoxycholate 3-sulfate, X-21441 and X-24328. In contrast, the top five metabolites that were linked to a reduced risk of AAA included Uridine to pseudouridine ratio, Octadecanedioate, Phosphate to oleoyl-linoleoyl-glycerol (18:1 to 18:2) [2] ratio, 1-(1-enyl-palmitoyl)-GPE (p-16:0), and 1-stearoyl-GPG (18:0).\nCONCLUSION: Among the 1,400 blood metabolites, we identified 17 known metabolites, 7 unknown metabolites, and 5 metabolite ratios associated with AAA. This MR study may provide a novel significant insight for the screening and prevention of AAA.",
+    "keywords": [
+      "Mendelian randomization study",
+      "abdominal aortic aneurysm",
+      "metabolite ratios",
+      "metabolites",
+      "metabolomics"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39820879",
+    "title": "A Timeline From Index Procedure To Complex Reinterventions For Thoracoabdominal Aortic Dissection.",
+    "journal": "Portuguese journal of cardiac thoracic and vascular surgery",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Duh\", \"fore\": \"Kevin\", \"initials\": \"K\", \"affiliation\": \"Department of Surgery, Stony Brook University Hospital, Stony Brook, NY, USA.\"}, {\"last\": \"Levy\", \"fore\": \"Christopher\", \"initials\": \"C\", \"affiliation\": \"Department of Surgery, Prisma Health/University of South Carolina School of Medicine, Columbia, SC, USA.\"}, {\"last\": \"Volteas\", \"fore\": \"Panagiotis\", \"initials\": \"P\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, Stony Brook University Hospital, Stony Brook, NY, USA.\"}, {\"last\": \"Giannopoulos\", \"fore\": \"Stefanos\", \"initials\": \"S\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, Stony Brook University Hospital, Stony Brook, NY, USA.\"}, {\"last\": \"Koudounas\", \"fore\": \"George\", \"initials\": \"G\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, Stony Brook University Hospital, Stony Brook, NY, USA.\"}, {\"last\": \"Virvilis\", \"fore\": \"Dimitrios\", \"initials\": \"D\", \"affiliation\": \"Department of Vascular and Endovascular Surgery, St Francis Hospital & Heart Center, Roslyn, NY, USA.\"}]",
+    "abstract": "The optimal management of acute type A aortic dissection (ATAAD) remains a controversial subject. While some surgeons opt for a hemiarch approach to minimize bypass and cross-clamping time, others prefer partial or total arch replacement to prevent the need for additional operations. The advent of hybrid approaches offers a variety of options to the aortic surgeon in treating ATAAD. Herein, we present a complex case of ATAAD requiring multistage reconstruction of the aortic arch and its branch vessels utilizing hybrid techniques. A 67-year-old man presented with chest pain and hypertension, leading to diagnosis of ATAAD. He initially underwent hemiarch replacement, which required multiple further interventions secondary to progressive thoracic aorta aneurysmal dilation, innominate artery dissection, and subclavian steal syndrome. A hybrid approach of open and endovascular techniques was utilized to treat the patient's pathology. ATAAD represents a challenging clinical entity in its acute, subacute, and long-term management. Currently, no consensus exists on ideal initial management of this disease. Nonetheless, new techniques such as fenestration of thoracic endografts can be utilized for the subsequent operations. Individualized care tailored to each case is the most effective management of this intricate disease.",
+    "keywords": [
+      "aortic reconstruction",
+      "hemiarch replacement",
+      "hybrid technique",
+      "total arch replacement",
+      "type A aortic dissection",
+      "Humans",
+      "Male",
+      "Aortic Dissection",
+      "Aged",
+      "Aortic Aneurysm, Thoracic",
+      "Blood Vessel Prosthesis Implantation",
+      "Endovascular Procedures",
+      "Reoperation",
+      "Aorta, Thoracic",
+      "Dissection, Abdominal Aorta"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39816327",
+    "title": "Idiopathic multiple peripheral arterial dissections:A case report.",
+    "journal": "Heliyon",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Zhu\", \"fore\": \"Junlong\", \"initials\": \"J\", \"affiliation\": \"Department of Vascular Surgery, the Affiliated Hospital of Southwest Medical University, Luzhou, 646000, Sichuan, China.\"}, {\"last\": \"He\", \"fore\": \"Huqiang\", \"initials\": \"H\", \"affiliation\": \"Department of Vascular Surgery, the Affiliated Hospital of Southwest Medical University, Luzhou, 646000, Sichuan, China.\"}, {\"last\": \"Xu\", \"fore\": \"Changjing\", \"initials\": \"C\", \"affiliation\": \"Department of pharmacy, the Affiliated Hospital of Southwest Medical University, Luzhou, 646000, Sichuan, China.\"}, {\"last\": \"Wu\", \"fore\": \"Ya\", \"initials\": \"Y\", \"affiliation\": \"Department of Vascular Surgery, the Affiliated Hospital of Southwest Medical University, Luzhou, 646000, Sichuan, China.\"}, {\"last\": \"Xu\", \"fore\": \"Tongjie\", \"initials\": \"T\", \"affiliation\": \"Department of Vascular Surgery, the Affiliated Hospital of Southwest Medical University, Luzhou, 646000, Sichuan, China.\"}, {\"last\": \"Chen\", \"fore\": \"Hao\", \"initials\": \"H\", \"affiliation\": \"Department of Vascular Surgery, the Affiliated Hospital of Southwest Medical University, Luzhou, 646000, Sichuan, China.\"}, {\"last\": \"Liu\", \"fore\": \"Yong\", \"initials\": \"Y\", \"affiliation\": \"Department of Vascular Surgery, the Affiliated Hospital of Southwest Medical University, Luzhou, 646000, Sichuan, China.\"}]",
+    "abstract": "INTRODUCTION: Compared to aortic dissection and isolated visceral artery dissection, multiple peripheral arterial dissections have not been formally reported to date. Currently, there is no well-established treatment for this condition, and large-scale studies with extensive sample data are lacking.\nCASE PRESENTATION: A 56-year-old male, was provisionally diagnosed with \" idiopathic multiple peripheral arterial dissections.\" The patient primarily presented with lower left abdominal pain. Routine abdominal computed tomography (CT) revealed a right internal iliac artery aneurysm. Further evaluation using aortic computed tomography angiography (CTA) revealed multiple peripheral arterial dissections throughout the body. To screen for the same condition in the cervical and intracranial arteries, a comprehensive head and neck CTA was performed, which revealed a left internal carotid artery dissection. Subsequent positron emission tomography-computed tomography (PET-CT) shows increased glucose metabolism in the left external iliac artery, suggesting arterial inflammation. The patient is treated with intravenous methylprednisolone at a dose of 40 mg per day for six days, followed by the addition of intravenous cyclophosphamide at an initial dose of 0.2g, gradually increasing to a maintenance dose of 1.0 g once a month. After six months of treatment, follow-up aortic CTA and head and neck CTA revealed the disappearance of an arc-shaped low-density shadow in the left external iliac artery.\nCONCLUSION: The etiology of idiopathic multiple peripheral arterial dissection remains unclear, and the case is rare. The long-term prognosis requires ongoing follow-up. As research progresses, it may become necessary to reconsider the diagnosis of this disease.",
+    "keywords": [
+      "Arteritis",
+      "Case report",
+      "Immunosuppressive therapy",
+      "Peripheral arterial dissection"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39816169",
+    "title": "Investigating tissue factor pathway inhibitor and other protease and protease inhibitors and their association with major adverse aortic events in patients with abdominal aortic aneurysm.",
+    "journal": "Research and practice in thrombosis and haemostasis",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Khan\", \"fore\": \"Hamzah\", \"initials\": \"H\", \"affiliation\": \"Division of Vascular Surgery, St. Michael's Hospital, Toronto, Ontario, Canada.\"}, {\"last\": \"Zamzam\", \"fore\": \"Abdelrahman\", \"initials\": \"A\", \"affiliation\": \"Division of Vascular Surgery, St. Michael's Hospital, Toronto, Ontario, Canada.\"}, {\"last\": \"Shaikh\", \"fore\": \"Farah\", \"initials\": \"F\", \"affiliation\": \"Division of Vascular Surgery, St. Michael's Hospital, Toronto, Ontario, Canada.\"}, {\"last\": \"Saposnik\", \"fore\": \"Gustavo\", \"initials\": \"G\", \"affiliation\": \"Li Ka Shing Knowledge Institute, St Michael's Hospital-Unity Health Toronto, Toronto, Ontario, Canada.\"}, {\"last\": \"Mamdani\", \"fore\": \"Muhammad\", \"initials\": \"M\", \"affiliation\": \"Li Ka Shing Knowledge Institute, St Michael's Hospital-Unity Health Toronto, Toronto, Ontario, Canada.\"}, {\"last\": \"Qadura\", \"fore\": \"Mohammad\", \"initials\": \"M\", \"affiliation\": \"Division of Vascular Surgery, St. Michael's Hospital, Toronto, Ontario, Canada.\"}]",
+    "abstract": "BACKGROUND: Abdominal aortic aneurysm (AAA) is characterized by the proteolytic breakdown of the extracellular matrix, leading to dilatation of the aorta and increased risk of rupture. Biomarkers that can predict major adverse aortic events (MAAEs) are needed to risk stratify patients for more rigorous medical treatment and potential earlier surgical intervention.\nOBJECTIVES: The primary objective was to identify the association between baseline levels of these biomarkers and MAAEs over a period of 5 years.\nMETHODS: Baseline levels of 3 proteases (matrix metalloproteinases 7, 8, and 10) and 3 protease inhibitors (tissue factor pathway inhibitor [TFPI], SerpinA12, SerpinB3) were investigated. Plasma levels of these biomarkers were quantified in 134 patients with AAA and 134 matched controls. Patients were followed for a 5-year period during which MAAEs were documented. The association between these markers and MAAEs was evaluated using Cox regression and Kaplan-Meier survival curves.\nRESULTS: TFPI was significantly elevated in patients with AAA and significantly associated with MAAE during the 5-year period (hazard ratio, 1.52; 95% CI, 1.15-2.01;  = .003) after adjusting for covariates. Kaplan-Meier survival analyses demonstrated that patients in the high TFPI group (defined as plasma levels >25.961 ng/mL) had significantly reduced freedom from the need for aortic repair and MAAEs.\nCONCLUSION: These findings suggest that TFPI may serve as a valuable prognostic marker for the risk of MAAEs within 5 years in patients with AAA, potentially offering new tools for the medical management of patients with AAA.",
+    "keywords": [
+      "abdominal aortic aneurysm",
+      "aneurysm",
+      "biomarkers",
+      "major adverse aortic events",
+      "prognosis",
+      "vascular"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39812416",
+    "title": "One-year results of an eHealth intervention on anxiety in patients undergoing abdominal aortic aneurysm surgery: randomized clinical trial.",
+    "journal": "BJS open",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Nilsson\", \"fore\": \"Olga\", \"initials\": \"O\", \"affiliation\": \"Department of Molecular Medicine and Surgery, Stockholm Aortic Research Group, STAR, Karolinska Institutet, Stockholm, Sweden.\"}, {\"last\": \"Stenman\", \"fore\": \"Malin\", \"initials\": \"M\", \"affiliation\": \"Department of Molecular Medicine and Surgery, Stockholm Aortic Research Group, STAR, Karolinska Institutet, Stockholm, Sweden.\"}, {\"last\": \"Letterstål\", \"fore\": \"Anna\", \"initials\": \"A\", \"affiliation\": \"School of Health, Care and Social Welfare, Mälardalen University, Västerås, Sweden.\"}, {\"last\": \"Hultgren\", \"fore\": \"Rebecka\", \"initials\": \"R\", \"affiliation\": \"Department of Molecular Medicine and Surgery, Stockholm Aortic Research Group, STAR, Karolinska Institutet, Stockholm, Sweden.\"}]",
+    "abstract": "BACKGROUND: The longitudinal effects of educational interventions in people with abdominal aortic aneurysm are largely unexplored. This prospective study investigated whether the anxiety-lowering effect of an eHealth intervention observed at the 1-month follow-up is maintained 1 year after abdominal aortic aneurysm surgery.\nMETHODS: Those scheduled for surgical repair of abdominal aortic aneurysm were recruited in a single-centre randomized clinical trial. The control group received care and follow-up per the institution's standard. The intervention group received an eHealth tool along with psychosocial support. The 1-month results have been reported. The primary outcome measure was the anxiety mean score (HADS-A).\nRESULTS: Of 120 included participants, 96 completed the 1-year follow-up (48 in each treatment group). The mean age was 73 years, a majority (86%) were male and 73% were current or previous smokers. Anxiety symptoms measured with the HADS-A decreased over time in both the intervention group (-0.33) and the control group (-0.35, P = 0.868). The improvements in anxiety symptoms seen in the short-term follow-up were not sustained at the 1-year follow-up. No significant mean score differences were found in the intention-to-treat or per-protocol analyses.\nCONCLUSION: In this randomized clinical trial, an eHealth intervention did not result in a sustained reduction in anxiety symptoms compared with standard care in the same cohort. The study provides an insight into the limited acceptability of an eHealth tool in people with abdominal aortic aneurysm and valuable data on the recovery trajectory following open and endovascular abdominal aortic aneurysm surgery. Further research is warranted to evaluate the relevance and long-term effectiveness of eHealth interventions in abdominal aortic aneurysm care.\nREGISTRATION NUMBER: NCT03157973 (http://www.clinicaltrials.gov).",
+    "keywords": [
+      "Humans",
+      "Male",
+      "Aortic Aneurysm, Abdominal",
+      "Female",
+      "Aged",
+      "Anxiety",
+      "Telemedicine",
+      "Prospective Studies",
+      "Middle Aged",
+      "Follow-Up Studies",
+      "Treatment Outcome",
+      "Aged, 80 and over",
+      "Patient Education as Topic"
+    ],
+    "grants": [
+      {
+        "agency": "Heart and Lung Association",
+        "acronym": "",
+        "grant_id": "FA 2019:28",
+        "country": ""
+      },
+      {
+        "agency": "Swedish Heart-Lung Foundation",
+        "acronym": "",
+        "grant_id": "20140722, 20160266, 20190553",
+        "country": ""
+      },
+      {
+        "agency": "Stockholm County Council",
+        "acronym": "",
+        "grant_id": "",
+        "country": ""
+      },
+      {
+        "agency": "Karolinska Institutet (Hultgren)",
+        "acronym": "",
+        "grant_id": "",
+        "country": ""
+      }
+    ]
+  },
+  {
+    "pmid": "39811742",
+    "title": "Endoanchors for the distal fixation of iliac limb in endovascular aneurysm repair.",
+    "journal": "Journal of vascular surgery cases and innovative techniques",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Spertino\", \"fore\": \"Andrea\", \"initials\": \"A\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Cardiac, Thoracic, Vascular Sciences and Public Health, University of Padua, Padua, Italy.\"}, {\"last\": \"Spezia\", \"fore\": \"Matteo\", \"initials\": \"M\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Cardiac, Thoracic, Vascular Sciences and Public Health, University of Padua, Padua, Italy.\"}, {\"last\": \"Squizzato\", \"fore\": \"Francesco\", \"initials\": \"F\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Cardiac, Thoracic, Vascular Sciences and Public Health, University of Padua, Padua, Italy.\"}, {\"last\": \"Antonello\", \"fore\": \"Michele\", \"initials\": \"M\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Cardiac, Thoracic, Vascular Sciences and Public Health, University of Padua, Padua, Italy.\"}]",
+    "abstract": "This report details the case of an 84-year-old male with an infrarenal abdominal aortic aneurysm and a dilated right common iliac artery eligible for endovascular treatment. A bifurcated stent graft (Medtronic Endurant IIs) was used to treat the aneurysm. To address the concerns of instability of the right iliac limb, four endoanchors (Heli-FX EndoAnchor, Medtronic) were placed at the distal landing zone to provide additional fixation. This case shows good result in the improvement of stability of the iliac limb with potentially enhanced durability.",
+    "keywords": [
+      "Abdominal aortic aneurysm",
+      "EVAR",
+      "Endoanchor",
+      "Endoleak",
+      "Iliac aneurysm"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39811041",
+    "title": "Glucose transporter 1 in vascular smooth muscle cells is dispensable for abdominal aortic aneurysm induced by angiotensin II.",
+    "journal": "JVS-vascular science",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Torimoto\", \"fore\": \"Keiichi\", \"initials\": \"K\", \"affiliation\": \"Department of Cardiovascular Science, Lewis Katz School of Medicine at Temple University, Philadelphia, PA.\"}, {\"last\": \"Vari\", \"fore\": \"Hymavathi Reddy\", \"initials\": \"HR\", \"affiliation\": \"Department of Cardiovascular Science, Lewis Katz School of Medicine at Temple University, Philadelphia, PA.\"}, {\"last\": \"Nakayama\", \"fore\": \"Yuki\", \"initials\": \"Y\", \"affiliation\": \"Department of Cardiovascular Science, Lewis Katz School of Medicine at Temple University, Philadelphia, PA.\"}, {\"last\": \"Utsunomiya\", \"fore\": \"Hirotoshi\", \"initials\": \"H\", \"affiliation\": \"Department of Rehabilitation, Osaka Kawasaki Rehabilitation University, Osaka, Japan.\"}, {\"last\": \"Takeda\", \"fore\": \"Masatoshi\", \"initials\": \"M\", \"affiliation\": \"Department of Rehabilitation, Osaka Kawasaki Rehabilitation University, Osaka, Japan.\"}, {\"last\": \"Hashimoto\", \"fore\": \"Tomoki\", \"initials\": \"T\", \"affiliation\": \"Department of Neurosurgery and Neurobiology, Barrow Aneurysm and AVM Research Center, Barrow Neurological Institute Phoenix, Pheonix, AZ.\"}, {\"last\": \"Rizzo\", \"fore\": \"Victor\", \"initials\": \"V\", \"affiliation\": \"Department of Cardiovascular Science, Lewis Katz School of Medicine at Temple University, Philadelphia, PA.\"}, {\"last\": \"Eguchi\", \"fore\": \"Satoru\", \"initials\": \"S\", \"affiliation\": \"Department of Cardiovascular Science, Lewis Katz School of Medicine at Temple University, Philadelphia, PA.\"}]",
+    "abstract": "Treatment with an inhibitor of glucose use via glucose transporters (GLUT) has been shown to attenuate experimental abdominal aortic aneurysm (AAA) development in mice. Vascular smooth muscle cell (VSMC) signaling seems to be essential for angiotensin II (Ang II)-induced AAA in mice. Accordingly, we have tested a hypothesis that VSMC silencing of the major GLUT, GLUT1, prevents AAA development and rupture in mice treated with Ang II plus β-aminopropionitrile. A mouse model of inducible VSMC GLUT1 deletion was created and aortic GLUT1 silencing was confirmed. Without Ang II plus β-aminopropionitrile treatment, no difference was observed regarding the external aortic diameter (control 1.06 ± 0.18 mm vs deletion 0.97 ± 0.26 mm) or systolic blood pressure (control 102 ± 9 mm Hg vs deletion 107 ± 11 mm Hg) between control or GLUT1-silenced mice. With treatment, control mice as well as VSMC GLUT1-silenced mice equally developed AAA (control 2.37 ± 0.75 mm vs deletion 2.41 ± 0.93 mm), whereas a tendency toward lower blood pressure was observed in GLUT1 silenced mice (control 150 ± 9 mm Hg vs deletion 135 ± 22 mm Hg). No significant difference was observed regarding the rate of rupture-dependent mortality. We concluded that VSMC GLUT1 is dispensable for AAA development induced by Ang II in mice.",
+    "keywords": [
+      "Abdominal aortic aneurysm",
+      "Angiotensin II",
+      "Glucose transporter",
+      "Hypertension"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39806755",
+    "title": "Mortality trends, sex, and racial disparities in older adults due to abdominal aortic aneurysm: a nationwide cross-sectional analysis.",
+    "journal": "International journal of surgery (London, England)",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Goyal\", \"fore\": \"Aman\", \"initials\": \"A\", \"affiliation\": \"Department of Internal Medicine, Seth GS Medical College and KEM Hospital, Mumbai, India.\"}, {\"last\": \"Saeed\", \"fore\": \"Humza\", \"initials\": \"H\", \"affiliation\": \"Department of Internal Medicine, Rawalpindi Medical University, Rawalpindi, Punjab, Pakistan.\"}, {\"last\": \"Shahnoor\", \"fore\": \"Syeda\", \"initials\": \"S\", \"affiliation\": \"Department of Internal Medicine, Dow University of Health Sciences, Karachi, Pakistan.\"}, {\"last\": \"Arshad\", \"fore\": \"Muhammad Khubaib\", \"initials\": \"MK\", \"affiliation\": \"Department of Internal Medicine, Rawalpindi Medical University, Rawalpindi, Punjab, Pakistan.\"}, {\"last\": \"Wasay\", \"fore\": \"Abdul\", \"initials\": \"A\", \"affiliation\": \"Department of Internal Medicine, Rawalpindi Medical University, Rawalpindi, Punjab, Pakistan.\"}, {\"last\": \"Abdullah\", \"fore\": \"\", \"initials\": \"\", \"affiliation\": \"Department of Internal Medicine, Rawalpindi Medical University, Rawalpindi, Punjab, Pakistan.\"}, {\"last\": \"Daoud\", \"fore\": \"Mohamed\", \"initials\": \"M\", \"affiliation\": \"Bogomolets National Medical University, Kyiv, Ukraine.\"}, {\"last\": \"Sohail\", \"fore\": \"Amir Humza\", \"initials\": \"AH\", \"affiliation\": \"Department of Surgery, University of New Mexico Health Sciences, Albuquerque, NM, USA.\"}]",
+    "abstract": "Abdominal aortic aneurysms (AAAs) are a significant vascular pathology in older adults, often asymptomatic but with high mortality upon rupture. Despite advancements in diagnostic imaging and surgical interventions, AAAs remain a public health concern. This research letter analyzed CDC WONDER data on AAA-related deaths (ICD-10 I71.3 and I71.4) among US adults aged 65+ from 1999 to 2020. Age-adjusted mortality rates (AAMRs) and annual percent change (APC) were calculated by year, sex, age group, race/ethnicity, geography, and urbanization status. Between 1999 and 2020, there were 180 037 reported deaths in older adults due to AAA. The overall AAMR decreased from 32.6 to 13.2 per 100 000, with a significant decline from 2014 to 2020 (APC: -1.66; 95% CI: -2.48 to -0.48). Older men had a significantly higher AAMR than older women (31.2 vs. 12). Among racial and ethnic groups, Non-Hispanic (NH) Whites had the highest AAMR at 21.7, followed by NH American Indian or Alaska Native (14.5), NH Black (12.6), NH Asian or Pacific Islander (10.1), and Hispanic populations (8.4). Additionally, non-metropolitan areas exhibited higher AAMRs compared to metropolitan areas (23.9 vs. 18.7). While mortality rates have declined, disparities remain, with higher rates among older men, NH Whites, and non-metropolitan residents, highlighting the need for targeted and equitable interventions.",
+    "keywords": [
+      "Humans",
+      "Aortic Aneurysm, Abdominal",
+      "Male",
+      "Aged",
+      "Female",
+      "United States",
+      "Cross-Sectional Studies",
+      "Aged, 80 and over",
+      "Sex Factors",
+      "Health Status Disparities",
+      "Ethnicity",
+      "Racial Groups"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39797118",
+    "title": "General Information and Applications of Najuta Fenestrated Stent Grafts for Aortic Arch Aneurysms.",
+    "journal": "Journal of clinical medicine",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Onitsuka\", \"fore\": \"Seiji\", \"initials\": \"S\", \"affiliation\": \"Department of Surgery, Kurume University School of Medicine, Fukuoka 830-0011, Japan.\"}, {\"last\": \"Tanaka\", \"fore\": \"Atsuhisa\", \"initials\": \"A\", \"affiliation\": \"Department of Thoracic & Cardiovascular Surgery, Saga University School of Medicine, Saga 849-8501, Japan.\"}, {\"last\": \"Otsuka\", \"fore\": \"Hiroyuki\", \"initials\": \"H\", \"affiliation\": \"Department of Surgery, Kurume University School of Medicine, Fukuoka 830-0011, Japan.\"}, {\"last\": \"Shintani\", \"fore\": \"Yusuke\", \"initials\": \"Y\", \"affiliation\": \"Department of Surgery, Kurume University School of Medicine, Fukuoka 830-0011, Japan.\"}, {\"last\": \"Kanamoto\", \"fore\": \"Ryo\", \"initials\": \"R\", \"affiliation\": \"Department of Surgery, Kurume University School of Medicine, Fukuoka 830-0011, Japan.\"}, {\"last\": \"Negoto\", \"fore\": \"Shinya\", \"initials\": \"S\", \"affiliation\": \"Department of Surgery, Kurume University School of Medicine, Fukuoka 830-0011, Japan.\"}, {\"last\": \"Tayama\", \"fore\": \"Eiki\", \"initials\": \"E\", \"affiliation\": \"Department of Surgery, Kurume University School of Medicine, Fukuoka 830-0011, Japan.\"}]",
+    "abstract": "Endovascular stent graft repair was developed to minimize the invasiveness of open surgery for thoracic and abdominal aortic diseases. This approach involves covering the diseased segment with a stented artificial graft. However, in thoracic endovascular aortic repair (TEVAR) for aortic arch diseases, special consideration is needed to preserve the aortic arch vessels. Standard stent grafts often require additional procedures, such as bypass surgery, to reconstruct the arch vessels. The semi-custom-made Najuta fenestrated stent graft was developed to address this issue. It is a three-dimensional patient-specific stent graft with fenestrations that allow for the preservation of the arch vessels. This study discusses the unique features of the Najuta stent graft and the techniques for its deployment, and it provides an analysis of treatment outcomes based on the current literature.",
+    "keywords": [
+      "Najuta",
+      "TEVAR",
+      "endovascular aneurysm repair",
+      "fenestrated stent graft",
+      "thoracic aortic aneurysm"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39795873",
+    "title": "Distribution and Maturity of Medial Collagen Fibers in Thoracoabdominal Post-Dissection Aortic Aneurysms: A Comparative Study of Marfan and Non-Marfan Patients.",
+    "journal": "International journal of molecular sciences",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Doukas\", \"fore\": \"Panagiotis\", \"initials\": \"P\", \"affiliation\": \"Department of Vascular Surgery, RWTH Aachen University Hospital, 52074 Aachen, Germany.\"}, {\"last\": \"Hruschka\", \"fore\": \"Bernhard\", \"initials\": \"B\", \"affiliation\": \"Department of Vascular Surgery, RWTH Aachen University Hospital, 52074 Aachen, Germany.\"}, {\"last\": \"Bassett\", \"fore\": \"Cathryn\", \"initials\": \"C\", \"affiliation\": \"Department of Vascular Surgery, RWTH Aachen University Hospital, 52074 Aachen, Germany.\"}, {\"last\": \"Buhl\", \"fore\": \"Eva Miriam\", \"initials\": \"EM\", \"affiliation\": \"Institute of Pathology, Electron Microscopy Facility, RWTH Aachen University Hospital, 52074 Aachen, Germany.\"}, {\"last\": \"Simon\", \"fore\": \"Florian\", \"initials\": \"F\", \"affiliation\": \"Clinic for Vascular and Endovascular Surgery, University Hospital Duesseldorf, Heinrich-Heine-University Duesseldorf, 40225 Düsseldorf, Germany.\"}, {\"last\": \"Saraber\", \"fore\": \"Pepijn\", \"initials\": \"P\", \"affiliation\": \"Department of Biochemistry, Cardiovascular Research Institute Maastricht (CARIM), Maastricht University, 6200 MD Maastricht, The Netherlands.\"}, {\"last\": \"Jacobs\", \"fore\": \"Michael Johan\", \"initials\": \"MJ\", \"affiliation\": \"Department of Vascular Surgery, RWTH Aachen University Hospital, 52074 Aachen, Germany.\"}, {\"last\": \"Uhl\", \"fore\": \"Christian\", \"initials\": \"C\", \"affiliation\": \"Department of Vascular Surgery, RWTH Aachen University Hospital, 52074 Aachen, Germany.\"}, {\"last\": \"Schurgers\", \"fore\": \"Leon J\", \"initials\": \"LJ\", \"affiliation\": \"Department of Biochemistry, Cardiovascular Research Institute Maastricht (CARIM), Maastricht University, 6200 MD Maastricht, The Netherlands.\"}, {\"last\": \"Gombert\", \"fore\": \"Alexander\", \"initials\": \"A\", \"affiliation\": \"Department of Vascular Surgery, RWTH Aachen University Hospital, 52074 Aachen, Germany.\"}]",
+    "abstract": "Thoracoabdominal aortic aneurysms (TAAAs) are rare but serious conditions characterized by dilation of the aorta characterized by remodeling of the vessel wall, with changes in the elastin and collagen content. Individuals with Marfan syndrome have a genetic predisposition for elastic fiber fragmentation and elastin degradation and are prone to early aneurysm formation and progression. Our objective was to analyze the medial collagen characteristics through histological, polarized light microscopy, and electron microscopy methods across the thoracic and abdominal aorta in twenty-five patients undergoing open surgical repair, including nine with Marfan syndrome. While age at surgery differed significantly between the groups, maximum aortic diameter and aneurysm extent did not. Collagen content increased from thoracic to infrarenal segments in both cohorts, with non-Marfan patients exhibiting higher collagen percentages, notably in the infrarenal aorta (729.3 nm vs. 1068.3 nm,  = 0.02). Both groups predominantly displayed mature collagen fibers, with the suprarenal segment containing the highest proportion of less mature fibers. Electron microscopy revealed comparable collagen fibril diameters across segments irrespective of Marfan status. Our findings underscore non-uniform histological patterns in TAAAs and suggest that ECM remodeling involves mature collagen deposition, albeit with lower collagen content observed in the infrarenal aorta of Marfan patients.",
+    "keywords": [
+      "Marfan syndrome",
+      "aortic aneurysm",
+      "collagen fibers",
+      "electron microscopy",
+      "extracellular matrix",
+      "polarized light microscopy",
+      "thoracoabdominal aortic aneurysms",
+      "Humans",
+      "Marfan Syndrome",
+      "Male",
+      "Female",
+      "Aortic Aneurysm, Thoracic",
+      "Middle Aged",
+      "Collagen",
+      "Adult",
+      "Aged",
+      "Aortic Dissection",
+      "Elastin"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39795553",
+    "title": "Early Prediction of Abdominal Aortic Aneurysm Rupture Risk Using Numerical Biomechanical Analysis.",
+    "journal": "Diagnostics (Basel, Switzerland)",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Grassl\", \"fore\": \"Kristina\", \"initials\": \"K\", \"affiliation\": \"Department of Vascular Surgery, Medical University of Innsbruck, 6020 Innsbruck, Austria.\"}, {\"last\": \"Gasser\", \"fore\": \"Thomas C\", \"initials\": \"TC\", \"affiliation\": \"KTH Solid Mechanics, Department of Engineering Mechanics, School of Engineering Sciences, KTH Royal Institute of Technology, 171 77 Stockholm, Sweden.\"}, {\"last\": \"Enzmann\", \"fore\": \"Florian K\", \"initials\": \"FK\", \"affiliation\": \"Department of Vascular Surgery, Medical University of Innsbruck, 6020 Innsbruck, Austria.\"}, {\"last\": \"Gratl\", \"fore\": \"Alexandra\", \"initials\": \"A\", \"affiliation\": \"Department of Vascular Surgery, Medical University of Innsbruck, 6020 Innsbruck, Austria.\"}, {\"last\": \"Klocker\", \"fore\": \"Josef\", \"initials\": \"J\", \"affiliation\": \"Department of Vascular Surgery, Medical University of Innsbruck, 6020 Innsbruck, Austria.\"}, {\"last\": \"Wippel\", \"fore\": \"David\", \"initials\": \"D\", \"affiliation\": \"Department of Vascular Surgery, Medical University of Innsbruck, 6020 Innsbruck, Austria.\"}, {\"last\": \"Walcher\", \"fore\": \"David C\", \"initials\": \"DC\", \"affiliation\": \"Department of Vascular Surgery, Medical University of Innsbruck, 6020 Innsbruck, Austria.\"}, {\"last\": \"Gizewski\", \"fore\": \"Elke R\", \"initials\": \"ER\", \"affiliation\": \"Department of Radiology, Medical University of Innsbruck, 6020 Innsbruck, Austria.\"}, {\"last\": \"Wipper\", \"fore\": \"Sabine H\", \"initials\": \"SH\", \"affiliation\": \"Department of Vascular Surgery, Medical University of Innsbruck, 6020 Innsbruck, Austria.\"}]",
+    "abstract": ": We aimed to predict patient-specific rupture risks and growth behaviors in abdominal aortic aneurysm (AAA) patients using biomechanical evaluation with finite element analysis to establish an additional AAA repair threshold besides diameter and sex. : A total of 1219 patients treated between 2005 and 2024 (conservative and repaired AAAs) were screened for a pseudo-prospective single-center study. A total of 15 ruptured (rAAA) vs. 15 non-ruptured AAAs (control group) were matched for pre-rupture imaging (first rAAA) and the initial post-rupture imaging (second rAAA) with two images in the asymptomatic control group (first and second control). The matching criteria were as follows: aneurysm diameter, sex, and time period between imagings. The biomechanical properties were analyzed with the finite element method (A4clinicsRE, Vascops GmbH, Graz, Austria). : Both groups had the same median aortic diameter of 5.5 cm in the first imaging but had significantly different aneurysm progressions with 6.9 cm (5.5-9.4 cm) in the second rAAA vs. 6.0 cm (5.1-7.3 cm) in the second control group ( = 0.006). The first rAAA, compared to the first control, showed significantly a higher peak wall stress (PWS) (211.8 kPa vs. 180.5 kPa,  = 0.029) and luminal diameter (43.5 mm vs. 35.3 mm;  = 0.016). The second rAAA, compared to the matched second control, showed a significantly higher PWS (281.9 kPa vs. 187.4 kPa,  = 0.002), luminal diameter (58.3 mm vs. 39.7 mm;  = 0.007), PWRR (0.78 vs. 0.49,  = 0.014) and RRED (79.8 vs. 56.5,  = 0.014). The rAAA group showed over-proportional averages, over the observation time, and an increase in PWS (nearly 10× faster in rAAA) and luminal diameter (nearly 4× faster in rAAA) per month. : The finite element analysis of biomechanical properties could be used for the early prediction of an increased rupture risk in AAA patients. This was confirmed by matched imaging analyses before and after AAA rupture. Further multicenter data are needed to support these findings.",
+    "keywords": [
+      "abdominal aortic aneurysm",
+      "biomechanical analysis",
+      "finite element analysis",
+      "peak wall stress",
+      "rupture risk"
+    ],
+    "grants": [
+      {
+        "agency": "Medtronic Dublin.Ireland Research Grant",
+        "acronym": "",
+        "grant_id": "",
+        "country": ""
+      }
+    ]
+  }
+]

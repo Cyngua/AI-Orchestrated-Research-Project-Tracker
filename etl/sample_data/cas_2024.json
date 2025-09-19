@@ -1,0 +1,1093 @@
+[
+  {
+    "pmid": "40895091",
+    "title": "Dynamic Neuro-Glial-Vascular Responses in a Mouse Model of Vascular Cognitive Impairment.",
+    "journal": "Neuroglia (Basel, Switzerland)",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Kim\", \"fore\": \"Ki Jung\", \"initials\": \"KJ\", \"affiliation\": \"Department of Physiology, Medical College of Georgia, Augusta University, Augusta, GA 30912, USA.\"}, {\"last\": \"Patterson\", \"fore\": \"Rachel E\", \"initials\": \"RE\", \"affiliation\": \"Department of Physiology, Medical College of Georgia, Augusta University, Augusta, GA 30912, USA.\"}, {\"last\": \"Diaz\", \"fore\": \"Juan Ramiro\", \"initials\": \"JR\", \"affiliation\": \"Department of Physiology, Medical College of Georgia, Augusta University, Augusta, GA 30912, USA.\"}, {\"last\": \"O'Herron\", \"fore\": \"Philip\", \"initials\": \"P\", \"affiliation\": \"Department of Physiology, Medical College of Georgia, Augusta University, Augusta, GA 30912, USA.\"}, {\"last\": \"Bush\", \"fore\": \"Weston\", \"initials\": \"W\", \"affiliation\": \"Department of Physiology, Medical College of Georgia, Augusta University, Augusta, GA 30912, USA.\"}, {\"last\": \"Althammer\", \"fore\": \"Ferdinand\", \"initials\": \"F\", \"affiliation\": \"Neuroscience Institute, Georgia State University, Atlanta, GA 30302, USA.\"}, {\"last\": \"Stern\", \"fore\": \"Javier E\", \"initials\": \"JE\", \"affiliation\": \"Neuroscience Institute, Georgia State University, Atlanta, GA 30302, USA.\"}, {\"last\": \"Brands\", \"fore\": \"Michael W\", \"initials\": \"MW\", \"affiliation\": \"Department of Physiology, Medical College of Georgia, Augusta University, Augusta, GA 30912, USA.\"}, {\"last\": \"Bagi\", \"fore\": \"Zsolt\", \"initials\": \"Z\", \"affiliation\": \"Department of Physiology, Medical College of Georgia, Augusta University, Augusta, GA 30912, USA.\"}, {\"last\": \"Filosa\", \"fore\": \"Jessica A\", \"initials\": \"JA\", \"affiliation\": \"Department of Physiology, Medical College of Georgia, Augusta University, Augusta, GA 30912, USA.\"}]",
+    "abstract": "BACKGROUND: Chronic hypoperfusion is a risk factor for neurodegenerative diseases. However, the sequence of events driving ischemia-induced functional changes in a cell-specific manner is unclear.\nMETHODS: To address this gap in knowledge, we used the bilateral common carotid artery stenosis (BCAS) mouse model, and evaluated progressive functional changes to neurons, arterioles, astrocytes, and microglial cells at 14 and 28 days post-BCAS surgery. To assess the neuro-glio-vascular response to an acute ischemic insult, brain slices were superfused with low O conditions. Using whole-cell patch-clamp electrophysiology, we measured basic membrane properties (e.g., resting membrane potential, capacitance, input resistance) in cortical pyramidal neurons. The activity of astrocytes was evaluated by monitoring Ca from ;  mice. Vascular reactivity to low O from the BCAS mice was also assessed ex vivo.\nRESULTS: Our data showed no changes to the basic membrane properties of cortical pyramidal neurons. On the other hand, astrocyte activity was characterized by a progressive increase in the resting Ca. Notably, at 14 and 28 days post-BCAS, there was an increased expression of anti-inflammatory-related markers (IL-10, S100A10, TRPA1, and Nrf2). These data suggest that, in young mice, BCAS-induced increases in resting Ca were associated with the expression of neuroprotective signals. Contrary to observations in glial cells, vascular function was impaired post-BCAS surgery, as shown by a blunted vasodilatory response to low O and the vasodilatory signal, adenosine.\nCONCLUSIONS: Together, these data suggest that, in young mice, BCAS leads to vascular dysfunction (e.g., impaired vasodilation in parenchymal arterioles), and in the absence of neuronal dysfunction, mild ischemia is associated with the activation of glial-derived neuroprotective signals.",
+    "keywords": [
+      "adenosine",
+      "astrocyte",
+      "calcium",
+      "hypoperfusion",
+      "neurovascular unit"
+    ],
+    "grants": [
+      {
+        "agency": "NINDS NIH HHS",
+        "acronym": "NS",
+        "grant_id": "R01 NS097818",
+        "country": "United States"
+      }
+    ]
+  },
+  {
+    "pmid": "40322163",
+    "title": "[MSB-10] The Biomarker Potential of Serum-Derived Exosomes Carrying Autophagic Regulators in Carotid Artery Stenosis Patients.",
+    "journal": "Turk gogus kalp damar cerrahisi dergisi",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Colakoglu Bergel\", \"fore\": \"Ceyda\", \"initials\": \"C\", \"affiliation\": \"Department of Medical Biology, Bursa Uludağ University, Graduate School of Health Sciences, Bursa, Türkiye.\"}, {\"last\": \"Eryilmaz\", \"fore\": \"Isil Ezgi\", \"initials\": \"IE\", \"affiliation\": \"Department of Medical Biology, Bursa Uludağ University, Faculty of Medicine, Bursa, Türkiye.\"}, {\"last\": \"Arioz\", \"fore\": \"Bilge\", \"initials\": \"B\", \"affiliation\": \"Department of Medical Biology, Bursa Uludağ University, Graduate School of Health Sciences, Bursa, Türkiye.\"}, {\"last\": \"Yolgosteren\", \"fore\": \"Atif\", \"initials\": \"A\", \"affiliation\": \"Department of Cardiovascular Surgery, Bursa Uludağ University, Faculty of Medicine, Bursa, Türkiye.\"}, {\"last\": \"Egeli\", \"fore\": \"Unal\", \"initials\": \"U\", \"affiliation\": \"Department of Medical Biology, Bursa Uludağ University, Graduate School of Health Sciences, Bursa, Türkiye.\"}, {\"last\": \"Erdemli Gursel\", \"fore\": \"Basak\", \"initials\": \"B\", \"affiliation\": \"Department of Radiology, Bursa Uludağ University, Faculty of Medicine, Bursa, Türkiye.\"}, {\"last\": \"Bicer\", \"fore\": \"Murat\", \"initials\": \"M\", \"affiliation\": \"Department of Cardiovascular Surgery, Bursa Uludağ University, Faculty of Medicine, Bursa, Türkiye.\"}, {\"last\": \"Cecener\", \"fore\": \"Gulsah\", \"initials\": \"G\", \"affiliation\": \"Department of Medical Biology, Bursa Uludağ University, Faculty of Medicine, Bursa, Türkiye.\"}, {\"last\": \"Tok\", \"fore\": \"Mustafa\", \"initials\": \"M\", \"affiliation\": \"Department of Cardiovascular Surgery, Bursa Uludağ University, Faculty of Medicine, Bursa, Türkiye.\"}]",
+    "abstract": "OBJECTIVE: This study aimed to investigate the biomarker potential of exosomes as autophagic regulators for discriminating ulcerated from smooth ones by serum-derived exosome isolation and real-time quantitative polymerase chain reaction (RT-qPCR) analysis.\nMETHODS: Eight carotid artery stenosis (CAS) patients (6 males, 2 females; mean age: 65.7±11 years) were included in the study conducted. Plaque ulceration was determined by Doppler ultrasonography. Afterward, the serum was separated and exosome/exosomal RNA isolation was performed using an exoRNeasy Midi Kit. Transmission electron microscopy and nanoparticle tracking analysis were performed for exosome characterization. Finally, the expression of autophagy-related genes (Atg5, Atg12, Beclin, and LC3) was analyzed by RT-qPCR.\nRESULTS: Five (62.5%) patients had ulcerated carotid plaques. The patients' stenosis degree was 70% or greater. Based on the RT-qPCR (120 nm), Atg12, Beclin, LC3, and Atg5 levels were downregulated by 3.79-, 5.28-, 2.40- (p>0.05), and 4.83-fold (p=0.02) in ulcerated plaques, respectively.\nCONCLUSION: Although further validation is needed, data suggests that autophagy-related mRNA cargoes of serum-derived exosomes may be potential biomarkers for risk stratification based on plaque surface morphology in CAS patients.",
+    "keywords": [
+      "Autophagy",
+      "carotid artery stenosis",
+      "exosome",
+      "ulcerated plaques."
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40322093",
+    "title": "[MEP-49] Carotid Arterial Revascularization in Patients with Contralateral Carotid Arterial Diseases.",
+    "journal": "Turk gogus kalp damar cerrahisi dergisi",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Uğur\", \"fore\": \"Murat\", \"initials\": \"M\", \"affiliation\": \"Department of Cardiovascular Surgery, Sancaktepe Şehit Prof. Dr. İlhan Varank Training and Research Hospital, İstanbul, Türkiye.\"}, {\"last\": \"Turhan\", \"fore\": \"Muhammet\", \"initials\": \"M\", \"affiliation\": \"Department of Cardiovascular Surgery, Sancaktepe Şehit Prof. Dr. İlhan Varank Training and Research Hospital, İstanbul, Türkiye.\"}, {\"last\": \"Tokatlıoğlu\", \"fore\": \"Tanzer\", \"initials\": \"T\", \"affiliation\": \"Department of Cardiovascular Surgery, Sancaktepe Şehit Prof. Dr. İlhan Varank Training and Research Hospital, İstanbul, Türkiye.\"}, {\"last\": \"Tokmaoğlu\", \"fore\": \"Hilmi\", \"initials\": \"H\", \"affiliation\": \"Department of Cardiovascular Surgery, Sancaktepe Şehit Prof. Dr. İlhan Varank Training and Research Hospital, İstanbul, Türkiye.\"}]",
+    "abstract": "OBJECTIVE: This study aimed to report our early-term results in the treatment of bilateral carotid arterial diseases.\nMETHODS: The study analyzed 244 patients who underwent isolated carotid endarterectomy between April 1, 2019, and June 30, 2024. Four groups were created according to the degree of carotid artery stenosis (CAS): Group 1, 141 patients with <50% contralateral CAS; Group 2, 44 patients with contralateral CAS ≥50% and <70%; Group 3, 45 patients with contralateral CAS ≥70% and ≤99%; Group 4, 14 patients with total occlusion of the contralateral carotid artery. In our clinic, a reason to change the routine procedure was not accepted. We performed carotid endarterectomy as the first option in all patients. Patients' postoperative early-term outcomes, including the neurological findings, were compared between the groups.\nRESULTS: Demographics and preoperative findings were similar between the groups. The early-term rates of minor and major neurological events were 2.45% and 2.04%, respectively. Postoperative neurological complications were similar between the groups. There were two mortalities, one of them was in Group 1, and the other was in Group 3. During follow-up, there were no neurological events or mortality. There were two cases of restenosis in Group 1 and in Group 2.\nCONCLUSION: In the surgical treatment of bilateral CAS, performing the operation with the standard approach without changing the surgeon's routine practice has similar results to the surgical approach applied to unilateral stenosis. It is important to evaluate the circle of Willis and cerebral blood supply in the preoperative period and to decide the usage of shunting.",
+    "keywords": [
+      "Carotid arterial disease",
+      "endarterectomy",
+      "regional anesthesia",
+      "shunting",
+      "stenting."
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40124081",
+    "title": "Successful Transseptal Transcatheter Aortic Valve Replacement With Monitored Anesthesia Care and Standard Delivery System.",
+    "journal": "Structural heart : the journal of the Heart Team",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Akras\", \"fore\": \"Zade\", \"initials\": \"Z\", \"affiliation\": \"Department of Cardiovascular Medicine, Cleveland Clinic, Cleveland, Ohio.\"}, {\"last\": \"Sabbak\", \"fore\": \"Nabil\", \"initials\": \"N\", \"affiliation\": \"Department of Cardiovascular Medicine, Cleveland Clinic, Cleveland, Ohio.\"}, {\"last\": \"Sheng\", \"fore\": \"Calvin C\", \"initials\": \"CC\", \"affiliation\": \"Department of Cardiovascular Medicine, Cleveland Clinic, Cleveland, Ohio.\"}, {\"last\": \"Yun\", \"fore\": \"James\", \"initials\": \"J\", \"affiliation\": \"Department of Cardiovascular Medicine, Cleveland Clinic, Cleveland, Ohio.\"}, {\"last\": \"Kapadia\", \"fore\": \"Samir R\", \"initials\": \"SR\", \"affiliation\": \"Department of Cardiovascular Medicine, Cleveland Clinic, Cleveland, Ohio.\"}]",
+    "abstract": "Transcatheter aortic valve replacement (TAVR) has emerged as a viable treatment option for patients with symptomatic aortic stenosis across all surgical risk groups. Although the need for alternative access to transfemoral access is becoming less frequent due to better device profiles, there is a continued need for such options. Common approaches used today include subclavian, carotid, caval, aortic, or apical. However, the transseptal approach has not been described with the current S3 delivery system. We present, to our knowledge, the first reported case of a transseptal TAVR using the standard delivery system and under monitored anesthesia care (MAC). This case demonstrates that advances in maneuverability and device profile make transseptal delivery of the S3 valve a safe and effective approach in some patients with no other peripheral arterial access.",
+    "keywords": [
+      "Intracardiac echocardiography",
+      "Transcatheter Aortic Valve Replacement",
+      "aortic stenosis",
+      "monitored anesthesia care",
+      "transseptal"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40052983",
+    "title": "[Transcarotid Artery Stenting with dynamic flow reversal. First case and one year follow up].",
+    "journal": "Revista medica de Chile",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Soto V\", \"fore\": \"Diego\", \"initials\": \"D\", \"affiliation\": \"Complejo Asistencial Dr. Sótero del Río, Santiago, Chile.\"}, {\"last\": \"Cassorla J\", \"fore\": \"Gabriel\", \"initials\": \"G\", \"affiliation\": \"Complejo Asistencial Dr. Sótero del Río, Santiago, Chile.\"}, {\"last\": \"Seguel S\", \"fore\": \"Gabriel\", \"initials\": \"G\", \"affiliation\": \"Complejo Asistencial Dr. Sótero del Río, Santiago, Chile.\"}, {\"last\": \"Cassis C\", \"fore\": \"Paulo\", \"initials\": \"P\", \"affiliation\": \"Complejo Asistencial Dr. Sótero del Río, Santiago, Chile.\"}, {\"last\": \"von Mühlenbrock H\", \"fore\": \"Sebastián\", \"initials\": \"S\", \"affiliation\": \"Complejo Asistencial Dr. Sótero del Río, Santiago, Chile.\"}, {\"last\": \"Hevia S\", \"fore\": \"Camila\", \"initials\": \"C\", \"affiliation\": \"Complejo Asistencial Dr. Sótero del Río, Santiago, Chile.\"}, {\"last\": \"Pavez K\", \"fore\": \"Melissa\", \"initials\": \"M\", \"affiliation\": \"Complejo Asistencial Dr. Sótero del Río, Santiago, Chile.\"}, {\"last\": \"Goyenechea M\", \"fore\": \"Francisco\", \"initials\": \"F\", \"affiliation\": \"Complejo Asistencial Dr. Sótero del Río, Santiago, Chile.\"}, {\"last\": \"Marín O\", \"fore\": \"Cristian\", \"initials\": \"C\", \"affiliation\": \"Complejo Asistencial Dr. Sótero del Río, Santiago, Chile.\"}, {\"last\": \"Morales Z\", \"fore\": \"Sebastián\", \"initials\": \"S\", \"affiliation\": \"Complejo Asistencial Dr. Sótero del Río, Santiago, Chile.\"}]",
+    "abstract": "Carotid endarterectomy remains the gold standard treatment for carotid stenosis. Although transfemoral carotid artery stenting is a valid alternative for high-surgical-risk patients, transcarotid artery revascularization (TCAR) has shown promising results. Clinical case: 68-year-old male with hypertension and chronic obstructive pulmonary disease who developed a stroke due to a severe high stenosis in the right internal carotid artery. TCAR was chosen due to the lesion's location and surgical risk. During the procedure, a temporary fistula was created between the carotid artery and the ipsilateral jugular vein to reverse flow as neuroprotection, enabling the safe deployment of the stent. The patient recovered without complications and remains asymptomatic at the one-year follow-up. Conclusion: TCAR is a safe and effective alternative for revascularization in high-risk cases.",
+    "keywords": [
+      "Humans",
+      "Male",
+      "Aged",
+      "Stents",
+      "Carotid Stenosis",
+      "Treatment Outcome",
+      "Carotid Artery, Internal",
+      "Follow-Up Studies"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40041574",
+    "title": "Symptomatic Severe Stenosis of Cavernous Internal Carotid Artery Stenting: A Case Report with Short Literature Review.",
+    "journal": "Asian journal of neurosurgery",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Karki\", \"fore\": \"Mohan\", \"initials\": \"M\", \"affiliation\": \"Department of Neuro-Interventional Surgery, Max Super Speciality Hospital, Vaishali, Ghaziabad, Uttar Pradesh, India.\"}, {\"last\": \"Rajpal\", \"fore\": \"Girish\", \"initials\": \"G\", \"affiliation\": \"Department of Neuro-Interventional Surgery, Max Super Speciality Hospital, Vaishali, Ghaziabad, Uttar Pradesh, India.\"}]",
+    "abstract": "Intracranial internal carotid artery (ICA) stenosis is rarely reported as compared with extracranial ICA stenosis. Atherosclerosis is one of the major beginnings of stenosis of vasculatures, which may lead to ischemic stroke causing morbidity and mortality. We report the case of a 60 -year-old man presented to us with complaints of multiple episodes of dizziness, mild headache, and transient left arm weakness for 3 months and had history of smoking, hypercholesterolemia (high level of low-density lipoprotein level = 220 mg/dL), diabetes mellitus, and hypertension under medication. No neurological deficits were observed at the time of admission. Patient underwent angioplasty and stenting with drug-eluting balloon-expandable coronary stent. Patient was discharged well at the 3rd day of procedure. No recurrence of stroke and restenosis were noted till 3 months of follow-up period. Stenting following angioplasty for treatment of symptomatic severe cavernous ICA stenosis with everolimus-eluting coronary balloon-expandable stent, Xience Xpedition, is safe and effective.",
+    "keywords": [
+      "angioplasty",
+      "cavernous internal carotid artery",
+      "everolimus-eluting coronary stent",
+      "outcome",
+      "severe stenosis"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40040199",
+    "title": "Classification of Carotid Plaque with Jellyfish Sign Through Convolutional and Recurrent Neural Networks Utilizing Plaque Surface Edges.",
+    "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Yoshidomi\", \"fore\": \"Takeshi\", \"initials\": \"T\", \"affiliation\": \"\"}, {\"last\": \"Kume\", \"fore\": \"Shinji\", \"initials\": \"S\", \"affiliation\": \"\"}, {\"last\": \"Aizawa\", \"fore\": \"Hiroaki\", \"initials\": \"H\", \"affiliation\": \"\"}, {\"last\": \"Furui\", \"fore\": \"Akira\", \"initials\": \"A\", \"affiliation\": \"\"}]",
+    "abstract": "In carotid arteries, plaque can develop as localized elevated lesions. The Jellyfish sign, marked by fluctuating plaque surfaces with blood flow pulsation, is a dynamic characteristic of these plaques that has recently attracted attention. Detecting this sign is vital, as it is often associated with cerebral infarction. This paper proposes an ultrasound video-based classification method for the Jellyfish sign, using deep neural networks. The proposed method first preprocesses carotid ultrasound videos to separate the movement of the vascular wall from plaque movements. These preprocessed videos are then combined with plaque surface information and fed into a deep learning model comprising convolutional and recurrent neural networks, enabling the efficient classification of the Jellyfish sign. The proposed method was verified using ultrasound video images from 200 patients. Ablation studies demonstrated the effectiveness of each component of the proposed method.",
+    "keywords": [
+      "Humans",
+      "Neural Networks, Computer",
+      "Plaque, Atherosclerotic",
+      "Ultrasonography",
+      "Carotid Arteries",
+      "Image Processing, Computer-Assisted",
+      "Algorithms",
+      "Deep Learning",
+      "Carotid Stenosis",
+      "Recurrent Neural Networks"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40039696",
+    "title": "Arterial Diameter Trend Estimation Using Deep Learning on Ultrasound Spectral Doppler.",
+    "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Lozhkin\", \"fore\": \"Aaron\", \"initials\": \"A\", \"affiliation\": \"\"}, {\"last\": \"Iring-Sanchez\", \"fore\": \"Stephanie\", \"initials\": \"S\", \"affiliation\": \"\"}, {\"last\": \"Serrador\", \"fore\": \"Jorge M\", \"initials\": \"JM\", \"affiliation\": \"\"}, {\"last\": \"Siderskiy\", \"fore\": \"Valentin\", \"initials\": \"V\", \"affiliation\": \"\"}]",
+    "abstract": "This study presents an approach for estimating gaps in arterial diameter using flow velocity obtained from spectral Doppler data. We utilize short-time Fourier transform in conjunction with deep learning models designed for spectrograms to estimate arterial diameter trends. We train the Convolutional Recurrent Neural Network with Attention (CRNN-A) and Audio Spectrogram Transformer (AST) to provide scaled trend estimates in increments of 1, 2, or 4 seconds (s). We present an algorithm for Arterial ReScaling (AReS) that utilizes scaled trend predictions to fill in missing arterial diameter data at 1, 2 or 4 s increments. The CRNN-A model trained on 1 s lengths performed best at predicting scaled trends (R = 0.8083). However, when implementing AReS, the AST model trained on 2 s segments performed best at predicting the shortest gaps (1 s) in arterial diameter data (MAE: 0.0341 mm). Our study showcases that training to predict longer time segments can be beneficial in real-world performance, even if standardized metrics show otherwise.Clinical Relevance- In cases where an arterial ultrasound image becomes temporarily lost or inaccessible, the spectral Doppler signal can be used to estimate changes in the arterial diameter, offering continuous data. This allows for an accurate tracking of both blood flow and volume changes, assisting in the study of vascular reactivity and potentially aiding in clinical diagnoses such as carotid stenosis.",
+    "keywords": [
+      "Deep Learning",
+      "Humans",
+      "Algorithms",
+      "Ultrasonography, Doppler",
+      "Arteries",
+      "Fourier Analysis",
+      "Neural Networks, Computer",
+      "Image Processing, Computer-Assisted"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40018279",
+    "title": "Repeated Re-occlusion during the Procedure of Mechanical Thrombectomy with Retrograde Approach for Tandem Occlusion Including T Occlusion: A Case Report.",
+    "journal": "Journal of neuroendovascular therapy",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Okada\", \"fore\": \"Akihiro\", \"initials\": \"A\", \"affiliation\": \"Department of Neurosurgery, Osaka Red Cross Hospital, Osaka, Osaka, Japan.\"}, {\"last\": \"Hashimoto\", \"fore\": \"Kenji\", \"initials\": \"K\", \"affiliation\": \"Department of Neurosurgery, Osaka Red Cross Hospital, Osaka, Osaka, Japan.\"}, {\"last\": \"Toyama\", \"fore\": \"Mizuha\", \"initials\": \"M\", \"affiliation\": \"Department of Neurology, Osaka Red Cross Hospital, Osaka, Osaka, Japan.\"}, {\"last\": \"Nomura\", \"fore\": \"Noriko\", \"initials\": \"N\", \"affiliation\": \"Department of Neurology, Osaka Red Cross Hospital, Osaka, Osaka, Japan.\"}, {\"last\": \"Kawauchi\", \"fore\": \"Takeshi\", \"initials\": \"T\", \"affiliation\": \"Department of Neurosurgery, Osaka Red Cross Hospital, Osaka, Osaka, Japan.\"}, {\"last\": \"Sugita\", \"fore\": \"Yoshito\", \"initials\": \"Y\", \"affiliation\": \"Department of Neurosurgery, Osaka Red Cross Hospital, Osaka, Osaka, Japan.\"}, {\"last\": \"Yang\", \"fore\": \"Tao\", \"initials\": \"T\", \"affiliation\": \"Department of Neurosurgery, Osaka Red Cross Hospital, Osaka, Osaka, Japan.\"}, {\"last\": \"Takenobu\", \"fore\": \"Yohei\", \"initials\": \"Y\", \"affiliation\": \"Department of Neurology, Osaka Red Cross Hospital, Osaka, Osaka, Japan.\"}]",
+    "abstract": "OBJECTIVE: Two mechanical thrombectomy techniques are proposed for tandem occlusion of the anterior circulation: treating the extracranial carotid artery lesion first via an antegrade approach and treating the intracranial lesion first via a retrograde approach. Previous reports show that the retrograde approach has a shorter reperfusion time and a better prognosis, but re-occlusion of the intracranial lesion after recanalization may occur. We describe a case of tandem occlusion with repeated intracranial occlusions for mechanical thrombectomy using the retrograde approach and discuss possible countermeasures.\nCASE PRESENTATION: A 94-year-old woman presented with acute cerebral ischemia due to tandem carotid T occlusion of the left internal carotid artery (ICA) and severe stenosis of the cervical carotid artery. Mechanical thrombectomy via a retrograde approach was performed using a stent retriever, resulting in complete recanalization of the anterior circulation through the ICA after 1 pass. The thrombus dispersed distally from the cervical artery and re-occluded the M1 twice, requiring thrombus re-retrieval each time.\nCONCLUSION: The retrograde approach to tandem occlusion can result in repeated re-occlusion after recanalization of the intracranial lesion. Thrombi in cervical carotid lesions are usually fragile. Prior thrombus aspiration from the balloon guiding catheter at the carotid lesion may prevent re-occlusion after recanalization of the intracranial lesion without sacrificing the time advantage of early recanalization via the retrograde approach.",
+    "keywords": [
+      "carotid T occlusion",
+      "mechanical thrombectomy",
+      "prior aspiration technique",
+      "retrograde approach",
+      "tandem occlusion"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40012594",
+    "title": "Neurovascular management of intracranial internal carotid artery dissection post-carotid endarterectomy: A case report of an innovative approach.",
+    "journal": "Brain circulation",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Amatya\", \"fore\": \"Bibhas\", \"initials\": \"B\", \"affiliation\": \"Department of Neurosurgery, University of Maryland School of Medicine, Baltimore, MD, USA.\"}, {\"last\": \"Chitale\", \"fore\": \"Ameet V\", \"initials\": \"AV\", \"affiliation\": \"Department of Neurosurgery, Inova Fairfax Hospital, Falls Church, VA, USA.\"}, {\"last\": \"Mukherjee\", \"fore\": \"Dipankar\", \"initials\": \"D\", \"affiliation\": \"Department of Surgery, Inova Fairfax Hospital, Falls Church, VA, USA.\"}]",
+    "abstract": "Carotid endarterectomy (CEA) is an established method of stroke prevention in patients with severe carotid artery stenosis, especially in those with symptomatic disease. Complications of CEA include perioperative stroke, cranial nerve palsy, hemorrhage, and vascular dissection. We present an unusual case of a 66-year-old man who presented for elective right CEA for symptomatic 70% right internal carotid artery (ICA) stenosis due to ulcerated plaque. Following surgery, the patient developed fluctuating neurological deficits consistent with involvement of the right middle cerebral artery territory. Imaging revealed possible mild clamp-induced ICA dissection limited to the ICA in the neck. Despite initial successful anticoagulation management in the neurointensive care unit, the patient returned 2 days later with stroke symptoms, necessitating urgent endovascular intervention. Neurovascular interventions involved aspiration thrombectomy and multiple stenting extending distally into intracranial ICA, which successfully restored cerebral arterial perfusion and normal neurological function. This case highlights the first reported instance of extensive intracranial ICA dissection managed with full-length stenting. This article offers an effective endovascular procedure for preventing a devastating stroke from a complication of a procedure that was performed to prevent it.",
+    "keywords": [
+      "Carotid endarterectomy",
+      "internal carotid artery dissection",
+      "internal carotid artery stenosis",
+      "penumbra"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "40007971",
+    "title": "Antithrombotic Therapy in Carotid Artery and Intracranial Artery Stent.",
+    "journal": "Journal of neuroendovascular therapy",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Nakagawa\", \"fore\": \"Ichiro\", \"initials\": \"I\", \"affiliation\": \"Department of Neurosurgery, Nara Medical University, Kashihara, Nara, Japan.\"}, {\"last\": \"Kotsugi\", \"fore\": \"Masashi\", \"initials\": \"M\", \"affiliation\": \"Department of Neurosurgery, Nara Medical University, Kashihara, Nara, Japan.\"}, {\"last\": \"Yokoyama\", \"fore\": \"Shohei\", \"initials\": \"S\", \"affiliation\": \"Department of Neurosurgery, Nara Medical University, Kashihara, Nara, Japan.\"}, {\"last\": \"Maeoka\", \"fore\": \"Ryosuke\", \"initials\": \"R\", \"affiliation\": \"Department of Neurosurgery, Nara Medical University, Kashihara, Nara, Japan.\"}, {\"last\": \"Sasaki\", \"fore\": \"Hiromitsu\", \"initials\": \"H\", \"affiliation\": \"Department of Neurosurgery, Nara Medical University, Kashihara, Nara, Japan.\"}, {\"last\": \"Okamoto\", \"fore\": \"Ai\", \"initials\": \"A\", \"affiliation\": \"Department of Neurosurgery, Nara Medical University, Kashihara, Nara, Japan.\"}, {\"last\": \"Morisaki\", \"fore\": \"Yudai\", \"initials\": \"Y\", \"affiliation\": \"Department of Neurosurgery, Nara Medical University, Kashihara, Nara, Japan.\"}, {\"last\": \"Okamoto\", \"fore\": \"Tomoya\", \"initials\": \"T\", \"affiliation\": \"Department of Neurosurgery, Nara Medical University, Kashihara, Nara, Japan.\"}, {\"last\": \"Yamada\", \"fore\": \"Kengo\", \"initials\": \"K\", \"affiliation\": \"Department of Neurosurgery, Nara Medical University, Kashihara, Nara, Japan.\"}, {\"last\": \"Matsuda\", \"fore\": \"Ryosuke\", \"initials\": \"R\", \"affiliation\": \"Department of Neurosurgery, Nara Medical University, Kashihara, Nara, Japan.\"}]",
+    "abstract": "Optimal platelet inhibition is critical in patients with carotid and intracranial artery stenosis undergoing carotid artery stenting (CAS) and intracranial artery stenting (ICS). Many reports have highlighted the importance of dual antiplatelet therapy (DAPT) in reducing adverse neurological outcomes without a significant increase in bleeding complications during CAS. DAPT has commonly used CAS and ICS, typically with aspirin and clopidogrel, but clopidogrel resistance occurs in approximately 20% of Japanese and other Asian populations. One solution to clopidogrel resistance is using adjunctive cilostazol to suppress the frequency of stroke events and in-stent restenosis after CAS. Other antiplatelet agents such as prasugrel, ticagrelor, cangrelor, and glycoprotein (GP) IIb/IIIa inhibitors are under investigation. The duration of DAPT after CAS remains controversial, as a longer duration of DAPT after CAS is associated with lower rates of readmission for stroke, but increased risk of hemorrhagic complications. Regarding antithrombotic therapy in CAS with concomitant atrial fibrillation, the use of direct oral anticoagulants plus a P2Y12 inhibitor may be suggested for the optimal safety and efficacy of antithrombotic management. For emergent CAS in acute ischemic stroke (AIS), intraprocedural DAPT loading and GP IIb/IIIa inhibitors, as necessary, may improve stent patency without increasing the risk of intracranial hemorrhage. In ICS, aggressive antiplatelet therapy based on an assessment of platelet aggregation is also important to improve clinical outcomes. In addition, rescue stenting for AIS caused by intracranial atherosclerotic stenosis-related large vessel occlusion is gaining attention. GP IIb/IIIa inhibitors have shown promise, but are not approved in Japan. In conclusion, DAPT is essential for the perioperative management of CAS and ICS. Specific perioperative antithrombotic management remains unclear, but the potential benefits of antithrombotic agents must be weighed against the corresponding increased risk of bleeding complications.",
+    "keywords": [
+      "antiplatelet therapy",
+      "carotid artery stenting",
+      "intracranial artery stenting"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39881682",
+    "title": "Static and dynamic brain functional connectivity patterns in patients with unilateral moderate-to-severe asymptomatic carotid stenosis.",
+    "journal": "Frontiers in aging neuroscience",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Wang\", \"fore\": \"Junjun\", \"initials\": \"J\", \"affiliation\": \"Department of Radiology, The Third Affiliated Hospital of Zunyi Medical University (The First People's Hospital of Zunyi), Zunyi, Guizhou, China.\"}, {\"last\": \"Song\", \"fore\": \"Linfeng\", \"initials\": \"L\", \"affiliation\": \"Department of Radiology, The Third Affiliated Hospital of Zunyi Medical University (The First People's Hospital of Zunyi), Zunyi, Guizhou, China.\"}, {\"last\": \"Tian\", \"fore\": \"Binlin\", \"initials\": \"B\", \"affiliation\": \"Department of Radiology, The Third Affiliated Hospital of Zunyi Medical University (The First People's Hospital of Zunyi), Zunyi, Guizhou, China.\"}, {\"last\": \"Yang\", \"fore\": \"Li\", \"initials\": \"L\", \"affiliation\": \"Department of Radiology, The Third Affiliated Hospital of Zunyi Medical University (The First People's Hospital of Zunyi), Zunyi, Guizhou, China.\"}, {\"last\": \"Gu\", \"fore\": \"Xiaoyu\", \"initials\": \"X\", \"affiliation\": \"Department of Radiology, The Third Affiliated Hospital of Zunyi Medical University (The First People's Hospital of Zunyi), Zunyi, Guizhou, China.\"}, {\"last\": \"Chen\", \"fore\": \"Xu\", \"initials\": \"X\", \"affiliation\": \"Department of Radiology, The Third Affiliated Hospital of Zunyi Medical University (The First People's Hospital of Zunyi), Zunyi, Guizhou, China.\"}, {\"last\": \"Gao\", \"fore\": \"Lei\", \"initials\": \"L\", \"affiliation\": \"Department of Radiology, Zhongnan Hospital of Wuhan University, Wuhan, China.\"}, {\"last\": \"Jiang\", \"fore\": \"Lin\", \"initials\": \"L\", \"affiliation\": \"Department of Radiology, The Third Affiliated Hospital of Zunyi Medical University (The First People's Hospital of Zunyi), Zunyi, Guizhou, China.\"}]",
+    "abstract": "BACKGROUND AND PURPOSE: Asymptomatic carotid stenosis (ACS) is an independent risk factor for ischemic stroke and vascular cognitive impairment, affecting cognitive function across multiple domains. This study aimed to explore differences in static and dynamic intrinsic functional connectivity and temporal dynamics between patients with ACS and those without carotid stenosis.\nMETHODS: We recruited 30 patients with unilateral moderate-to-severe (stenosis ≥ 50%) ACS and 30 demographically-matched healthy controls. All participants underwent neuropsychological testing and 3.0T brain MRI scans. Resting-state functional MRI (rs-fMRI) was used to calculate both static and dynamic functional connectivity. Dynamic independent component analysis (dICA) was employed to extract independent circuits/networks and to detect time-frequency modulation at the circuit level. Further imaging-behavior associations identified static and dynamic functional connectivity patterns that reflect cognitive decline.\nRESULTS: ACS patients showed altered functional connectivity in multiple brain regions and networks compared to controls. Increased connectivity was observed in the inferior parietal lobule, frontal lobe, and temporal lobe. dICA further revealed changes in the temporal frequency of connectivity in the salience network. Significant differences in the temporal variability of connectivity were found in the fronto-parietal network, dorsal attention network, sensory-motor network, language network, and visual network. The temporal parameters of these brain networks were also related to overall cognition and memory.\nCONCLUSIONS: These results suggest that ACS involves not only changes in the static large-scale brain network connectivity but also dynamic temporal variations, which parallel overall cognition and memory recall.",
+    "keywords": [
+      "carotid stenosis",
+      "dynamic functional connectivity",
+      "dynamic independent component analysis",
+      "fMRI",
+      "functional connectivity"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39850542",
+    "title": "Long-term Impact of Carotid Endarterectomy on Choroidal and Choriocapillaris Perfusion: The INFLATE Study.",
+    "journal": "Ophthalmology science",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Berni\", \"fore\": \"Alessandro\", \"initials\": \"A\", \"affiliation\": \"Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, Florida.\"}, {\"last\": \"Zhang\", \"fore\": \"Yi\", \"initials\": \"Y\", \"affiliation\": \"Department of Bioengineering, University of Washington, Seattle, Washington.\"}, {\"last\": \"Wenting\", \"fore\": \"Sandy Zhou\", \"initials\": \"SZ\", \"affiliation\": \"Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, Florida.\"}, {\"last\": \"Noam\", \"fore\": \"Natalie\", \"initials\": \"N\", \"affiliation\": \"Department of Vascular Surgery, Tel Aviv Medical Center, University of Tel Aviv, Tel Aviv, Israel.\"}, {\"last\": \"Rabinovitch\", \"fore\": \"David\", \"initials\": \"D\", \"affiliation\": \"Department of Ophthalmology, Tel Aviv Medical Center, University of Tel Aviv, Tel Aviv, Israel.\"}, {\"last\": \"Yousif\", \"fore\": \"Basheer Sheick\", \"initials\": \"BS\", \"affiliation\": \"Department of Vascular Surgery, Tel Aviv Medical Center, University of Tel Aviv, Tel Aviv, Israel.\"}, {\"last\": \"Herrera\", \"fore\": \"Gissel\", \"initials\": \"G\", \"affiliation\": \"Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, Florida.\"}, {\"last\": \"Shen\", \"fore\": \"Mengxi\", \"initials\": \"M\", \"affiliation\": \"Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, Florida.\"}, {\"last\": \"O'Brien\", \"fore\": \"Robert\", \"initials\": \"R\", \"affiliation\": \"Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, Florida.\"}, {\"last\": \"Gregori\", \"fore\": \"Giovanni\", \"initials\": \"G\", \"affiliation\": \"Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, Florida.\"}, {\"last\": \"Wang\", \"fore\": \"Ruikang K\", \"initials\": \"RK\", \"affiliation\": \"Department of Bioengineering, University of Washington, Seattle, Washington.\"}, {\"last\": \"Rosenfeld\", \"fore\": \"Philip J\", \"initials\": \"PJ\", \"affiliation\": \"Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, Florida.\"}, {\"last\": \"Trivizki\", \"fore\": \"Omer\", \"initials\": \"O\", \"affiliation\": \"Department of Ophthalmology, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, Miami, Florida.\"}]",
+    "abstract": "PURPOSE: When performed for clinically significant carotid artery stenosis (CAS), the long-term impact of carotid endarterectomy (CEA) on choroidal and choriocapillaris (CC) circulation was studied using swept-source OCT angiography.\nDESIGN: Prospective observational study.\nPARTICIPANTS: Patients with clinically significant CAS undergoing unilateral CEA.\nMETHODS: Swept-source OCT angiography scans were performed on both eyes at baseline (before CEA), within 1 week post-CEA (short-term follow-up [FU]), and ≥30 days post-CEA (long-term FU). Using validated algorithms, we measured mean choroidal thickness (MCT), choroidal vascularity index (CVI), choroidal vessel volume (CVV), CC flow deficit percentage (CC FD%), and CC thickness within the 5-mm circle centered on the fovea for both the eye ipsilateral to CEA (surgical side) and the contralateral eye (nonsurgical side). Multivariable regression analysis was conducted to evaluate the impact of baseline demographic and clinical factors on the changes in choroidal and CC parameters.\nMAIN OUTCOME MEASURES: Both the short- and long-term changes in MCT, CVI, CVV, CC FD%, and CC thickness.\nRESULTS: The study included 58 eyes from 29 patients. Significant short-term improvements in MCT ( < 0.001) and CC thickness ( = 0.006) were observed post-CEA on the surgical side. Long-term FU showed sustained increases in MCT compared with baseline ( = 0.02), while CC thickness was not significantly different from baseline ( = 0.10). The CVI did not change significantly from baseline at either short-term ( = 0.45) or long-term ( = 0.22) FU on the surgical side. While CVV demonstrated a short-term rise immediately post-CEA ( < 0.001), the difference was not statistically significant at the long-term evaluation ( = 0.06). No significant improvement in CC FD% from baseline was observed at any visit post-CEA (short-term  = 0.81, long-term  = 0.91). The nonsurgical side only showed a significant reduction in CVI at the long-term FU visit compared with before CEA ( = 0.01). Clinical variables such as age, degree of stenosis, diabetes, hypertension, and smoking status did not greatly impact the outcomes.\nCONCLUSIONS: Unilateral CEA demonstrated a sustained increase in MCT, suggesting persistent improvements in choroidal perfusion in the ipsilateral eye.\nFINANCIAL DISCLOSURES: Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article.",
+    "keywords": [
+      "Carotid artery endarterectomy (CEA)",
+      "Choriocapillaris flow deficits (CC FD)",
+      "Choriocapillaris thickness",
+      "Choroidal vascular index (CVI)",
+      "Mean choroidal thickness (MCT)"
+    ],
+    "grants": [
+      {
+        "agency": "NEI NIH HHS",
+        "acronym": "EY",
+        "grant_id": "P30 EY014801",
+        "country": "United States"
+      }
+    ]
+  },
+  {
+    "pmid": "39845941",
+    "title": "An increase in flow-diverter oversizing values as an independent risk factor for developing more severe in-stent stenosis. A retrospective single-center study based on flow diversion of supraclinoid internal carotid artery aneurysms.",
+    "journal": "Frontiers in neurology",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Vladev\", \"fore\": \"Georgi\", \"initials\": \"G\", \"affiliation\": \"Department of Interventional Radiology, University Hospital St. Ivan Rilski, Sofia, Bulgaria.\"}, {\"last\": \"Sirakov\", \"fore\": \"Alexander\", \"initials\": \"A\", \"affiliation\": \"Department of Interventional Radiology, University Hospital St. Ivan Rilski, Sofia, Bulgaria.\"}, {\"last\": \"Matanov\", \"fore\": \"Svetozar\", \"initials\": \"S\", \"affiliation\": \"Department of Interventional Radiology, University Hospital St. Ivan Rilski, Sofia, Bulgaria.\"}, {\"last\": \"Sirakova\", \"fore\": \"Kristina\", \"initials\": \"K\", \"affiliation\": \"Radiology Department, Medical University of Sofia, Sofia, Bulgaria.\"}, {\"last\": \"Ninov\", \"fore\": \"Kristian\", \"initials\": \"K\", \"affiliation\": \"Radiology Department, Medical University of Sofia, Sofia, Bulgaria.\"}, {\"last\": \"Sirakov\", \"fore\": \"Stanimir\", \"initials\": \"S\", \"affiliation\": \"Department of Interventional Radiology, University Hospital St. Ivan Rilski, Sofia, Bulgaria.\"}]",
+    "abstract": "INTRODUCTION: In the past decade, flow diverters (FDs) have increasingly been used to treat cerebral aneurysms with unfavorable morphology in which other endovascular techniques fall short of being as effective. In-stent stenosis (ISS) is one of the most puzzling and frequent risks of flow diversion therapy observed on follow-ups. This complication, although mostly placid in its clinical course, can have dire consequences if patients become symptomatic. ISS is associated with many factors, none of which have been demonstrated to date to be solely responsible for the phenomenon.\nMETHODS: This study was aimed at evaluating ISS incidence in patients in our clinic who were treated with flow-diverters for aneurysms, located on the supraclinoid segments of the internal carotid artery between September 2022 and May 2023. A retrospective analysis was conducted, which included 137 patients with a total of 142 aneurysms being treated. The main hypothesis was that oversizing of the implant might play a role in ISS development. The performed statistical analysis, aimed at finding a correlation between it and vessel lumen narrowing on the follow-ups. The effects of other known risk factors, such as sex, age, smoking, and hypertension, were also analyzed.\nRESULTS: Stent oversizing with respect to the parent artery was positively correlated with subsequent ISS occurrence and severity. Older age was a protective factor against ISS. Patients who actively smoked had diminished risk of developing severe ISS.\nDISCUSSION: Stent oversizing can lead to ISS development, which might be more pronounced with larger implant-to-vessel sizing discrepancies. To achieve optimal results, the choice of implant diameter should consider all segments of the vessel in which it will be implanted. In cases of severe symptomatic ISS, continuation of dual anti-platelet therapy is a reasonable and effective option to address this complication.",
+    "keywords": [
+      "DAPT, dual antiplatelet therapy",
+      "DSA, digital subtraction angiography",
+      "aneurysm",
+      "embolization",
+      "in-stent stenosis"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39840210",
+    "title": "Posterior Cerebral Circulation Insufficiency Due to Internal Carotid Artery Stenosis With an Atypical Vertebral Artery Originating From the Internal Carotid Artery Territory.",
+    "journal": "Cureus",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Shehata\", \"fore\": \"Mahetab\", \"initials\": \"M\", \"affiliation\": \"Vascular Surgery, Royal Free Hospital, London, GBR.\"}, {\"last\": \"Foudeh\", \"fore\": \"Leen\", \"initials\": \"L\", \"affiliation\": \"Vascular Surgery, Norfolk and Norwich University Hospitals NHS Foundation Trust, Norwich, GBR.\"}, {\"last\": \"Khoury\", \"fore\": \"Marina\", \"initials\": \"M\", \"affiliation\": \"Vascular Surgery, Norfolk and Norwich University Hospitals NHS Foundation Trust, Norwich, GBR.\"}, {\"last\": \"Armon\", \"fore\": \"Matthew\", \"initials\": \"M\", \"affiliation\": \"Vascular Surgery, Norfolk and Norwich University Hospitals NHS Foundation Trust, Norwich, GBR.\"}, {\"last\": \"Al-Jundi\", \"fore\": \"Wissam\", \"initials\": \"W\", \"affiliation\": \"Vascular Surgery, Norfolk and Norwich University Hospitals NHS Foundation Trust, Norwich, GBR.\"}]",
+    "abstract": "Aberrant anatomical variation of the vertebral artery (VA) from an internal carotid artery (ICA) is considered a rare finding. The incidence of this phenomenon can lead to patients suffering from posterior circulation neurological deficit if the ICA becomes significantly diseased. VA atypical anatomical origin is considered one of the rare pathologies, not only precipitating neurovascular incidents but equally leading to severe difficulty in VA dissection and surgical exposure, especially in carotid artery procedures. The \"vertebral arteria lusoria,\" despite its rare incidence, ought to be considered in cases undergoing upper gastrointestinal surgeries; thus, not knowing this pathology may lead to life-threatening incidents. Furthermore, double origins of VA could be noticed in the pre-operative assessment of cases with extracranial pathology. Strokes in the posterior cerebral vascular territory, which are vertebral-basilar arteries and spinal cord perfusion deficiency, are frequently mentioned impediments to VA injury in patients with normal or aberrant VA origins. Consequently, dominant atypical VA, in absentia, atresia of the artery, completely thrombosed contralateral VA, and failure to assess the vertebrobasilar perfusion are solid triggering signs to preserve subclavian artery and atypical VA perfusion. We report a rare case of a 76-year-old female who presented with intermittent dizziness, left facial numbness, and left arm paresthesia. On investigation with computed tomographic angiography (CTA), she was incidentally found to have an aberrant anatomy of a dominant right VA arising from her right ICA and severe stenosis in the right ICA origin of 70% significant stenosis. Patients with posterior circulation symptoms and ICA stenosis may have aberrant anatomy. High-quality imaging in the form of CTA is essential prior to deciding whether and what surgery is indicated.",
+    "keywords": [
+      "aberrant vertebral artery",
+      "abnormal cerebral anatomy",
+      "carotid artery surgery",
+      "carotid stenosis",
+      "cerebral circulation"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39839881",
+    "title": "Prediction of clinical efficacy of acupuncture intervention on upper limb dysfunction after ischemic stroke based on machine learning: a study driven by DSA diagnostic reports data.",
+    "journal": "Frontiers in neurology",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Liu\", \"fore\": \"Yaning\", \"initials\": \"Y\", \"affiliation\": \"School of Acu-Mox and Tuina, Chengdu University of Traditional Chinese Medicine, Chengdu, China.\"}, {\"last\": \"Tang\", \"fore\": \"Yuqi\", \"initials\": \"Y\", \"affiliation\": \"School of Acu-Mox and Tuina, Chengdu University of Traditional Chinese Medicine, Chengdu, China.\"}, {\"last\": \"Li\", \"fore\": \"Zechen\", \"initials\": \"Z\", \"affiliation\": \"School of Automation, Chongqing University, Chongqing, China.\"}, {\"last\": \"Yu\", \"fore\": \"Pei\", \"initials\": \"P\", \"affiliation\": \"School of Acu-Mox and Tuina, Chengdu University of Traditional Chinese Medicine, Chengdu, China.\"}, {\"last\": \"Yuan\", \"fore\": \"Jing\", \"initials\": \"J\", \"affiliation\": \"School of Acu-Mox and Tuina, Chengdu University of Traditional Chinese Medicine, Chengdu, China.\"}, {\"last\": \"Zeng\", \"fore\": \"Lichuan\", \"initials\": \"L\", \"affiliation\": \"Department of Radiology, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China.\"}, {\"last\": \"Wang\", \"fore\": \"Can\", \"initials\": \"C\", \"affiliation\": \"School of Acu-Mox and Tuina, Chengdu University of Traditional Chinese Medicine, Chengdu, China.\"}, {\"last\": \"Li\", \"fore\": \"Su\", \"initials\": \"S\", \"affiliation\": \"School of Automation, Chongqing University, Chongqing, China.\"}, {\"last\": \"Zhao\", \"fore\": \"Ling\", \"initials\": \"L\", \"affiliation\": \"School of Acu-Mox and Tuina, Chengdu University of Traditional Chinese Medicine, Chengdu, China.\"}]",
+    "abstract": "OBJECTIVE: To develop a machine learning-based model for predicting the clinical efficacy of acupuncture intervention in patients with upper limb dysfunction following ischemic stroke, and to assess its potential role in guiding clinical practice.\nMETHODS: Data from 1,375 ischemic stroke patients with upper limb dysfunction were collected from two hospitals, including medical records and Digital Subtraction Angiography (DSA) reports. All patients received standardized acupuncture treatment. After screening, 616 datasets were selected for analysis. A prediction model was developed using the AutoGluon framework, with three outcome measures as endpoints: the National Institutes of Health Stroke Scale (NIHSS), Fugl-Meyer Assessment for Upper Extremity (FMA-UE), and the Modified Barthel Index (MBI).\nRESULTS: The prediction model demonstrated high accuracy for the three endpoints, with prediction accuracies of 84.3% for NIHSS, 77.8% for FMA-UE, and 88.1% for MBI. Feature importance analysis identified the M1 segment of the Middle Cerebral Artery (MCA), the origin of the Internal Carotid Artery (ICA), and the C1 segment of the ICA as the most critical factors influencing the model's predictions. Notably, the MBI emerged as the most sensitive outcome measure for evaluating patient response to acupuncture treatment. Additionally, secondary analysis revealed that the number of sites with cerebral vascular stenosis (specifically 1 and 3 sites) had a significant impact on the final model's predictions.\nCONCLUSION: This study highlights the M1 segment, the origin of the ICA, and the C1 segment as key stenotic sites affecting acupuncture treatment efficacy in stroke patients with upper limb dysfunction. The MBI was found to be the most responsive outcome measure for evaluating treatment sensitivity in this cohort.",
+    "keywords": [
+      "AutoGluon",
+      "DSA",
+      "acupuncture",
+      "machine learning",
+      "stroke",
+      "upper limb dysfunction"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39839025",
+    "title": "Association between carotid ultrasound features and the detection of functionally significant coronary artery stenosis: a prospective study based on quantitative flow ratio.",
+    "journal": "Quantitative imaging in medicine and surgery",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Long\", \"fore\": \"Jili\", \"initials\": \"J\", \"affiliation\": \"Department of Echocardiography, State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.\"}, {\"last\": \"Lin\", \"fore\": \"Jingru\", \"initials\": \"J\", \"affiliation\": \"Department of Medical Ultrasonics, The First Affiliated Hospital of Sun Yat-sen University, Guangzhou, China.\"}, {\"last\": \"Tao\", \"fore\": \"Jia\", \"initials\": \"J\", \"affiliation\": \"Department of Echocardiography, State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.\"}, {\"last\": \"Meng\", \"fore\": \"Qinglong\", \"initials\": \"Q\", \"affiliation\": \"Department of Echocardiography, State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Bing\", \"initials\": \"B\", \"affiliation\": \"Department of Echocardiography, State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.\"}, {\"last\": \"Tian\", \"fore\": \"Yanjin\", \"initials\": \"Y\", \"affiliation\": \"Department of Ultrasound, Beijing Friendship Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Liu\", \"fore\": \"Mengyi\", \"initials\": \"M\", \"affiliation\": \"Department of Echocardiography, State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.\"}, {\"last\": \"Wang\", \"fore\": \"Hao\", \"initials\": \"H\", \"affiliation\": \"Department of Echocardiography, State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.\"}]",
+    "abstract": "BACKGROUND: Carotid ultrasound is a helpful approach for classifying cardiovascular risk. Quantitative flow ratio (QFR) is used to evaluate functionally significant coronary artery stenosis (CAS). The aim of this prospective study was to investigate the correlation between carotid artery features from carotid ultrasound and functionally significant CAS. Furthermore, this study aimed to evaluate the diagnostic performance of carotid ultrasound in diagnosing functional CAS.\nMETHODS: Carotid ultrasound was performed in 82 patients with suspicious coronary artery disease, measuring carotid intima-media thickness (IMT), internal artery diameter (IAD), and carotid plaques. QFR values were measured in all patients, and functionally significant CAS was defined as QFR ≤0.8. Forty patients (48.8%) had non-functionally significant CAS with QFR >0.8, while 42 patients (51.2%) had functionally significant CAS with QFR ≤0.8. Logistic regression analyses were performed to evaluate the association among functionally significant CAS, carotid ultrasound features and clinical parameters. A receiver operating characteristic (ROC) curve was developed to assess the capability of carotid ultrasound to diagnose functionally significant CAS.\nRESULTS: Patients with functionally significant CAS (QFR ≤0.8) had greater IMT, carotid bifurcation IAD and internal carotid artery-IAD, compared to patients with non-functionally significant CAS, with P values of <0.001, 0.015, and 0.011, respectively. The presence of carotid plaque was significantly higher in the functionally significant CAS group (95.2%) compared to the non-functionally significant CAS group (60%), with a P value of <0.001. In multivariable logistic regression analysis, maximum plaque height (MPH) (OR: 1.777, P=0.018) was associated with functionally significant CAS in patients with coronary artery disease. ROC curves showed plaque area to be superior to IMT, MPH and plaque length in identifying functionally significant CAS. The cutoff value of the plaque area was 9.07, and the sensitivity and specificity were 85.7% and 70.0%.\nCONCLUSIONS: Carotid artery properties measured by carotid ultrasound were associated with functionally significant CAS. Plaque area is the most clinically useful parameter for detecting functionally significant CAS compared to IMT, MPH, and plaque length.",
+    "keywords": [
+      "Carotid plaque",
+      "carotid ultrasound",
+      "coronary artery disease (CAD)",
+      "functionally significant coronary artery stenosis (functionally significant CAS)",
+      "quantitative flow ratio (QFR)"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39835159",
+    "title": "Evaluation of circadian rhythm and prognostic variability pre-and post-CEA or CAS treatment in patients with carotid artery stenosis.",
+    "journal": "Frontiers in neurology",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Quan\", \"fore\": \"Yi\", \"initials\": \"Y\", \"affiliation\": \"Department of Neurosurgery, Peking University People's Hospital, Beijing, China.\"}, {\"last\": \"Wang\", \"fore\": \"Zhongzhu\", \"initials\": \"Z\", \"affiliation\": \"Qingdao Women and Children's Hospital, Qingdao, Shandong, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Tao\", \"initials\": \"T\", \"affiliation\": \"Qingdao Women and Children's Hospital, Qingdao, Shandong, China.\"}, {\"last\": \"Sui\", \"fore\": \"Yanyong\", \"initials\": \"Y\", \"affiliation\": \"Qingdao Women and Children's Hospital, Qingdao, Shandong, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Xin\", \"initials\": \"X\", \"affiliation\": \"Qingdao Women and Children's Hospital, Qingdao, Shandong, China.\"}, {\"last\": \"Ji\", \"fore\": \"Xueliang\", \"initials\": \"X\", \"affiliation\": \"Qingdao Women and Children's Hospital, Qingdao, Shandong, China.\"}, {\"last\": \"Liu\", \"fore\": \"Ao-Fei\", \"initials\": \"AF\", \"affiliation\": \"Department of Vascular Neurosurgery, New Era Stroke Care and Research Institute, The PLA Rocket Force Characteristic Medical Center, Beijing, China.\"}, {\"last\": \"Jiang\", \"fore\": \"Weijian\", \"initials\": \"W\", \"affiliation\": \"Department of Vascular Neurosurgery, New Era Stroke Care and Research Institute, The PLA Rocket Force Characteristic Medical Center, Beijing, China.\"}]",
+    "abstract": "OBJECTIVE: Carotid artery stenosis, primarily caused by atherosclerosis, is a major risk factor for ischemic stroke. Carotid endarterectomy (CEA) and carotid artery stenting (CAS) are established interventions to reduce stroke risk and restore cerebral blood flow. However, the effect of these treatments on circadian rhythms, and their influence on stroke recovery, remains underexplored. This study aims to assess how disruptions in circadian rhythms-specifically sleep quality and blood pressure variability-impact recovery in patients undergoing CEA or CAS.\nMETHODS: We conducted a prospective study involving 177 patients with carotid artery stenosis, all treated with either CEA or CAS. Patients were followed for 90 days post-treatment, with neurological outcomes evaluated using the NIHSS Stroke Scale (NIHSS). Circadian rhythm-related factors, including sleep quality (Pittsburgh Sleep Quality Index [PSQI]) and blood pressure variability (daytime systolic and nighttime diastolic BP), were assessed pre-and post-treatment. Stepwise regression was used to identify predictors of stroke recovery.\nRESULTS: In a cohort of 177 patients with symptomatic carotid atherosclerotic stenosis, stepwise regression identified post-treatment changes in PSQI, nighttime diastolic blood pressure, and the presence of coronary heart disease as significant independent predictors of poor neurological outcomes ( < 0.001). Both CEA and CAS significantly improved daytime systolic ( < 0.01) and nighttime diastolic blood pressure ( < 0.01). Patients with poorer prognosis had higher post-treatment PSQI scores ( < 0.001). Additionally, increased physical activity after treatment was linked to improved neurological recovery.\nCONCLUSION: This study highlights the critical role of circadian rhythm regulation and cardiovascular health in stroke recovery following CEA or CAS. Stepwise regression analysis revealed that sleep quality, blood pressure stability, and coronary heart disease were key predictors of neurological outcomes, underscoring the importance of integrating circadian rhythm management into rehabilitation strategies. These results provide a robust scientific foundation for further investigation into the role of circadian rhythms in clinical practice.",
+    "keywords": [
+      "International Physical Activity Questionnaire",
+      "National Institutes of Health Stroke Scale",
+      "Pittsburgh Sleep Quality Index",
+      "carotid artery stenosis",
+      "carotid artery stenting",
+      "carotid endarterectomy",
+      "circadian rhythms"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39831495",
+    "title": "Clinical and Carotid Plaque Features in Symptomatic and Asymptomatic Ischemic Stroke.",
+    "journal": "British journal of hospital medicine (London, England : 2005)",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Zhou\", \"fore\": \"Shili\", \"initials\": \"S\", \"affiliation\": \"Department of Stroke Center, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China.\"}, {\"last\": \"Yan\", \"fore\": \"Yanhong\", \"initials\": \"Y\", \"affiliation\": \"Department of Stroke Center, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China.\"}, {\"last\": \"Hui\", \"fore\": \"Pinjing\", \"initials\": \"P\", \"affiliation\": \"Department of Stroke Center, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China.\"}]",
+    "abstract": "Ischemic stroke (IS), a cerebrovascular condition, is commonly detected by evaluating carotid intima-media (CIA) stenosis. Symptomatic CIA stenosis carries a high risk (up to 32%) of another ischemic event within 12 weeks, while asymptomatic CIA stenosis has an annual risk ranging from 1% to 2%. Therefore, this study aims to explore the diagnostic value of clinical features and carotid plaque characteristics in both symptomatic and asymptomatic IS.  This study enrolled 543 consecutive patients with internal carotid artery stenosis confirmed by carotid ultrasonography. Participants were categorized into the symptomatic group (n = 356) and the asymptomatic group (n = 187) by clinical symptoms and computed tomography (CT)/magnetic resonance imaging (MRI) of the brain. Demographic data, clinical features, and ultrasonographic characteristics of the carotid plaque were collected, and logistics regression analysis was carried out to explore the predictive risk factors of IS.  According to the differences in clinical and carotid plaque characteristics between the two groups, coronary heart disease (CHD), stenosis degree, plaque diameter, plaque length, plaque vulnerability, and plaque echo type were included. The results of the multivariate logistics regression analysis showed that plaque vulnerability, CHD, and plaque hypoechogenicity were independent predictors of symptomatic stroke. The clinical-ultrasonographic prediction model showed an area under the curve (AUC) of 0.85 [95% confidence interval (CI): 0.82-0.88], a sensitivity of 0.74 (95% CI: 0.69-0.78), and a specificity of 0.81 (95% CI: 0.76-0.87), with a good performance in the model prediction.  Plaque vulnerability, CHD, and plaque hypoechogenicity are meaningful predictors of symptomatic ischemic stroke and deserve attention in the future.",
+    "keywords": [
+      "clinical features",
+      "influencing factors",
+      "ischemic stroke",
+      "prognosis",
+      "symptoms",
+      "ultrasonographic detection",
+      "Humans",
+      "Male",
+      "Female",
+      "Ischemic Stroke",
+      "Aged",
+      "Carotid Stenosis",
+      "Middle Aged",
+      "Plaque, Atherosclerotic",
+      "Risk Factors",
+      "Ultrasonography",
+      "Carotid Intima-Media Thickness",
+      "Magnetic Resonance Imaging",
+      "Tomography, X-Ray Computed",
+      "Carotid Artery, Internal"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39831357",
+    "title": "[Clinical and genetic associations in patients with non-cardioembolic ischemic stroke].",
+    "journal": "Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Galkin\", \"fore\": \"S S\", \"initials\": \"SS\", \"affiliation\": \"Pirogov Russian National Research Medical University (Pirogov University), Moscow, Russia.\"}, {\"last\": \"Anisimova\", \"fore\": \"A V\", \"initials\": \"AV\", \"affiliation\": \"Pirogov Russian National Research Medical University (Pirogov University), Moscow, Russia.\"}, {\"last\": \"Gunchenko\", \"fore\": \"A S\", \"initials\": \"AS\", \"affiliation\": \"Pirogov Russian National Research Medical University (Pirogov University), Moscow, Russia.\"}, {\"last\": \"Nasedkina\", \"fore\": \"T V\", \"initials\": \"TV\", \"affiliation\": \"Engelhardt Institute of Molecular Biology, Moscow, Russia.\"}, {\"last\": \"Makhmudov\", \"fore\": \"M M\", \"initials\": \"MM\", \"affiliation\": \"Pirogov City Clinical Hospital No. 1, Moscow, Russia.\"}, {\"last\": \"Kolerova\", \"fore\": \"I V\", \"initials\": \"IV\", \"affiliation\": \"Pirogov City Clinical Hospital No. 1, Moscow, Russia.\"}, {\"last\": \"Yutskova\", \"fore\": \"E V\", \"initials\": \"EV\", \"affiliation\": \"Pirogov City Clinical Hospital No. 1, Moscow, Russia.\"}]",
+    "abstract": "OBJECTIVE: To study the associations of genetic markers influencing the residual reactivity of platelets during antiplatelet therapy with acetylsalicylic acid, and clinical and laboratory parameters, including parameters of the platelet hemostasis, in patients with non-cardioembolic ischemic stroke (IS) for a deeper understanding of the pathogenetic mechanisms and prediction of response to therapy and clinical outcome.\nMATERIAL AND METHODS: The study included 296 patients (average age 64.65 [55; 76] years) undergoing treatment at the City Clinical Hospital named after. N.I. Pirogov: 98 patients with atherothrombotic IS and 196 with an unspecified pathogenetic variant of IS according to TOAST criteria. The US National Institutes of Health Stroke Severity Scale (NIHSS) was used. NIHSS scores at discharge (3 [2;7]) were significantly lower than scores at admission - 9 [6;14] (<0.0005). Associations of  polymorphisms and the intergenic region 9p21.3 with clinical and laboratory parameters were studied.\nRESULTS: In the group with atherothrombotic variant of IS,  rs1126643 and  rs2071746 polymorphisms were associated with the degree of carotid artery stenosis, and  rs4523 and  rs689466 polymorphisms were associated with triglyceride levels. Associations between  rs1062535 polymorphism and adenosine diphosphate (ADP)-induced platelet aggregation (PA),  rs1051931 polymorphism and collagen-induced PA as well as  rs12041331 polymorphism and ristomycin-induced PA were identified. In patients with unspecified IS,  rs5918 polymorphism was associated with adrenaline-induced PA;  rs4523 with ADP-induced PA;  rs4311994 was associated with arachidonic acid-induced PA;  rs1062535 with ristomycin-induced PA and spontaneous aggregation (SA). Also, the SA level was affected by polymorphisms  rs1051931, 9p21.3 rs10120688,  rs1045642 and  rs1062535 was associated with the dynamics of NIHSS.\nCONCLUSION: The results can be used to develop personalized approaches to secondary prevention of IS, including the selection of individual antiplatelet therapy.",
+    "keywords": [
+      "Ischemic stroke",
+      "gene",
+      "laboratory aspirin resistance",
+      "platelet aggregation",
+      "Humans",
+      "Male",
+      "Female",
+      "Aged",
+      "Middle Aged",
+      "Ischemic Stroke",
+      "Aspirin",
+      "Platelet Aggregation Inhibitors",
+      "Integrin beta3",
+      "Platelet Aggregation",
+      "Polymorphism, Single Nucleotide",
+      "Receptors, Cell Surface",
+      "1-Alkyl-2-acetylglycerophosphocholine Esterase"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39822712",
+    "title": "Manifestations of human atherosclerosis across vascular beds.",
+    "journal": "JVS-vascular insights",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Jovin\", \"fore\": \"Daniel G\", \"initials\": \"DG\", \"affiliation\": \"Yale Cardiovascular Research Center, Section of Cardiovascular Medicine, Department of Internal Medicine, Yale University.\"}, {\"last\": \"Sumpio\", \"fore\": \"Bauer E\", \"initials\": \"BE\", \"affiliation\": \"Yale Cardiovascular Research Center, Section of Cardiovascular Medicine, Division of Vascular and Endovascular Surgery, Department of Surgery, Yale University.\"}, {\"last\": \"Greif\", \"fore\": \"Daniel M\", \"initials\": \"DM\", \"affiliation\": \"Yale Cardiovascular Research Center, Section of Cardiovascular Medicine, Department of Internal Medicine, Yale University.\"}]",
+    "abstract": "OBJECTIVE: Atherosclerosis underlies the most common etiologies of mortality worldwide, resulting in nearly 10 million deaths annually. In atherosclerosis, inflammation, metabolic factors, and hemodynamics cause the accumulation of extracellular lipids and the formation of plaques in the tunica intima of specific arteries. Atherosclerotic plaques primarily form in the coronary and carotid arteries, the aorta, and the peripheral arteries of the lower extremities. Although a common conceptual model of atherogenesis across these arteries has evolved over decades, there is a limited understanding of the important differences in regional atherosclerotic disease.\nMETHODS: This review summarizes clinical studies, meta-analyses, and case reports to compare and contrast the impact, risk, plaque features, and clinical management of carotid, coronary, and femoral atherosclerosis in humans.\nRESULTS: Common risk factors, such as smoking and diabetes, influence disease risk differently across vascular beds. In addition, biological variables demonstrate a region-specific relationship with disease as peripheral atherosclerosis is most heritable, and male sex increases the risk of coronary and carotid, but not peripheral artery disease. The pathology of atherosclerotic lesions also varies between vascular territories. Specifically, carotid plaques are primarily lipid rich, whereas coronary plaques more commonly include fibrotic components with lipid-rich features, and femoral plaques are predominantly fibrocalcific. Clinically, interventional outcomes are worst in the carotid arteries and response to medical therapies, particularly statins, is not consistent across diseased regions, even within individual patients.\nCONCLUSIONS: Atherosclerosis manifests in site-specific ways with regional differences in susceptibility and treatment response. Despite advances in the scientific understanding and clinical management of atherosclerosis, little is known about the mechanisms determining vessel-specific disease patterns and risk. Further research is needed urgently to delineate factors controlling plaque initiation and progression specific to vascular beds.",
+    "keywords": [
+      "Atherosclerosis",
+      "Carotid stenosis",
+      "Coronary artery disease",
+      "Peripheral arterial disease",
+      "Plaque"
+    ],
+    "grants": [
+      {
+        "agency": "NICHD NIH HHS",
+        "acronym": "HD",
+        "grant_id": "R01 HD110059",
+        "country": "United States"
+      },
+      {
+        "agency": "NINDS NIH HHS",
+        "acronym": "NS",
+        "grant_id": "R21 NS123469",
+        "country": "United States"
+      },
+      {
+        "agency": "NHLBI NIH HHS",
+        "acronym": "HL",
+        "grant_id": "R35 HL150766",
+        "country": "United States"
+      },
+      {
+        "agency": "NIGMS NIH HHS",
+        "acronym": "GM",
+        "grant_id": "T32 GM136651",
+        "country": "United States"
+      }
+    ]
+  },
+  {
+    "pmid": "39820882",
+    "title": "Advancing Vascular Surgery: The Role Of Artificial Intelligence And Machine Learning In Managing Carotid Stenosis.",
+    "journal": "Portuguese journal of cardiac thoracic and vascular surgery",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Pias\", \"fore\": \"Ana Daniela\", \"initials\": \"AD\", \"affiliation\": \"Faculdade de Medicina e Ciências Biomédicas da Universidade do Algarve, Faro, Portugal.\"}, {\"last\": \"Pereira-Macedo\", \"fore\": \"Juliana\", \"initials\": \"J\", \"affiliation\": \"Department of General Surgery - Unidade Local de Saúde do Médio Ave, Santo Tirso, Portugal; RISE@Health, Rua Dr. Plácido da Costa, Porto, Portugal.\"}, {\"last\": \"Marreiros\", \"fore\": \"Ana\", \"initials\": \"A\", \"affiliation\": \"Faculdade de Medicina e Ciências Biomédicas da Universidade do Algarve, Faro, Portugal.\"}, {\"last\": \"António\", \"fore\": \"Nuno\", \"initials\": \"N\", \"affiliation\": \"NOVA Information Management School (NOVA IMS), Universidade NOVA de Lisboa, Lisbon, Portugal.\"}, {\"last\": \"Rocha-Neves\", \"fore\": \"João\", \"initials\": \"J\", \"affiliation\": \"RISE@Health, Rua Dr. Plácido da Costa, Porto, Portugal; Department of Biomedicine - Unit of Anatomy, Faculdade de Medicina da Universidade do Porto, Portugal.\"}]",
+    "abstract": "INTRODUCTION: Cardiovascular diseases affect 17.7 million people annually, worldwide. Carotid degenerative disease, commonly described as atherosclerotic plaque accumulation, significantly contributes to this, posing a risk for cerebrovascular events and ischemic strokes. With carotid stenosis (CS) being a primary concern, accurate diagnosis, clinical staging, and timely surgical interventions, such as carotid endarterectomy (CEA), are crucial. This review explores the impact of Artificial Intelligence (AI) and Machine Learning (ML) in improving diagnosis, risk stratification, and management of CS.\nMETHODS: A comprehensive literature review was conducted using PubMed and SCOPUS, focusing on AI and ML applications in diagnosing and managing extracranial CS. English language publications from the past two decades were reviewed, including cross-referenced scientific articles.\nRESULTS: Recent advancements in AI-enhanced imaging techniques, particularly in deep learning, have significantly improved diagnostic accuracy in identifying carotid plaque vulnerability and symptomatic plaques. Integration of clinical risk factors with AI systems has further enhanced precision. Additionally, ML models have shown promising results in identifying culprit arteries in patients with previous cerebrovascular events. These advancements hold immense potential for improving CS diagnosis and classification, leading to better patient management.\nCONCLUSION: Integrating AI and ML into vascular surgery, particularly in managing CS, marks a transformative advancement. These technologies have significantly improved diagnostic accuracy and risk assessment, paving the way for more personalized and safer patient care. Despite clinical validation and data privacy challenges, AI and ML have immense potential for enhancing clinical decision-making in vascular surgery, marking a pivotal phase in the field's evolution.",
+    "keywords": [
+      "Carotid stenosis",
+      "carotid endarterectomy",
+      "perioperative stroke",
+      "Humans",
+      "Carotid Stenosis",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Endarterectomy, Carotid",
+      "Risk Assessment"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39816426",
+    "title": "Endovascular Treatment in Symptomatic Intracranial Artery Stenosis: Experience from Two Centers.",
+    "journal": "Sisli Etfal Hastanesi tip bulteni",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Camurcuoglu\", \"fore\": \"Eyup\", \"initials\": \"E\", \"affiliation\": \"Department of Radiology, Sanliurfa Training and Research Hospital, Sanliurfa, Türkiye.\"}, {\"last\": \"Tahtabasi\", \"fore\": \"Mehmet\", \"initials\": \"M\", \"affiliation\": \"Department of Radiology, University of Health Sciences Türkiye, Mehmet Akif Inan Training and Research Hospital, Sanliurfa, Türkiye.\"}, {\"last\": \"Erdem\", \"fore\": \"Umut\", \"initials\": \"U\", \"affiliation\": \"Department of Radiology, University of Health Sciences Türkiye, Sisli Hamidiye Etfal Training and Research Hospital, Istanbul, Türkiye.\"}, {\"last\": \"Ozdemir\", \"fore\": \"Ahmet Serdar\", \"initials\": \"AS\", \"affiliation\": \"Department of Radiology, Harran University Faculty of Medicine, Sanliurfa, Türkiye.\"}, {\"last\": \"Kaya\", \"fore\": \"Veysel\", \"initials\": \"V\", \"affiliation\": \"Department of Radiology, Harran University Faculty of Medicine, Sanliurfa, Türkiye.\"}]",
+    "abstract": "OBJECTIVES: To assess the efficacy of endovascular treatment and clinical outcomes in individuals with symptomatic intracranial stenosis who had not responded adequately to medical intervention.\nMETHODS: The study included 32 patients who received endovascular treatment due to high-grade (70%-99% severity) intracranial atherosclerotic stenosis from December 2021 to December 2023. The patients had not experienced any acute ischemic or hemorrhagic infarction within the last three weeks, had a Modified Rankin Scale score of ≤3 at baseline, and developed a transient ischemic attack or non-disabling stroke despite having received the best medical treatment. Technical and clinical success, mortality, and complication rates were recorded.\nRESULTS: Of the 32 patients included in the study, 62.5% (n=20) were male, and the mean age was 66.4±10.09 years. Stenting was performed on the intracranial internal carotid artery in 43.8% (n=14) of the patients, the intradural vertebral artery in 37.5% (n=12), the middle cerebral artery in 12.5% (n=4), and the basilar artery in 6.3% (n=2). The technical success rate was 100%, and the clinical success rate was 87.5%. The mean degree of stenosis before the procedure was 91.7±6.3%, and the degree of residual stenosis after the procedure was 22.1±4.7%. The Neuroform Atlas® stent system was used in 18 cases (56.3%), Credo® stents in eight (25%), coronary balloon-expandable stents in four (12.5%), and the LVIS® stent system in two (6.3%). Twenty-eight (87.5%) patients did not have any symptoms in the first 30 days, while two (6.2%) patients had an ischemic stroke, one (3.1%) patient had a hemorrhagic stroke, and one (3.1%) died.\nCONCLUSION: Endovascular treatment in carefully selected patients, a tailored selection of treatment subtypes, and an experienced multidisciplinary team overseeing the patient before, during, and after the procedure have the potential to provide safe and effective treatment for patients with symptomatic intracranial atherosclerotic stenosis.",
+    "keywords": [
+      "Endovascular treatment",
+      "intracranial stenosis",
+      "ischemia",
+      "stenting"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39816320",
+    "title": "Procedural and Short-Term Outcomes of Carotid Artery Stenting: A Single-Center Experience.",
+    "journal": "Cureus",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Barath\", \"fore\": \"Sitaram\", \"initials\": \"S\", \"affiliation\": \"Department of Radiology, Geetanjali Medical College and Hospital, Udaipur, IND.\"}, {\"last\": \"Patel\", \"fore\": \"Ramesh\", \"initials\": \"R\", \"affiliation\": \"Department of Cardiology, Geetanjali Medical College and Hospital, Udaipur, IND.\"}, {\"last\": \"Mittal\", \"fore\": \"Gaurav Kumar\", \"initials\": \"GK\", \"affiliation\": \"Department of Cardiology, Geetanjali Medical College and Hospital, Udaipur, IND.\"}, {\"last\": \"Mohindru\", \"fore\": \"Rishabh\", \"initials\": \"R\", \"affiliation\": \"Department of Radiology, Geetanjali Medical College and Hospital, Udaipur, IND.\"}, {\"last\": \"Sharma\", \"fore\": \"Jai Bharat\", \"initials\": \"JB\", \"affiliation\": \"Department of Cardiology, Geetanjali Medical College and Hospital, Udaipur, IND.\"}, {\"last\": \"Jain\", \"fore\": \"Dilip\", \"initials\": \"D\", \"affiliation\": \"Department of Cardiology, Geetanjali Medical College and Hospital, Udaipur, IND.\"}]",
+    "abstract": "Background Carotid artery stenting is a well-established alternative treatment to carotid endarterectomy for carotid artery stenosis for preventing stroke. This study assessed the procedural and clinical outcomes in patients undergoing carotid artery stenting in a tertiary care center in India. Methods A total of 39 patients underwent carotid artery stenting from January 2022 to December 2023, with different embolic protection devices and carotid stents. All the patients had symptomatic carotid artery stenosis with at least 50% stenosis as per the North American Symptomatic Carotid Endarterectomy Trial (NASCET) criteria. Procedural and technical success was assessed, and patients were followed for 20 ± 7 months for survival, new-onset stroke, and quality of life. Results The mean age was 64.8 ± 9.1 years and 25 (64.1%) of the patients were males. A total of 26 (66.7%) patients were hypertensive and 21 (53.9%) patients had a history of diabetes mellitus. Out of 39 patients, 2 (5.1%) had recurrent transient ischemic attacks while the rest (37; 94.9%) had a subacute and chronic ischemic stroke. A total of 37 (94.9%) patients had carotid artery stenosis of more than 70%. In this study, 9 (23.1%) patients had a history of sub-acute ischemic stroke of a 1 to 3-week duration. Two patients underwent bilateral staged stenting over a gap of one month. The overall procedural success rate was 39 (100%) and none of the patients had access site-related major complications. Out of the total 41 implants, 21 (51.2%) were self-expanding carotid WALLSTENT (Boston Scientific, Marlborough, Massachusetts, US) and 20 (48.8%) implants were Protégé RX tapered self-expanding carotid stent (Medtronic, Dublin, Ireland). A FilterWire EZ (Boston Scientific) embolic protection device was used in 23 (56.1%) cases and Spider FX (Medtronic) in 18 (43.9%) cases. None of our patients had an intraprocedural death. One patient had postprocedural ipsilateral third nerve palsy, which was resolved partially on the next day of carotid angioplasty. We used dual-antiplatelet drug therapy post-procedure for a month followed by a single antiplatelet drug lifelong. All patients were followed for a minimum of six months and a maximum of 30 months. A total of three (7.7%) patients have died, and 2 (5.1%) patients had a new-onset ischemic stroke with one on the same side of the carotid stenting. A total of 31 (79.5%) patients were doing well and in the recovery phase while those two patients who had a recurrent stroke were bedridden. None of the patients had clinically significant restenosis that needed revascularization of the carotid artery over a mean follow-up period. Conclusion Carotid artery stenting is an effective method to reduce the recurrence of ischemic stroke in significant symptomatic carotid stenosis patients. Experience in neuro-interventional procedures at our center leads to an acceptable rate of peri-procedural stroke, recurrence, and mortality in carotid artery stenting procedures.",
+    "keywords": [
+      "carotid artery",
+      "embolic protection device",
+      "ischemic stroke",
+      "self-expanding carotid stent",
+      "stenting"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39811266",
+    "title": "Decreased Choriocapillaris Vessel Density in the Ipsilateral Eye after Carotid Artery Revascularization Detected by Widefield Swept-Source OCT Angiography.",
+    "journal": "Ophthalmology science",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Zhang\", \"fore\": \"Li\", \"initials\": \"L\", \"affiliation\": \"Department of Ophthalmology, Sichuan University West China Hospital, Chengdu, Sichuan Province, China.\"}, {\"last\": \"Liu\", \"fore\": \"Jia-Wei\", \"initials\": \"JW\", \"affiliation\": \"Department of Ophthalmology, Sichuan University West China Hospital, Chengdu, Sichuan Province, China.\"}, {\"last\": \"Tang\", \"fore\": \"Qing-Qing\", \"initials\": \"QQ\", \"affiliation\": \"Department of Ophthalmology, Sichuan University West China Hospital, Chengdu, Sichuan Province, China.\"}, {\"last\": \"Lei\", \"fore\": \"Chun-Yan\", \"initials\": \"CY\", \"affiliation\": \"Department of Ophthalmology, Sichuan University West China Hospital, Chengdu, Sichuan Province, China.\"}, {\"last\": \"Lin\", \"fore\": \"Xue\", \"initials\": \"X\", \"affiliation\": \"Department of Neurology, Sichuan University West China Hospital, Chengdu, Sichuan Province, China.\"}, {\"last\": \"Gao\", \"fore\": \"Sheng\", \"initials\": \"S\", \"affiliation\": \"Department of Ophthalmology, Sichuan University West China Hospital, Chengdu, Sichuan Province, China.\"}, {\"last\": \"Yang\", \"fore\": \"Tian-Yu\", \"initials\": \"TY\", \"affiliation\": \"Department of Ophthalmology, Sichuan University West China Hospital, Chengdu, Sichuan Province, China.\"}, {\"last\": \"Hu\", \"fore\": \"Fa-Yun\", \"initials\": \"FY\", \"affiliation\": \"Department of Neurology, Sichuan University West China Hospital, Chengdu, Sichuan Province, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Mei-Xia\", \"initials\": \"MX\", \"affiliation\": \"Department of Ophthalmology, Sichuan University West China Hospital, Chengdu, Sichuan Province, China.\"}]",
+    "abstract": "OBJECTIVE: To investigate the short-term blood flow changes and image features of the retina and choroid in patients who underwent carotid artery revascularization (CAR) for severe carotid artery stenosis using widefield swept-source OCT angiography (OCTA).\nDESIGN: Prospective study.\nPARTICIPANTS: This prospective study included 112 eyes (56 eyes on the ipsilateral side and 56 eyes on the contralateral side) of 56 participants with severe carotid artery stenosis.\nMETHODS: Participants were examined using widefield swept-source OCTA covering an area of 16 × 16 mm centered on the fovea before and after CAR. Retinal parameters including central macular thickness, vessel density of the retinal superficial vascular complex (VDRSVC), vessel density of the retinal deep vascular complex, and vessel density of the retina (VDR) and choroidal parameters, including central choroidal thickness (CCT), vessel density of the choriocapillaris (VDCC), vessel density of the medium and large choroidal vessels, choroidal vessel volume ratio (CVV/a), and 3-dimensional choroidal vascularity index (3D-CVI) were measured. Besides, preoperative and postoperative OCTA images were screened and compared.\nMAIN OUTCOME MEASURES: Retinal and choroidal parameters obtained from swept-source OCTA.\nRESULTS: In the ipsilateral eye (56 eyes), an increase in VDRSVC, VDR, CVV/a, CCT, and 3D-CVI and a decrease in VDCC was found after CAR. Thirteen patients were identified with postoperative ipsilateral choriocapillaris flow voids (PICCFVs) with OCTA images, and the presence of PICCFVs was associated with greater postoperative VDCC decrease. In the contralateral eye (56 eyes), we found an increase in VDRSVC, vessel density of the retinal deep vascular complex, and VDR, whereas no difference in choroidal parameters after CAR and no findings of PICCFVs were found.\nCONCLUSIONS: The findings of this study suggest that ocular microvascular perfusion is improved after CAR in the ipsilateral eye and the contralateral eye within a wide field of the fundus. The VDCC is decreased in the ipsilateral eye, which may indicate infarctions of choriocapillaris or ischemia-reperfusion injury of the choriocapillaris after CAR.\nFINANCIAL DISCLOSURES: Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article.",
+    "keywords": [
+      "Carotid artery revascularization",
+      "Carotid artery stenosis",
+      "Optical coherence tomography angiography",
+      "Retinal microvasculature"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39797208",
+    "title": "Demographic Characteristics and Treatment Outcomes of Intracranial Atherosclerosis Stenting: A Retrospective Case-Series of 216 Consecutive Patients.",
+    "journal": "Journal of clinical medicine",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Sarshayev\", \"fore\": \"Marat\", \"initials\": \"M\", \"affiliation\": \"\\\"Joint-Stock Company\\\" Central Clinical Hospital, Almaty 050060, Kazakhstan.\"}, {\"last\": \"Turdaliyeva\", \"fore\": \"Botagoz\", \"initials\": \"B\", \"affiliation\": \"Kazakhstan School of Public Health, Kazakhstan's Medical University, Almaty 050060, Kazakhstan.\"}, {\"last\": \"Tanbayeva\", \"fore\": \"Gulnur\", \"initials\": \"G\", \"affiliation\": \"Department of Public Health, Al-Farabi Kazakh National University, Almaty 050060, Kazakhstan.\"}, {\"last\": \"Makhanbetkhan\", \"fore\": \"Shayakhmet\", \"initials\": \"S\", \"affiliation\": \"\\\"Joint-Stock Company\\\" Central Clinical Hospital, Almaty 050060, Kazakhstan.\"}, {\"last\": \"Mussabekov\", \"fore\": \"Maxat\", \"initials\": \"M\", \"affiliation\": \"\\\"Joint-Stock Company\\\" Central Clinical Hospital, Almaty 050060, Kazakhstan.\"}, {\"last\": \"Davletov\", \"fore\": \"Dimash\", \"initials\": \"D\", \"affiliation\": \"Faculty of Medicine, Asfendiyarov Kazakh National Medical University, Almaty 050060, Kazakhstan.\"}, {\"last\": \"Maidan\", \"fore\": \"Aiman\", \"initials\": \"A\", \"affiliation\": \"National Centre for Neurosurgery, Astana 010000, Kazakhstan.\"}, {\"last\": \"Berdikhojayev\", \"fore\": \"Mynzhylky\", \"initials\": \"M\", \"affiliation\": \"\\\"Joint-Stock Company\\\" Central Clinical Hospital, Almaty 050060, Kazakhstan.\"}]",
+    "abstract": "Intracranial atherosclerosis (ICAS) is a major cause of ischemic stroke, disproportionately affecting populations with significant vascular risk factors. Although ICAS imposes a considerable health burden, research on this condition in Central Asia remains scarce, especially among the Kazakh population. This study analyzes demographic characteristics, treatment outcomes, and procedural challenges associated with ICAS in 216 patients treated at a single institution.  This retrospective study included patients with ≥70% intracranial artery stenosis confirmed by imaging and presenting with ischemic symptoms. All patients underwent angioplasty and stenting with dual antiplatelet therapy (DAPT). Data collected included demographics, comorbidities, stenosis characteristics, procedural details, and outcomes assessed by the modified Rankin Scale (mRS).  The median age was 63.5 years (IQR: 57-68.6), and 73.7% were male. Hypertension was the most common comorbidity (98%), followed by ischemic heart disease (58%) and diabetes mellitus (40.9%). Multi-location ICAS was significantly associated with patients over 75 years of age ( = 0.025). Additionally, obesity and stenosis severity greater than 70% showed trends toward significance, with -values of 0.064 and 0.079, respectively. Stenosis predominantly affected the internal carotid artery (54.5%) and vertebrobasilar system (31.6%). The average hospital stay was longer for posterior circulation stenosis (7.1 days) compared to anterior circulation (4.7 days). The periprocedural complication rate was 0.7%, with two deaths attributed to ischemic complications. At follow-up, four patients experienced worsening mRS scores (>2), particularly those with severe stenosis in the basilar artery and M1 segment.  ICAS in the Kazakh population is strongly associated with hypertension and aging, with posterior circulation stenosis contributing disproportionately to worse outcomes. The low complication rates highlight the safety of modern endovascular techniques. However, further research is needed to optimize treatment strategies for severe and multi-location ICAS, particularly in Central Asian populations.",
+    "keywords": [
+      "DAPT",
+      "Kazakh population",
+      "cerebrovascular disease",
+      "comorbid conditions",
+      "diabetes mellitus",
+      "dyslipidemia",
+      "hypertension",
+      "intracranial atherosclerosis",
+      "intracranial stenting"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39795602",
+    "title": "The Morphological Stenosis Pattern of the Caroticoclinoid Foramen.",
+    "journal": "Diagnostics (Basel, Switzerland)",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Paschopoulos\", \"fore\": \"Ioannis\", \"initials\": \"I\", \"affiliation\": \"Department of Anatomy, School of Medicine, Faculty of Health Sciences, National and Kapodistrian University of Athens, Goudi, 11 527 Athens, Greece.\"}, {\"last\": \"Triantafyllou\", \"fore\": \"George\", \"initials\": \"G\", \"affiliation\": \"Department of Anatomy, School of Medicine, Faculty of Health Sciences, National and Kapodistrian University of Athens, Goudi, 11 527 Athens, Greece.\"}, {\"last\": \"Papadopoulos-Manolarakis\", \"fore\": \"Panagiotis\", \"initials\": \"P\", \"affiliation\": \"Department of Neurosurgery, General Hospital of Nikaia-Piraeus, 18 454 Nikaia, Greece.\"}, {\"last\": \"Luzzi\", \"fore\": \"Sabino\", \"initials\": \"S\", \"affiliation\": \"Department of Clinical-Surgical, Diagnostic and Pediatric Sciences, University of Pavia, 27100 Pavia, Italy.\"}, {\"last\": \"Karangeli\", \"fore\": \"Nektaria\", \"initials\": \"N\", \"affiliation\": \"Department of Anatomy, School of Medicine, Faculty of Health Sciences, National and Kapodistrian University of Athens, Goudi, 11 527 Athens, Greece.\"}, {\"last\": \"Tsakotos\", \"fore\": \"George\", \"initials\": \"G\", \"affiliation\": \"Department of Anatomy, School of Medicine, Faculty of Health Sciences, National and Kapodistrian University of Athens, Goudi, 11 527 Athens, Greece.\"}, {\"last\": \"Galzio\", \"fore\": \"Renato\", \"initials\": \"R\", \"affiliation\": \"Department of Clinical-Surgical, Diagnostic and Pediatric Sciences, University of Pavia, 27100 Pavia, Italy.\"}, {\"last\": \"Piagkou\", \"fore\": \"Maria\", \"initials\": \"M\", \"affiliation\": \"Department of Anatomy, School of Medicine, Faculty of Health Sciences, National and Kapodistrian University of Athens, Goudi, 11 527 Athens, Greece.\"}]",
+    "abstract": ": The caroticoclinoid bar (CCB) or caroticoclinoid foramen (CCF) represents a well-described ossified variant of the skull base. It corresponds to an osseous bridge (resulting after homonymous ligament ossification) between the anterior and middle clinoid processes (ACPs and MCPs) surrounding the internal carotid artery (ICA)'s cavernous segment. Although extensive research has been performed on this clinically significant entity, only a few studies have been conducted on its effect on the ICA. The current study on dried skulls, using computed tomography (CT) and computed tomography angiography (CTA) scans, aimed to investigate the CCB's presence and potential morphological stenosis patterns. : One hundred (100) dried adult skulls and one hundred sixty (160) skulls from CT scans of patients were obtained (a total of 520 observations). To further calculate the ICA diameter (at the ACP-MCP region) and correlate the resulting dimeters with all potential morphological stenosis patterns of the CCB, thirty (30) CTAs of patients free of the variant were selected. : Concerning the osseous pattern morphology, of the total of 520 sides, the CCB was identified in 17.1%, the complete variant (creating a caroticoclinoid foramen-CCF) was calculated in 11.5%, and the incomplete one was calculated in 5.6%. No side, sex, or age impact was identified for the CCB presence. Concerning the ICA dimensions, its diameter was calculated to be between 4 and 5 mm. Thus, we observed three morphological stenosis patterns of the CCF. A low-risk pattern of stenosis (>5 mm diameter) was observed in 40 CCFs (44.9%), an intermediate risk of stenosis (4-5 mm diameter) in 38 CCFs (38.2%), and a high risk of stenosis (<4 mm diameter) was depicted in 15 CCFs (16.8%). : In the present study, we investigated the CCF presence and potential morphological stenosis patterns by calculating and correlating the ICA diameter. In 16.8% of the current sample with CCFs (irrespective of their morphology), we observed that the ICA is probably at a high risk of compression. Radiologists and neurosurgeons intervening in the area should preoperatively diagnose the possibility of ICA compression in this area.",
+    "keywords": [
+      "caroticoclinoid bar",
+      "caroticoclinoid foramen",
+      "clinical anatomy",
+      "compression",
+      "internal carotid artery",
+      "variation"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39790479",
+    "title": "CAS-OPCABG vs OPCABG-alone in patients with asymptomatic carotid Stenosis: Multi-center experience.",
+    "journal": "International journal of cardiology. Heart & vasculature",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Wen\", \"fore\": \"Mingxiu\", \"initials\": \"M\", \"affiliation\": \"Department of Cardiac Surgery, Beijing Anzhen Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Li\", \"fore\": \"Jinzhang\", \"initials\": \"J\", \"affiliation\": \"Department of Cardiac Surgery, Beijing Anzhen Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Jia\", \"fore\": \"Songhao\", \"initials\": \"S\", \"affiliation\": \"Department of Cardiac Surgery, Beijing Anzhen Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Wang\", \"fore\": \"Shipan\", \"initials\": \"S\", \"affiliation\": \"Department of Cardiac Surgery, Beijing Anzhen Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Zhao\", \"fore\": \"Shuanglei\", \"initials\": \"S\", \"affiliation\": \"Department of Cardiac Surgery, Beijing Anzhen Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Su\", \"fore\": \"Pixiong\", \"initials\": \"P\", \"affiliation\": \"Department of Cardiac Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Xu\", \"fore\": \"Dong\", \"initials\": \"D\", \"affiliation\": \"Department of Cardiac Surgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Gong\", \"fore\": \"Ming\", \"initials\": \"M\", \"affiliation\": \"Department of Cardiac Surgery, Beijing Anzhen Hospital, Capital Medical University, Beijing, China.\"}]",
+    "abstract": "OBJECTIVE: The objective was to evaluate the relationship between carotid stenting and off-pump coronary artery grafting (CAS-OPCABG) and OPCABG only in patients with asymptomatic severe carotid stenosis.\nMETHODS: This study retrospectively included 669 patients with asymptomatic severe carotid artery stenosis who underwent OPCABG at multiple centers. After propensity score matching for baseline characteristics, the study compared two groups of patients with clinical data, early and midterm death, stroke, and myocardial infarction (MI).\nRESULTS: After matching, there was no significant difference between two groups at baseline. The rates of early stroke, midterm stroke, and intensive care unit (ICU) stay were significantly lower in the CAS OPCABG group, yet the use of the internal mammary artery (IMA) was comparatively lower. Kaplan-Meier analysis revealed that there was no significant difference in midterm mortality between two groups. In the bilateral asymptomatic carotid stenosis subgroup, the early stroke rate was significantly lower after CAS-OPCABG, but there was no significant difference in the unilateral carotid stenosis subgroup. Multivariate logistic regression analysis identified previous atrial fibrillation, previous stroke, aortic atherosclerosis, bilateral carotid stenosis and the use of an intra-aortic balloon pump (IABP) as significant risk factors for early postoperative stroke, CAS emerged as a protective factor. Use of IMA was found to be a protective factor against postoperative mortality.\nCONCLUSIONS: CAS-OPCABG is an efficacious and safe approach for the treatment of asymptomatic severe carotid artery stenosis, effectively decreasing the incidence of postoperative stroke.",
+    "keywords": [
+      "Asymptomatic carotid stenosis",
+      "Carotid artery stenting",
+      "Off-pump Coronary artery bypass grafting"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39784132",
+    "title": "Association of Severity of Coronary Artery Disease With Traditional Risk Factors, Clinical Characteristics and Carotid Plaque Burden in Patients With Acute Coronary Syndrome.",
+    "journal": "Kardiologiia",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Bershtein\", \"fore\": \"L L\", \"initials\": \"LL\", \"affiliation\": \"Mechnikov North-Western State Medical University, St. Petersburg.\"}, {\"last\": \"Lunina\", \"fore\": \"M D\", \"initials\": \"MD\", \"affiliation\": \"Mechnikov North-Western State Medical University, St. Petersburg.\"}, {\"last\": \"Evdokimov\", \"fore\": \"D S\", \"initials\": \"DS\", \"affiliation\": \"Mechnikov North-Western State Medical University, St. Petersburg.\"}, {\"last\": \"Nayden\", \"fore\": \"T V\", \"initials\": \"TV\", \"affiliation\": \"Mechnikov North-Western State Medical University, St. Petersburg.\"}, {\"last\": \"Gumerova\", \"fore\": \"V E\", \"initials\": \"VE\", \"affiliation\": \"Mechnikov North-Western State Medical University, St. Petersburg.\"}, {\"last\": \"Kochanov\", \"fore\": \"I N\", \"initials\": \"IN\", \"affiliation\": \"Mechnikov North-Western State Medical University, St. Petersburg.\"}, {\"last\": \"Ivanov\", \"fore\": \"A A\", \"initials\": \"AA\", \"affiliation\": \"Mechnikov North-Western State Medical University, St. Petersburg.\"}, {\"last\": \"Boldueva\", \"fore\": \"S A\", \"initials\": \"SA\", \"affiliation\": \"Mechnikov North-Western State Medical University, St. Petersburg.\"}, {\"last\": \"Resnyanskaya\", \"fore\": \"E D\", \"initials\": \"ED\", \"affiliation\": \"Mechnikov North-Western State Medical University, St. Petersburg.\"}, {\"last\": \"Zbyshevskaya\", \"fore\": \"E V\", \"initials\": \"EV\", \"affiliation\": \"Mechnikov North-Western State Medical University, St. Petersburg.\"}, {\"last\": \"Evtushenko\", \"fore\": \"A E\", \"initials\": \"AE\", \"affiliation\": \"Saint Petersburg Municipal Pokrov Hospital, St. Petersburg.\"}, {\"last\": \"Piltakyan\", \"fore\": \"V Kh\", \"initials\": \"VK\", \"affiliation\": \"Saint Petersburg Municipal Pokrov Hospital, St. Petersburg.\"}, {\"last\": \"Sayganov\", \"fore\": \"S A\", \"initials\": \"SA\", \"affiliation\": \"Mechnikov North-Western State Medical University, St. Petersburg.\"}]",
+    "abstract": "AIM: To study the associations between risk factors, clinical characteristics, severity of brachiocephalic artery (BCA) atherosclerosis and severity of coronary artery (CA) disease in patients with acute coronary syndrome (ACS).\nMATERIAL AND METHODS: The study included patients with any type of ACS and obstructive coronary artery disease confirmed by coronary angiography. A quantitative analysis of coronary angiography data was performed with an assessment of the number of CAs with significant stenosis and calculation of the SYNTAX score. The major clinical and laboratory parameters that are risk factors for atherosclerosis and/or affect the cardiovascular prognosis were assessed; for patients with ACS without ST segment elevation (NSTE-ACS), the risk score was calculated by the GRACE scale. The BCA ultrasound examination was performed with a quantitative analysis of atherosclerotic burden.\nRESULTS: The study included 312 patients aged 64 [56, 72] years; the proportion of men was 69.2%. The frequency of lesions of 1, 2 and 3 coronary arteries was 34.6, 35.3, and 30.1%, respectively; the SYNTAX score was 14 [9, 21]. According to the results of univariate analysis, the number of stenotic CAs and the SYNTAX score were associated with age, smoking history, history of ischemic heart disease, diabetes mellitus (DM), the presence of non-stenotic CA lesions, the GRACE score in NSTE-ACS, and the Charlson comorbidity index. An inverse correlation was found for the level of physical activity and a slightly weaker one for the glomerular filtration rate and high-density lipoprotein cholesterol (HDL-C). In multivariate models, the only independent predictors of the number of stenotic CAs were HDL-C (odds ratio, OR 0.37, 95% confidence interval, CI 0.17-0.81; p=0.012) and the smoking history (OR 1.30, 95% CI 1.12-1.52; p=0.001), a coefficient of determination of the model R2 of 18%, SYNTAX score with a history of myocardial infarction (ß=6.40, 95% CI 3.22-9.58; p&lt;0.001), insulin-dependent DM (ß=9.44, 95% CI 3.50-15.38; p=0.002), GRACE score for NSTE-ACS (ß=0.06, 95% CI 0.01-0.11; p&lt;0.014), and a coefficient of determination of the model R2=20%.\nCONCLUSION: Patients with ACS show significant, independent associations of the severity of coronary atherosclerosis with HDL-C, smoking duration, history of myocardial infarction, insulin-dependent diabetes, and the GRACE score in NSTE-ACS. Variability in the severity of CA lesions is only to a small extent determined by risk factors, clinical characteristics, and the severity of concomitant carotid atherosclerosis.",
+    "keywords": [
+      "Humans",
+      "Male",
+      "Acute Coronary Syndrome",
+      "Female",
+      "Middle Aged",
+      "Aged",
+      "Severity of Illness Index",
+      "Risk Factors",
+      "Coronary Angiography",
+      "Coronary Artery Disease",
+      "Plaque, Atherosclerotic",
+      "Prognosis"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39780955",
+    "title": "Determinants of growth differentiation factor 15 plasma levels in outpatients with peripheral arterial disease.",
+    "journal": "Upsala journal of medical sciences",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Skau\", \"fore\": \"Emma\", \"initials\": \"E\", \"affiliation\": \"Centre for Clinical Research, Uppsala University, Västmanland County Hospital, Västerås, Sweden.\"}, {\"last\": \"Wagner\", \"fore\": \"Philippe\", \"initials\": \"P\", \"affiliation\": \"Centre for Clinical Research, Uppsala University, Västmanland County Hospital, Västerås, Sweden.\"}, {\"last\": \"Leppert\", \"fore\": \"Jerzy\", \"initials\": \"J\", \"affiliation\": \"Centre for Clinical Research, Uppsala University, Västmanland County Hospital, Västerås, Sweden.\"}, {\"last\": \"Ärnlöv\", \"fore\": \"Johan\", \"initials\": \"J\", \"affiliation\": \"School of Health and Social Studies, Dalarna University, Falun, Sweden.\"}, {\"last\": \"Hedberg\", \"fore\": \"Pär\", \"initials\": \"P\", \"affiliation\": \"Centre for Clinical Research, Uppsala University, Västmanland County Hospital, Västerås, Sweden.\"}]",
+    "abstract": "BACKGROUND: Growth differentiation factor 15 (GDF-15) is a robust prognostic biomarker in patients with cardiovascular (CV) disease, and a better understanding of its clinical determinants is desirable. We aimed to study the associations between GDF-15 levels and  in outpatients with peripheral arterial disease (PAD).\nMETHODS: An explorative cross-sectional study (Study of Atherosclerosis in Vastmanland, Västerås, Sweden) included 439 outpatients with carotid or lower extremity PAD. The mean age was 70 years (standard deviation [SD] 7), and 59% of the patients were men. Plasma levels of GDF-15 were obtained along with potential determinants, including medical history, biochemical data, echocardiographic measures of cardiac geometry and function, ankle-brachial index (ABI), and carotid ultrasonographic data on intima-media thickness (IMT) and occurrence of carotid stenosis. The relations between GDF-15 concentrations (transformed with the natural logarithm) and the different determinants were evaluated using uni- and multivariable linear regression models. All pre-specified variables were included in the multivariable models.\nRESULTS: The multivariable analysis identified independent relations of GDF-15 with several of the included variables (adjusted   = 0.48). Diabetes (beta coefficient [β] of 0.37, 95% confidence interval [95% CI] 0.25 to 0.50), low-density lipoprotein (LDL) cholesterol (β = -0.22, 95% confidence interval [CI]: -0.34 to -0.09), and physical activity (β = -0.16, 95% CI: -0.25 to -0.06) had the strongest associations. In contrast, no significant independent associations with GDF-15 level were observed for cardiac geometry and function, ABI, IMT, or carotid stenosis.\nCONCLUSIONS: Circulating GDF-15 is more strongly associated with traditional CV risk factors, especially diabetes, LDL cholesterol, and physical activity than with specific indicators of atherosclerotic burden or cardiac dysfunction. To better understand the pathophysiological role of GDF-15 and its link to clinical outcomes in patients with PAD, future studies should focus on the metabolic processes involved in atherosclerotic disease.",
+    "keywords": [
+      "Atherosclerosis",
+      "GDF-15",
+      "biomarker",
+      "diabetes",
+      "peripheral arterial disease",
+      "Humans",
+      "Male",
+      "Growth Differentiation Factor 15",
+      "Female",
+      "Peripheral Arterial Disease",
+      "Aged",
+      "Cross-Sectional Studies",
+      "Middle Aged",
+      "Outpatients",
+      "Carotid Intima-Media Thickness",
+      "Ankle Brachial Index",
+      "Biomarkers",
+      "Risk Factors",
+      "Sweden"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39776710",
+    "title": "False Lumen Stenting to the Acute Occlusive Carotid Artery Dissection Combined With Intracranial Acute Embolic Stroke: A Case Report and Literature Review.",
+    "journal": "Cureus",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Morita\", \"fore\": \"Takahiro\", \"initials\": \"T\", \"affiliation\": \"Department of Neurosurgery, Hirosaki University Graduate School of Medicine, Hirosaki, JPN.\"}, {\"last\": \"Akitaya\", \"fore\": \"Sakura\", \"initials\": \"S\", \"affiliation\": \"Department of Neurosurgery, Hirosaki University Graduate School of Medicine, Hirosaki, JPN.\"}, {\"last\": \"Munakata\", \"fore\": \"Ryu-Ichi\", \"initials\": \"RI\", \"affiliation\": \"Department of Neurosurgery, Hirosaki University Graduate School of Medicine, Hirosaki, JPN.\"}, {\"last\": \"Saito\", \"fore\": \"Atsushi\", \"initials\": \"A\", \"affiliation\": \"Department of Neurosurgery, Hirosaki University Graduate School of Medicine, Hirosaki, JPN.\"}]",
+    "abstract": "Tandem occlusion due to acute cervical carotid artery dissection should be promptly treated with thrombectomy for reperfusion. If the cervical lesion has reached severe stenosis or complete occlusion, balloon angioplasty and, in certain cases, carotid artery stenting should be performed before thrombectomy for the intracranial lesion. Angioplasty or stent placement is performed in the true lumen, but securing the placement is challenging when the true lumen cannot be determined. In contrast, stenting in the false lumen of a carotid artery dissection is considered contraindicated. Although reports on a few similar cases have been published, no obvious complications are known, and the actual risks and outcomes remain unclear. We report the case of a 49-year-old woman with acute ischemic stroke who had tandem occlusion of the cervical internal carotid and middle cerebral arteries due to acute cervical dissection. The cervical lesion was completely occluded with no true lumen, and securing the true lumen proved extremely difficult. Therefore, we performed intracranial thrombectomy via the false lumen, followed by carotid artery stenting from the distal to the proximal true lumen via the false lumen. Six months later, follow-up examinations revealed no obvious complications. Our literature review identified only three reports of stenting in the false lumen of an acute carotid artery dissection, and no apparent complications were reported in any of these cases. Furthermore, the technique of recanalization through the false lumen is well established in chronic total occluded lesions of coronary or peripheral arteries when the true lumen cannot be secured. Therefore, access to the intracranial artery via the false lumen may be acceptable in situations of simultaneous intracranial arterial occlusion requiring rapid recanalization where securing a true lumen is challenging.",
+    "keywords": [
+      "acute ischemic stroke (ais)",
+      "carotid stenting",
+      "false lumen",
+      "spontaneous internal carotid artery dissection",
+      "tandem lesion"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39775606",
+    "title": "Risk factors and predictive model construction for lower extremity arterial disease in diabetic patients.",
+    "journal": "PloS one",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Kuang\", \"fore\": \"Yingjie\", \"initials\": \"Y\", \"affiliation\": \"First School of Clinical Medicine, Shandong University of Traditional Chinese Medicine, Jinan, China.\"}, {\"last\": \"Cheng\", \"fore\": \"Zhixin\", \"initials\": \"Z\", \"affiliation\": \"Department of Peripheral Vascular Disease, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Jun\", \"initials\": \"J\", \"affiliation\": \"First School of Clinical Medicine, Shandong University of Traditional Chinese Medicine, Jinan, China.\"}, {\"last\": \"Yang\", \"fore\": \"Chunxu\", \"initials\": \"C\", \"affiliation\": \"First School of Clinical Medicine, Shandong University of Traditional Chinese Medicine, Jinan, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Yue\", \"initials\": \"Y\", \"affiliation\": \"Department of Peripheral Vascular Disease, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, China.\"}]",
+    "abstract": "OBJECTIVE: To understand the prevalence and associated risk factors of lower extremity arterial disease (LEAD) in Chinese diabetic patients and to construct a risk prediction model.\nMETHODS: Data from the Diabetes Complications Warning Dataset of the China National Population Health Science Data Center were used. Logistic regression analysis was employed to identify related factors, and machine learning algorithms were used to construct the risk prediction model.\nRESULTS: The study population consisted of 3,000 patients, with 476 (15.9%) having LEAD. Multivariate regression analysis indicated that male gender, atherosclerosis, carotid artery stenosis, fatty liver, hematologic diseases, endocrine disorders, and elevated glycosylated serum proteins were independent risk factors for LEAD. The risk prediction models constructed using Logistic regression and MLP algorithms achieved moderate discrimination performance, with AUCs of 0.73 and 0.72, respectively.\nCONCLUSION: Our study identified the risk factors for LEAD in Chinese diabetic patients, and the constructed risk prediction model can aid in the diagnosis of LEAD.",
+    "keywords": [
+      "Humans",
+      "Male",
+      "Risk Factors",
+      "Female",
+      "Middle Aged",
+      "Lower Extremity",
+      "China",
+      "Aged",
+      "Peripheral Arterial Disease",
+      "Logistic Models",
+      "Adult",
+      "Algorithms"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39768588",
+    "title": "Assessment of Facial Pain After Internal Carotid Artery Stenting: The Role of External Carotid Artery Overstenting.",
+    "journal": "Journal of clinical medicine",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Łyko-Morawska\", \"fore\": \"Dorota\", \"initials\": \"D\", \"affiliation\": \"Department of General Surgery, Vascular Surgery, Angiology and Phlebology, Faculty of Medical Sciences in Katowice, Medical University of Silesia, 45-47 Ziołowa Street, 40-635 Katowice, Poland.\"}, {\"last\": \"Szkółka\", \"fore\": \"Łukasz\", \"initials\": \"Ł\", \"affiliation\": \"Department of General Surgery, Vascular Surgery, Angiology and Phlebology, Faculty of Medical Sciences in Katowice, Medical University of Silesia, 45-47 Ziołowa Street, 40-635 Katowice, Poland.\"}, {\"last\": \"Serafin\", \"fore\": \"Michał\", \"initials\": \"M\", \"affiliation\": \"Department of General Surgery, Vascular Surgery, Angiology and Phlebology, Faculty of Medical Sciences in Katowice, Medical University of Silesia, 45-47 Ziołowa Street, 40-635 Katowice, Poland.\"}, {\"last\": \"Senderek\", \"fore\": \"Emila\", \"initials\": \"E\", \"affiliation\": \"Department of General Surgery, Vascular Surgery, Angiology and Phlebology, Faculty of Medical Sciences in Katowice, Medical University of Silesia, 45-47 Ziołowa Street, 40-635 Katowice, Poland.\"}, {\"last\": \"Kiczmer\", \"fore\": \"Paweł\", \"initials\": \"P\", \"affiliation\": \"Department of Pathomorphology, The Faculty of Medical Sciences in Zabrze, Medical University of Silesia, 3 Maja 13 Street, 41-800 Zabrze, Poland.\"}, {\"last\": \"Górska\", \"fore\": \"Magdalena\", \"initials\": \"M\", \"affiliation\": \"Department of General Surgery, Vascular Surgery, Angiology and Phlebology, Faculty of Medical Sciences in Katowice, Medical University of Silesia, 45-47 Ziołowa Street, 40-635 Katowice, Poland.\"}, {\"last\": \"Kuczmik\", \"fore\": \"Wacław\", \"initials\": \"W\", \"affiliation\": \"Department of General Surgery, Vascular Surgery, Angiology and Phlebology, Faculty of Medical Sciences in Katowice, Medical University of Silesia, 45-47 Ziołowa Street, 40-635 Katowice, Poland.\"}]",
+    "abstract": ": The external carotid artery (ECA) supplies blood to various facial and neck regions and may contribute to collateral cerebral perfusion. With the rise in carotid artery stenting (CAS) as a treatment for carotid stenosis, ECA overstenting has become a common procedure feature. This study aimed to assess the incidence, characteristics, and duration of facial pain following CAS, hypothesizing that ECA overstenting may contribute to facial pain. : This prospective study included 55 patients treated with CAS for internal carotid artery (ICA) stenosis at a single center. Patients' facial pain was evaluated using a numeric rating scale (NRS) before, immediately after, and 24 h post-CAS. Patient data, including demographics, comorbidities, and procedural details, were analyzed to assess the relationship between ICA stenosis degree, ECA diameter changes, and facial pain incidence. : CAS was associated with intraoperative facial pain in 27.27% of patients, with 7.28% reporting residual pain 24 h post-procedure. Pain occurrence was significantly higher in patients with lower ICA stenosis ( = 0.04). The median ECA diameter decreased from 4.11 mm to 3.16 mm ( < 0.001) after CAS, with ECA overstenting observed in 96.4% of cases. No significant relationship was found between pain severity and stent width or length. : This study highlights that CAS significantly decreases the diameter of ECA. Additionally, ECA overstenting might be associated with perioperative and postoperative facial pain, emphasizing the need for careful monitoring of ECA patency following CAS.",
+    "keywords": [
+      "carotid artery stenting",
+      "external carotid artery",
+      "facial pain",
+      "internal carotid artery"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39766232",
+    "title": "D-Dimers and MPO Are No Suitable Biomarkers for Application in Abdominal Aortic Aneurysm (AAA) Surveillance in a Real-World Setting of Vascular Surgery Patients.",
+    "journal": "Biomolecules",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Siegrist\", \"fore\": \"Hans\", \"initials\": \"H\", \"affiliation\": \"Klinik für Gefäßchirurgie und Endovaskuläre Chirurgie, Universitätsklinikum Heidelberg, Im Neuenheimer Feld 420, 69120 Heidelberg, Germany.\"}, {\"last\": \"Spieler\", \"fore\": \"Anja\", \"initials\": \"A\", \"affiliation\": \"Klinik für Gefäßchirurgie und Endovaskuläre Chirurgie, Universitätsklinikum Heidelberg, Im Neuenheimer Feld 420, 69120 Heidelberg, Germany.\"}, {\"last\": \"Peters\", \"fore\": \"Andreas S\", \"initials\": \"AS\", \"affiliation\": \"Klinik für Gefäßchirurgie und Endovaskuläre Chirurgie, Universitätsklinikum Heidelberg, Im Neuenheimer Feld 420, 69120 Heidelberg, Germany.\"}, {\"last\": \"Passek\", \"fore\": \"Karola H\", \"initials\": \"KH\", \"affiliation\": \"Klinik für Gefäßchirurgie und Endovaskuläre Chirurgie, Universitätsklinikum Heidelberg, Im Neuenheimer Feld 420, 69120 Heidelberg, Germany.\"}, {\"last\": \"Böckler\", \"fore\": \"Dittmar\", \"initials\": \"D\", \"affiliation\": \"Klinik für Gefäßchirurgie und Endovaskuläre Chirurgie, Universitätsklinikum Heidelberg, Im Neuenheimer Feld 420, 69120 Heidelberg, Germany.\"}, {\"last\": \"Dihlmann\", \"fore\": \"Susanne\", \"initials\": \"S\", \"affiliation\": \"Klinik für Gefäßchirurgie und Endovaskuläre Chirurgie, Universitätsklinikum Heidelberg, Im Neuenheimer Feld 420, 69120 Heidelberg, Germany.\"}]",
+    "abstract": "There is currently no clinically valid biomarker for predicting the growth and prognosis of abdominal aortic aneurysms (AAA). The most promising candidates with the highest diagnostic values are plasma D-dimers and markers of activated neutrophils, i.e., myeloperoxidase (MPO) or cell-free DNA. So far, case-control studies on these markers have been performed almost exclusively using healthy individuals as controls. To validate the value of these markers in the clinical setting of a vascular surgery department, we analysed the diagnostic and prognostic potential of plasma D-dimers and MPO in 177 AAA patients versus 138 non-AAA patients with different vascular diseases. Significantly elevated levels of D-dimers were recorded for AAA patients compared with non-AAA patients, although the difference between the two groups was significantly smaller than that in other studies comparing AAA patients with healthy controls. Surprisingly, MPO levels were significantly higher in non-AAA patients than in those with AAA. After adjusting for the confounding factors of sex, peripheral artery disease (PAD) and internal carotid stenosis in multivariate regression models, neither D-dimers nor MPO remained independent correlates of AAA. In contrast, D-dimer plasma levels correlated well with the maximal aortic diameter. Combined analysis of D-dimers and circulating cell-free DNA levels derived from a previous study failed to improve the predictive values for the maximal aortic diameter. In conclusion, our data show that D-dimers and MPO are not suitable biomarkers for monitoring AAA in a real-world setting of mixed vascular surgery patients.",
+    "keywords": [
+      "D-dimer",
+      "Myeloperoxidase (MPO)",
+      "abdominal aortic aneurysm",
+      "biomarker",
+      "Humans",
+      "Aortic Aneurysm, Abdominal",
+      "Peroxidase",
+      "Male",
+      "Female",
+      "Fibrin Fibrinogen Degradation Products",
+      "Biomarkers",
+      "Aged",
+      "Middle Aged",
+      "Case-Control Studies",
+      "Vascular Surgical Procedures",
+      "Aged, 80 and over",
+      "Prognosis"
+    ],
+    "grants": [
+      {
+        "agency": "Heidelberger Stiftung Chirurgie",
+        "acronym": "",
+        "grant_id": "2023/586",
+        "country": ""
+      }
+    ]
+  },
+  {
+    "pmid": "39764140",
+    "title": "Targeting NLRP3 signaling with a novel sulfonylurea compound for the treatment of vascular cognitive impairment and dementia.",
+    "journal": "Research square",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Akif\", \"fore\": \"Adnan\", \"initials\": \"A\", \"affiliation\": \"University of Houston.\"}, {\"last\": \"My Nguyen\", \"fore\": \"Thi Thanh\", \"initials\": \"TT\", \"affiliation\": \"University of Houston.\"}, {\"last\": \"Liu\", \"fore\": \"Langni\", \"initials\": \"L\", \"affiliation\": \"The University of Texas Health Science Center at Houston.\"}, {\"last\": \"Xu\", \"fore\": \"Xiaotian\", \"initials\": \"X\", \"affiliation\": \"The Affiliated Hospital of Yangzhou University.\"}, {\"last\": \"Kulkarni\", \"fore\": \"Amol\", \"initials\": \"A\", \"affiliation\": \"The University of Texas at El Paso.\"}, {\"last\": \"Jiang\", \"fore\": \"Jianxiong\", \"initials\": \"J\", \"affiliation\": \"University of Tennessee Health Science Center.\"}, {\"last\": \"Zhang\", \"fore\": \"Yang\", \"initials\": \"Y\", \"affiliation\": \"University of Houston.\"}, {\"last\": \"Hao\", \"fore\": \"Jiukuan\", \"initials\": \"J\", \"affiliation\": \"University of Houston.\"}]",
+    "abstract": "BACKGROUND: As a key inflammatory factor, the nucleotide-binding oligomerization domain (NOD)-like receptor protein 3 (NLRP3) inflammasome plays a crucial role in neuroinflammation and the progression of neurodegenerative diseases. Dysregulation of NLRP3 signaling can trigger various inflammatory responses in the brain, contributing to the development of neurodegenerative diseases such as ischemic stroke, vascular dementia (VaD), Alzheimer's disease (AD), Parkinson's disease (PD), and amyotrophic lateral sclerosis (ALS). Therefore, the NLRP3 signaling pathway is a promising therapeutic target for the treatment of neurodegenerative diseases, including VaD.\nMETHODS: In this study, we investigated the therapeutic effects of a synthetic sulfonylurea NLRP3 inhibitor, AMS-17, in a VaD mouse model using bilateral common carotid artery stenosis (BCAS) and elucidated the underlying mechanisms. All mice were randomly divided into three groups: Sham, VaD + Vehicle, and VaD + AMS-17. Cognitive function was assessed using the Y-maze and Morris water maze (MWM) on the 50 day after BCAS. Brain sections and blood serum samples were collected for biomarker analysis and immunohistochemistry. Neurodegeneration, expressions of the molecules involved in the NLRP3 signaling pathways, tight junction proteins, and myelination were assessed using western blotting and immunofluorescence (IF). The levels of Interleukin-1 beta (IL-1β), Tumor Necrosis Factor-alpha (TNF-α) and Interleukin-4 (IL-4) in the blood were measured using ELISA.\nRESULTS: AMS-17 treatment improved cognitive function, enhanced blood-brain barrier (BBB) integrity, and promoted remyelination in VaD mice. Additionally, AMS-17 reduced neurodegeneration and decreased the expression of NLRP3 and its associated proteins, Apoptosis-associated speck-like protein (ASC), and cleaved caspase-1 in the brain. It also lowered pro-inflammatory TNF-α and IL-1β levels, while increasing the anti-inflammatory IL-4 level in the blood.\nCONCLUSIONS: The findings of this study provide the first promising evidence for the use of AMS-17 in VaD treatment in mice. This study introduces AMS-17 as a novel chemical scaffold with NLRP3 inhibitory activity, which can be further developed for the treatment of VaD in humans.",
+    "keywords": [
+      "Inflammasome",
+      "Inflammation",
+      "Ischemia",
+      "NLRP3",
+      "Vascular Dementia"
+    ],
+    "grants": [
+      {
+        "agency": "NINDS NIH HHS",
+        "acronym": "NS",
+        "grant_id": "R01 NS105787",
+        "country": "United States"
+      },
+      {
+        "agency": "NINDS NIH HHS",
+        "acronym": "NS",
+        "grant_id": "R21 NS133895",
+        "country": "United States"
+      }
+    ]
+  },
+  {
+    "pmid": "39759716",
+    "title": "Left Atrial Enlargement in Primary Cryptogenic Strokes Without Atrial Fibrillation.",
+    "journal": "Cureus",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Rashid\", \"fore\": \"Hytham\", \"initials\": \"H\", \"affiliation\": \"Cardiovascular Disease, HCA Houston Healthcare, Kingwood, USA.\"}, {\"last\": \"Pham\", \"fore\": \"Cecilia\", \"initials\": \"C\", \"affiliation\": \"Biomedical Sciences, Tilman J. Fertitta Family College of Medicine at the University of Houston, Houston, USA.\"}, {\"last\": \"Brown\", \"fore\": \"Jonathan\", \"initials\": \"J\", \"affiliation\": \"Internal Medicine, HCA Houston Healthcare, Kingwood, USA.\"}, {\"last\": \"Pansuriya\", \"fore\": \"Tushar\", \"initials\": \"T\", \"affiliation\": \"Internal Medicine, HCA Houston Healthcare, Kingwood, USA.\"}, {\"last\": \"Niknam\", \"fore\": \"Negar\", \"initials\": \"N\", \"affiliation\": \"Internal Medicine, HCA Houston Healthcare, Kingwood, USA.\"}, {\"last\": \"Ring\", \"fore\": \"Shai\", \"initials\": \"S\", \"affiliation\": \"Internal Medicine, HCA Houston Healthcare, Kingwood, USA.\"}, {\"last\": \"Srinivasan\", \"fore\": \"Aswin\", \"initials\": \"A\", \"affiliation\": \"Internal Medicine, HCA Houston Healthcare, Kingwood, USA.\"}, {\"last\": \"Ali\", \"fore\": \"Zuhair\", \"initials\": \"Z\", \"affiliation\": \"Graduate Medical Education, HCA Houston Healthcare, Kingwood, USA.\"}, {\"last\": \"Sarva\", \"fore\": \"Siva T\", \"initials\": \"ST\", \"affiliation\": \"Pulmonary and Critical Care Medicine, HCA Houston Healthcare, Kingwood, USA.\"}, {\"last\": \"Raza\", \"fore\": \"Syed A\", \"initials\": \"SA\", \"affiliation\": \"Cardiovascular Disease, HCA Houston Healthcare, Kingwood, USA.\"}]",
+    "abstract": "The relationship between left atrial enlargement (LAE) and primary cryptogenic stroke (PCS) remains a mystery. LAE has been proposed to be an independent risk factor of PCS, recurrent ischemic strokes, paroxysmal atrial fibrillation, and thromboembolism. Our study evaluates the prevalence of LAE among patients with PCS in the absence of atrial fibrillation, unlike previous studies that included atrial fibrillation, in order to isolate LAE as a risk factor. We hypothesize there is a direct correlation between the prevalence of LAE and the incidence of PCS. Our multi-center, retrospective, cross-sectional study constructed a database of 646 patients identified with a diagnosis of cerebral infarction over a three-year period. Detailed chart review excluded all patients with known etiologies for stroke, including atrial fibrillation, atrial flutter, prior stroke, systolic heart failure, carotid artery stenosis, patent foramen ovale, thromboembolic disease, previous anticoagulation, or an active cancer diagnosis. Diagnosis of LAE utilized a composite of criteria for transthoracic echocardiogram measurements, including left atrial diameter (LAD) and left atrial volume index (LAVI). All study criteria were met by 154 patients (24%) for analysis, where baseline characteristics included: 79 (51%) male, 104 (67.5%) Caucasian ethnicity, 108 (70%) diagnosed of hypertension (HTN), 80 (52%) previous or current tobacco users, and 47 (31%) diagnosed of diabetes (DM). We utilized logistic regression modeling to examine correlations in our population. Our preliminary analysis found that 74 (48%) patients met at least one criterion for LAE. The mean LAD for patients with and without LAE was 4.1 cm and 3.4 cm, respectively (SD 0.87 vs 0.55, p<0.0001). The mean LAVI for patients with and without LAE was 29.68 mL/m and 18.44 mL/m, respectively (SD 7.37 vs 5.13, p<0.0001). Our findings support the significance of LAE as a risk factor for cases of PCS. Multiple risk factors were identified in our study population that reflect the importance of preventative counseling for patients with HTN, hyperlipidemia, history of tobacco use, and DM. Routine screening for LAE in patients who suffer a PCS will encourage additional research that may elucidate the clinical relevance of identifying LAE in PCS. For example, whether LAE alone or in the setting of specific comorbidities warrants universal screening practices such as closer monitoring of arrhythmias such as paroxysmal atrial fibrillation to initiate anticoagulation earlier. Additionally, randomized control trials are necessary to determine whether prophylactic anticoagulation reduces future stroke risk among patients identified with LAE.",
+    "keywords": [
+      "atrial cardiopathy",
+      "cryptogenic strokes",
+      "lae",
+      "left atrial enlargement",
+      "pcs",
+      "strokes"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39756263",
+    "title": "Peritherapeutic intra-arterial flow changes predict long-term stent patency in patients with severe intracranial artery stenosis receiving PTAS.",
+    "journal": "European journal of radiology",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Chang\", \"fore\": \"Feng-Chi\", \"initials\": \"FC\", \"affiliation\": \"Department of Radiology, Taipei Veterans General Hospital, Taipei, Taiwan; School of Medicine, National Yang Ming Chiao Tung University, Taipei, Taiwan; Neuroscience Research Center, Taipei Medical University Hospital, Taipei, Taiwan.\"}, {\"last\": \"Wu\", \"fore\": \"Chia-Jen\", \"initials\": \"CJ\", \"affiliation\": \"Department of Medical Imaging, Kaohsiung Medical University Hospital, Kaohsiung, Taiwan; Department of Medical Imaging, Kaohsiung Municipal Ta-Tung Hospital, Kaohsiung Medical University, Kaohsiung, Taiwan; Department of Radiology, Kaohsiung Medical University, Kaohsiung, Taiwan.\"}, {\"last\": \"Ling\", \"fore\": \"Kan\", \"initials\": \"K\", \"affiliation\": \"Department of Radiology, Taipei Veterans General Hospital, Taipei, Taiwan; Department of Radiology, Taipei Medical University-Shuang Ho Hospital, New Taipei City, Taiwan.\"}, {\"last\": \"Chen\", \"fore\": \"Ting-Yi\", \"initials\": \"TY\", \"affiliation\": \"Department of Radiology, Taipei Veterans General Hospital, Taipei, Taiwan.\"}, {\"last\": \"Lirng\", \"fore\": \"Jiing-Feng\", \"initials\": \"JF\", \"affiliation\": \"Department of Radiology, Taipei Veterans General Hospital, Taipei, Taiwan; School of Medicine, National Yang Ming Chiao Tung University, Taipei, Taiwan. Electronic address: jflirng@vghtpe.gov.tw.\"}, {\"last\": \"Wu\", \"fore\": \"Chia-Hung\", \"initials\": \"CH\", \"affiliation\": \"Department of Radiology, Taipei Veterans General Hospital, Taipei, Taiwan; School of Medicine, National Yang Ming Chiao Tung University, Taipei, Taiwan. Electronic address: albert1030kimo@gmail.com.\"}]",
+    "abstract": "BACKGROUND AND PURPOSE: The quantitative intra-arterial flow dynamics following percutaneous transluminal angioplasty and stenting (PTAS) for severe intracranial artery stenosis have never been investigated. We aimed to evaluate peritherapeutic intracranial artery flow dynamics following PTAS with quantitative magnetic resonance angiography (qMRA) to predict long-term stent patency.\nDESIGN: This is a prospective, single-center study.\nMETHODS: We recruited participants with severe symptomatic stenosis from intracranial internal carotid artery (ICA) to M1 segment of middle cerebral artery (MCA) between 2018 and 2022. qMRA was performed before (preprocedural), within 24 h after (early postprocedural) and 12 months after (delayed postprocedural) PTAS, and parameters including bilateral M1 segments and basilar artery (BA) flow were recorded. The calibrated M1 ratio was calculated using contralateral M1 (cM1) and BA (cMB) flows as references. We assessed differences in qMRA parameters between subjects with and without significant 12-month in-stent restenosis (ISR).\nRESULTS: Forty-four subjects (12 with + 32 without ISR ≥ 50 %) were included. The early postprocedural M1 flow was higher than preprocedural M1 flow in subjects with (p = 0.030) and without (p = 0.031) ISR. The early postprocedural healthy-side M1 flow was lower than preprocedural healthy-side M1 flow (p = 0.014) in subjects without ISR. Both the early (p < 0.001) and delayed (p = 0.014) cM1s were greater than the preprocedural cM1. The residual stenosis grade was positively correlated with delayed postprocedural cM1 in all subjects (r = 0.190; p = 0.003).\nCONCLUSIONS: The cM1 and a distinct flow dynamic pattern on early qMRA (within 24 h after PTAS) may predict 12-month ISR.",
+    "keywords": [
+      "In-stent restenosis (ISR)",
+      "Internal carotid artery (ICA)",
+      "Intracranial percutaneous transluminal angioplasty and stenting (Intracranial PTAS)",
+      "Middle cerebral artery (MCA)",
+      "Quantitative magnetic resonance angiography (qMRA)",
+      "Humans",
+      "Female",
+      "Male",
+      "Stents",
+      "Prospective Studies",
+      "Middle Aged",
+      "Magnetic Resonance Angiography",
+      "Aged",
+      "Vascular Patency",
+      "Angioplasty",
+      "Treatment Outcome",
+      "Constriction, Pathologic"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39751866",
+    "title": "Aerobic Exercise Improves Cognitive Recovery in Mice with Chronic Cerebral Hypoperfusion by Modulating the Annexin-A1-MAPK Axis and Astrocyte Polarization.",
+    "journal": "Aging and disease",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Zhang\", \"fore\": \"Wei\", \"initials\": \"W\", \"affiliation\": \"Central Laboratory, Xuanwu Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"He\", \"fore\": \"Jing\", \"initials\": \"J\", \"affiliation\": \"Central Laboratory, Xuanwu Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Wang\", \"fore\": \"Yuxin\", \"initials\": \"Y\", \"affiliation\": \"Central Laboratory, Xuanwu Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Wang\", \"fore\": \"Xiaozhen\", \"initials\": \"X\", \"affiliation\": \"Central Laboratory, Xuanwu Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Jin\", \"fore\": \"He\", \"initials\": \"H\", \"affiliation\": \"Central Laboratory, Xuanwu Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Xu\", \"initials\": \"X\", \"affiliation\": \"Central Laboratory, Xuanwu Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Kong\", \"fore\": \"Ling\", \"initials\": \"L\", \"affiliation\": \"Central Laboratory, Xuanwu Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Wu\", \"fore\": \"Yanchuan\", \"initials\": \"Y\", \"affiliation\": \"Central Laboratory, Xuanwu Hospital, Capital Medical University, Beijing, China.\"}, {\"last\": \"Yang\", \"fore\": \"Yong\", \"initials\": \"Y\", \"affiliation\": \"School of Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China.\"}, {\"last\": \"Wang\", \"fore\": \"Rong\", \"initials\": \"R\", \"affiliation\": \"Central Laboratory, Xuanwu Hospital, Capital Medical University, Beijing, China.\"}]",
+    "abstract": "Vascular cognitive impairment and dementia (VCID), resulting from chronic cerebral hypoperfusion, represent the second most prevalent form of dementia globally. Aerobic exercise is widely acknowledged as an effective intervention for various cognitive disorders. This study utilized a bilateral common carotid artery stenosis (BCAS) model to investigate whether aerobic exercise promotes cognitive recovery through the Annexin-A1 (ANXA1)/mitogen-activated protein kinase (MAPK) axis in BCAS mice. Our findings demonstrate that aerobic exercise improved spatial memory in BCAS mice by enhancing white matter (WM) integrity and hippocampal function. WM integrity was confirmed through Luxol Fast Blue (LFB) staining and protein assays. Additionally, aerobic exercise mitigated BCAS-induced long-term potentiation (LTP) decay and upregulated hippocampal expression of key synaptic proteins, including N-methyl-D-aspartate receptor subunits NR2B and NR1, vesicular glutamate transporter 1 (vGluT1), and the synaptic scaffolding protein postsynaptic density protein 95 (PSD95). Furthermore, aerobic exercise enhanced the expression of the anti-inflammatory mediator ANXA1 through exosome secretion while simultaneously suppressing the MAPK signaling pathway. These molecular changes were associated with increased astrocyte proliferation and the polarization of astrocytes toward the A2 phenotype. These findings were further validated using an in vitro co-culture model of astrocytes (U251) and neurons (HT22). In summary, our study demonstrates that aerobic exercise improves WM integrity and hippocampal function by modulating the ANXA1/MAPK axis following astrocyte polarization. Thus, aerobic exercise emerges as a promising intervention for promoting functional recovery in VCID.",
+    "keywords": [],
+    "grants": []
+  },
+  {
+    "pmid": "39735208",
+    "title": "Optimal Cerebral Protection Confirmed by Transcranial Doppler During Transcarotid Artery Revascularization.",
+    "journal": "Methodist DeBakey cardiovascular journal",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Vernes\", \"fore\": \"Reka\", \"initials\": \"R\", \"affiliation\": \"Houston Methodist Hospital, Houston, Texas, US.\"}, {\"last\": \"Bardoczi\", \"fore\": \"Adam\", \"initials\": \"A\", \"affiliation\": \"Houston Methodist Hospital, Houston, Texas, US.\"}, {\"last\": \"Lumsden\", \"fore\": \"Alan B\", \"initials\": \"AB\", \"affiliation\": \"Houston Methodist Hospital, Houston, Texas, US.\"}, {\"last\": \"Garami\", \"fore\": \"Zsolt F\", \"initials\": \"ZF\", \"affiliation\": \"Houston Methodist Hospital, Houston, Texas, US.\"}]",
+    "abstract": "Transcarotid artery revascularization (TCAR) is a novel method to treat severe stenosis of the carotid artery with minimal embolization. During TCAR, flow reversal system redirects blood from the internal, external, and common carotid arteries into the femoral vein through a filter system to prevent debris and microparticles from entering the cerebral circulation. Transcranial Doppler (TCD) monitoring allows real-time detection of blood flow in the cerebral arteries during the operation and informs the surgeon of flow changes or possible emboli. With this information, the steps and maneuvers during the procedure and the function of the flow reversal system can be further improved to avoid stroke or other neurological complications. In this case study, we present a TCAR procedure with TCD monitoring in an asymptomatic male patient exhibiting severe left-sided internal carotid artery stenosis. Optimal cerebral protection was achieved due to the neuroprotective flow reversal system of TCAR.",
+    "keywords": [
+      "carotid revascularization",
+      "cerebral emboli",
+      "stroke",
+      "transcarotid artery revascularization (TCAR)",
+      "transcranial Doppler",
+      "Humans",
+      "Male",
+      "Blood Flow Velocity",
+      "Carotid Artery, Internal",
+      "Carotid Stenosis",
+      "Cerebrovascular Circulation",
+      "Embolic Protection Devices",
+      "Predictive Value of Tests",
+      "Severity of Illness Index",
+      "Treatment Outcome",
+      "Ultrasonography, Doppler, Transcranial"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39733781",
+    "title": "Physicians' preference for carotid revascularization impacts postoperative stroke and death outcomes.",
+    "journal": "Journal of vascular surgery",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Aridi\", \"fore\": \"Hanaa D\", \"initials\": \"HD\", \"affiliation\": \"Division of Vascular Surgery, Indiana University School of Medicine, Indianapolis, IN. Electronic address: hdakour@iu.edu.\"}, {\"last\": \"Frank\", \"fore\": \"Geneva\", \"initials\": \"G\", \"affiliation\": \"Division of Vascular Surgery, Indiana University School of Medicine, Indianapolis, IN.\"}, {\"last\": \"Gutwein\", \"fore\": \"Ashley R\", \"initials\": \"AR\", \"affiliation\": \"Division of Vascular Surgery, Indiana University School of Medicine, Indianapolis, IN.\"}, {\"last\": \"Madison\", \"fore\": \"Mackenzie\", \"initials\": \"M\", \"affiliation\": \"Division of Vascular Surgery, Indiana University School of Medicine, Indianapolis, IN.\"}, {\"last\": \"Schermerhorn\", \"fore\": \"Marc L\", \"initials\": \"ML\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Department of Surgery, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA.\"}, {\"last\": \"Kashyap\", \"fore\": \"Vikram S\", \"initials\": \"VS\", \"affiliation\": \"Frederik Meijer Heart and Vascular Institute, Corewell Health, Grand Rapids, MI.\"}, {\"last\": \"Wang\", \"fore\": \"Grace\", \"initials\": \"G\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, Hospital of the University of Pennsylvania, Philadelphia, PA.\"}, {\"last\": \"Eldrup-Jorgensen\", \"fore\": \"Jens\", \"initials\": \"J\", \"affiliation\": \"Department of Vascular Surgery, Maine Medical Center, Portland, ME.\"}, {\"last\": \"Malas\", \"fore\": \"Mahmoud\", \"initials\": \"M\", \"affiliation\": \"Division of Vascular and Endovascular Surgery, University of California San Diego, La Jolla, CA.\"}, {\"last\": \"Motaganahalli\", \"fore\": \"Raghu\", \"initials\": \"R\", \"affiliation\": \"Division of Vascular Surgery, Indiana University School of Medicine, Indianapolis, IN.\"}]",
+    "abstract": "OBJECTIVE: Transcarotid artery revascularization (TCAR) is a safe minimally invasive option for patients with carotid artery stenosis who are not appropriate candidates for carotid endarterectomy (CEA). Many physicians have not yet adopted this technique in the management of carotid artery stenosis. The aim of this study is to explore overall outcomes of carotid revascularization based on physicians' practices in the Vascular Quality Initiative (VQI).\nMETHODS: Individual physicians participating in both the carotid artery stenting (CAS) and carotid endarterectomy (CEA) modules in VQI were categorized as performing CEA and TCAR, CEA and transfemoral carotid artery stenting (TFCAS), or all three procedures (CEA, TCAR, and TFCAS). Physicians performing CEA only or TCAR/TFCAS only were excluded. In-hospital and 1-year outcomes were compared between the three groups using univariable and multivariable analysis.\nRESULTS: A total of 104,925 carotid revascularization procedures performed by 1433 physicians were included. Most physicians performed CEA and TCAR (n = 714; 49.8%), whereas 35.1% (n = 503) performed all three procedures, and 15.1% (n = 216) performed CEA and TFCAS only. Physicians performing CEA and TFCAS had higher overall stroke/death rates after carotid procedures (2.2%) compared with those performing CEA and TCAR (1.4%) or those performing all three procedures (1.6%; P < .001). They also had higher rates of cranial nerve injuries (3.1% vs 1.9% vs 1.9%; P < .001). After adjusting for baseline characteristics, procedures performed by CEA and TFCAS physicians had significantly higher odds of in-hospital stroke/death compared with those in the CEA and TCAR group (odds ratio, 1.31; 95% confidence interval [CI], 1.03-1.66; P = .03). They also had increased hazard of 1-year stroke/death (hazard ratio, 1.45; 95% CI, 1.1-1.9; P = .01). No significant difference in the adjusted odds of stroke/death was observed between CEA and TCAR performers vs CEA, TCAR, and TFCAS performers (odds ratio, 1.05; 95% CI, 0.92-1.20; P = .44). When adjusting for the type of carotid revascularization technique, difference in outcomes based on surgeon's experience were no longer significant, indicating that differences in outcomes were procedure-specific and attributable to the inferior outcomes associated with TFCAS compared with CEA and TCAR. TCAR case volumes did not impact outcomes of carotid revascularization. On the other hand, a high TFCAS volume among physicians performing all three carotid procedures was associated with higher overall in-hospital and 1-year mortality.\nCONCLUSIONS: Physicians' preference for carotid artery stenosis management has a bearing on their overall stroke/death rates. Careful patient and procedure selection are the cornerstone to improve carotid revascularization outcomes.",
+    "keywords": [
+      "Carotid artery stenting",
+      "Carotid endarterectomy",
+      "Carotid revascularization",
+      "Practice patterns",
+      "Stroke",
+      "Humans",
+      "Carotid Stenosis",
+      "Male",
+      "Endarterectomy, Carotid",
+      "Aged",
+      "Female",
+      "Treatment Outcome",
+      "Risk Factors",
+      "Practice Patterns, Physicians'",
+      "Time Factors",
+      "Stents",
+      "Endovascular Procedures",
+      "Retrospective Studies",
+      "Risk Assessment",
+      "Middle Aged",
+      "Hospital Mortality",
+      "Aged, 80 and over",
+      "Clinical Decision-Making"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39729884",
+    "title": "Assessment of microvascular flow in human atherosclerotic carotid plaques using ultrasound localization microscopy.",
+    "journal": "EBioMedicine",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Leroy\", \"fore\": \"Henri\", \"initials\": \"H\", \"affiliation\": \"Physics for Medicine Paris, INSERM U1273, ESPCI Paris, CNRS UMR 8063, PSL Research University, Paris, France. Electronic address: henri.leroy@espci.psl.eu.\"}, {\"last\": \"Wang\", \"fore\": \"Louise Z\", \"initials\": \"LZ\", \"affiliation\": \"Université Paris Cité, INSERM U970, Vascular Medicine Department, Hôpital Européen Georges-Pompidou, Assistance Publique-Hôpitaux de Paris (AP-HP), F-75006, Paris, France.\"}, {\"last\": \"Jimenez\", \"fore\": \"Anatole\", \"initials\": \"A\", \"affiliation\": \"Physics for Medicine Paris, INSERM U1273, ESPCI Paris, CNRS UMR 8063, PSL Research University, Paris, France.\"}, {\"last\": \"Mohamedi\", \"fore\": \"Nassim\", \"initials\": \"N\", \"affiliation\": \"Université Paris Cité, INSERM U970, Vascular Medicine Department, Hôpital Européen Georges-Pompidou, Assistance Publique-Hôpitaux de Paris (AP-HP), F-75006, Paris, France.\"}, {\"last\": \"Papadacci\", \"fore\": \"Clément\", \"initials\": \"C\", \"affiliation\": \"Physics for Medicine Paris, INSERM U1273, ESPCI Paris, CNRS UMR 8063, PSL Research University, Paris, France.\"}, {\"last\": \"Julia\", \"fore\": \"Pierre\", \"initials\": \"P\", \"affiliation\": \"Université Paris Cité, INSERM U970, Vascular Surgery Department, Hôpital Européen Georges-Pompidou, Assistance Publique-Hôpitaux de Paris (AP-HP), F-75006, Paris, France.\"}, {\"last\": \"El Batti\", \"fore\": \"Salma\", \"initials\": \"S\", \"affiliation\": \"Université Paris Cité, INSERM U970, Vascular Surgery Department, Hôpital Européen Georges-Pompidou, Assistance Publique-Hôpitaux de Paris (AP-HP), F-75006, Paris, France.\"}, {\"last\": \"Alsac\", \"fore\": \"Jean-Marc\", \"initials\": \"JM\", \"affiliation\": \"Université Paris Cité, INSERM U970, Vascular Surgery Department, Hôpital Européen Georges-Pompidou, Assistance Publique-Hôpitaux de Paris (AP-HP), F-75006, Paris, France.\"}, {\"last\": \"Sitruk\", \"fore\": \"Jonas\", \"initials\": \"J\", \"affiliation\": \"Université Paris Cité, INSERM U970, Vascular Medicine Department, Hôpital Européen Georges-Pompidou, Assistance Publique-Hôpitaux de Paris (AP-HP), F-75006, Paris, France.\"}, {\"last\": \"Arnoux\", \"fore\": \"Armelle\", \"initials\": \"A\", \"affiliation\": \"Université Paris Cité, AP-HP, Hôpital Européen Georges-Pompidou, Assistance Publique-Hôpitaux de Paris (AP-HP), Clinical Research Unit, Clinical Investigation Centre 1418 Clinical Epidemiology, INSERM, INRIA, HeKA, Paris, France.\"}, {\"last\": \"Bruneval\", \"fore\": \"Patrick\", \"initials\": \"P\", \"affiliation\": \"Université Paris Cité, INSERM U970, Cardiology Department, Hôpital Européen Georges-Pompidou, Assistance Publique-Hôpitaux de Paris (AP-HP), F-75006, Paris, France.\"}, {\"last\": \"Messas\", \"fore\": \"Emmanuel\", \"initials\": \"E\", \"affiliation\": \"Université Paris Cité, INSERM U970, Vascular Medicine Department, Hôpital Européen Georges-Pompidou, Assistance Publique-Hôpitaux de Paris (AP-HP), F-75006, Paris, France.\"}, {\"last\": \"Mirault\", \"fore\": \"Tristan\", \"initials\": \"T\", \"affiliation\": \"Université Paris Cité, INSERM U970, Vascular Medicine Department, Hôpital Européen Georges-Pompidou, Assistance Publique-Hôpitaux de Paris (AP-HP), F-75006, Paris, France.\"}, {\"last\": \"Goudot\", \"fore\": \"Guillaume\", \"initials\": \"G\", \"affiliation\": \"Université Paris Cité, INSERM U970, Vascular Medicine Department, Hôpital Européen Georges-Pompidou, Assistance Publique-Hôpitaux de Paris (AP-HP), F-75006, Paris, France.\"}, {\"last\": \"Pernot\", \"fore\": \"Mathieu\", \"initials\": \"M\", \"affiliation\": \"Physics for Medicine Paris, INSERM U1273, ESPCI Paris, CNRS UMR 8063, PSL Research University, Paris, France.\"}]",
+    "abstract": "BACKGROUND: Neovascularisation of carotid plaques contributes to their vulnerability. Current imaging methods such as contrast-enhanced ultrasound (CEUS) usually lack the required spatial resolution and quantification capability for precise neovessels identification. We aimed at quantifying plaque vascularisation with ultrasound localization microscopy (ULM) and compared the results to histological analysis.\nMETHODS: We conducted a prospective, monocentric, study involving patients who were undergoing carotid endarterectomy (CEA) for carotid artery stenosis. The day before CEA ultrasound examination coupled with the injection of microbubbles (MB) as a contrast agent (CEUS) to image the MB circulating within and around the carotid plaque was performed. CEUS images analysis classified patients into 2 groups: absence of neovascularisation (group A) or presence of neovascularisation (group B). ULM was performed by localising and tracking individual MB centres to reconstruct the neovessels structure with a resolution of around 60 μm. Plaques were manually segmented on the images to quantify the number of neovessels and various haemodynamic metrics inside the plaques. Histological analysis of the excised carotid plaque specimens classified patients into 2 groups: absence of neovascularisation (group I) or presence of neovascularisation (group II).\nFINDINGS: Among the 26 patients included, classification was as follows: group I: n = 8 and group II: n = 18, 18 patients had analysable CEUS images and were classified as follows: group A: n = 10, group B: n = 8. The median (Q1-Q3) number of MB tracked per second inside the plaque was 0.03 (0-0.37) for patients in group I and 0.51 (0-3) for patients in group A versus (vs.) 3.55 (1.26-17.68) for patients in group II and 9.69 (5.83-34.68) for patients in group B (p = 0.00049; p = 0.010 respectively). The length of the MB tracks was 0.02 mm (0-0.16) in group I vs. 0.29 mm (0.22-0.45) in group II (p = 0.0069). The study also showed that flow in the neovessels was greater during systole than during diastole period: 9.38 (1.67-19.17) MB tracked per second vs. 1.35 (0.28-6.56) (p = 0.021).\nINTERPRETATION: ULM allows the detection of neovessels within the carotid atherosclerotic plaque. Thus, ULM provides a precise picture of plaque neovascularisation in patients and could be used as a non-invasive imaging technique to assess carotid plaque vulnerability.\nFUNDING: The study was sponsored and funded by Assistance Publique-Hôpitaux de Paris (CRC 1806 APHP INNOVATION 2018). Co-funding by ART (Technological Research Accelerator) biomedical ultrasound program of INSERM, France.",
+    "keywords": [
+      "Atherosclerosis",
+      "Carotid plaque",
+      "Contrast-enhanced ultrasound",
+      "Neovascularisation",
+      "Super-resolution imaging",
+      "Ultrasound imaging",
+      "Humans",
+      "Plaque, Atherosclerotic",
+      "Male",
+      "Aged",
+      "Female",
+      "Middle Aged",
+      "Neovascularization, Pathologic",
+      "Endarterectomy, Carotid",
+      "Carotid Stenosis",
+      "Ultrasonography",
+      "Prospective Studies",
+      "Microbubbles",
+      "Microvessels",
+      "Aged, 80 and over",
+      "Contrast Media",
+      "Carotid Arteries"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39729569",
+    "title": "Automatic calculation method for stenosis ratio based on dialysis access ultrasound image segmentation.",
+    "journal": "Medical physics",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Shi\", \"fore\": \"Fengxin\", \"initials\": \"F\", \"affiliation\": \"Academy for Engineering & Technology, Fudan University, Shanghai, China.\"}, {\"last\": \"Zhu\", \"fore\": \"Dongming\", \"initials\": \"D\", \"affiliation\": \"Department of Ultrasound Medicine, The Affiliated Suzhou Hospital of Nanjing University Medical School, Suzhou, China.\"}, {\"last\": \"Zhi\", \"fore\": \"Jia\", \"initials\": \"J\", \"affiliation\": \"Department of Ultrasound Medicine, The Affiliated Suzhou Hospital of Nanjing University Medical School, Suzhou, China.\"}, {\"last\": \"Hou\", \"fore\": \"Guocun\", \"initials\": \"G\", \"affiliation\": \"Department of Ultrasound Medicine, The Affiliated Suzhou Hospital of Nanjing University Medical School, Suzhou, China.\"}, {\"last\": \"Cui\", \"fore\": \"Yaoyao\", \"initials\": \"Y\", \"affiliation\": \"Academy for Engineering & Technology, Fudan University, Shanghai, China.\"}, {\"last\": \"Wang\", \"fore\": \"Xiaocong\", \"initials\": \"X\", \"affiliation\": \"Department of Echocardiography, Ultrasound Diagnostic Center, The First Hospital of Jilin University, Changchun, China.\"}]",
+    "abstract": "BACKGROUND: Dialysis Access (DA) stenosis impacts hemodialysis efficiency and patient health, necessitating exams for early lesion detection. Ultrasound is widely used due to its non-invasive, cost-effective nature. Assessing all patients in large hemodialysis facilities strains resources and relies on operator expertise. Furthermore, it heavily relies on the experience and expertise of the operator. Therefore, it is essential to explore methods for the automatic analysis of DA ultrasound images to accurately calculate the stenosis ratios, thereby enhancing both diagnostic accuracy and treatment efficiency.\nPURPOSE: This study is aimed at employing image segmentation networks to conduct precise segmentation of the ultrasound images of DA lumens and automatically classify the types of stenosis. The segmentation outcomes are processed by means of morphological processing techniques for the automatic calculation of the DA stenosis ratio, thus enhancing the daily diagnostic efficiency of physicians and providing a substantial quantitative foundation for clinical decision-making.\nMETHODS: Firstly, our study introduces a deep neural network-based approach for vascular lumen segmentation and classification, termed Vessel Lumen Segmentation and Classification-Net (VLSC-Net), aimed at the precise segmentation of the DA lumen in ultrasound images. We conducted comparative analyses of our network against U-Net, TransUNet, MultiResUnet, and ResUNet using metrics such as mean Intersection over Union (mIoU), Dice score, Accuracy, Hausdorff Distance (HD), and Average Symmetric Surface Distance (ASSD). A five-fold cross-validation was performed on a dataset comprising 1710 images for both comparison experiments and ablation studies; specifically, the training set included 1368 images while the test set contained 342 images. The significance of observed differences was assessed using the Mann-Whitney U-test. To prevent the increase in the chance of making a Type I error (false positive) that occurs when many simultaneous tests are being conducted, we used the Bonferroni correction to address the problem of multiple comparisons. Since we did four groups of comparisons, the significance level (  ) is adjusted by dividing it by 4. Secondly, we utilized morphological processing alongside feature extraction techniques to accurately delineate the edges of the lumen. This facilitated precise measurements of critical stenosis segment parameters. Finally, we automatically calculated the Long-axis Diameter Stenosis Ratio (LDSR) and Short-axis Area Stenosis Ratio (SASR) utilizing methods from the European Carotid Surgery Trial based on parameters derived from these calculations.\nRESULTS: VLSC-Net demonstrated superior performance compared with traditional segmentation methods, effectively handling image artifacts while maintaining a compact structure. The mIoU, Dice score, Accuracy, HD, and ASSD were 0.9563, 0.9777, 0.9976, 4.542, and 0.460, respectively, and showed significant differences from the results of U-Net (p   0.0125). An evaluation involving 1710 images from 62 patients indicated that our method delivers high-precision and reliable stenosis ratio and classification outcomes within an average processing time of 164 ms. Furthermore, the average errors for LDSR and SASR were found to be 1.4% and 7.8%, respectively.\nCONCLUSIONS: Our approach greatly enhances diagnostic efficiency for medical personnel, offering reliable and objective evidence for clinical assessment and decision-making in DA stenosis treatment, thereby reducing the risk of complications associated with DA stenosis.",
+    "keywords": [
+      "dialysis access",
+      "stenosis ratio calculation",
+      "ultrasound image segmentation",
+      "Renal Dialysis",
+      "Ultrasonography",
+      "Image Processing, Computer-Assisted",
+      "Humans",
+      "Automation",
+      "Constriction, Pathologic"
+    ],
+    "grants": [
+      {
+        "agency": "Suzhou Science and Technology Plan Project",
+        "acronym": "",
+        "grant_id": "SZS2022008",
+        "country": ""
+      },
+      {
+        "agency": "Jilin Province Science and Technology Development Plan",
+        "acronym": "",
+        "grant_id": "20200404158YY",
+        "country": ""
+      }
+    ]
+  },
+  {
+    "pmid": "39726489",
+    "title": "Successful Management of Intraprocedural Arterial Dissection During Carotid Artery Stenting With an Overlapping CASPER Rx Stent for Tortuous Vessel: A Case Report.",
+    "journal": "Cureus",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Miyata\", \"fore\": \"Takeshi\", \"initials\": \"T\", \"affiliation\": \"Neurosurgery, Kokura Memorial Hospital, Kitakyushu, JPN.\"}, {\"last\": \"Tsujimoto\", \"fore\": \"Yoshitaka\", \"initials\": \"Y\", \"affiliation\": \"Neurosurgery, Kokura Memorial Hospital, Kitakyushu, JPN.\"}, {\"last\": \"Ogura\", \"fore\": \"Takenori\", \"initials\": \"T\", \"affiliation\": \"Neurosurgery, Kokura Memorial Hospital, Kitakyushu, JPN.\"}, {\"last\": \"Agawa\", \"fore\": \"Yuji\", \"initials\": \"Y\", \"affiliation\": \"Neurosurgery, Kokura Memorial Hospital, Kitakyushu, JPN.\"}, {\"last\": \"Hatano\", \"fore\": \"Taketo\", \"initials\": \"T\", \"affiliation\": \"Neurosurgery, Kokura Memorial Hospital, Kitakyushu, JPN.\"}]",
+    "abstract": "Carotid artery stenosis is a significant cause of ischemic stroke, often necessitating interventions like carotid artery stenting (CAS) to restore adequate blood flow. However, complications like intraprocedural arterial dissection can arise during the procedure. This report presents a case of intraprocedural arterial dissection during CAS using a CASPER Rx stent. A 77-year-old male, previously diagnosed with asymptomatic right internal carotid artery (ICA) stenosis two years earlier, was presented to our institution with transient left upper limb paralysis. CAS with a CASPER Rx stent was planned due to the progression of symptomatic ICA stenosis. During the procedure, an arterial dissection occurred in the vessel wall just distal to the stent but was successfully managed with additional stenting. The patient experienced no postoperative neurological deficits and was discharged in stable condition. This case highlights the importance of careful resheathing to avoid unintended advancement of the stent system, particularly in cases of ICA stenosis with severe vessel tortuosity. Furthermore, the present case also emphasizes the critical need of timely intervention to prevent serious complications.",
+    "keywords": [
+      "arterial dissection",
+      "carotid artery stenosis",
+      "carotid artery stenting",
+      "casper stent",
+      "stent resheath"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39726167",
+    "title": "The predictive factors for in-stent restenosis after interventional treatment of chronic carotid artery occlusion.",
+    "journal": "Acta radiologica (Stockholm, Sweden : 1987)",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Pan\", \"fore\": \"Song\", \"initials\": \"S\", \"affiliation\": \"Department of Interventional Radiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, PR China.\"}, {\"last\": \"Cao\", \"fore\": \"Yue-Zhou\", \"initials\": \"YZ\", \"affiliation\": \"Department of Interventional Radiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, PR China.\"}, {\"last\": \"Zhou\", \"fore\": \"Chun\", \"initials\": \"C\", \"affiliation\": \"Department of Interventional Radiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, PR China.\"}, {\"last\": \"Jia\", \"fore\": \"Zhenyu\", \"initials\": \"Z\", \"affiliation\": \"Department of Interventional Radiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, PR China.\"}, {\"last\": \"Zhao\", \"fore\": \"Lin-Bo\", \"initials\": \"LB\", \"affiliation\": \"Department of Interventional Radiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, PR China.\"}, {\"last\": \"Shi\", \"fore\": \"Hai-Bin\", \"initials\": \"HB\", \"affiliation\": \"Department of Interventional Radiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, PR China.\"}, {\"last\": \"Liu\", \"fore\": \"Sheng\", \"initials\": \"S\", \"affiliation\": \"Department of Interventional Radiology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, PR China.\"}]",
+    "abstract": "BackgroundIn-stent restenosis (ISR) is a potential severe complication that occurs in patients with severe carotid artery narrowing after carotid angioplasty and stent placement. However, this phenomenon has not been fully studied in the context of interventional treatment for chronic internal carotid artery occlusion (CICAO).PurposeTo quantify the ISR rate and identify the risk factors leading to this event.Material and MethodsThis study included 69 patients with symptomatic CICAO who underwent successful intravascular recanalization at our institution. Clinical information, outcomes, and prognosis of the patients were recorded. The related factors of ISR were analyzed through univariate and multivariate analysis.ResultsA total of 11 (15.9%) patients developed a significant ISR > 70% during the follow-up period. Among them, five patients with ISR experienced symptomatic restenosis. Our study found hyperlipidemia ( = 0.017), contralateral internal carotid artery occlusion ( = 0.041), and prolonged radiologic occlusion to recanalization time ( = 0.049) could contribute to the risk of ISR in patients with CICAO.ConclusionISR is not rare in patients with CICAO after successful intervention. Hyperlipidemia, contralateral ICA occlusion, and prolonged radiologic occlusion to recanalization time are the risk factors for ISR after treatment in patients with CICAO.",
+    "keywords": [
+      "In-stent restenosis",
+      "carotid artery stenting",
+      "chronic internal carotid artery occlusion",
+      "Humans",
+      "Male",
+      "Female",
+      "Stents",
+      "Aged",
+      "Risk Factors",
+      "Carotid Stenosis",
+      "Middle Aged",
+      "Retrospective Studies",
+      "Carotid Artery, Internal",
+      "Chronic Disease",
+      "Treatment Outcome",
+      "Aged, 80 and over"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39725819",
+    "title": "Spontaneous regression of unruptured small intracranial aneurysm associated with proximal parent artery stenosis.",
+    "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Endo\", \"fore\": \"Hideki\", \"initials\": \"H\", \"affiliation\": \"Department of Neurosurgery, Nakamura Memorial Hospital, South 1, West 14, Chuo-ku, Sapporo, Hokkaido, 060-8570, Japan. endo@med.nmh.or.jp.\"}, {\"last\": \"Honjo\", \"fore\": \"Kaori\", \"initials\": \"K\", \"affiliation\": \"Department of Neurosurgery, Nakamura Memorial Hospital, South 1, West 14, Chuo-ku, Sapporo, Hokkaido, 060-8570, Japan.\"}, {\"last\": \"Ono\", \"fore\": \"Hidetoshi\", \"initials\": \"H\", \"affiliation\": \"Department of Radiology, Nakamura Memorial Hospital, Sapporo, Hokkaido, Japan.\"}, {\"last\": \"Ishikawa\", \"fore\": \"Kohei\", \"initials\": \"K\", \"affiliation\": \"Department of Neurosurgery, Nakamura Memorial Hospital, South 1, West 14, Chuo-ku, Sapporo, Hokkaido, 060-8570, Japan.\"}, {\"last\": \"Nakamura\", \"fore\": \"Hirohiko\", \"initials\": \"H\", \"affiliation\": \"Department of Neurosurgery, Nakamura Memorial Hospital, South 1, West 14, Chuo-ku, Sapporo, Hokkaido, 060-8570, Japan.\"}]",
+    "abstract": "Spontaneous thrombosis of intracranial aneurysms is rare. Spontaneous regression of unruptured small saccular aneurysms is even more rare. A 76-year-old woman with a history of hypertension and dyslipidemia was referred for evaluation of an unruptured intracranial aneurysm. Magnetic resonance angiography showed a left internal carotid artery aneurysm with a maximum width of 4.0 mm and a neck diameter of 3.0 mm. She was monitored using annual magnetic resonance angiography. Imaging at the 8.5-year follow-up showed partial aneurysm regression and stenosis in the parent artery proximal to the aneurysm. The next year, it had almost completely regressed. Spontaneous regression can occur even with unruptured small intracranial aneurysms. In our patient, proximal parent artery stenosis may have played a role.",
+    "keywords": [
+      "Atherosclerosis",
+      "Internal carotid artery",
+      "Intracranial aneurysm",
+      "Parent artery",
+      "Stenosis",
+      "Thrombosis",
+      "Humans",
+      "Female",
+      "Intracranial Aneurysm",
+      "Aged",
+      "Remission, Spontaneous",
+      "Magnetic Resonance Angiography",
+      "Carotid Artery, Internal",
+      "Cerebral Angiography"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39725245",
+    "title": "Risk score for two-year mortality following carotid endarterectomy performed for symptomatic stenosis.",
+    "journal": "Journal of vascular surgery",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Blecha\", \"fore\": \"Matthew\", \"initials\": \"M\", \"affiliation\": \"Division of Vascular Surgery and Endovascular Therapy, Stritch School of Medicine, Loyola University Chicago, Loyola University Health System, Maywood, IL. Electronic address: matthew.blecha@lumc.edu.\"}, {\"last\": \"Weise\", \"fore\": \"Lorela\", \"initials\": \"L\", \"affiliation\": \"Division of Vascular Surgery and Endovascular Therapy, Stritch School of Medicine, Loyola University Chicago, Loyola University Health System, Maywood, IL.\"}, {\"last\": \"Liu\", \"fore\": \"Amy\", \"initials\": \"A\", \"affiliation\": \"Division of Vascular Surgery and Endovascular Therapy, Stritch School of Medicine, Loyola University Chicago, Loyola University Health System, Maywood, IL.\"}, {\"last\": \"Yuan\", \"fore\": \"Karen\", \"initials\": \"K\", \"affiliation\": \"Division of Vascular Surgery and Endovascular Therapy, Stritch School of Medicine, Loyola University Chicago, Loyola University Health System, Maywood, IL.\"}, {\"last\": \"Terry\", \"fore\": \"Travis\", \"initials\": \"T\", \"affiliation\": \"Division of Vascular Surgery and Endovascular Therapy, Stritch School of Medicine, Loyola University Chicago, Loyola University Health System, Maywood, IL.\"}, {\"last\": \"Paraskevas\", \"fore\": \"Kosmas I\", \"initials\": \"KI\", \"affiliation\": \"Department of Vascular Surgery, Red Cross Hospital, Athens, Greece.\"}]",
+    "abstract": "OBJECTIVE: The purpose of this study is to identify variables at the time of clinical presentation that place patients at higher risk for mortality following carotid endarterectomy (CEA) for symptomatic lesions. Further, this study will create a risk score for mortality within 2 years following CEA for symptomatic stenosis to help tailor future postoperative and long-term management by identifying patients who require heightened vigilance in postoperative care to facilitate survival.\nMETHODS: The Vascular Quality Initiative CEA module was queried for procedures performed for symptomatic (within 180 days) carotid bifurcation stenosis. After exclusions, 24,713 met study inclusion. Univariable analysis for the binary outcome of mortality within 2 years of surgery was performed with χ testing for categorical variables and Student t-test for ordinal variables. Multivariable binary logistic regression was then performed utilizing variables that achieved univariable significance (P < .05) for the outcome. Variables with a multivariable P value ≤ .05 were included in the risk score and weighted based on their respective regression beta-coefficient in a point scale. Variables with a beta-coefficient of less than .25 were assigned 1 point, and then a point was added for each rise in beta-coefficient at .25 intervals. The risk score was then tested utilizing 20,668 patients deemed to be of acceptable surgical risk who underwent carotid stenting for symptomatic disease in the Vascular Quality Initiative.\nRESULTS: Variables that achieved multivariable significance (P<.05) towards the outcome of mortality within 2 years of symptomatic CEA that were included in the risk score were: home status within the top 20% of area deprivation index (most disadvantaged) (adjusted odds ratio [aOR], 1.20); female sex (aOR, 1.157); body mass index <20 kg/m (aOR, 1.49); any history of tobacco smoking (aOR, 1.39); coronary artery disease (aOR, 1.47); history of congestive heart failure (aOR, 1.47); chronic obstructive pulmonary disease (aOR, 1.45); baseline renal insufficiency (aOR, 1.46); end-stage renal disease dialysis status at presentation (aOR, 2.38); American Society of Anesthesiology class 4 operative risk designation (aOR, 1.33); diabetes mellitus (aOR, 1.16); anemia (aOR, 2.09); history of peripheral artery intervention (aOR, 1.20); history of major lower extremity amputation (aOR, 1.93); prior CEA or carotid stenting (aOR, 1.32); escalating preoperative modified Rankin score (aOR, 4.46); and escalating age (aOR, 1.04/year). A steep escalation was noted from 2-year mortality rates of <4% for patients with risk scores of ≤4 to >35% for patients with scores of ≥17. Hosmer and Lemeshow goodness of fit testing for the multivariable regression analysis revealed an overall accuracy of 93.1% for the model, with 99.9% accuracy in predicting survival. Model testing in the symptomatic carotid stenting cohort revealed excellent correlation with no statistical difference in the mortality rate at 16 of the 19 risk score data points and a near identical mortality escalation pattern with rising risk score. When applied to the validation cohort, the risk score had an area under the receiver operating characteristic curve of 0.70 and a Hosmer-Lemeshow overall accuracy of 91.3%.\nCONCLUSIONS: A risk score with quality accuracy in determining 2-year survival after CEA performed for symptomatic stenosis has been developed. Severity of preoperative stroke, dialysis status, baseline anemia, advancing age, low body weight, and cardiopulmonary comorbidities are the most deleterious variables negatively impacting survival. The score has utility in patient shared decision-making and expectation counseling.",
+    "keywords": [
+      "2 year survival",
+      "Carotid endarterectomy",
+      "Symptomatic carotid stenosis",
+      "Humans",
+      "Endarterectomy, Carotid",
+      "Carotid Stenosis",
+      "Female",
+      "Male",
+      "Risk Assessment",
+      "Aged",
+      "Risk Factors",
+      "Time Factors",
+      "Treatment Outcome",
+      "Retrospective Studies",
+      "Middle Aged",
+      "Decision Support Techniques",
+      "Databases, Factual",
+      "Aged, 80 and over"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39725059",
+    "title": "Vessel Wall Histologic Changes in a Porcine Model of Arteriovenous Fistula Stenosis Treated with Percutaneous Transluminal Angioplasty.",
+    "journal": "Journal of vascular and interventional radiology : JVIR",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Singh\", \"fore\": \"Prabh G\", \"initials\": \"PG\", \"affiliation\": \"Vascular and Interventional Radiology Translational Research Lab, Rochester, Minnesota.\"}, {\"last\": \"Kilari\", \"fore\": \"Sreenivasulu\", \"initials\": \"S\", \"affiliation\": \"Vascular and Interventional Radiology Translational Research Lab, Rochester, Minnesota.\"}, {\"last\": \"Misra\", \"fore\": \"Sanjay\", \"initials\": \"S\", \"affiliation\": \"Vascular and Interventional Radiology Translational Research Lab, Rochester, Minnesota; Department of Radiology, Mayo Clinic, Rochester, Minnesota. Electronic address: misra.sanjay@mayo.edu.\"}]",
+    "abstract": "PURPOSE: To describe the immunohistologic changes in arteriovenous fistula stenosis treated using plain old balloon angioplasty (POBA) versus paclitaxel drug-coated balloons (DCBs).\nMATERIALS AND METHODS: Castrated male Yorkshire pigs (n = 12) 4-5 months old had chronic kidney disease induced with renal artery embolization. Twenty-eight days later, a side-to-end anastomosis was created between the left common carotid artery and ipsilateral external jugular vein. Four weeks later, a juxta-anastomotic stenosis was treated with balloon angioplasty (percutaneous transluminal angioplasty [PTA]) or DCB, and animals were euthanized at 4 (POBA [n = 6]) and 42 days (POBA [n = 3] or DCB [n = 3]) for histomorphometric analysis with immunohistochemical staining for CD68 (macrophages), FSP-1 (fibroblasts), α-smooth muscle cell (SMC) actin, CD-31 (endothelial), proliferation (Ki-67), and apoptosis (terminal deoxynucleotidyl transferase dUTP nick end labeling [TUNEL]).\nRESULTS: Two animals died at 14 and 28 days after PTA. There was a significant increase in the lumen (P = .0431), neointima (P = .0156 at Day (D) 4 and P < .001 at D42), and neointima/media + adventitia (N/M + A) ratio (P = .0061 at D4 and P = .0032 at D42). DCB-treated vessels showed a significant decrease in the N/M + A ratio (P = .0386) and cell density in the intima (P = .0113) compared with those treated with POBA. Endothelial cells were significantly increased at 4 days (P = .0034) and 42 days (P = .012), macrophages were significantly increased at 14 days (P = .0094), fibroblasts were significantly increased at 4 days (P = .0025) and 42 days (P < .001), and SMCs were significantly increased at 28 days (P = .004). Ki-67 staining peaked at 28 days (P = .0018), and TUNEL staining decreased at 4 days (P = .0012), 14 days (P = .0062), and 42 days (P = .04).\nCONCLUSIONS: After PTA, the lumen vessel area increases with fibroblast and SMCs peaking at 4, followed by macrophages, SMCs, and proliferation.",
+    "keywords": [
+      "Animals",
+      "Angioplasty, Balloon",
+      "Male",
+      "Disease Models, Animal",
+      "Arteriovenous Shunt, Surgical",
+      "Graft Occlusion, Vascular",
+      "Jugular Veins",
+      "Apoptosis",
+      "Carotid Artery, Common",
+      "Coated Materials, Biocompatible",
+      "Cell Proliferation",
+      "Time Factors",
+      "Sus scrofa",
+      "Neointima",
+      "Biomarkers"
+    ],
+    "grants": [
+      {
+        "agency": "NIDDK NIH HHS",
+        "acronym": "DK",
+        "grant_id": "R01 DK135407",
+        "country": "United States"
+      },
+      {
+        "agency": "NHLBI NIH HHS",
+        "acronym": "HL",
+        "grant_id": "R01 HL098967",
+        "country": "United States"
+      }
+    ]
+  },
+  {
+    "pmid": "39720255",
+    "title": "Clinical and neuroimaging characteristics of diabetic striatopathy: a case series report.",
+    "journal": "Frontiers in endocrinology",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Chen\", \"fore\": \"Yaning\", \"initials\": \"Y\", \"affiliation\": \"Department of Endocrinology, Sixth Medical Center of Chinese People's Liberation Army (PLA) General Hospital, Beijing, China.\"}, {\"last\": \"Wu\", \"fore\": \"Chunliu\", \"initials\": \"C\", \"affiliation\": \"Department of Neurology, First Medical Center of Chinese People's Liberation Army (PLA) General Hospital, Beijing, China.\"}, {\"last\": \"Ren\", \"fore\": \"Ming\", \"initials\": \"M\", \"affiliation\": \"Department of Neurology, Shanghai Blue Cross Brain Hospital, Shanghai, China.\"}, {\"last\": \"Wang\", \"fore\": \"Qingjun\", \"initials\": \"Q\", \"affiliation\": \"Department of Radiology, Sixth Medical Center of Chinese People's Liberation Army (PLA) General Hospital, Beijing, China.\"}, {\"last\": \"Wang\", \"fore\": \"Zhiwei\", \"initials\": \"Z\", \"affiliation\": \"Department of Neurology, First Medical Center of Chinese People's Liberation Army (PLA) General Hospital, Beijing, China.\"}, {\"last\": \"Zhang\", \"fore\": \"Yimo\", \"initials\": \"Y\", \"affiliation\": \"Department of Neurology, First Medical Center of Chinese People's Liberation Army (PLA) General Hospital, Beijing, China.\"}, {\"last\": \"Yu\", \"fore\": \"Yingxin\", \"initials\": \"Y\", \"affiliation\": \"Department of Neurology, First Medical Center of Chinese People's Liberation Army (PLA) General Hospital, Beijing, China.\"}]",
+    "abstract": "BACKGROUND: Diabetic striatopathy (DS) is a rare disorder characterized by clinical manifestations of hemichorea, non-ketotic hyperglycemia, and high signal on T1-weighted MRI or high density on CT scan in basal ganglia, typically associated with poor glycemic control.\nOBJECTIVE: This study aimed to analyze clinical characteristics of patients with diabetic striatopathy to raise awareness amongst physicians, especially endocrinologists, about this rare neurological manifestation in patients with diabetes.\nMETHODS: We retrospectively analyzed the data on clinical presentations, laboratory workups, and cranial CT and MRI of six patients with DS who were admitted to our hospital from October 2013 to June 2022.\nRESULTS: The mean age of onset among the six patients was 80.5 years, and the mean value of HbA1c was 13.65%. All six patients complained of involuntary movements, which primarily affected the arm and leg on one side of the body. Bilateral caudate nucleus hyperdensities were shown on the CT examination in Case 3,while the other 5 patients, unilateral caudate nucleus hyperdensity was shown. In addition, five patients (except Case 5) underwent MRI, all showing hypersignal lesions on the T1-weighted images. A low signal in the right basal ganglia was shown on MRI susceptibility weighted imaging (SWI) sequences in Case 6. All six patients exhibited carotid artery or cerebral artery stenosis. Following strict blood glucose control and symptomatic management, the symptoms of chorea improved significantly in all patients, and repeat images indicated that the lesions gradually disappeared.\nCONCLUSION: Both poor vascular conditions and severe hyperglycemia contribute to the development of diabetic striatopathy. The prognosis is usually good by active treatment.",
+    "keywords": [
+      "artery stenosis",
+      "diabetic striatopathy",
+      "hemichorea",
+      "hyperglycemia",
+      "ketonuria",
+      "Aged",
+      "Aged, 80 and over",
+      "Humans",
+      "Basal Ganglia",
+      "Chorea",
+      "Diabetes Complications",
+      "Magnetic Resonance Imaging",
+      "Neuroimaging",
+      "Retrospective Studies",
+      "Tomography, X-Ray Computed"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39719769",
+    "title": "Sex-Related Outcomes in Asymptomatic Carotid Artery Stenosis Undergoing Carotid Endarterectomy.",
+    "journal": "The Journal of surgical research",
+    "year": 2025,
+    "authors_json": "[{\"last\": \"Giacomelli\", \"fore\": \"Elena\", \"initials\": \"E\", \"affiliation\": \"Department of Experimental and Clinical Medicine, Chair of Vascular Surgery, University of Florence, Florence, Italy.\"}, {\"last\": \"Dorigo\", \"fore\": \"Walter\", \"initials\": \"W\", \"affiliation\": \"Department of Experimental and Clinical Medicine, Chair of Vascular Surgery, University of Florence, Florence, Italy. Electronic address: walter.dorigo@unifi.it.\"}, {\"last\": \"Sibaldi\", \"fore\": \"Francesca\", \"initials\": \"F\", \"affiliation\": \"Department of Experimental and Clinical Medicine, Chair of Vascular Surgery, University of Florence, Florence, Italy.\"}, {\"last\": \"Di Domenico\", \"fore\": \"Rossella\", \"initials\": \"R\", \"affiliation\": \"Department of Experimental and Clinical Medicine, Chair of Vascular Surgery, University of Florence, Florence, Italy.\"}, {\"last\": \"Nesi\", \"fore\": \"Mascia\", \"initials\": \"M\", \"affiliation\": \"Department of Experimental and Clinical Medicine, Chair of Vascular Surgery, University of Florence, Florence, Italy.\"}, {\"last\": \"Fargion\", \"fore\": \"Aaron Thomas\", \"initials\": \"AT\", \"affiliation\": \"Department of Experimental and Clinical Medicine, Chair of Vascular Surgery, University of Florence, Florence, Italy.\"}, {\"last\": \"Speziali\", \"fore\": \"Sara\", \"initials\": \"S\", \"affiliation\": \"Department of Experimental and Clinical Medicine, Chair of Vascular Surgery, University of Florence, Florence, Italy.\"}, {\"last\": \"Pulli\", \"fore\": \"Raffaele\", \"initials\": \"R\", \"affiliation\": \"Department of Experimental and Clinical Medicine, Chair of Vascular Surgery, University of Florence, Florence, Italy.\"}]",
+    "abstract": "INTRODUCTION: This study aims to retrospectively analyze the perioperative and long-term outcomes of carotid endarterectomy (CEA) performed in asymptomatic patients, stratifying the results by sex.\nMETHODS: Data on CEAs performed from January 2009 to December 2020 at our institution were collected. A neurologic evaluation was conducted 30 d after surgery to assess the occurrence of neurological events. Instrumental evaluations using Doppler ultrasound were performed within the first 3 mo, at 12 mo, and annually thereafter. The primary endpoints were perioperative mortality, major neurological events, and major complications. Secondary endpoints included long-term overall survival, stroke-free survival, absence of neurological symptoms, and absence of significant (>70%) restenosis.\nRESULTS: Two thousand one hundred ninety-four CEAs were performed in asymptomatic patients, with 758 females and 1436 males. There were no differences in perioperative outcomes between the two groups. In the multivariate analysis, female sex was found to be a protective factor for the risk of 30-d stroke (hazard ratio: 0.2; 95% confidence interval: 0.04-0.9; P = 0.05). At a median follow-up of 24 mo, the estimated 10-y overall and stroke-free survival rates were 77.6% in males versus 62.7% in females, P = 0.2 and 70% in males versus 61% in females, P = 0.1, respectively. Also the rates of significant restenosis did not differ between males and females (82.2% versus 87.7%, P = 0.5).\nCONCLUSIONS: This study suggests that female sex, by itself, does not represent a risk factor for adverse outcomes after carotid surgery and it appears to be protective in the first 30 d following surgery.",
+    "keywords": [
+      "Asymptomatic carotid artery stenosis",
+      "Carotid endarterectomy",
+      "Gender-related outcomes",
+      "Sex differences",
+      "Humans",
+      "Female",
+      "Endarterectomy, Carotid",
+      "Male",
+      "Carotid Stenosis",
+      "Aged",
+      "Retrospective Studies",
+      "Sex Factors",
+      "Middle Aged",
+      "Asymptomatic Diseases",
+      "Stroke",
+      "Postoperative Complications",
+      "Aged, 80 and over",
+      "Treatment Outcome",
+      "Risk Factors",
+      "Follow-Up Studies"
+    ],
+    "grants": []
+  },
+  {
+    "pmid": "39717442",
+    "title": "Interleukin-6 and thyroid-stimulating hormone index predict plaque stability in carotid artery stenosis: analyses by lasso-logistic regression.",
+    "journal": "Frontiers in cardiovascular medicine",
+    "year": 2024,
+    "authors_json": "[{\"last\": \"Zhigao\", \"fore\": \"Li\", \"initials\": \"L\", \"affiliation\": \"Department of Vascular Surgery, Nanjing Drum Tower Hospital Clinical College of Nanjing Medical University, Nanjing, China.\"}, {\"last\": \"Jiabo\", \"fore\": \"Qin\", \"initials\": \"Q\", \"affiliation\": \"Department of General Surgery, Nanjing Drum Tower Hospital Clinical College of Nanjing Medical University, Nanjing, China.\"}, {\"last\": \"Lei\", \"fore\": \"Zheng\", \"initials\": \"Z\", \"affiliation\": \"Department of Vascular Surgery, The Affiliated Drum Tower Hospital of Nanjing University Medical School, Nanjing, China.\"}, {\"last\": \"Tong\", \"fore\": \"Qiao\", \"initials\": \"Q\", \"affiliation\": \"Department of Vascular Surgery, Nanjing Drum Tower Hospital Clinical College of Nanjing Medical University, Nanjing, China.\"}]",
+    "abstract": "OBJECTIVE: To develop and validate a new prediction model based on the Lass-logistic regression with inflammatory serologic markers for the assessment of carotid plaque stability, providing clinicians with a reliable tool for risk stratification and decision-making in the management of carotid artery disease.\nMETHODS: In this study, we retrospectively collected the data of the patients who underwent carotid endarterectomy (CEA) from 2019 to 2023 in Nanjing Drum Tower Hospital. Demographic characteristics, vascular risk factors, and the results of preoperative serum biochemistry were measured and collected. The risk factors for vulnerable carotid plaque were analyzed. A Lasso-logistic regression prediction model was developed and compared with traditional logistic regression models. The Akaike information criterion (AIC) and Bayesian information criterion (BIC) were used to evaluate the performance of three models.\nRESULTS: A total of 131 patients were collected in this study, including 66 (50.4%) in the vulnerable plaque group and 65 (49.6%) in the stable plaque group. The final Lasso-logistic regression model included 4 features:IL-6, TSH, TSHI, and TT4RI; AIC = 161.6376, BIC = 176.0136, both lower than the all-variable logistic regression model (AIC = 181.0881, BIC = 261.5936), and the BIC was smaller than the stepwise logistic regression model (AIC = 154.024, BIC = 179.9007). Finally, the prediction model was constructed based on the variables screened by the Lasso regression, and the model had favorable discrimination and calibration.\nCONCLUSIONS: The noninvasive prediction model based on IL-6 and TSHI is a quantitative tool for predicting vulnerable carotid plaques. It has high diagnostic efficacy and is worth popularizing and applying.",
+    "keywords": [
+      "carotid artery stenosis",
+      "lasso-logistic regression",
+      "nomogram",
+      "stability of plaques",
+      "thyroid hormone sensitivity"
+    ],
+    "grants": []
+  }
+]
