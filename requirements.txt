@@ -1,9 +1,13 @@
-streamlit
-pandas
-requests
-python-dotenv
-networkx
-plotly
-python-docx
-sqlalchemy
-duckdb
+# Core project requirements
+streamlit>=1.32.0
+pandas>=2.2.0
+requests>=2.31.0
+python-dotenv>=1.0.1
+networkx>=3.2.1
+plotly>=5.20.0
+sqlalchemy>=2.0.29
+duckdb>=0.10.0
+
+# Others
+python-docx>=1.1.0
+openpyxl>=3.1.2
