@@ -1,4 +1,4 @@
-# ARCC Starter Repo
+# AI-Orchestrated Research Project Tracker
 
 Quick start:
 1. `pip install -r requirements.txt`
@@ -32,5 +32,21 @@ Originally Proposed Version:
 * tags(project_id, tag)
 * Indexes: projects(title), pubs(pmid), grants(deadline), tags(tag)
 
-Refined Version:
+Refined Version (Sep 21):
 ![alt text](figures/schema.png)
+
+## Database Setup (SQLite)
+
+This project uses SQLite for a lightweight prototype database.
+
+**Create the DB:**
+```bash
+sqlite3 db/tracker.db < etl/schema.sql
+# or
+cd etl
+python init_db.py
+
+# inspect db (run under the parent folder)
+sqlite3 db/tracker.db ".tables"
+sqlite3 db/tracker.db "SELECT * FROM projects LIMIT 5;"
+```
