@@ -32,13 +32,12 @@ Originally Proposed Version:
 * tags(project_id, tag)
 * Indexes: projects(title), pubs(pmid), grants(deadline), tags(tag)
 
-Refined Version (Sep 21):
+Refined Version (Sep 25):
 ![alt text](figures/schema.png)
 
 ## Database Setup (SQLite)
 
 This project uses SQLite for a lightweight prototype database.
-
 **Create the DB:**
 ```bash
 sqlite3 db/tracker.db < etl/schema.sql
@@ -50,3 +49,6 @@ python init_db.py
 sqlite3 db/tracker.db ".tables"
 sqlite3 db/tracker.db "SELECT * FROM projects LIMIT 5;"
 ```
+
+## Project Workflow (Mermain Data Pipeline Diagram)
+![alt text](figures/mermaid_data_pipeline.png)

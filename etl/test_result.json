@@ -1,0 +1,160 @@
+{
+    "meta": {
+        "search_id": "nSNpoz22yE-TEPUE_lkc_A",
+        "total": 83457,
+        "offset": 0,
+        "limit": 3,
+        "sort_field": null,
+        "sort_order": "ASC",
+        "sorted_by_relevance": false,
+        "properties": {
+            "URL": "https:/reporter.nih.gov/search/nSNpoz22yE-TEPUE_lkc_A/projects"
+        }
+    },
+    "results": [
+        {
+            "fiscal_year": 2024,
+            "project_num": "5F32DK132864-03",
+            "organization": {
+                "org_name": "DANA-FARBER CANCER INST",
+                "city": null,
+                "country": null,
+                "org_city": "BOSTON",
+                "org_country": "UNITED STATES",
+                "org_state": "MA",
+                "org_state_name": null,
+                "dept_type": null,
+                "fips_country_code": null,
+                "org_duns": [
+                    "076580745"
+                ],
+                "org_ueis": [
+                    "DPMGH9MG1X67"
+                ],
+                "primary_duns": "076580745",
+                "primary_uei": "DPMGH9MG1X67",
+                "org_fips": "US",
+                "org_ipf_code": "1464901",
+                "org_zipcode": "022155450",
+                "external_org_id": 1464901
+            },
+            "activity_code": "F32",
+            "award_amount": 56728,
+            "principal_investigators": [
+                {
+                    "profile_id": 12547591,
+                    "first_name": "Mu",
+                    "middle_name": "",
+                    "last_name": "A",
+                    "is_contact_pi": true,
+                    "full_name": "Mu  A",
+                    "title": "RESEARCH FELLOW"
+                }
+            ],
+            "project_start_date": "2022-05-01T00:00:00",
+            "project_end_date": "2024-12-31T00:00:00",
+            "core_project_num": "F32DK132864",
+            "abstract_text": "PROJECT SUMMARY:\nExercise benefits the body in many ways. The functions of skeletal muscle, brain, liver, bone, adipose tissue\nand heart all gain from various types of physical activity and training. People suffering from disabilities, morbid\nobesity, or age-related diseases, are usually physically inactive, which exacerbates their symptoms and leads to\ndevelopment of other types of diseases, such as type 2 diabetes mellitus, cardiovascular diseases, and some\nforms of cancers. Scientific explorations of exercise have become more molecular, focusing on the pathways\nand molecules that mediate these benefits. Irisin has been identified as an exercise-induced hormone that\nembodies many adaptations to exercise in a variety of tissues/organs, including \u201cbrowning\u201d of subcutaneous\nadipose tissue, bone remodeling, improving cognitive deficits and neuropathology, and promoting myogenesis\nof skeletal muscles.\nIn bone and fat, the effects of irisin are mediated via \u03b1v integrins, with \u03b1v\u03b25 identified as the major receptor.\nHowever, my biochemical and biophysical characterization of direct interaction between irisin and \u03b1v\u03b25\nsuggested extremely weak binding, while the concentrations of irisin that induce detectable amount of\nirisin-mediated effects in the body and in the cultured cells are really low, indicating a very high irisin/receptor\nbinding affinity. This paradox could be explained by the existence of an additional factor that facilitates\nirisin/integrin interaction and irisin-mediated integrin activation. My preliminary data suggested that an\nexercise-induced circulating protein Hsp90\u03b1 binds to integrin \u03b1v\u03b25, and functions as a cofactor to mediate the\nbinding of irisin to integrin and irisin-induced integrin signaling. Irisin is different from many integrin ligands in\nthat irisin is small, heavily glycosylated, and lacks the well-identified integrin binding motif, indicating a\nnon-canonical ways of ligand binding to integrins.\nBiophysical and biochemical approaches will be used to characterize the complexes formed by irisin (WT and\nglycosylation mutants), \u03b1v\u03b25 and Hsp90\u03b1. The molecular model will be firstly tested in HEK293T cells\nectopically expressing \u03b1v and \u03b25, and muscle and fat cells, using molecular approaches and fluorescence\nmicroscopy. The effects of Hsp90\u03b1 will be further evaluated in mice. Taken together, these studies will advance\nour understanding of irisin-mediated (or hormone-mediated, in general) integrin signaling, which will assist drug\nand antibody development to treat patients with obesity, aged-related diseases and neuro- or muscular\ndegenerative disorders.\nThe proposed project represents a great balance between biochemistry/biophysics as well as cell biology, in\nwhich I was trained during my Ph.D, and cell metabolism and animal physiology, which are the primary\ntechnologies employed by the Spiegelman lab. The resources provided by Bruce\u2019s networks, DFCI and HMS,\ntremendously facilitated my research, and will support me to become an independent scientist.",
+            "project_title": "Elucidating novel molecular mechanisms of irisin-mediated effects via integrin"
+        },
+        {
+            "fiscal_year": 2024,
+            "project_num": "5R21AI175731-02",
+            "organization": {
+                "org_name": "UNIV OF ARKANSAS FOR MED SCIS",
+                "city": null,
+                "country": null,
+                "org_city": "LITTLE ROCK",
+                "org_country": "UNITED STATES",
+                "org_state": "AR",
+                "org_state_name": null,
+                "dept_type": "MICROBIOLOGY/IMMUN/VIROLOGY",
+                "fips_country_code": null,
+                "org_duns": [
+                    "122452563"
+                ],
+                "org_ueis": [
+                    "VDFYLZPJEAV6"
+                ],
+                "primary_duns": "122452563",
+                "primary_uei": "VDFYLZPJEAV6",
+                "org_fips": "US",
+                "org_ipf_code": "1471106",
+                "org_zipcode": "722057101",
+                "external_org_id": 1471106
+            },
+            "activity_code": "R21",
+            "award_amount": 191250,
+            "principal_investigators": [
+                {
+                    "profile_id": 11675411,
+                    "first_name": "Youssef",
+                    "middle_name": "",
+                    "last_name": "Aachoui",
+                    "is_contact_pi": true,
+                    "full_name": "Youssef  Aachoui",
+                    "title": "ASSISTANT PROFESSOR"
+                }
+            ],
+            "project_start_date": "2023-08-25T00:00:00",
+            "project_end_date": "2025-07-31T00:00:00",
+            "core_project_num": "R21AI175731",
+            "abstract_text": "Shigella spp. are major enteric pathogens, causing acute diarrhea and bacillary dysentery leading to severe mortality and morbidity worldwide. Yet, there is no licensed vaccine to prevent shigellosis. Shigella virulence requires a T3SS and at least 30 secreted effectors that are often functionally redundant, yet required to invade host cells, maintain a replicative niche, minimize alarm signals, and promote colonization. We previously showed that S. flexneri T3SS activity is detected in macrophages by Caspase-1 inflammasomes, resulting in pyroptosis. In the recent mouse shigellosis model, the role of the inflammasome is only focused on gut intestinal epithelial cells (IECs). However, it is generally believed that Shigella initially infect macrophages and takes advantage of pyroptotic cell death to exit the cells and subsequently infect IECs. On the other hand, macrophage pyroptosis is known to generate pore-induced traps (PITs), trapping, and neutralizing intracellular bacterial pathogens. Since macrophages pyroptosis is considered to play dichotomous roles during Shigella infection, we propose to investigate the interaction between macrophages' inflammasomes and S. flexneri. We propose two specific Aims: In Aim1, we will investigate how pyroptotic macrophages from PITs trap intracellular bacteria. In Aim 2. We will define the role of pyroptotic macrophages and PITs during S. flexneri infection in vitro and in vivo. We hope that examining the role of macrophages pyroptosis against S. flexneri infection, will be highly significant and relevant for better understanding immunity and disease pathologies during Shigella infection and thereby providing the basis for developing novel safer, and more effective vaccines.",
+            "project_title": "Pyroptotic Macrophages Traps Against Shigella Infection"
+        },
+        {
+            "fiscal_year": 2024,
+            "project_num": "1U01FD008130-01",
+            "organization": {
+                "org_name": "DELIBERATE SOLUTIONS, INC.",
+                "city": null,
+                "country": null,
+                "org_city": "NEW YORK",
+                "org_country": "UNITED STATES",
+                "org_state": "NY",
+                "org_state_name": null,
+                "dept_type": null,
+                "fips_country_code": null,
+                "org_duns": [
+                    "117419307"
+                ],
+                "org_ueis": [
+                    "JEAGCLNNLEA7"
+                ],
+                "primary_duns": "117419307",
+                "primary_uei": "JEAGCLNNLEA7",
+                "org_fips": "US",
+                "org_ipf_code": "10060421",
+                "org_zipcode": "100284004",
+                "external_org_id": 10060421
+            },
+            "activity_code": "U01",
+            "award_amount": 249366,
+            "principal_investigators": [
+                {
+                    "profile_id": 79118887,
+                    "first_name": "Marc",
+                    "middle_name": "",
+                    "last_name": "Aafjes",
+                    "is_contact_pi": true,
+                    "full_name": "Marc  Aafjes",
+                    "title": ""
+                },
+                {
+                    "profile_id": 1896871,
+                    "first_name": "JEFFREY",
+                    "middle_name": "F",
+                    "last_name": "COHN",
+                    "is_contact_pi": false,
+                    "full_name": "JEFFREY F COHN",
+                    "title": "CHIEF SCIENTIST"
+                }
+            ],
+            "project_start_date": "2024-02-20T00:00:00",
+            "project_end_date": "2026-01-19T00:00:00",
+            "core_project_num": "U01FD008130",
+            "abstract_text": "The broad long-term objective of this project is to improve the success rate of novel mood\ndisorder therapeutics by enhancing the reliability and generalizability of Clinician Reported\nOutcomes (ClinROs) in clinical trials. This will be achieved by developing and validating the\nDepression and Anxiety AI-COA\u2122, a machine learning-based drug development tool that\nanalyzes audiovisual recordings of clinical interviews to infer HAM-D and HAM-A scores, and\nthrough doing so enhances the effective reliability of primary endpoints.\nThe specific aims of this project will reduce uncertainties around the design and dimensioning of\na prospective confirmatory trial which will be proposed in the Qualification Plan (QP)\n1) Augment the pilot dataset: Assess 96 new participants to enhance the\n representativeness of the dataset, targeting 80% male and 82% non-white participants.\n Re-assess 30% of the new sample after 12 weeks to confirm sensitivity to change, and\n have each rating re-rated by two additional raters for enhanced reliability.\n2) Assess overall model performance change: Re-train the AI-COA\u2122 model with the\n augmented pilot dataset and evaluate the impact on performance. Adjust the assumed\n sample size based on the updated model's ICC to achieve the 95% CI around the\n expected ICC in the trial.\n3) Evaluate generalization across biological sex: a) Assess biological sex generalization\n using a non-linear regression model with fixed-effects, b) experiment with normalizing\n features between biological sexes, and c) develop mixed-effects models (e.g., Maximum\n Likelihood Estimation, Bayesian hierarchical models) with gender nesting. If the model\n generalizes well across biological sexes, loosen biological sex split and sample\n requirements for the Qualification Plan.\nRelevance to the Mission of the Agency: This project addresses the critical need for improved\nreliability and generalizability in mood disorder clinical trials, which have historically suffered\nfrom low FDA approval rates. By enhancing the quality of ClinROs, this research aligns with the\nFDA and HHS\u2019 missions to protect and promote public health and accelerate the development\nof effective, safe, and innovative therapeutics for mood disorders. The AI-COA\u2122 tool aims to\nincrease study power, reduce sample size requirements, and shorten trial durations, ultimately\ncontributing to more efficient and successful drug development processes.",
+            "project_title": "DDT-IST-000014: Progressing towards the Qualification Plan of AI-COA\u2122 for Automated Depression and Anxiety Severity Measurement"
+        }
+    ]
+}
