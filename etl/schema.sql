@@ -103,7 +103,7 @@ CREATE TABLE IF NOT EXISTS grants_core (
   id               INTEGER PRIMARY KEY,
   core_project_num TEXT NOT NULL UNIQUE,   -- e.g., 'K23DK128569'
   agency           TEXT NOT NULL DEFAULT 'NIH',
-  organization     TEXT NOT NULL DEFAULT 'YALE UNIVERSITY'
+  organization     TEXT NOT NULL DEFAULT 'YALE UNIVERSITY',
   status           TEXT CHECK (status IN ('active','completed','pending','unknown')) DEFAULT 'unknown',
   mechanism        TEXT,                   -- R01, R21, K23, etc.
   deadline         DATE,                   -- only used for NOFOs (Grants.gov); NULL for funded awards
