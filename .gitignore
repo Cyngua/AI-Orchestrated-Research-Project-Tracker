@@ -1,5 +1,5 @@
-/db/
 /data/
-/config/
+/config/.env
 /logs/
 .env
+*.db

@@ -40,14 +40,14 @@ Refined Version (Sep 25):
 This project uses SQLite for a lightweight prototype database.
 **Create the DB:**
 ```bash
-sqlite3 db/tracker.db < etl/schema.sql
+sqlite3 tracker.db < etl/schema.sql
 # or
 cd etl
 python init_db.py
 
 # inspect db (run under the parent folder)
-sqlite3 db/tracker.db ".tables"
-sqlite3 db/tracker.db "SELECT * FROM projects LIMIT 5;"
+sqlite3 tracker.db ".tables"
+sqlite3 tracker.db "SELECT * FROM projects LIMIT 5;"
 ```
 
 ## Project Workflow (Mermain Data Pipeline Diagram)
