@@ -1,7 +1,7 @@
 import sqlite3, pathlib
 
 SQL_PATH = pathlib.Path("schema.sql")
-DB_PATH  = pathlib.Path("../db/tracker.db")
+DB_PATH  = pathlib.Path("../tracker.db") # create db in parent directory
 
 def main():
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)

@@ -7,6 +7,8 @@ CREATE TABLE IF NOT EXISTS people (
   id           INTEGER PRIMARY KEY,
   first_name   TEXT,
   last_name    TEXT,
+  middle_name  TEXT,
+  full_name    TEXT,
   affiliation  TEXT,
   email        TEXT,
   orcid        TEXT,
@@ -22,8 +24,8 @@ CREATE TABLE IF NOT EXISTS projects (
   title        TEXT NOT NULL,
   abstract     TEXT,
   cois         TEXT,
-  stage        TEXT NOT NULL DEFAULT 'planning'
-                 CHECK (stage IN ('planning','irb','recruitment','analysis','manuscript','complete','on_hold')),
+  stage        TEXT NOT NULL DEFAULT 'idea'
+                 CHECK (stage IN ('idea', 'planning', 'data-collection', 'analysis', 'manuscript', 'submitted', 'funded', 'inactive')),
   start_date   DATE,
   end_date     DATE,
   source       TEXT,     -- 'pubmed','reporter','grants.gov','manual','synthetic'
@@ -65,6 +67,7 @@ CREATE TABLE IF NOT EXISTS pubs (
   id           INTEGER PRIMARY KEY,
   pmid         TEXT UNIQUE,
   title        TEXT,
+  topic        TEXT,  -- abdominal aortic aneurysm, peripheral arterial disease, etc.
   journal      TEXT,
   year         INTEGER,
   authors_json TEXT
@@ -78,6 +81,20 @@ CREATE TABLE IF NOT EXISTS project_pub_relation (
 );
 CREATE INDEX IF NOT EXISTS idx_project_pub_pub ON project_pub_relation(pub_id);
 
+-- Publication topics table (PubMed API)
+CREATE TABLE IF NOT EXISTS topics (
+  id    INTEGER PRIMARY KEY,
+  name  TEXT UNIQUE NOT NULL
+);
+
+-- Publication and topics relation table
+CREATE TABLE pub_topic_relation (
+  pub_id   INTEGER NOT NULL REFERENCES pubs(id) ON DELETE CASCADE,
+  topic_id INTEGER NOT NULL REFERENCES topics(id) ON DELETE CASCADE,
+  PRIMARY KEY (pub_id, topic_id)
+);
+
+
 -- =========================
 -- Grants (NIH)
 -- =========================
@@ -86,6 +103,7 @@ CREATE TABLE IF NOT EXISTS grants_core (
   id               INTEGER PRIMARY KEY,
   core_project_num TEXT NOT NULL UNIQUE,   -- e.g., 'K23DK128569'
   agency           TEXT NOT NULL DEFAULT 'NIH',
+  organization     TEXT NOT NULL DEFAULT 'YALE UNIVERSITY',
   status           TEXT CHECK (status IN ('active','completed','pending','unknown')) DEFAULT 'unknown',
   mechanism        TEXT,                   -- R01, R21, K23, etc.
   deadline         DATE,                   -- only used for NOFOs (Grants.gov); NULL for funded awards
@@ -99,7 +117,7 @@ CREATE TABLE IF NOT EXISTS grants_fy (
   grant_id         INTEGER NOT NULL REFERENCES grants_core(id) ON DELETE CASCADE,
   project_num      TEXT NOT NULL,      -- e.g., '1K23DK128569-01A1'
   fiscal_year      INTEGER NOT NULL,
-  total_cost_fy    INTEGER,
+  award_amount     INTEGER,
   UNIQUE (grant_id, fiscal_year)
 );
 CREATE INDEX IF NOT EXISTS idx_grants_fy_year ON grants_fy(fiscal_year);
