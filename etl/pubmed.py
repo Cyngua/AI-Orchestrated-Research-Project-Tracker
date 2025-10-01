@@ -6,7 +6,7 @@ Harvest recent PubMed publications by faculty list (CSV)
 - Outputs a consolidated JSON
 
 Sample Usage
-python fetch_pubmed.py \
+python pubmed.py \
   --csv ../data/raw_data/faculty.csv \
   --affiliation-hint "Yale" \
   --retmax 10 \
