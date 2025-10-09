@@ -50,5 +50,5 @@ sqlite3 tracker.db ".tables"
 sqlite3 tracker.db "SELECT * FROM projects LIMIT 5;"
 ```
 
-## Project Workflow (Mermain Data Pipeline Diagram)
+## Project Workflow (Mermaid Data Pipeline Diagram)
 ![alt text](figures/mermaid_data_pipeline.png)

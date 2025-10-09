@@ -1,5 +1,16 @@
+# Database and data files
 /data/
-/config/.env
-/logs/
-.env
 *.db
+
+# Configurations
+/config/.env
+.env
+
+# Python bytecode directories
+__pycache__/
+
+# macOS Finder metadata files
+.DS_Store
+
+# logs
+/logs/
