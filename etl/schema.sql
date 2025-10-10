@@ -70,7 +70,8 @@ CREATE TABLE IF NOT EXISTS pubs (
   topic        TEXT,  -- abdominal aortic aneurysm, peripheral arterial disease, etc.
   journal      TEXT,
   year         INTEGER,
-  authors_json TEXT
+  authors_json TEXT,
+  grants_json  TEXT
 );
 
 -- Project Publication Relation (many to many)
@@ -94,6 +95,13 @@ CREATE TABLE pub_topic_relation (
   PRIMARY KEY (pub_id, topic_id)
 );
 
+-- Publication and author relation table
+CREATE TABLE author_pub_relation(
+  person_id       INTEGER NOT NULL REFERENCES people(id) ON DELETE CASCADE, 
+  pub_id          INTEGER NOT NULL REFERENCES pubs(id) ON DELETE CASCADE,
+  author_position TEXT,
+  PRIMARY KEY (person_id, pub_id)
+);
 
 -- =========================
 -- Grants (NIH)

@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Harvest recent PubMed publications by faculty list (CSV)
 - Exact author matching via "Full Author Name"
@@ -22,8 +20,7 @@ python pubmed.py \
   --affiliation "Yale" \
   --num-papers 5 \
   --db ../tracker.db \
-  --persist \
-  -o ../data/sample_data/pubmed_faculty_recent.json
+  --persist
 """
 
 import argparse
@@ -252,7 +249,7 @@ def parse_args():
     ap.add_argument(
         "--num-papers", type=int, default=10, help="Max recent papers per faculty."
     )
-    ap.add_argument("-o", "--out", required=True, help="Output JSON filepath.")
+    ap.add_argument("-o", "--out", help="Output JSON filepath.")
     ap.add_argument("--db", default="", help="SQLite DB path (e.g., db/tracker.db).")
     ap.add_argument(
         "--persist",
@@ -340,11 +337,12 @@ def main():
         "data": out_blocks,
     }
 
-    os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
-    with open(args.out, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
+    if args.out:
+        os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
+        with open(args.out, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"Saved PubMed harvest to {args.out}")
+        print(f"Saved PubMed harvest to {args.out}")
     if args.persist:
         print(f"Persisted to SQLite: {args.db}")
 
