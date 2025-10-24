@@ -5,6 +5,7 @@ import pandas as pd
 import streamlit as st
 
 DB_PATH = "../tracker.db"
+GRANTS_DB_PATH = "../grants_opportunity.db"
 
 # ---------- Helpers ----------
 def _db_exists() -> bool:
@@ -14,6 +15,16 @@ def _db_mtime() -> float:
     """Hashable signal that invalidates caches when the DB file changes."""
     try:
         return os.path.getmtime(DB_PATH)
+    except OSError:
+        return 0.0
+
+def _grants_db_exists() -> bool:
+    return os.path.exists(GRANTS_DB_PATH)
+
+def _grants_db_mtime() -> float:
+    """Hashable signal that invalidates caches when the grants DB file changes."""
+    try:
+        return os.path.getmtime(GRANTS_DB_PATH)
     except OSError:
         return 0.0
 
@@ -112,16 +123,129 @@ def fetch_grant_fits_cached(db_mtime: float, faculty_name: str):
         {"core_project_num":"R21HL987654","mechanism":"R21","role":"inferred","confidence":0.71,"notes":"embolization study","score":0.71},
     ])
 
+@st.cache_data(show_spinner=False)
+def fetch_grants_opportunities_cached(grants_db_mtime: float, status_filter: str = None, agency_filter: str = None, limit: int = 20):
+    """Fetch grants.gov opportunities from the grants opportunity database."""
+    if not _grants_db_exists():
+        # Demo fallback data
+        return pd.DataFrame([
+            {
+                "grantsgov_id": "356164",
+                "opportunity_number": "RFA-OH-26-002", 
+                "title": "Assessment and Evaluation of Emerging Health Conditions",
+                "agency_name": "Centers for Disease Control and Prevention - ERA",
+                "opp_status": "forecasted",
+                "description": "This opportunity supports research on emerging health conditions...",
+                "award_ceiling": "200000",
+                "close_date": "2026-05-25"
+            },
+            {
+                "grantsgov_id": "355417",
+                "opportunity_number": "RFA-OH-25-002",
+                "title": "Occupational Safety and Health Education and Research Centers",
+                "agency_name": "Centers for Disease Control and Prevention - ERA", 
+                "opp_status": "posted",
+                "description": "NIOSH invites grant applications for Education and Research Centers...",
+                "award_ceiling": "9000000",
+                "close_date": "2026-05-25"
+            }
+        ])
+    
+    conn = get_conn(GRANTS_DB_PATH)
+    
+    # Build query with optional filters
+    where_conditions = []
+    params = []
+    
+    if status_filter:
+        where_conditions.append("opp_status = ?")
+        params.append(status_filter)
+    
+    if agency_filter:
+        where_conditions.append("(agency_code LIKE ? OR agency_name LIKE ?)")
+        params.extend([f"%{agency_filter}%", f"%{agency_filter}%"])
+    
+    where_clause = "WHERE " + " AND ".join(where_conditions) if where_conditions else ""
+    
+    query = f"""
+        SELECT 
+            grantsgov_id,
+            opportunity_number,
+            title,
+            agency_name,
+            opp_status,
+            description,
+            award_ceiling,
+            award_floor,
+            close_date,
+            open_date,
+            post_date,
+            agency_contact_name,
+            agency_contact_email,
+            funding_desc_link
+        FROM grants_opportunity 
+        {where_clause}
+        ORDER BY close_date DESC, post_date DESC, open_date DESC
+        LIMIT ?
+    """
+    params.append(limit)
+    
+    return pd.read_sql_query(query, conn, params=params)
+
+@st.cache_data(show_spinner=False)
+def get_grants_stats_cached(grants_db_mtime: float):
+    """Get summary statistics from grants opportunity database."""
+    if not _grants_db_exists():
+        return {"total": 0, "by_status": {}, "by_agency": {}}
+    
+    conn = get_conn(GRANTS_DB_PATH)
+    
+    # Total count
+    total_df = pd.read_sql_query("SELECT COUNT(*) as total FROM grants_opportunity", conn)
+    total = total_df.iloc[0]['total']
+    
+    # By status
+    status_df = pd.read_sql_query("""
+        SELECT opp_status, COUNT(*) as count 
+        FROM grants_opportunity 
+        GROUP BY opp_status 
+        ORDER BY COUNT(*) DESC
+    """, conn)
+    by_status = dict(zip(status_df['opp_status'], status_df['count']))
+    
+    # By agency (top 10)
+    agency_df = pd.read_sql_query("""
+        SELECT agency_name, COUNT(*) as count 
+        FROM grants_opportunity 
+        WHERE agency_name IS NOT NULL
+        GROUP BY agency_name 
+        ORDER BY COUNT(*) DESC 
+        LIMIT 10
+    """, conn)
+    by_agency = dict(zip(agency_df['agency_name'], agency_df['count']))
+    
+    return {"total": total, "by_status": by_status, "by_agency": by_agency}
+
 # ---------- UI ----------
 st.set_page_config(page_title="ARCC Tracker", layout="wide")
 
 with st.sidebar:
     st.markdown("### Research Grants Tracker")
     db_ok = _db_exists()
+    grants_db_ok = _grants_db_exists()
+    
     if not db_ok:
-        st.caption("DB: demo mode (no DB found)")
+        st.caption("Main DB: demo mode (no DB found)")
+    else:
+        st.caption("Main DB: connected")
+        
+    if not grants_db_ok:
+        st.caption("Grants DB: not found")
+    else:
+        st.caption("Grants DB: connected")
 
     db_mtime = _db_mtime()
+    grants_db_mtime = _grants_db_mtime()
     faculty_df = list_faculty_cached(db_mtime)
 
     names = faculty_df["name"].tolist()
@@ -139,29 +263,110 @@ st.title("Research Grants Tracker")
 if page == "Main Page":
     st.subheader("Recent Publications (PubMed)")
     pubs = fetch_publications_cached(db_mtime, selected_name or names[0] if names else "Demo PI", limit=10)
-    st.dataframe(pubs, use_container_width=True, hide_index=True)
+    st.dataframe(pubs, width='stretch', hide_index=True)
 
     st.subheader("Ongoing Projects")
     projects = fetch_projects_cached(db_mtime, selected_name or names[0] if names else "Demo PI")
-    st.dataframe(projects, use_container_width=True, hide_index=True)
+    st.dataframe(projects, width='stretch', hide_index=True)
 
     st.info("Click a row to drill down (detail view can link to collaborators and abstracts).")
 
 elif page == "Grants Fitness":
-    st.subheader("Recommended NIH Opportunities / Grant Matches")
-    fits = fetch_grant_fits_cached(db_mtime, selected_name or names[0] if names else "Demo PI")
-    st.dataframe(fits, use_container_width=True, hide_index=True)
-    st.caption("Scores are placeholders; wire to your fit-score service.")
-
+    st.subheader("Grants.gov Opportunities")
+    
+    # Show database stats
+    grants_stats = get_grants_stats_cached(grants_db_mtime)
+    
+    if grants_stats["total"] > 0:
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("Total Opportunities", grants_stats["total"])
+        with col2:
+            st.metric("Posted", grants_stats["by_status"].get("posted", 0))
+        with col3:
+            st.metric("Forecasted", grants_stats["by_status"].get("forecasted", 0))
+        
+        st.divider()
+    
+    # Filters
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        status_filter = st.selectbox("Filter by Status", ["All", "posted", "forecasted", "closed", "archived"])
+    with col2:
+        agency_filter = st.text_input("Filter by Agency", placeholder="e.g., NIH, CDC")
+    with col3:
+        limit = st.slider("Number of results", 5, 50, 20)
+    
+    # Apply filters
+    status_val = None if status_filter == "All" else status_filter
+    agency_val = None if not agency_filter else agency_filter
+    
+    # Fetch and display opportunities
+    opportunities = fetch_grants_opportunities_cached(grants_db_mtime, status_val, agency_val, limit)
+    
+    if not opportunities.empty:
+        # Display opportunities in a more readable format
+        for idx, row in opportunities.iterrows():
+            with st.expander(f"{row['opportunity_number']}: {row['title'][:80]}..."):
+                col1, col2 = st.columns([2, 1])
+                
+                with col1:
+                    st.write(f"**Agency:** {row['agency_name']}")
+                    st.write(f"**Status:** {row['opp_status']}")
+                    if pd.notna(row['post_date']):
+                        st.write(f"**Posted Date:** {row['post_date']}")
+                    if pd.notna(row['close_date']):
+                        st.write(f"**Deadline:** {row['close_date']}")
+                    if pd.notna(row['award_ceiling']) and row['award_ceiling'] not in ['none', 'None', '']:
+                        try:
+                            ceiling = int(row['award_ceiling'])
+                            st.write(f"**Award Ceiling:** ${ceiling:,}")
+                        except (ValueError, TypeError):
+                            st.write(f"**Award Ceiling:** {row['award_ceiling']}")
+                    if pd.notna(row['award_floor']) and row['award_floor'] not in ['none', 'None', '']:
+                        try:
+                            floor = int(row['award_floor'])
+                            st.write(f"**Award Floor:** ${floor:,}")
+                        except (ValueError, TypeError):
+                            st.write(f"**Award Floor:** {row['award_floor']}")
+                
+                with col2:
+                    if pd.notna(row['agency_contact_name']):
+                        st.write(f"**Contact:** {row['agency_contact_name']}")
+                    if pd.notna(row['agency_contact_email']):
+                        st.write(f"**Email:** {row['agency_contact_email']}")
+                    if pd.notna(row['funding_desc_link']):
+                        st.link_button("View Full Announcement", row['funding_desc_link'])
+                
+                # Description
+                if pd.notna(row['description']) and row['description']:
+                    st.write("**Description:**")
+                    # Truncate long descriptions
+                    desc = row['description']
+                    if len(desc) > 500:
+                        desc = desc[:500] + "..."
+                    st.write(desc)
+    else:
+        st.info("No opportunities found. Try adjusting your filters or load some grants data first.")
+        st.code("""
+# To load grants data, run:
+python etl/grantsgov.py \\
+  --keyword "health research" \\
+  --statuses "posted|forecasted" \\
+  --rows 20 \\
+  --details \\
+  --load-db
+        """)
+    
     st.divider()
     st.subheader("Actions")
     col1, col2 = st.columns(2)
     with col1:
-        st.button("Mark selected as Primary Support", help="Promote an inferred match to manual.")
+        if not opportunities.empty:
+            csv = opportunities.to_csv(index=False).encode("utf-8")
+            st.download_button("Export Opportunities to CSV", data=csv, file_name="grants_opportunities.csv", mime="text/csv")
     with col2:
-        # Provide a download instead of a no-op button
-        csv = fits.to_csv(index=False).encode("utf-8")
-        st.download_button("Export top matches to CSV", data=csv, file_name="grant_matches.csv", mime="text/csv")
+        st.button("Refresh Data", help="Reload opportunities from database") # TODO: add a function to fetch new opportunities from grants.gov
 
 elif page == "AI Services":
     st.subheader("AI Summaries & Q&A (MVP)")
