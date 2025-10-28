@@ -8,7 +8,37 @@ import numpy as np
 from datetime import datetime, timedelta
 from typing import Dict, List, Tuple, Optional
 import re
+import json
 from collections import Counter
+from pathlib import Path
+
+# Load comprehensive medical keywords from JSON file
+def load_medical_keywords() -> Dict[str, Dict]:
+    """Load medical keywords from JSON file"""
+    json_path = Path(__file__).parent / "medical_keywords.json"
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        # Fallback to basic keywords if JSON file not found
+        return {
+            'vascular': {'keywords': ['vascular', 'artery', 'arterial', 'vein', 'venous', 'circulation', 'blood vessel']},
+            'clinical': {'keywords': ['clinical', 'patient', 'outcome', 'trial', 'study', 'registry']}
+        }
+
+# Load medical keywords dictionary
+medical_keywords_dict = load_medical_keywords()
+
+def get_keyword_categories() -> List[str]:
+    """Get list of all available keyword categories"""
+    return list(medical_keywords_dict.keys())
+
+def get_keyword_stats() -> Dict[str, int]:
+    """Get statistics about the keyword dictionary"""
+    stats = {}
+    for category, data in medical_keywords_dict.items():
+        stats[category] = len(data.get('keywords', []))
+    return stats
 
 def get_pi_research_keywords(pi_name: str, tracker_db_path: str) -> List[str]:
     """Extract research keywords from PI's projects and publications"""
@@ -26,24 +56,13 @@ def get_pi_research_keywords(pi_name: str, tracker_db_path: str) -> List[str]:
     
     pi_id = pi_result['id']
     
-    # Medical/vascular research keywords
-    medical_keywords = {
-        'vascular': ['vascular', 'artery', 'arterial', 'vein', 'venous', 'circulation', 'blood vessel'],
-        'aneurysm': ['aneurysm', 'dilatation', 'bulge', 'rupture', 'repair'],
-        'carotid': ['carotid', 'carotid artery', 'carotid stenosis', 'carotid endarterectomy'],
-        'peripheral': ['peripheral', 'pad', 'peripheral arterial disease', 'limb', 'extremity'],
-        'aortic': ['aortic', 'aorta', 'abdominal aortic', 'thoracic aortic'],
-        'intervention': ['intervention', 'surgery', 'surgical', 'procedure', 'treatment'],
-        'imaging': ['imaging', 'ultrasound', 'ct', 'mri', 'angiography', 'doppler'],
-        'clinical': ['clinical', 'patient', 'outcome', 'trial', 'study', 'registry']
-    }
-    
     def extract_keywords(text):
         if not text:
             return []
         text_lower = text.lower()
         found = []
-        for category, keywords in medical_keywords.items():
+        for category, data in medical_keywords_dict.items():
+            keywords = data.get('keywords', [])
             for keyword in keywords:
                 if keyword in text_lower:
                     found.append(category)
@@ -87,24 +106,13 @@ def compute_semantic_similarity(pi_keywords: List[str], grant_title: str, grant_
     if not pi_keywords or not grant_title:
         return 0.0
     
-    # Medical keywords for grant analysis
-    medical_keywords = {
-        'vascular': ['vascular', 'artery', 'arterial', 'vein', 'venous', 'circulation', 'blood vessel'],
-        'aneurysm': ['aneurysm', 'dilatation', 'bulge', 'rupture', 'repair'],
-        'carotid': ['carotid', 'carotid artery', 'carotid stenosis', 'carotid endarterectomy'],
-        'peripheral': ['peripheral', 'pad', 'peripheral arterial disease', 'limb', 'extremity'],
-        'aortic': ['aortic', 'aorta', 'abdominal aortic', 'thoracic aortic'],
-        'intervention': ['intervention', 'surgery', 'surgical', 'procedure', 'treatment'],
-        'imaging': ['imaging', 'ultrasound', 'ct', 'mri', 'angiography', 'doppler'],
-        'clinical': ['clinical', 'patient', 'outcome', 'trial', 'study', 'registry']
-    }
-    
     def extract_grant_keywords(text):
         if not text:
             return []
         text_lower = text.lower()
         found = []
-        for category, keywords in medical_keywords.items():
+        for category, data in medical_keywords_dict.items():
+            keywords = data.get('keywords', [])
             for keyword in keywords:
                 if keyword in text_lower:
                     found.append(category)

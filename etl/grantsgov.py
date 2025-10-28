@@ -25,6 +25,15 @@ python grantsgov.py \
   --pages 2 \
   --details \
   -o ../data/sample_data/grantsgov_health_vascular_details.json
+
+# 4) Load into database
+python etl/grantsgov.py \
+    --keyword "health OR medicine OR medical OR clinical OR research OR biomedical OR healthcare OR treatment OR therapy OR diagnosis OR prevention OR disease OR patient OR clinical trial OR study" \
+    --statuses "posted|forecasted|closed|archived" \
+    --rows 50 \
+    --pages 10 \
+    --details \
+    --load-db
 """
 
 import argparse, json, datetime as dt, sqlite3
@@ -234,10 +243,21 @@ def load_to_database(results: List[Dict[str, Any]], query_info: Dict[str, Any], 
             None  # No output file when loading to database
         ))
         
-        # Process each opportunity
-        print(f" Loading {len(results)} opportunities into database...")
+        # Filter out opportunities without grantsgov_id
+        valid_results = [opp for opp in results if opp.get('grantsgov_id') is not None]
+        filtered_count = len(results) - len(valid_results)
         
-        for opp in results:
+        if filtered_count > 0:
+            print(f" Filtered out {filtered_count} opportunities without grantsgov_id")
+        
+        if not valid_results:
+            print(" No valid opportunities to load (all had null grantsgov_id)")
+            return True
+        
+        # Process each opportunity
+        print(f" Loading {len(valid_results)} opportunities into database...")
+        
+        for opp in valid_results:
             cursor.execute("""
                 INSERT OR REPLACE INTO grants_opportunity 
                 (grantsgov_id, opportunity_number, title, agency_code, agency_name,
@@ -276,7 +296,7 @@ def load_to_database(results: List[Dict[str, Any]], query_info: Dict[str, Any], 
             ))
         
         conn.commit()
-        print(f" Successfully loaded {len(results)} opportunities into database")
+        print(f" Successfully loaded {len(valid_results)} opportunities into database")
         return True
         
     except Exception as e:

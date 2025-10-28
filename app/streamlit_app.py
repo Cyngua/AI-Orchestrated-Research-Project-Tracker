@@ -674,11 +674,8 @@ elif page == "PI Grant Matching":
                 st.write(f"**Top {min(10, len(matched_grants))} matching grants (sorted by overall score):**")
                 
                 for i, grant in enumerate(matched_grants[:10], 1):
-                    # TODO:Color-code the score based on value
-                    # score_color = "green" if grant['overall_score'] > 0.7 else "orange" if grant['overall_score'] > 0.4 else "red"
-                    score_color = ""
                     
-                    with st.expander(f"{score_color} #{i} Score: {grant['overall_score']:.3f} - {grant['opportunity_number']}: {grant['title'][:60]}..."):
+                    with st.expander(f"#{i} Score: {grant['overall_score']:.3f} - {grant['opportunity_number']}: {grant['title'][:60]}..."):
                         col1, col2 = st.columns(2)
                         
                         with col1:

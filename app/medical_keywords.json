@@ -1,0 +1,126 @@
+{
+  "vascular": {
+    "keywords": ["vascular", "artery", "arterial", "vein", "venous", "circulation", "blood vessel", "endothelial", "atherosclerosis", "stenosis", "occlusion", "thrombosis", "embolism", "angioplasty", "stent", "bypass", "graft", "revascularization"],
+    "description": "Vascular medicine and surgery"
+  },
+  "cardiology": {
+    "keywords": ["cardiac", "heart", "cardiovascular", "myocardial", "coronary", "valve", "arrhythmia", "atrial", "ventricular", "echocardiography", "catheterization", "angioplasty", "stent", "bypass", "transplant", "pacemaker", "defibrillator", "heart failure", "ischemia", "infarction"],
+    "description": "Cardiology and heart disease"
+  },
+  "neurology": {
+    "keywords": ["neurological", "brain", "cerebral", "spinal", "neural", "neuron", "synapse", "neurotransmitter", "stroke", "cerebrovascular", "dementia", "alzheimer", "parkinson", "epilepsy", "seizure", "migraine", "headache", "trauma", "concussion", "neurodegenerative", "neuroplasticity"],
+    "description": "Neurology and brain disorders"
+  },
+  "oncology": {
+    "keywords": ["cancer", "tumor", "neoplasm", "malignancy", "carcinoma", "sarcoma", "lymphoma", "leukemia", "metastasis", "chemotherapy", "radiation", "immunotherapy", "targeted therapy", "biomarker", "prognosis", "survival", "recurrence", "remission", "palliative", "screening"],
+    "description": "Cancer and oncology"
+  },
+  "endocrinology": {
+    "keywords": ["diabetes", "insulin", "glucose", "metabolic", "hormone", "thyroid", "adrenal", "pituitary", "pancreas", "obesity", "metabolic syndrome", "hypoglycemia", "hyperglycemia", "insulin resistance", "diabetic", "endocrine", "steroid", "cortisol", "testosterone", "estrogen"],
+    "description": "Endocrinology and metabolic disorders"
+  },
+  "gastroenterology": {
+    "keywords": ["gastrointestinal", "digestive", "liver", "hepatic", "pancreas", "pancreatic", "stomach", "gastric", "intestine", "bowel", "colon", "rectal", "inflammatory bowel", "crohn", "colitis", "hepatitis", "cirrhosis", "endoscopy", "colonoscopy", "biopsy"],
+    "description": "Gastroenterology and digestive disorders"
+  },
+  "pulmonology": {
+    "keywords": ["pulmonary", "lung", "respiratory", "asthma", "copd", "emphysema", "bronchitis", "pneumonia", "tuberculosis", "fibrosis", "ventilation", "oxygen", "spirometry", "bronchoscopy", "thoracic", "pleural", "pneumothorax", "respiratory failure", "sleep apnea"],
+    "description": "Pulmonology and respiratory disorders"
+  },
+  "nephrology": {
+    "keywords": ["kidney", "renal", "nephrology", "dialysis", "transplant", "glomerular", "tubular", "proteinuria", "hematuria", "creatinine", "glomerulonephritis", "polycystic", "hypertension", "electrolyte", "acidosis", "alkalosis", "uremia", "nephrotic", "nephritic"],
+    "description": "Nephrology and kidney disorders"
+  },
+  "rheumatology": {
+    "keywords": ["rheumatoid", "arthritis", "lupus", "scleroderma", "fibromyalgia", "gout", "osteoporosis", "bone", "joint", "cartilage", "tendon", "ligament", "inflammation", "autoimmune", "systemic", "vasculitis", "spondylitis", "myositis", "connective tissue"],
+    "description": "Rheumatology and autoimmune disorders"
+  },
+  "dermatology": {
+    "keywords": ["skin", "dermatology", "dermatitis", "eczema", "psoriasis", "melanoma", "basal cell", "squamous cell", "biopsy", "lesion", "rash", "allergy", "contact dermatitis", "atopic", "seborrheic", "acne", "rosacea", "vitiligo", "alopecia"],
+    "description": "Dermatology and skin disorders"
+  },
+  "ophthalmology": {
+    "keywords": ["eye", "ocular", "retinal", "corneal", "cataract", "glaucoma", "macular", "diabetic retinopathy", "vision", "blindness", "ophthalmology", "optometry", "refractive", "laser", "surgery", "intraocular", "vitreous", "optic nerve", "visual field"],
+    "description": "Ophthalmology and eye disorders"
+  },
+  "otolaryngology": {
+    "keywords": ["ear", "nose", "throat", "otolaryngology", "hearing", "deafness", "tinnitus", "vertigo", "balance", "sinus", "nasal", "laryngeal", "vocal", "speech", "swallowing", "head", "neck", "tumor", "cancer", "surgery", "reconstruction"],
+    "description": "ENT and head/neck disorders"
+  },
+  "urology": {
+    "keywords": ["urology", "urinary", "bladder", "prostate", "kidney", "stone", "incontinence", "erectile", "infertility", "testicular", "penile", "urethral", "cystoscopy", "nephrolithiasis", "benign prostatic", "cancer", "transplant", "reconstruction"],
+    "description": "Urology and genitourinary disorders"
+  },
+  "gynecology": {
+    "keywords": ["gynecology", "obstetrics", "pregnancy", "maternal", "fetal", "reproductive", "fertility", "menstrual", "menopause", "ovarian", "uterine", "cervical", "breast", "mammography", "prenatal", "postpartum", "contraception", "hormone", "estrogen", "progesterone"],
+    "description": "Gynecology and women's health"
+  },
+  "pediatrics": {
+    "keywords": ["pediatric", "children", "infant", "neonatal", "adolescent", "developmental", "growth", "vaccination", "immunization", "congenital", "genetic", "syndrome", "disability", "autism", "adhd", "asthma", "diabetes", "obesity", "mental health"],
+    "description": "Pediatrics and child health"
+  },
+  "psychiatry": {
+    "keywords": ["psychiatric", "mental health", "depression", "anxiety", "bipolar", "schizophrenia", "psychosis", "therapy", "counseling", "medication", "antidepressant", "antipsychotic", "mood", "behavior", "cognitive", "trauma", "ptsd", "addiction", "substance abuse"],
+    "description": "Psychiatry and mental health"
+  },
+  "surgery": {
+    "keywords": ["surgery", "surgical", "operation", "procedure", "anesthesia", "postoperative", "complication", "wound", "healing", "infection", "bleeding", "transplant", "reconstruction", "minimally invasive", "laparoscopic", "robotic", "trauma", "emergency", "elective"],
+    "description": "General surgery and procedures"
+  },
+  "emergency_medicine": {
+    "keywords": ["emergency", "trauma", "critical care", "intensive care", "resuscitation", "shock", "sepsis", "overdose", "poisoning", "injury", "accident", "cardiac arrest", "stroke", "myocardial infarction", "respiratory failure", "multiorgan failure", "triage"],
+    "description": "Emergency medicine and critical care"
+  },
+  "radiology": {
+    "keywords": ["imaging", "radiology", "x-ray", "ct", "mri", "ultrasound", "nuclear", "pet", "spect", "mammography", "angiography", "fluoroscopy", "interventional", "biopsy", "contrast", "radiation", "dosimetry", "diagnostic", "therapeutic"],
+    "description": "Radiology and medical imaging"
+  },
+  "pathology": {
+    "keywords": ["pathology", "histology", "biopsy", "cytology", "molecular", "genetic", "immunohistochemistry", "microscopy", "tissue", "specimen", "diagnosis", "prognosis", "biomarker", "mutation", "gene expression", "protein", "enzyme", "laboratory"],
+    "description": "Pathology and laboratory medicine"
+  },
+  "pharmacology": {
+    "keywords": ["pharmacology", "drug", "medication", "therapeutic", "pharmacokinetics", "pharmacodynamics", "dose", "toxicity", "adverse effect", "interaction", "metabolism", "excretion", "bioavailability", "clinical trial", "efficacy", "safety", "pharmaceutical"],
+    "description": "Pharmacology and therapeutics"
+  },
+  "epidemiology": {
+    "keywords": ["epidemiology", "public health", "population", "prevalence", "incidence", "risk factor", "cohort", "case-control", "randomized", "clinical trial", "meta-analysis", "systematic review", "evidence-based", "screening", "prevention", "surveillance"],
+    "description": "Epidemiology and public health"
+  },
+  "genetics": {
+    "keywords": ["genetic", "genomics", "dna", "rna", "gene", "chromosome", "mutation", "polymorphism", "inheritance", "hereditary", "syndrome", "disorder", "counseling", "testing", "sequencing", "expression", "regulation", "epigenetics", "pharmacogenomics"],
+    "description": "Genetics and genomics"
+  },
+  "immunology": {
+    "keywords": ["immune", "immunology", "antibody", "antigen", "lymphocyte", "t-cell", "b-cell", "cytokine", "inflammation", "allergy", "autoimmune", "transplant", "rejection", "vaccine", "immunization", "immunodeficiency", "hypersensitivity", "tolerance"],
+    "description": "Immunology and immune system"
+  },
+  "infectious_disease": {
+    "keywords": ["infection", "infectious", "bacterial", "viral", "fungal", "parasitic", "antibiotic", "antiviral", "resistance", "outbreak", "pandemic", "epidemic", "contagious", "transmission", "prevention", "treatment", "diagnosis", "culture", "pcr"],
+    "description": "Infectious diseases and microbiology"
+  },
+  "rehabilitation": {
+    "keywords": ["rehabilitation", "physical therapy", "occupational therapy", "speech therapy", "mobility", "function", "disability", "impairment", "recovery", "exercise", "training", "assistive", "prosthetic", "orthotic", "adaptive", "quality of life", "independence"],
+    "description": "Rehabilitation and physical therapy"
+  },
+  "pain_management": {
+    "keywords": ["pain", "analgesia", "analgesic", "opioid", "chronic", "acute", "neuropathic", "nociceptive", "management", "treatment", "therapy", "medication", "injection", "nerve block", "spinal", "epidural", "palliative", "comfort"],
+    "description": "Pain management and palliative care"
+  },
+  "geriatrics": {
+    "keywords": ["geriatric", "elderly", "aging", "dementia", "alzheimer", "frailty", "falls", "polypharmacy", "comorbidity", "functional decline", "cognitive", "memory", "independence", "caregiver", "long-term care", "palliative", "end-of-life"],
+    "description": "Geriatrics and aging"
+  },
+  "sports_medicine": {
+    "keywords": ["sports", "athletic", "injury", "concussion", "muscle", "tendon", "ligament", "fracture", "sprain", "strain", "rehabilitation", "performance", "training", "exercise", "fitness", "biomechanics", "prevention", "recovery"],
+    "description": "Sports medicine and athletic injuries"
+  },
+  "clinical_research": {
+    "keywords": ["clinical trial", "randomized", "controlled", "placebo", "double-blind", "protocol", "enrollment", "inclusion", "exclusion", "endpoint", "outcome", "efficacy", "safety", "adverse event", "informed consent", "irb", "ethics", "regulatory"],
+    "description": "Clinical research and trials"
+  },
+  "healthcare_delivery": {
+    "keywords": ["healthcare", "delivery", "access", "quality", "safety", "outcome", "cost", "efficiency", "equity", "disparity", "policy", "reform", "insurance", "coverage", "reimbursement", "value", "performance", "measurement", "improvement"],
+    "description": "Healthcare delivery and policy"
+  }
+}
