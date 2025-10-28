@@ -124,7 +124,7 @@ def fetch_grant_fits_cached(db_mtime: float, faculty_name: str):
     ])
 
 @st.cache_data(show_spinner=False)
-def fetch_grants_opportunities_cached(grants_db_mtime: float, status_filter: str = None, agency_filter: str = None, limit: int = 20):
+def fetch_grants_opportunities_cached(grants_db_mtime: float, status_filter: str = None, agency_filter: str = None, open_date_from: str = None, open_date_to: str = None, close_date_from: str = None, close_date_to: str = None, limit: int = 20, offset: int = 0):
     """Fetch grants.gov opportunities from the grants opportunity database."""
     if not _grants_db_exists():
         # Demo fallback data
@@ -165,6 +165,22 @@ def fetch_grants_opportunities_cached(grants_db_mtime: float, status_filter: str
         where_conditions.append("(agency_code LIKE ? OR agency_name LIKE ?)")
         params.extend([f"%{agency_filter}%", f"%{agency_filter}%"])
     
+    if open_date_from:
+        where_conditions.append("open_date >= ?")
+        params.append(open_date_from)
+    
+    if open_date_to:
+        where_conditions.append("open_date <= ?")
+        params.append(open_date_to)
+    
+    if close_date_from:
+        where_conditions.append("close_date >= ?")
+        params.append(close_date_from)
+    
+    if close_date_to:
+        where_conditions.append("close_date <= ?")
+        params.append(close_date_to)
+    
     where_clause = "WHERE " + " AND ".join(where_conditions) if where_conditions else ""
     
     query = f"""
@@ -179,18 +195,60 @@ def fetch_grants_opportunities_cached(grants_db_mtime: float, status_filter: str
             award_floor,
             close_date,
             open_date,
-            post_date,
+            open_date,
             agency_contact_name,
             agency_contact_email,
             funding_desc_link
         FROM grants_opportunity 
         {where_clause}
-        ORDER BY close_date DESC, post_date DESC, open_date DESC
-        LIMIT ?
+        ORDER BY close_date DESC, open_date DESC, open_date DESC
+        LIMIT ? OFFSET ?
     """
-    params.append(limit)
+    params.extend([limit, offset])
     
     return pd.read_sql_query(query, conn, params=params)
+
+@st.cache_data(show_spinner=False)
+def get_grants_filtered_count_cached(grants_db_mtime: float, status_filter: str = None, agency_filter: str = None, open_date_from: str = None, open_date_to: str = None, close_date_from: str = None, close_date_to: str = None):
+    """Get count of filtered grants opportunities."""
+    if not _grants_db_exists():
+        return 0
+    
+    conn = get_conn(GRANTS_DB_PATH)
+    
+    # Build query with optional filters (same logic as fetch_grants_opportunities_cached)
+    where_conditions = []
+    params = []
+    
+    if status_filter:
+        where_conditions.append("opp_status = ?")
+        params.append(status_filter)
+    
+    if agency_filter:
+        where_conditions.append("(agency_code LIKE ? OR agency_name LIKE ?)")
+        params.extend([f"%{agency_filter}%", f"%{agency_filter}%"])
+    
+    if open_date_from:
+        where_conditions.append("open_date >= ?")
+        params.append(open_date_from)
+    
+    if open_date_to:
+        where_conditions.append("open_date <= ?")
+        params.append(open_date_to)
+    
+    if close_date_from:
+        where_conditions.append("close_date >= ?")
+        params.append(close_date_from)
+    
+    if close_date_to:
+        where_conditions.append("close_date <= ?")
+        params.append(close_date_to)
+    
+    where_clause = "WHERE " + " AND ".join(where_conditions) if where_conditions else ""
+    
+    query = f"SELECT COUNT(*) as total FROM grants_opportunity {where_clause}"
+    result = pd.read_sql_query(query, conn, params=params)
+    return result.iloc[0]['total']
 
 @st.cache_data(show_spinner=False)
 def get_grants_stats_cached(grants_db_mtime: float):
@@ -289,20 +347,93 @@ elif page == "Grants Fitness":
         st.divider()
     
     # Filters
-    col1, col2, col3 = st.columns(3)
+    col1, col2 = st.columns(2)
     with col1:
         status_filter = st.selectbox("Filter by Status", ["All", "posted", "forecasted", "closed", "archived"])
     with col2:
         agency_filter = st.text_input("Filter by Agency", placeholder="e.g., NIH, CDC")
+    
+    # Date filters
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        open_date_from = st.date_input("Open Date From", value=None, key="open_from", help="Show opportunities opened on or after this date")
+    with col2:
+        open_date_to = st.date_input("Open Date To", value=None, key="open_to", help="Show opportunities opened on or before this date")
     with col3:
-        limit = st.slider("Number of results", 5, 50, 20)
+        close_date_from = st.date_input("Close Date From", value=None, key="close_from", help="Show opportunities closing on or after this date")
+    with col4:
+        close_date_to = st.date_input("Close Date To", value=None, key="close_to", help="Show opportunities closing on or before this date")
     
     # Apply filters
     status_val = None if status_filter == "All" else status_filter
     agency_val = None if not agency_filter else agency_filter
+    open_date_from_val = open_date_from.strftime('%Y-%m-%d') if open_date_from else None
+    open_date_to_val = open_date_to.strftime('%Y-%m-%d') if open_date_to else None
+    close_date_from_val = close_date_from.strftime('%Y-%m-%d') if close_date_from else None
+    close_date_to_val = close_date_to.strftime('%Y-%m-%d') if close_date_to else None
+    
+    # Get total count with all filters applied
+    total_count = get_grants_filtered_count_cached(grants_db_mtime, status_val, agency_val, open_date_from_val, open_date_to_val, close_date_from_val, close_date_to_val)
+    
+    # Fixed 15 results per page (Amazon-style)
+    limit = 15
+    
+    # Reset pagination when filters change
+    filter_key = f"{status_val}_{agency_val}_{open_date_from_val}_{open_date_to_val}_{close_date_from_val}_{close_date_to_val}"
+    if 'last_filter_key' not in st.session_state or st.session_state.last_filter_key != filter_key:
+        st.session_state.current_page = 1
+        st.session_state.last_filter_key = filter_key
+    
+    # Initialize pagination variables
+    page = 1
+    offset = 0
+    
+    # Pagination with Amazon-style navigation
+    if total_count > 0:
+        total_pages = (total_count + limit - 1) // limit  # Ceiling division
+        
+        # Initialize session state for current page
+        if 'current_page' not in st.session_state:
+            st.session_state.current_page = 1
+        
+        # Ensure current page is within valid range
+        if st.session_state.current_page > total_pages or st.session_state.current_page < 1:
+            st.session_state.current_page = 1
+        
+        # Amazon-style pagination controls
+        if total_pages > 1:
+            col1, col2, col3, col4 = st.columns([1, 1, 3, 3])
+
+            with col1:
+                # Page number input
+                page_input = st.number_input(
+                    "Page", 
+                    min_value=1, 
+                    max_value=total_pages, 
+                    value=st.session_state.current_page,
+                    key="page_input",
+                    label_visibility="collapsed"
+                )
+                if page_input != st.session_state.current_page:
+                    st.session_state.current_page = page_input
+                    st.rerun()
+            
+            with col2:
+                st.write(f"**Page {st.session_state.current_page} of {total_pages}**")
+                
+        
+        # Calculate offset and display info
+        page = st.session_state.current_page
+        offset = (page - 1) * limit
+        start_result = offset + 1
+        end_result = min(offset + limit, total_count)
+        
+        st.write(f"**Showing {start_result}-{end_result} of {total_count} results**")
+    else:
+        st.write("**No results found** with current filters")
     
     # Fetch and display opportunities
-    opportunities = fetch_grants_opportunities_cached(grants_db_mtime, status_val, agency_val, limit)
+    opportunities = fetch_grants_opportunities_cached(grants_db_mtime, status_val, agency_val, open_date_from_val, open_date_to_val, close_date_from_val, close_date_to_val, limit, offset)
     
     if not opportunities.empty:
         # Display opportunities in a more readable format
@@ -313,10 +444,24 @@ elif page == "Grants Fitness":
                 with col1:
                     st.write(f"**Agency:** {row['agency_name']}")
                     st.write(f"**Status:** {row['opp_status']}")
-                    if pd.notna(row['post_date']):
-                        st.write(f"**Posted Date:** {row['post_date']}")
-                    if pd.notna(row['close_date']):
-                        st.write(f"**Deadline:** {row['close_date']}")
+                    # Handle date values safely - convert to scalar if needed
+                    try:
+                        open_date_val = row['open_date']
+                        if hasattr(open_date_val, 'iloc'):
+                            open_date_val = open_date_val.iloc[0] if len(open_date_val) > 0 else None
+                        open_date = open_date_val if pd.notna(open_date_val) and str(open_date_val).strip() != '' else "N/A"
+                    except:
+                        open_date = "N/A"
+                    st.write(f"**Open Date:** {open_date}")
+                    
+                    try:
+                        close_date_val = row['close_date']
+                        if hasattr(close_date_val, 'iloc'):
+                            close_date_val = close_date_val.iloc[0] if len(close_date_val) > 0 else None
+                        close_date = close_date_val if pd.notna(close_date_val) and str(close_date_val).strip() != '' else "N/A"
+                    except:
+                        close_date = "N/A"
+                    st.write(f"**Deadline:** {close_date}")
                     if pd.notna(row['award_ceiling']) and row['award_ceiling'] not in ['none', 'None', '']:
                         try:
                             ceiling = int(row['award_ceiling'])
@@ -335,7 +480,7 @@ elif page == "Grants Fitness":
                         st.write(f"**Contact:** {row['agency_contact_name']}")
                     if pd.notna(row['agency_contact_email']):
                         st.write(f"**Email:** {row['agency_contact_email']}")
-                    if pd.notna(row['funding_desc_link']):
+                    if pd.notna(row['funding_desc_link']) and row['funding_desc_link'].strip() and not row['funding_desc_link'].startswith('http://localhost') and 'dashboard' not in row['funding_desc_link'].lower():
                         st.link_button("View Full Announcement", row['funding_desc_link'])
                 
                 # Description
