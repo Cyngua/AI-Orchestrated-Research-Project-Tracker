@@ -103,7 +103,7 @@ def test_author_processing():
         
         # Step 3: Upsert publication and process authors
         print("3. Processing publication and authors...")
-        pub_id = upsert_pub_and_link(cxn, project_id, test_publication)
+        pub_id = upsert_pub_and_link(cxn, test_publication, project_id=project_id)
         print(f"   Publication ID: {pub_id}")
         
         # Step 4: Verify results

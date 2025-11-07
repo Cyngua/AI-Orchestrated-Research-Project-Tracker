@@ -138,7 +138,18 @@ def process_authors_from_publication(cxn: sqlite3.Connection, pub_id: int, autho
     
     return author_ids
 
-def upsert_pub_and_link(cxn: sqlite3.Connection, project_id: int, rec: dict) -> int:
+def upsert_pub_and_link(cxn: sqlite3.Connection, rec: dict, project_id: Optional[int] = None) -> int:
+    """Upsert a publication and optionally link it to a project.
+    
+    Args:
+        cxn: Database connection
+        rec: Publication record dictionary
+        project_id: Optional project ID to link the publication to. If None, publication
+                   is stored but not linked to any project.
+    
+    Returns:
+        Publication ID
+    """
     cur = cxn.cursor()
     authors_json = json.dumps(rec.get("authors", []), ensure_ascii=False)
     grants_json = json.dumps(rec.get("grants", []), ensure_ascii=False)
@@ -174,11 +185,12 @@ def upsert_pub_and_link(cxn: sqlite3.Connection, project_id: int, rec: dict) -> 
     cur.execute("SELECT id FROM pubs WHERE pmid = ? LIMIT 1", (rec["pmid"],))
     pub_id = int(cur.fetchone()[0])
 
-    # link to project
-    cur.execute("""
-        INSERT OR IGNORE INTO project_pub_relation(project_id, pub_id)
-        VALUES(?, ?)
-    """, (project_id, pub_id))
+    # link to project (only if project_id is provided)
+    if project_id is not None:
+        cur.execute("""
+            INSERT OR IGNORE INTO project_pub_relation(project_id, pub_id)
+            VALUES(?, ?)
+        """, (project_id, pub_id))
 
     # Process all authors from this publication
     process_authors_from_publication(cxn, pub_id, authors_json)

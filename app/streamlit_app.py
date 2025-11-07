@@ -63,18 +63,19 @@ def list_faculty_cached(db_mtime: float):
 def fetch_publications_cached(db_mtime: float, faculty_name: str, limit: int = 10):
     conn = _ensure_conn()
     if conn:
+        # Match on the same name format used by list_faculty_cached
+        # (first_name + ' ' + last_name) or full_name
         q = """
-            SELECT pb.pmid, pb.title, pb.journal, pb.year
+            SELECT DISTINCT pb.pmid, pb.title, pb.journal, pb.year
             FROM pubs pb
-            JOIN project_pub_relation r ON r.pub_id = pb.id
-            JOIN projects pr ON pr.id = r.project_id
-            LEFT JOIN people_project_relation ppr ON ppr.project_id = pr.id
-            LEFT JOIN people pe ON pe.id = ppr.person_id
-            WHERE pe.first_name || ' ' || pe.last_name = ?
+            JOIN author_pub_relation apr ON apr.pub_id = pb.id
+            JOIN people pe ON pe.id = apr.person_id
+            WHERE (COALESCE(pe.first_name,'') || ' ' || COALESCE(pe.last_name,'') = ?
+                   OR pe.full_name = ?)
             ORDER BY pb.year DESC, pb.id DESC
             LIMIT ?
         """
-        return pd.read_sql_query(q, conn, params=[faculty_name, limit])
+        return pd.read_sql_query(q, conn, params=[faculty_name, faculty_name, limit])
     # demo fallback
     data = [
         {"pmid":"38800123","title":"Endovascular AAA outcomes","journal":"J Vasc Surg","year":2024},

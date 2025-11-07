@@ -307,9 +307,10 @@ def main():
         if args.persist and cxn:
             try:
                 person_id = upsert_person(cxn, norm, role="PI", affiliation=affiliation)
-                project_id = ensure_auto_project_for_faculty(cxn, person_id, full_name)
+                # Skip creating "Auto:" placeholder projects - just store publications
+                # Publications will be linked to authors via author_pub_relation
                 for rec in records:
-                    upsert_pub_and_link(cxn, project_id, rec)
+                    upsert_pub_and_link(cxn, rec, project_id=None)
                 cxn.commit()
             except Exception as e:
                 cxn.rollback()
