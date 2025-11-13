@@ -1,5 +1,6 @@
 # streamlit run streamlit_app.py
 import os
+import json
 import sqlite3
 import pandas as pd
 import streamlit as st
@@ -87,20 +88,79 @@ def fetch_publications_cached(db_mtime: float, faculty_name: str, limit: int = 1
 def fetch_projects_cached(db_mtime: float, faculty_name: str):
     conn = _ensure_conn()
     if conn:
-        q = """
-            SELECT pr.id as project_id, pr.title, pr.stage, pr.start_date, pr.end_date
-            FROM projects pr
-            LEFT JOIN people_project_relation ppr ON ppr.project_id = pr.id
-            LEFT JOIN people pe ON pe.id = ppr.person_id
-            WHERE pe.first_name || ' ' || pe.last_name = ?
-            ORDER BY pr.updated_at DESC
-        """
+        # Check if AI columns exist, if not use simpler query
+        cur = conn.cursor()
+        try:
+            cur.execute("SELECT ai_summary FROM projects LIMIT 1")
+            # AI columns exist, use full query
+            q = """
+                SELECT pr.id as project_id, pr.title, pr.stage, pr.start_date, pr.end_date,
+                       pr.abstract, pr.ai_summary, pr.ai_keywords, pr.ai_stage_guess, 
+                       pr.ai_suggested_mechanisms, pr.ai_generated_at, pr.ai_manual_override
+                FROM projects pr
+                LEFT JOIN people_project_relation ppr ON ppr.project_id = pr.id
+                LEFT JOIN people pe ON pe.id = ppr.person_id
+                WHERE pe.first_name || ' ' || pe.last_name = ?
+                ORDER BY pr.updated_at DESC
+            """
+        except sqlite3.OperationalError:
+            # AI columns don't exist yet, use basic query
+            q = """
+                SELECT pr.id as project_id, pr.title, pr.stage, pr.start_date, pr.end_date,
+                       pr.abstract
+                FROM projects pr
+                LEFT JOIN people_project_relation ppr ON ppr.project_id = pr.id
+                LEFT JOIN people pe ON pe.id = ppr.person_id
+                WHERE pe.first_name || ' ' || pe.last_name = ?
+                ORDER BY pr.updated_at DESC
+            """
         return pd.read_sql_query(q, conn, params=[faculty_name])
     # demo fallback
     return pd.DataFrame([
         {"project_id":101,"title":"AAA biomechanics pilot","stage":"analysis","start_date":"2024-01-01","end_date":None},
         {"project_id":102,"title":"PAD registry build","stage":"planning","start_date":"2024-09-01","end_date":None},
     ])
+
+@st.cache_data(show_spinner=False)
+def fetch_project_details(project_id: int):
+    """Fetch detailed information about a specific project."""
+    conn = _ensure_conn()
+    if not conn:
+        return None
+    
+    # Get project info
+    project_query = """
+        SELECT pr.* FROM projects pr WHERE pr.id = ?
+    """
+    project = pd.read_sql_query(project_query, conn, params=[project_id])
+    
+    if project.empty:
+        return None
+    
+    # Get related publications
+    pubs_query = """
+        SELECT pb.pmid, pb.title, pb.journal, pb.year, pb.topic
+        FROM pubs pb
+        JOIN project_pub_relation ppr ON pb.id = ppr.pub_id
+        WHERE ppr.project_id = ?
+        ORDER BY pb.year DESC
+    """
+    publications = pd.read_sql_query(pubs_query, conn, params=[project_id])
+    
+    # Get related grants
+    grants_query = """
+        SELECT gc.core_project_num, gc.mechanism, gc.agency, gc.status
+        FROM grants_core gc
+        JOIN project_grant_relation pgr ON gc.id = pgr.grant_id
+        WHERE pgr.project_id = ?
+    """
+    grants = pd.read_sql_query(grants_query, conn, params=[project_id])
+    
+    return {
+        'project': project.iloc[0].to_dict(),
+        'publications': publications.to_dict('records'),
+        'grants': grants.to_dict('records')
+    }
 
 @st.cache_data(show_spinner=False)
 def fetch_grant_fits_cached(db_mtime: float, faculty_name: str):
@@ -561,9 +621,6 @@ elif page == "PI Grant Matching":
                 "Custom": "Manual adjustment of all weights"
             }
             
-            if preset in mode_descriptions:
-                st.caption(f"💡 {mode_descriptions[preset]}")
-            
             # Apply presets
             if preset == "Research Focus":
                 semantic_weight, time_weight, eligibility_weight = 0.7, 0.2, 0.1
@@ -760,17 +817,260 @@ elif page == "PI Grant Matching":
             st.info("Please ensure pi_matching_utils.py is in the app directory.")
 
 elif page == "AI Services":
-    st.subheader("AI Summaries & Q&A (MVP)")
-    col1, col2 = st.columns(2)
-    with col1:
-        st.markdown("**Project Summary (cached)**")
-        st.text_area("Summary", "Auto-generated 100-word summary will appear here.", height=180)
-        st.write("Suggested mechanisms: R01, R21, K23")
-    with col2:
-        st.markdown("**Ask a question about your registry**")
-        question = st.text_input("e.g., Projects about AAA with UT co-authors")
-        if st.button("Ask"):
-            st.success("MVP stub: wire to RAG/SQL. (Return an answer with citations to PMIDs and core_project_nums.)")
+    st.subheader("AI-Powered Project Analysis & Reports")
+    
+    if not selected_name:
+        st.warning("Please select a faculty member from the sidebar to view AI services.")
+    else:
+        # Get projects for selected faculty
+        projects_df = fetch_projects_cached(db_mtime, selected_name)
+        
+        if projects_df.empty:
+            st.info("No projects found for this faculty member.")
+        else:
+            # Project selection
+            project_titles = projects_df['title'].tolist()
+            selected_project_idx = st.selectbox(
+                "Select a Project",
+                range(len(project_titles)),
+                format_func=lambda x: project_titles[x]
+            )
+            
+            selected_project = projects_df.iloc[selected_project_idx]
+            project_id = selected_project['project_id']
+            
+            st.divider()
+            
+            # Fetch detailed project information
+            project_details = fetch_project_details(project_id)
+            
+            if project_details:
+                project = project_details['project']
+                publications = project_details['publications']
+                grants = project_details['grants']
+                
+                # AI Summary & Tagging Section
+                st.markdown("### 🤖 AI Summary & Tagging")
+                
+                col1, col2 = st.columns([2, 1])
+                
+                with col1:
+                    # Check if AI summary exists (handle case where columns don't exist)
+                    ai_summary = project.get('ai_summary') if 'ai_summary' in project else None
+                    ai_keywords = project.get('ai_keywords') if 'ai_keywords' in project else None
+                    ai_stage = project.get('ai_stage_guess') if 'ai_stage_guess' in project else None
+                    ai_mechanisms = project.get('ai_suggested_mechanisms') if 'ai_suggested_mechanisms' in project else None
+                    ai_generated = project.get('ai_generated_at') if 'ai_generated_at' in project else None
+                    manual_override = project.get('ai_manual_override', False) if 'ai_manual_override' in project else False
+                    
+                    if ai_summary and not manual_override:
+                        st.success(f"✅ AI-generated (Last updated: {ai_generated or 'Unknown'})")
+                    elif manual_override:
+                        st.info("✏️ Manually edited")
+                    else:
+                        st.warning("⚠️ No AI summary yet")
+                    
+                    # Summary text area (editable)
+                    summary_text = st.text_area(
+                        "Project Summary (100 words)",
+                        value=ai_summary or project.get('abstract', '') or "Click 'Generate AI Summary' to create a summary.",
+                        height=150,
+                        key=f"summary_{project_id}"
+                    )
+                    
+                    # Keywords display
+                    if ai_keywords:
+                        try:
+                            keywords_list = json.loads(ai_keywords) if isinstance(ai_keywords, str) else ai_keywords
+                            st.write("**Keywords:**", ", ".join(keywords_list))
+                        except:
+                            st.write("**Keywords:**", ai_keywords)
+                    
+                    # Stage guess
+                    if ai_stage:
+                        st.write(f"**AI Stage Guess:** {ai_stage}")
+                    
+                    # Suggested mechanisms
+                    if ai_mechanisms:
+                        try:
+                            mechanisms_list = json.loads(ai_mechanisms) if isinstance(ai_mechanisms, str) else ai_mechanisms
+                            st.write("**Suggested Funding Mechanisms:**", ", ".join(mechanisms_list))
+                        except:
+                            st.write("**Suggested Funding Mechanisms:**", ai_mechanisms)
+                
+                with col2:
+                    st.markdown("**Actions**")
+                    
+                    # Generate/Regenerate AI summary
+                    if st.button("🔄 Generate/Regenerate AI Summary", key=f"generate_{project_id}"):
+                        with st.spinner("Generating AI summary and tags..."):
+                            try:
+                                # Check if AI columns exist
+                                conn = _ensure_conn()
+                                if not conn:
+                                    st.error("Database connection failed")
+                                else:
+                                    cur = conn.cursor()
+                                    try:
+                                        cur.execute("SELECT ai_summary FROM projects LIMIT 1")
+                                        ai_columns_exist = True
+                                    except sqlite3.OperationalError:
+                                        ai_columns_exist = False
+                                        st.warning("⚠️ AI columns not found in database. Please run the migration script first:")
+                                        st.code("sqlite3 tracker.db < etl/add_ai_fields.sql")
+                                    else:
+                                        import asyncio
+                                        from llm.gpt_service import summarize_and_tag_project
+                                        
+                                        # Prepare context
+                                        pub_list = [{'title': p.get('title', '')} for p in publications[:5]]
+                                        grant_list = [{'mechanism': g.get('mechanism', ''), 'core_project_num': g.get('core_project_num', '')} for g in grants[:3]]
+                                        
+                                        # Call AI service
+                                        result = asyncio.run(summarize_and_tag_project(
+                                            project_title=project.get('title', ''),
+                                            project_abstract=project.get('abstract'),
+                                            project_stage=project.get('stage'),
+                                            related_publications=pub_list,
+                                            related_grants=grant_list
+                                        ))
+                                        
+                                        # Save to database
+                                        import datetime
+                                        cur.execute("""
+                                            UPDATE projects 
+                                            SET ai_summary = ?,
+                                                ai_keywords = ?,
+                                                ai_stage_guess = ?,
+                                                ai_suggested_mechanisms = ?,
+                                                ai_generated_at = ?,
+                                                ai_manual_override = 0
+                                            WHERE id = ?
+                                        """, (
+                                            result['summary'],
+                                            json.dumps(result['keywords']),
+                                            result['stage_guess'],
+                                            json.dumps(result['suggested_mechanisms']),
+                                            datetime.datetime.now(),
+                                            project_id
+                                        ))
+                                        conn.commit()
+                                        st.success("✅ AI summary generated and saved!")
+                                        st.rerun()
+                            except Exception as e:
+                                st.error(f"Error generating summary: {e}")
+                                import traceback
+                                st.code(traceback.format_exc())
+                    
+                    # Save manual edits
+                    if st.button("💾 Save Manual Edits", key=f"save_{project_id}"):
+                        conn = _ensure_conn()
+                        if not conn:
+                            st.error("Database connection failed")
+                        else:
+                            cur = conn.cursor()
+                            try:
+                                # Check if AI columns exist
+                                cur.execute("SELECT ai_summary FROM projects LIMIT 1")
+                                cur.execute("""
+                                    UPDATE projects 
+                                    SET ai_summary = ?,
+                                        ai_manual_override = 1
+                                    WHERE id = ?
+                                """, (summary_text, project_id))
+                                conn.commit()
+                                st.success("✅ Manual edits saved!")
+                                st.rerun()
+                            except sqlite3.OperationalError:
+                                st.warning("⚠️ AI columns not found. Please run migration first:")
+                                st.code("sqlite3 tracker.db < etl/add_ai_fields.sql")
+                
+                st.divider()
+                
+                # Report Generation Section
+                st.markdown("### 📄 Project Report Generation")
+                
+                col1, col2 = st.columns(2)
+                
+                with col1:
+                    if st.button("📝 Generate Project Report", key=f"report_{project_id}"):
+                        with st.spinner("Generating comprehensive project report..."):
+                            try:
+                                import asyncio
+                                from llm.gpt_service import generate_project_report
+                                
+                                # Get funding matches (from PI Grant Matching)
+                                funding_matches = []
+                                try:
+                                    from pi_matching_utils import compute_pi_grant_match_score
+                                    # Get top grant opportunities
+                                    opps = fetch_grants_opportunities_cached(grants_db_mtime, None, None, None, None, None, None, None, 20, 0)
+                                    for _, opp in opps.iterrows():
+                                        match_data = compute_pi_grant_match_score(
+                                            selected_name, DB_PATH, opp.to_dict()
+                                        )
+                                        if match_data['overall_score'] > 0.5:
+                                            funding_matches.append({
+                                                'opportunity_number': opp.get('opportunity_number', ''),
+                                                'title': opp.get('title', ''),
+                                                'overall_score': match_data['overall_score']
+                                            })
+                                    funding_matches = sorted(funding_matches, key=lambda x: x['overall_score'], reverse=True)[:5]
+                                except:
+                                    pass
+                                
+                                # Generate report
+                                report_markdown = asyncio.run(generate_project_report(
+                                    project_id=project_id,
+                                    project_title=project.get('title', ''),
+                                    project_summary=summary_text or ai_summary or project.get('abstract', ''),
+                                    project_stage=project.get('stage', ''),
+                                    publications=publications,
+                                    funding_matches=funding_matches
+                                ))
+                                
+                                st.markdown("**Generated Report:**")
+                                st.markdown(report_markdown)
+                                
+                                # Download button
+                                st.download_button(
+                                    "📥 Download as Markdown",
+                                    data=report_markdown,
+                                    file_name=f"project_report_{project_id}.md",
+                                    mime="text/markdown"
+                                )
+                                
+                            except Exception as e:
+                                st.error(f"Error generating report: {e}")
+                
+                with col2:
+                    st.info("""
+                    **Report includes:**
+                    - Project summary
+                    - Current stage
+                    - Related publications
+                    - Funding opportunity matches
+                    - Recommended next actions
+                    
+                    Export as Markdown (can be converted to DOCX/PDF)
+                    """)
+                
+                st.divider()
+                
+                # Batch Operations
+                st.markdown("### 🔄 Batch Operations")
+                
+                col1, col2 = st.columns(2)
+                
+                with col1:
+                    if st.button("🔄 Generate AI Summaries for All Projects", key="batch_generate"):
+                        st.info("This will generate AI summaries for all projects. This may take a few minutes.")
+                        # TODO: Implement batch processing
+                
+                with col2:
+                    if st.button("📥 Export All Project Reports", key="batch_export"):
+                        st.info("This will generate and download reports for all projects.")
+                        # TODO: Implement batch export
 
 st.write("")
 st.caption("Streamlit App Demo")
