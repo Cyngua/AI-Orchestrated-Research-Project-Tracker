@@ -125,7 +125,7 @@ def fetch_grant_fits_cached(db_mtime: float, faculty_name: str):
     ])
 
 @st.cache_data(show_spinner=False)
-def fetch_grants_opportunities_cached(grants_db_mtime: float, status_filter: str = None, agency_filter: str = None, open_date_from: str = None, open_date_to: str = None, close_date_from: str = None, close_date_to: str = None, limit: int = 20, offset: int = 0):
+def fetch_grants_opportunities_cached(grants_db_mtime: float, status_filter: str = None, agency_filter: str = None, keyword_filter: str = None, open_date_from: str = None, open_date_to: str = None, close_date_from: str = None, close_date_to: str = None, limit: int = 20, offset: int = 0):
     """Fetch grants.gov opportunities from the grants opportunity database."""
     if not _grants_db_exists():
         # Demo fallback data
@@ -165,6 +165,10 @@ def fetch_grants_opportunities_cached(grants_db_mtime: float, status_filter: str
     if agency_filter:
         where_conditions.append("(agency_code LIKE ? OR agency_name LIKE ?)")
         params.extend([f"%{agency_filter}%", f"%{agency_filter}%"])
+    
+    if keyword_filter:
+        where_conditions.append("(title LIKE ? OR description LIKE ? OR opportunity_number LIKE ?)")
+        params.extend([f"%{keyword_filter}%", f"%{keyword_filter}%", f"%{keyword_filter}%"])
     
     if open_date_from:
         where_conditions.append("open_date >= ?")
@@ -210,7 +214,7 @@ def fetch_grants_opportunities_cached(grants_db_mtime: float, status_filter: str
     return pd.read_sql_query(query, conn, params=params)
 
 @st.cache_data(show_spinner=False)
-def get_grants_filtered_count_cached(grants_db_mtime: float, status_filter: str = None, agency_filter: str = None, open_date_from: str = None, open_date_to: str = None, close_date_from: str = None, close_date_to: str = None):
+def get_grants_filtered_count_cached(grants_db_mtime: float, status_filter: str = None, agency_filter: str = None, keyword_filter: str = None, open_date_from: str = None, open_date_to: str = None, close_date_from: str = None, close_date_to: str = None):
     """Get count of filtered grants opportunities."""
     if not _grants_db_exists():
         return 0
@@ -228,6 +232,10 @@ def get_grants_filtered_count_cached(grants_db_mtime: float, status_filter: str 
     if agency_filter:
         where_conditions.append("(agency_code LIKE ? OR agency_name LIKE ?)")
         params.extend([f"%{agency_filter}%", f"%{agency_filter}%"])
+    
+    if keyword_filter:
+        where_conditions.append("(title LIKE ? OR description LIKE ? OR opportunity_number LIKE ?)")
+        params.extend([f"%{keyword_filter}%", f"%{keyword_filter}%", f"%{keyword_filter}%"])
     
     if open_date_from:
         where_conditions.append("open_date >= ?")
@@ -347,11 +355,13 @@ elif page == "All Grants Opportunities":
         st.divider()
     
     # Filters
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
     with col1:
         status_filter = st.selectbox("Filter by Status", ["All", "posted", "forecasted", "closed", "archived"])
     with col2:
         agency_filter = st.text_input("Filter by Agency", placeholder="e.g., NIH, CDC")
+    with col3:
+        keyword_filter = st.text_input("Search Keywords", placeholder="Search in title, description...", help="Search for keywords in title, description, or opportunity number")
     
     # Date filters
     col1, col2, col3, col4 = st.columns(4)
@@ -367,19 +377,20 @@ elif page == "All Grants Opportunities":
     # Apply filters
     status_val = None if status_filter == "All" else status_filter
     agency_val = None if not agency_filter else agency_filter
+    keyword_val = None if not keyword_filter or not keyword_filter.strip() else keyword_filter.strip()
     open_date_from_val = open_date_from.strftime('%Y-%m-%d') if open_date_from else None
     open_date_to_val = open_date_to.strftime('%Y-%m-%d') if open_date_to else None
     close_date_from_val = close_date_from.strftime('%Y-%m-%d') if close_date_from else None
     close_date_to_val = close_date_to.strftime('%Y-%m-%d') if close_date_to else None
     
     # Get total count with all filters applied
-    total_count = get_grants_filtered_count_cached(grants_db_mtime, status_val, agency_val, open_date_from_val, open_date_to_val, close_date_from_val, close_date_to_val)
+    total_count = get_grants_filtered_count_cached(grants_db_mtime, status_val, agency_val, keyword_val, open_date_from_val, open_date_to_val, close_date_from_val, close_date_to_val)
     
     # Fixed 15 results per page (Amazon-style)
     limit = 15
     
     # Reset pagination when filters change
-    filter_key = f"{status_val}_{agency_val}_{open_date_from_val}_{open_date_to_val}_{close_date_from_val}_{close_date_to_val}"
+    filter_key = f"{status_val}_{agency_val}_{keyword_val}_{open_date_from_val}_{open_date_to_val}_{close_date_from_val}_{close_date_to_val}"
     if 'last_filter_key' not in st.session_state or st.session_state.last_filter_key != filter_key:
         st.session_state.current_page = 1
         st.session_state.last_filter_key = filter_key
@@ -433,7 +444,7 @@ elif page == "All Grants Opportunities":
         st.write("**No results found** with current filters")
     
     # Fetch and display opportunities
-    opportunities = fetch_grants_opportunities_cached(grants_db_mtime, status_val, agency_val, open_date_from_val, open_date_to_val, close_date_from_val, close_date_to_val, limit, offset)
+    opportunities = fetch_grants_opportunities_cached(grants_db_mtime, status_val, agency_val, keyword_val, open_date_from_val, open_date_to_val, close_date_from_val, close_date_to_val, limit, offset)
     
     if not opportunities.empty:
         # Display opportunities in a more readable format
@@ -635,12 +646,11 @@ elif page == "PI Grant Matching":
         try:
             from pi_matching_utils import (
                 apply_binary_filters, 
-                compute_pi_grant_match_score,
-                get_pi_research_keywords
+                compute_pi_grant_match_score
             )
             
-            # Get all grants opportunities
-            opportunities = fetch_grants_opportunities_cached(grants_db_mtime, None, None, None, None, None, None, 100, 0)
+            # Get all grants opportunities (no filters for matching page)
+            opportunities = fetch_grants_opportunities_cached(grants_db_mtime, None, None, None, None, None, None, None, 100, 0)
             
             if not opportunities.empty:
                 # Apply matching to each opportunity
