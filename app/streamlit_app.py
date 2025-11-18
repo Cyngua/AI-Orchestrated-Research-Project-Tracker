@@ -4,9 +4,13 @@ import json
 import sqlite3
 import pandas as pd
 import streamlit as st
+from pathlib import Path
 
-DB_PATH = "../tracker.db"
-GRANTS_DB_PATH = "../grants_opportunity.db"
+SCRIPT_DIR = Path(__file__).parent.absolute()
+PROJECT_ROOT = SCRIPT_DIR.parent
+# Use absolute paths to avoid issues with working directory changes
+DB_PATH = str(PROJECT_ROOT / "tracker.db")
+GRANTS_DB_PATH = str(PROJECT_ROOT / "grants_opportunity.db")
 
 # ---------- Helpers ----------
 def _db_exists() -> bool:
@@ -122,45 +126,103 @@ def fetch_projects_cached(db_mtime: float, faculty_name: str):
     ])
 
 @st.cache_data(show_spinner=False)
-def fetch_project_details(project_id: int):
+def fetch_project_details(db_mtime: float, project_id: int):
     """Fetch detailed information about a specific project."""
-    conn = _ensure_conn()
-    if not conn:
-        return None
+    if not _db_exists():
+        return {'error': f'Database not found at {DB_PATH}. Please check the database path.'}
     
-    # Get project info
-    project_query = """
-        SELECT pr.* FROM projects pr WHERE pr.id = ?
-    """
-    project = pd.read_sql_query(project_query, conn, params=[project_id])
+    conn = sqlite3.connect(DB_PATH, check_same_thread=False)
     
-    if project.empty:
-        return None
-    
-    # Get related publications
-    pubs_query = """
-        SELECT pb.pmid, pb.title, pb.journal, pb.year, pb.topic
-        FROM pubs pb
-        JOIN project_pub_relation ppr ON pb.id = ppr.pub_id
-        WHERE ppr.project_id = ?
-        ORDER BY pb.year DESC
-    """
-    publications = pd.read_sql_query(pubs_query, conn, params=[project_id])
-    
-    # Get related grants
-    grants_query = """
-        SELECT gc.core_project_num, gc.mechanism, gc.agency, gc.status
-        FROM grants_core gc
-        JOIN project_grant_relation pgr ON gc.id = pgr.grant_id
-        WHERE pgr.project_id = ?
-    """
-    grants = pd.read_sql_query(grants_query, conn, params=[project_id])
-    
-    return {
-        'project': project.iloc[0].to_dict(),
-        'publications': publications.to_dict('records'),
-        'grants': grants.to_dict('records')
-    }
+    try:
+        # First, check if project exists
+        cur = conn.cursor()
+        cur.execute("SELECT COUNT(*) FROM projects WHERE id = ?", (project_id,))
+        count = cur.fetchone()[0]
+        if count == 0:
+            # Additional debug: check what IDs do exist
+            cur.execute("SELECT id FROM projects ORDER BY id LIMIT 10")
+            existing_ids = [str(row[0]) for row in cur.fetchall()]
+            conn.close()
+            return {
+                'error': f'Project with ID {project_id} does not exist in database.\n'
+                         f'Database path: {DB_PATH}\n'
+                         f'Some existing project IDs: {", ".join(existing_ids)}'
+            }
+        
+        # Get project info - check for AI columns first
+        project_query = """
+            SELECT pr.id, pr.title, pr.abstract, pr.stage, pr.start_date, pr.end_date, 
+                   pr.source, pr.created_at, pr.updated_at
+            FROM projects pr WHERE pr.id = ?
+        """
+        
+        # Try to add AI columns if they exist
+        try:
+            cur.execute("SELECT ai_summary FROM projects LIMIT 1")
+            # AI columns exist, add them to query
+            project_query = """
+                SELECT pr.id, pr.title, pr.abstract, pr.stage, pr.start_date, pr.end_date, 
+                       pr.source, pr.created_at, pr.updated_at,
+                       pr.ai_summary, pr.ai_keywords, pr.ai_stage_guess, 
+                       pr.ai_suggested_mechanisms, pr.ai_generated_at, pr.ai_manual_override
+                FROM projects pr WHERE pr.id = ?
+            """
+        except sqlite3.OperationalError:
+            # AI columns don't exist, use basic query (already set above)
+            pass
+        
+        # Execute query with pandas
+        project = pd.read_sql_query(project_query, conn, params=[project_id])
+        
+        if project.empty:
+            conn.close()
+            return {'error': f'Project query returned empty result for ID {project_id}'}
+        
+        # Get related publications (this query can return empty, which is OK)
+        pubs_query = """
+            SELECT pb.pmid, pb.title, pb.journal, pb.year, pb.topic
+            FROM pubs pb
+            JOIN project_pub_relation ppr ON pb.id = ppr.pub_id
+            WHERE ppr.project_id = ?
+            ORDER BY pb.year DESC
+        """
+        try:
+            publications = pd.read_sql_query(pubs_query, conn, params=[project_id])
+        except Exception as e:
+            publications = pd.DataFrame()  # Empty if query fails
+            print(f"Warning: Could not fetch publications: {e}")
+        
+        # Get related grants (this query can return empty, which is OK)
+        grants_query = """
+            SELECT gc.core_project_num, gc.mechanism, gc.agency, gc.status
+            FROM grants_core gc
+            JOIN project_grant_relation pgr ON gc.id = pgr.grant_id
+            WHERE pgr.project_id = ?
+        """
+        try:
+            grants = pd.read_sql_query(grants_query, conn, params=[project_id])
+        except Exception as e:
+            grants = pd.DataFrame()  # Empty if query fails
+            print(f"Warning: Could not fetch grants: {e}")
+        
+        result = {
+            'project': project.iloc[0].to_dict(),
+            'publications': publications.to_dict('records') if not publications.empty else [],
+            'grants': grants.to_dict('records') if not grants.empty else []
+        }
+        conn.close()
+        return result
+    except Exception as e:
+        # Return error info instead of None so we can debug
+        import traceback
+        error_msg = f"Error fetching project details for ID {project_id}: {str(e)}\nDatabase path: {DB_PATH}\n{traceback.format_exc()}"
+        print(error_msg)
+        try:
+            conn.close()
+        except:
+            pass
+        # Return error info in a way that can be displayed
+        return {'error': error_msg}
 
 @st.cache_data(show_spinner=False)
 def fetch_grant_fits_cached(db_mtime: float, faculty_name: str):
@@ -582,7 +644,7 @@ python etl/grantsgov.py \\
             csv = opportunities.to_csv(index=False).encode("utf-8")
             st.download_button("Export Opportunities to CSV", data=csv, file_name="grants_opportunities.csv", mime="text/csv")
     with col2:
-        st.button("Refresh Data", help="Reload opportunities from database") # TODO: add a function to fetch new opportunities from grants.gov
+        st.button("Refresh Data (TODO)", help="Reload opportunities from database") # TODO: add a function to fetch new opportunities from grants.gov
 
 elif page == "PI Grant Matching":
     st.subheader("PI-Grant Matching System")
@@ -828,29 +890,51 @@ elif page == "AI Services":
         if projects_df.empty:
             st.info("No projects found for this faculty member.")
         else:
-            # Project selection
-            project_titles = projects_df['title'].tolist()
+            # Project selection - show project ID in the dropdown for debugging
+            project_options = [
+                f"[ID: {row['project_id']}] {row['title']}" 
+                for _, row in projects_df.iterrows()
+            ]
             selected_project_idx = st.selectbox(
                 "Select a Project",
-                range(len(project_titles)),
-                format_func=lambda x: project_titles[x]
+                range(len(project_options)),
+                format_func=lambda x: project_options[x]
             )
             
             selected_project = projects_df.iloc[selected_project_idx]
             project_id = selected_project['project_id']
             
+            # Ensure project_id is an integer (pandas might return it as float or other type)
+            try:
+                project_id = int(project_id)
+            except (ValueError, TypeError) as e:
+                st.error(f"Invalid project_id type: {type(project_id)}, value: {project_id}")
+                st.stop()
+            
+            # Verify project exists before fetching details
+            conn_check = sqlite3.connect(DB_PATH, check_same_thread=False)
+            cur_check = conn_check.cursor()
+            cur_check.execute("SELECT COUNT(*) FROM projects WHERE id = ?", (project_id,))
+            exists = cur_check.fetchone()[0] > 0
+            conn_check.close()
+            
+            if not exists:
+                st.error(f"Project ID {project_id} does NOT exist in the projects table!")
+                st.info("This suggests a data inconsistency. The project was found in the faculty's project list but doesn't exist in the projects table.")
+                st.code(f"Selected project data: {selected_project.to_dict()}")
+            
             st.divider()
             
             # Fetch detailed project information
-            project_details = fetch_project_details(project_id)
+            project_details = fetch_project_details(db_mtime, project_id)
             
-            if project_details:
+            if project_details and 'error' not in project_details:
                 project = project_details['project']
                 publications = project_details['publications']
                 grants = project_details['grants']
                 
                 # AI Summary & Tagging Section
-                st.markdown("### 🤖 AI Summary & Tagging")
+                st.markdown("### AI Summary & Tagging")
                 
                 col1, col2 = st.columns([2, 1])
                 
@@ -864,16 +948,16 @@ elif page == "AI Services":
                     manual_override = project.get('ai_manual_override', False) if 'ai_manual_override' in project else False
                     
                     if ai_summary and not manual_override:
-                        st.success(f"✅ AI-generated (Last updated: {ai_generated or 'Unknown'})")
+                        st.success(f"AI-generated (Last updated: {ai_generated or 'Unknown'})")
                     elif manual_override:
-                        st.info("✏️ Manually edited")
+                        st.info("Manually edited")
                     else:
-                        st.warning("⚠️ No AI summary yet")
+                        st.warning("No AI summary yet")
                     
                     # Summary text area (editable)
                     summary_text = st.text_area(
                         "Project Summary (100 words)",
-                        value=ai_summary or project.get('abstract', '') or "Click 'Generate AI Summary' to create a summary.",
+                        value=ai_summary or "Click 'Generate' to create a summary.",
                         height=150,
                         key=f"summary_{project_id}"
                     )
@@ -899,10 +983,8 @@ elif page == "AI Services":
                             st.write("**Suggested Funding Mechanisms:**", ai_mechanisms)
                 
                 with col2:
-                    st.markdown("**Actions**")
-                    
                     # Generate/Regenerate AI summary
-                    if st.button("🔄 Generate/Regenerate AI Summary", key=f"generate_{project_id}"):
+                    if st.button("Generate Summary", key=f"generate_{project_id}"):
                         with st.spinner("Generating AI summary and tags..."):
                             try:
                                 # Check if AI columns exist
@@ -916,7 +998,7 @@ elif page == "AI Services":
                                         ai_columns_exist = True
                                     except sqlite3.OperationalError:
                                         ai_columns_exist = False
-                                        st.warning("⚠️ AI columns not found in database. Please run the migration script first:")
+                                        st.warning("AI columns not found in database. Please run the migration script first:")
                                         st.code("sqlite3 tracker.db < etl/add_ai_fields.sql")
                                     else:
                                         import asyncio
@@ -955,7 +1037,7 @@ elif page == "AI Services":
                                             project_id
                                         ))
                                         conn.commit()
-                                        st.success("✅ AI summary generated and saved!")
+                                        st.success("AI summary generated and saved!")
                                         st.rerun()
                             except Exception as e:
                                 st.error(f"Error generating summary: {e}")
@@ -963,7 +1045,7 @@ elif page == "AI Services":
                                 st.code(traceback.format_exc())
                     
                     # Save manual edits
-                    if st.button("💾 Save Manual Edits", key=f"save_{project_id}"):
+                    if st.button("Save Edits", key=f"save_{project_id}"):
                         conn = _ensure_conn()
                         if not conn:
                             st.error("Database connection failed")
@@ -979,21 +1061,21 @@ elif page == "AI Services":
                                     WHERE id = ?
                                 """, (summary_text, project_id))
                                 conn.commit()
-                                st.success("✅ Manual edits saved!")
+                                st.success("Manual edits saved!")
                                 st.rerun()
                             except sqlite3.OperationalError:
-                                st.warning("⚠️ AI columns not found. Please run migration first:")
+                                st.warning("AI columns not found. Please run migration first:")
                                 st.code("sqlite3 tracker.db < etl/add_ai_fields.sql")
                 
                 st.divider()
                 
                 # Report Generation Section
-                st.markdown("### 📄 Project Report Generation")
+                st.markdown("### Project Report Generation")
                 
                 col1, col2 = st.columns(2)
                 
                 with col1:
-                    if st.button("📝 Generate Project Report", key=f"report_{project_id}"):
+                    if st.button("Generate Project Report", key=f"report_{project_id}"):
                         with st.spinner("Generating comprehensive project report..."):
                             try:
                                 import asyncio
@@ -1034,7 +1116,7 @@ elif page == "AI Services":
                                 
                                 # Download button
                                 st.download_button(
-                                    "📥 Download as Markdown",
+                                    "Download as Markdown",
                                     data=report_markdown,
                                     file_name=f"project_report_{project_id}.md",
                                     mime="text/markdown"
@@ -1058,19 +1140,30 @@ elif page == "AI Services":
                 st.divider()
                 
                 # Batch Operations
-                st.markdown("### 🔄 Batch Operations")
+                st.markdown("### Batch Operations (TODO)")
                 
                 col1, col2 = st.columns(2)
                 
                 with col1:
-                    if st.button("🔄 Generate AI Summaries for All Projects", key="batch_generate"):
+                    if st.button("Generate AI Summaries for All Projects", key="batch_generate"):
                         st.info("This will generate AI summaries for all projects. This may take a few minutes.")
                         # TODO: Implement batch processing
                 
                 with col2:
-                    if st.button("📥 Export All Project Reports", key="batch_export"):
+                    if st.button("Export All Project Reports", key="batch_export"):
                         st.info("This will generate and download reports for all projects.")
                         # TODO: Implement batch export
+            else:
+                # Handle error case
+                if isinstance(project_details, dict) and 'error' in project_details:
+                    st.error(f"Error fetching project details:")
+                    st.error(project_details['error'])
+                    with st.expander("Full Error Details"):
+                        st.code(project_details['error'], language='text')
+                else:
+                    st.error(f"Could not fetch project details for project ID {project_id}")
+                    st.info("This might happen if the project doesn't exist or there's a database issue.")
+                    st.code(f"Project ID: {project_id}, Title: {selected_project.get('title', 'N/A')}")
 
 st.write("")
 st.caption("Streamlit App Demo")
