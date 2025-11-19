@@ -1,16 +1,20 @@
-# streamlit run streamlit_app.py
+# streamlit run app/streamlit_app.py
 import os
+import sys
 import json
 import sqlite3
 import pandas as pd
 import streamlit as st
 from pathlib import Path
 
+# Add parent directory to path so we can import from llm module
 SCRIPT_DIR = Path(__file__).parent.absolute()
 PROJECT_ROOT = SCRIPT_DIR.parent
-# Use absolute paths to avoid issues with working directory changes
-DB_PATH = str(PROJECT_ROOT / "tracker.db")
-GRANTS_DB_PATH = str(PROJECT_ROOT / "grants_opportunity.db")
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+DB_PATH = "tracker.db"
+GRANTS_DB_PATH = "grants_opportunity.db"
 
 # ---------- Helpers ----------
 def _db_exists() -> bool:
@@ -457,7 +461,7 @@ if page == "Main Page":
     projects = fetch_projects_cached(db_mtime, selected_name or names[0] if names else "Demo PI")
     st.dataframe(projects, width='stretch', hide_index=True)
 
-    st.info("Click a row to drill down (detail view can link to collaborators and abstracts).")
+    st.info("TODO: Click a row to drill down detail view.")
 
 elif page == "All Grants Opportunities":
     st.subheader("Grants.gov Opportunities")
@@ -1095,7 +1099,8 @@ elif page == "AI Services":
                                             funding_matches.append({
                                                 'opportunity_number': opp.get('opportunity_number', ''),
                                                 'title': opp.get('title', ''),
-                                                'overall_score': match_data['overall_score']
+                                                'overall_score': match_data['overall_score'],
+                                                'funding_desc_link': opp.get('funding_desc_link', '')
                                             })
                                     funding_matches = sorted(funding_matches, key=lambda x: x['overall_score'], reverse=True)[:5]
                                 except:
@@ -1134,7 +1139,7 @@ elif page == "AI Services":
                     - Funding opportunity matches
                     - Recommended next actions
                     
-                    Export as Markdown (can be converted to DOCX/PDF)
+                    Export as Markdown
                     """)
                 
                 st.divider()
