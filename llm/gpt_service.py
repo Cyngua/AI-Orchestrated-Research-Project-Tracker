@@ -2,13 +2,15 @@
 GPT Service for AI-powered project summarization, tagging, and report generation.
 """
 import os
+from pathlib import Path
 import json
 from typing import Dict, List, Optional
 from openai import AsyncOpenAI
 from dotenv import load_dotenv
 
-load_dotenv()
-
+SCRIPT_DIR = Path(__file__).parent.absolute()
+PROJECT_ROOT = SCRIPT_DIR.parent
+load_dotenv("config/.env")
 client = AsyncOpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 # Default model - can be overridden
@@ -20,7 +22,8 @@ async def summarize_and_tag_project(
     project_abstract: Optional[str] = None,
     project_stage: Optional[str] = None,
     related_publications: Optional[List[Dict]] = None,
-    related_grants: Optional[List[Dict]] = None
+    related_grants: Optional[List[Dict]] = None,
+    temperature: Optional[float] = 1
 ) -> Dict[str, any]:
     """
     Generate AI summary, keywords, stage guess, and funding mechanism suggestions for a project.
@@ -54,7 +57,7 @@ async def summarize_and_tag_project(
 1. A concise 100-word summary of the project
 2. Exactly 5 keywords that best describe this research
 3. A stage guess based on the project information (choose one: idea, planning, data-collection, analysis, manuscript, submitted, funded, inactive)
-4. Three funding mechanism suggestions (e.g., R01, R21, K23, K08, F32, etc.)
+4. Three funding mechanism suggestions (use the NIH grant "activity codes" from https://reporter.nih.gov/grant-activity-codes)
 
 Project Title: {project_title}
 
@@ -80,7 +83,7 @@ Respond in JSON format:
                 {"role": "user", "content": prompt}
             ],
             response_format={"type": "json_object"},
-            temperature=0.3
+            temperature=temperature
         )
         
         content = response.choices[0].message.content
@@ -88,7 +91,7 @@ Respond in JSON format:
         
         # Validate and clean the response
         return {
-            'summary': result.get('summary', '')[:500],  # Limit summary length
+            'summary': result.get('summary', ''),  # Limit summary length
             'keywords': result.get('keywords', [])[:5],  # Ensure max 5 keywords
             'stage_guess': result.get('stage_guess', project_stage or 'idea'),
             'suggested_mechanisms': result.get('suggested_mechanisms', [])[:3]  # Max 3 mechanisms
@@ -111,7 +114,8 @@ async def generate_project_report(
     milestones: Optional[List[Dict]] = None,
     publications: Optional[List[Dict]] = None,
     funding_matches: Optional[List[Dict]] = None,
-    next_actions: Optional[List[str]] = None
+    next_actions: Optional[List[str]] = None,
+    temperature: Optional[float] = 1
 ) -> str:
     """
     Generate a comprehensive 1-page project report in markdown format.
@@ -155,7 +159,13 @@ async def generate_project_report(
             opp_num = match.get('opportunity_number', 'N/A')
             title = match.get('title', 'N/A')
             score = match.get('overall_score', 0)
-            sections.append(f"- **{opp_num}**: {title} (Match Score: {score:.2f})")
+            link = match.get('funding_desc_link', '')
+            
+            # Add link if available
+            if link and link.strip() and not link.startswith('http://localhost'):
+                sections.append(f"- **{opp_num}**: {title} (Match Score: {score:.2f}) [Link]({link})")
+            else:
+                sections.append(f"- **{opp_num}**: {title} (Match Score: {score:.2f})")
         sections.append("")
     
     # Next Actions
@@ -182,16 +192,28 @@ Provide 3-5 actionable next steps as a JSON array of strings."""
                     {"role": "user", "content": prompt}
                 ],
                 response_format={"type": "json_object"},
-                temperature=0.5
+                temperature=temperature
             )
             content = response.choices[0].message.content
             result = json.loads(content)
             actions = result.get('actions', [])
             sections.append("## Recommended Next Actions")
-            for action in actions:
-                sections.append(f"- {action}")
-            sections.append("")
+            if len(actions) > 0:
+                for action in actions:
+                    sections.append(f"- {action}")
+            else:
+                sections.append("No recommended next actions found.")
         except:
-            sections.append("## Recommended Next Actions\n- Review project status\n- Update milestones\n- Identify funding opportunities\n")
+            sections.append("## Recommended Next Actions\n- Review grants details\n- Update milestones")
     
     return "\n".join(sections)
+
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(summarize_and_tag_project(
+        project_title="Test Project",
+        project_abstract="This is a test project abstract",
+        project_stage="idea",
+        related_publications=[{"title": "Test Publication 1"}, {"title": "Test Publication 2"}],
+        related_grants=[{"mechanism": "R01", "core_project_num": "123456"}]
+    ))
