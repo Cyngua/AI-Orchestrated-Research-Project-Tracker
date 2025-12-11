@@ -11,7 +11,23 @@ from dotenv import load_dotenv
 SCRIPT_DIR = Path(__file__).parent.absolute()
 PROJECT_ROOT = SCRIPT_DIR.parent
 load_dotenv("config/.env")
-client = AsyncOpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+
+# Import configuration
+try:
+    from config.config import is_gpt_enabled
+except ImportError:
+    # Fallback if config module not available
+    def is_gpt_enabled():
+        return os.getenv("GPT_SERVICES_ENABLED", "false").lower() == "true"
+
+# Initialize client only if GPT is enabled
+if is_gpt_enabled():
+    api_key = os.getenv('OPENAI_API_KEY')
+    if not api_key:
+        raise ValueError("OPENAI_API_KEY is required when GPT_SERVICES_ENABLED=true")
+    client = AsyncOpenAI(api_key=api_key)
+else:
+    client = None
 
 # Default model - can be overridden
 DEFAULT_MODEL = "gpt-5-nano"
@@ -36,6 +52,14 @@ async def summarize_and_tag_project(
             'suggested_mechanisms': List[str] (3 funding mechanisms like R01, R21, K23)
         }
     """
+    # Check if GPT services are enabled
+    if not is_gpt_enabled() or client is None:
+        return {
+            'summary': 'GPT services are disabled. Please enable GPT_SERVICES_ENABLED in configuration.',
+            'keywords': [],
+            'stage_guess': project_stage or 'idea',
+            'suggested_mechanisms': []
+        }
     # Build context from related data
     context_parts = []
     
@@ -176,35 +200,38 @@ async def generate_project_report(
         sections.append("")
     else:
         # Generate AI-suggested next actions
-        prompt = f"""Based on this project, suggest 3-5 concrete next actions:
+        if is_gpt_enabled() and client is not None:
+            prompt = f"""Based on this project, suggest 3-5 concrete next actions:
 
 Project: {project_title}
 Stage: {project_stage}
 Summary: {project_summary[:200]}
 
 Provide 3-5 actionable next steps as a JSON array of strings."""
-        
-        try:
-            response = await client.chat.completions.create(
-                model=DEFAULT_MODEL,
-                messages=[
-                    {"role": "system", "content": "You are a research project advisor. Respond with JSON only."},
-                    {"role": "user", "content": prompt}
-                ],
-                response_format={"type": "json_object"},
-                temperature=temperature
-            )
-            content = response.choices[0].message.content
-            result = json.loads(content)
-            actions = result.get('actions', [])
-            sections.append("## Recommended Next Actions")
-            if len(actions) > 0:
-                for action in actions:
-                    sections.append(f"- {action}")
-            else:
-                sections.append("No recommended next actions found.")
-        except:
-            sections.append("## Recommended Next Actions\n- Review grants details\n- Update milestones")
+            
+            try:
+                response = await client.chat.completions.create(
+                    model=DEFAULT_MODEL,
+                    messages=[
+                        {"role": "system", "content": "You are a research project advisor. Respond with JSON only."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    response_format={"type": "json_object"},
+                    temperature=temperature
+                )
+                content = response.choices[0].message.content
+                result = json.loads(content)
+                actions = result.get('actions', [])
+                sections.append("## Recommended Next Actions")
+                if len(actions) > 0:
+                    for action in actions:
+                        sections.append(f"- {action}")
+                else:
+                    sections.append("No recommended next actions found.")
+            except:
+                sections.append("## Recommended Next Actions\n- Review grants details\n- Update milestones")
+        else:
+            sections.append("## Recommended Next Actions\n- Review grants details\n- Update milestones\n- Enable GPT services for AI-generated recommendations")
     
     return "\n".join(sections)
 

@@ -13,6 +13,17 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+# Import configuration
+try:
+    from config.config import is_email_allowed, AUTH_ENABLED, is_gpt_enabled
+except ImportError:
+    # Fallback if config module not available
+    def is_email_allowed(email: str) -> bool:
+        return True  # Allow all if config not available
+    AUTH_ENABLED = False
+    def is_gpt_enabled() -> bool:
+        return False
+
 DB_PATH = "tracker.db"
 GRANTS_DB_PATH = "grants_opportunity.db"
 
@@ -419,10 +430,58 @@ def get_grants_stats_cached(grants_db_mtime: float):
     
     return {"total": total, "by_status": by_status, "by_agency": by_agency}
 
+# ---------- Authentication ----------
+def check_authentication():
+    """Check if user is authenticated. Returns (is_authenticated, user_email)."""
+    if not AUTH_ENABLED:
+        return True, None
+    
+    # Check if user is already authenticated
+    if 'authenticated' in st.session_state and st.session_state.authenticated:
+        return True, st.session_state.get('user_email')
+    
+    # Show login form
+    st.title("Authentication Required")
+    st.info("Please enter your email address to access the application.")
+    
+    email = st.text_input("Email Address", type="default", key="login_email")
+    
+    if st.button("Login", key="login_button"):
+        if email and is_email_allowed(email):
+            st.session_state.authenticated = True
+            st.session_state.user_email = email.strip().lower()
+            st.success(f"Welcome! Logged in as {email}")
+            st.rerun()
+        else:
+            st.error("Access denied. Your email address is not authorized.")
+            return False, None
+    
+    return False, None
+
 # ---------- UI ----------
 st.set_page_config(page_title="ARCC Tracker", layout="wide")
 
+# Check authentication before showing the app
+is_authenticated, user_email = check_authentication()
+
+if not is_authenticated:
+    st.stop()  # Stop execution if not authenticated
+
 with st.sidebar:
+    # Show authentication status
+    if AUTH_ENABLED and user_email:
+        st.caption(f"👤 Logged in as: {user_email}")
+        if st.button("Logout", key="logout_button"):
+            st.session_state.authenticated = False
+            st.session_state.user_email = None
+            st.rerun()
+    
+    # Show GPT services status
+    gpt_enabled = is_gpt_enabled()
+    if gpt_enabled:
+        st.caption("GPT Services: Enabled")
+    else:
+        st.caption("GPT Services: Disabled")
     db_ok = _db_exists()
     grants_db_ok = _grants_db_exists()
     
@@ -989,64 +1048,68 @@ elif page == "AI Services":
                 with col2:
                     # Generate/Regenerate AI summary
                     if st.button("Generate Summary", key=f"generate_{project_id}"):
-                        with st.spinner("Generating AI summary and tags..."):
-                            try:
-                                # Check if AI columns exist
-                                conn = _ensure_conn()
-                                if not conn:
-                                    st.error("Database connection failed")
-                                else:
-                                    cur = conn.cursor()
-                                    try:
-                                        cur.execute("SELECT ai_summary FROM projects LIMIT 1")
-                                        ai_columns_exist = True
-                                    except sqlite3.OperationalError:
-                                        ai_columns_exist = False
-                                        st.warning("AI columns not found in database. Please run the migration script first:")
-                                        st.code("sqlite3 tracker.db < etl/add_ai_fields.sql")
+                        # Check if GPT services are enabled
+                        if not is_gpt_enabled():
+                            st.error("GPT services are disabled. Please enable GPT_SERVICES_ENABLED in configuration to use AI features.")
+                        else:
+                            with st.spinner("Generating AI summary and tags..."):
+                                try:
+                                    # Check if AI columns exist
+                                    conn = _ensure_conn()
+                                    if not conn:
+                                        st.error("Database connection failed")
                                     else:
-                                        import asyncio
-                                        from llm.gpt_service import summarize_and_tag_project
-                                        
-                                        # Prepare context
-                                        pub_list = [{'title': p.get('title', '')} for p in publications[:5]]
-                                        grant_list = [{'mechanism': g.get('mechanism', ''), 'core_project_num': g.get('core_project_num', '')} for g in grants[:3]]
-                                        
-                                        # Call AI service
-                                        result = asyncio.run(summarize_and_tag_project(
-                                            project_title=project.get('title', ''),
-                                            project_abstract=project.get('abstract'),
-                                            project_stage=project.get('stage'),
-                                            related_publications=pub_list,
-                                            related_grants=grant_list
-                                        ))
-                                        
-                                        # Save to database
-                                        import datetime
-                                        cur.execute("""
-                                            UPDATE projects 
-                                            SET ai_summary = ?,
-                                                ai_keywords = ?,
-                                                ai_stage_guess = ?,
-                                                ai_suggested_mechanisms = ?,
-                                                ai_generated_at = ?,
-                                                ai_manual_override = 0
-                                            WHERE id = ?
-                                        """, (
-                                            result['summary'],
-                                            json.dumps(result['keywords']),
-                                            result['stage_guess'],
-                                            json.dumps(result['suggested_mechanisms']),
-                                            datetime.datetime.now(),
-                                            project_id
-                                        ))
-                                        conn.commit()
-                                        st.success("AI summary generated and saved!")
-                                        st.rerun()
-                            except Exception as e:
-                                st.error(f"Error generating summary: {e}")
-                                import traceback
-                                st.code(traceback.format_exc())
+                                        cur = conn.cursor()
+                                        try:
+                                            cur.execute("SELECT ai_summary FROM projects LIMIT 1")
+                                            ai_columns_exist = True
+                                        except sqlite3.OperationalError:
+                                            ai_columns_exist = False
+                                            st.warning("AI columns not found in database. Please run the migration script first:")
+                                            st.code("sqlite3 tracker.db < etl/add_ai_fields.sql")
+                                        else:
+                                            import asyncio
+                                            from llm.gpt_service import summarize_and_tag_project
+                                            
+                                            # Prepare context
+                                            pub_list = [{'title': p.get('title', '')} for p in publications[:5]]
+                                            grant_list = [{'mechanism': g.get('mechanism', ''), 'core_project_num': g.get('core_project_num', '')} for g in grants[:3]]
+                                            
+                                            # Call AI service
+                                            result = asyncio.run(summarize_and_tag_project(
+                                                project_title=project.get('title', ''),
+                                                project_abstract=project.get('abstract'),
+                                                project_stage=project.get('stage'),
+                                                related_publications=pub_list,
+                                                related_grants=grant_list
+                                            ))
+                                            
+                                            # Save to database
+                                            import datetime
+                                            cur.execute("""
+                                                UPDATE projects 
+                                                SET ai_summary = ?,
+                                                    ai_keywords = ?,
+                                                    ai_stage_guess = ?,
+                                                    ai_suggested_mechanisms = ?,
+                                                    ai_generated_at = ?,
+                                                    ai_manual_override = 0
+                                                WHERE id = ?
+                                            """, (
+                                                result['summary'],
+                                                json.dumps(result['keywords']),
+                                                result['stage_guess'],
+                                                json.dumps(result['suggested_mechanisms']),
+                                                datetime.datetime.now(),
+                                                project_id
+                                            ))
+                                            conn.commit()
+                                            st.success("AI summary generated and saved!")
+                                            st.rerun()
+                                except Exception as e:
+                                    st.error(f"Error generating summary: {e}")
+                                    import traceback
+                                    st.code(traceback.format_exc())
                     
                     # Save manual edits
                     if st.button("Save Edits", key=f"save_{project_id}"):
@@ -1080,55 +1143,59 @@ elif page == "AI Services":
                 
                 with col1:
                     if st.button("Generate Project Report", key=f"report_{project_id}"):
-                        with st.spinner("Generating comprehensive project report..."):
-                            try:
-                                import asyncio
-                                from llm.gpt_service import generate_project_report
-                                
-                                # Get funding matches (from PI Grant Matching)
-                                funding_matches = []
+                        # Check if GPT services are enabled
+                        if not is_gpt_enabled():
+                            st.error("GPT services are disabled. Please enable GPT_SERVICES_ENABLED in configuration to use AI features.")
+                        else:
+                            with st.spinner("Generating comprehensive project report..."):
                                 try:
-                                    from pi_matching_utils import compute_pi_grant_match_score
-                                    # Get top grant opportunities
-                                    opps = fetch_grants_opportunities_cached(grants_db_mtime, None, None, None, None, None, None, None, 20, 0)
-                                    for _, opp in opps.iterrows():
-                                        match_data = compute_pi_grant_match_score(
-                                            selected_name, DB_PATH, opp.to_dict()
-                                        )
-                                        if match_data['overall_score'] > 0.5:
-                                            funding_matches.append({
-                                                'opportunity_number': opp.get('opportunity_number', ''),
-                                                'title': opp.get('title', ''),
-                                                'overall_score': match_data['overall_score'],
-                                                'funding_desc_link': opp.get('funding_desc_link', '')
-                                            })
-                                    funding_matches = sorted(funding_matches, key=lambda x: x['overall_score'], reverse=True)[:5]
-                                except:
-                                    pass
-                                
-                                # Generate report
-                                report_markdown = asyncio.run(generate_project_report(
-                                    project_id=project_id,
-                                    project_title=project.get('title', ''),
-                                    project_summary=summary_text or ai_summary or project.get('abstract', ''),
-                                    project_stage=project.get('stage', ''),
-                                    publications=publications,
-                                    funding_matches=funding_matches
-                                ))
-                                
-                                st.markdown("**Generated Report:**")
-                                st.markdown(report_markdown)
-                                
-                                # Download button
-                                st.download_button(
-                                    "Download as Markdown",
-                                    data=report_markdown,
-                                    file_name=f"project_report_{project_id}.md",
-                                    mime="text/markdown"
-                                )
-                                
-                            except Exception as e:
-                                st.error(f"Error generating report: {e}")
+                                    import asyncio
+                                    from llm.gpt_service import generate_project_report
+                                    
+                                    # Get funding matches (from PI Grant Matching)
+                                    funding_matches = []
+                                    try:
+                                        from pi_matching_utils import compute_pi_grant_match_score
+                                        # Get top grant opportunities
+                                        opps = fetch_grants_opportunities_cached(grants_db_mtime, None, None, None, None, None, None, None, 20, 0)
+                                        for _, opp in opps.iterrows():
+                                            match_data = compute_pi_grant_match_score(
+                                                selected_name, DB_PATH, opp.to_dict()
+                                            )
+                                            if match_data['overall_score'] > 0.5:
+                                                funding_matches.append({
+                                                    'opportunity_number': opp.get('opportunity_number', ''),
+                                                    'title': opp.get('title', ''),
+                                                    'overall_score': match_data['overall_score'],
+                                                    'funding_desc_link': opp.get('funding_desc_link', '')
+                                                })
+                                        funding_matches = sorted(funding_matches, key=lambda x: x['overall_score'], reverse=True)[:5]
+                                    except:
+                                        pass
+                                    
+                                    # Generate report
+                                    report_markdown = asyncio.run(generate_project_report(
+                                        project_id=project_id,
+                                        project_title=project.get('title', ''),
+                                        project_summary=summary_text or ai_summary or project.get('abstract', ''),
+                                        project_stage=project.get('stage', ''),
+                                        publications=publications,
+                                        funding_matches=funding_matches
+                                    ))
+                                    
+                                    st.markdown("**Generated Report:**")
+                                    st.markdown(report_markdown)
+                                    
+                                    # Download button
+                                    st.download_button(
+                                        "Download as Markdown",
+                                        data=report_markdown,
+                                        file_name=f"project_report_{project_id}.md",
+                                        mime="text/markdown"
+                                    )
+                                    
+                                except Exception as e:
+                                    st.error(f"Error generating report: {e}")
                 
                 with col2:
                     st.info("""
@@ -1142,22 +1209,22 @@ elif page == "AI Services":
                     Export as Markdown
                     """)
                 
-                st.divider()
+                # st.divider()
                 
                 # Batch Operations
-                st.markdown("### Batch Operations (TODO)")
+                # st.markdown("### Batch Operations (TODO)")
                 
-                col1, col2 = st.columns(2)
+                # col1, col2 = st.columns(2)
                 
-                with col1:
-                    if st.button("Generate AI Summaries for All Projects", key="batch_generate"):
-                        st.info("This will generate AI summaries for all projects. This may take a few minutes.")
-                        # TODO: Implement batch processing
+                # with col1:
+                #     if st.button("Generate AI Summaries for All Projects", key="batch_generate"):
+                #         st.info("This will generate AI summaries for all projects. This may take a few minutes.")
+                #         # TODO: Implement batch processing
                 
-                with col2:
-                    if st.button("Export All Project Reports", key="batch_export"):
-                        st.info("This will generate and download reports for all projects.")
-                        # TODO: Implement batch export
+                # with col2:
+                #     if st.button("Export All Project Reports", key="batch_export"):
+                #         st.info("This will generate and download reports for all projects.")
+                #         # TODO: Implement batch export
             else:
                 # Handle error case
                 if isinstance(project_details, dict) and 'error' in project_details:
