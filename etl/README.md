@@ -11,7 +11,7 @@ Originally Proposed Version:
 * Indexes: projects(title), pubs(pmid), grants(deadline), tags(tag)
 
 Refined Version (Sep 25):
-![alt text](figures/schema.png)
+![alt text](../figures/schema.png)
 
 ## Project Tracker Main Database Setup (SQLite)
 
