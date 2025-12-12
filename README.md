@@ -24,3 +24,9 @@ pip install -r requirements.txt
 
 ## Project Workflow (Mermaid Data Pipeline Diagram)
 ![alt text](figures/mermaid_data_pipeline.png)
+
+## License
+
+This project is provided for viewing and demonstration purposes only.
+All rights reserved. Unauthorized copying, modification, or redistribution
+is prohibited.
