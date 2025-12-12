@@ -13,14 +13,16 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-# Import configuration
+# Import configuration (must be after streamlit import for st.secrets to work)
 try:
-    from config.config import is_email_allowed, AUTH_ENABLED, is_gpt_enabled
+    from config.config import is_email_allowed, get_auth_enabled, is_gpt_enabled
+    # Use get_auth_enabled() function to ensure it reads from st.secrets dynamically
 except ImportError:
     # Fallback if config module not available
     def is_email_allowed(email: str) -> bool:
         return True  # Allow all if config not available
-    AUTH_ENABLED = False
+    def get_auth_enabled() -> bool:
+        return False
     def is_gpt_enabled() -> bool:
         return False
 
@@ -433,7 +435,7 @@ def get_grants_stats_cached(grants_db_mtime: float):
 # ---------- Authentication ----------
 def check_authentication():
     """Check if user is authenticated. Returns (is_authenticated, user_email)."""
-    if not AUTH_ENABLED:
+    if not get_auth_enabled():
         return True, None
     
     # Check if user is already authenticated
@@ -469,7 +471,7 @@ if not is_authenticated:
 
 with st.sidebar:
     # Show authentication status
-    if AUTH_ENABLED and user_email:
+    if get_auth_enabled() and user_email:
         st.caption(f"👤 Logged in as: {user_email}")
         if st.button("Logout", key="logout_button"):
             st.session_state.authenticated = False

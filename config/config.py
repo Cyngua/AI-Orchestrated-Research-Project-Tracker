@@ -22,18 +22,33 @@ def _get_config_value(key: str, default: Any = None) -> Any:
     1. st.secrets (Streamlit Cloud/local secrets.toml)
     2. os.getenv (environment variables/.env file)
     3. default value
+    
+    This function is called lazily (when needed), so st.secrets will be available.
     """
+    value = None
+    
     # Try Streamlit secrets first (only available when running in Streamlit)
     try:
         import streamlit as st
-        if hasattr(st, 'secrets') and key in st.secrets:
-            return st.secrets[key]
+        # Check if st.secrets is available and has the key
+        if hasattr(st, 'secrets'):
+            try:
+                # Access st.secrets
+                secrets_dict = st.secrets
+                if key in secrets_dict:
+                    value = secrets_dict[key]
+            except (AttributeError, KeyError, TypeError, Exception):
+                # st.secrets might not be fully initialized or key doesn't exist
+                pass
     except (ImportError, RuntimeError, AttributeError):
         # Not running in Streamlit or secrets not available
         pass
     
-    # Fall back to environment variables
-    return os.getenv(key, default)
+    # Fall back to environment variables if not found in secrets
+    if value is None:
+        value = os.getenv(key, default)
+    
+    return value
 
 def _get_config_list(key: str, default: str = "") -> List[str]:
     """Get configuration value as a list (comma-separated string)."""
@@ -44,28 +59,33 @@ def _get_config_list(key: str, default: str = "") -> List[str]:
         return [email.strip().lower() for email in value.split(",") if email.strip()]
     return []
 
-# GPT Service Configuration
-GPT_SERVICES_ENABLED = _get_config_value("GPT_SERVICES_ENABLED", "false").lower() == "true"
-
-# Authentication Configuration
-ALLOWED_EMAILS = _get_config_list("ALLOWED_EMAILS", "")
-
-# Authentication enabled/disabled
-AUTH_ENABLED = _get_config_value("AUTH_ENABLED", "true").lower() == "true"
-
 def is_gpt_enabled() -> bool:
     """Check if GPT services are enabled."""
-    return GPT_SERVICES_ENABLED
+    return _get_config_value("GPT_SERVICES_ENABLED", "false").lower() == "true"
 
-def is_email_allowed(email: str) -> bool:
-    """Check if an email address is allowed to access the app."""
-    if not AUTH_ENABLED:
-        return True  # If auth is disabled, allow all
-    if not email:
-        return False
-    return email.strip().lower() in ALLOWED_EMAILS
+def get_auth_enabled() -> bool:
+    """Get authentication enabled status."""
+    return _get_config_value("AUTH_ENABLED", "true").lower() == "true"
 
 def get_allowed_emails() -> List[str]:
     """Get list of allowed email addresses."""
-    return ALLOWED_EMAILS.copy()
+    return _get_config_list("ALLOWED_EMAILS", "")
+
+def is_email_allowed(email: str) -> bool:
+    """Check if an email address is allowed to access the app."""
+    if not get_auth_enabled():
+        return True  # If auth is disabled, allow all
+    if not email:
+        return False
+    allowed_emails = get_allowed_emails()
+    return email.strip().lower() in allowed_emails
+
+def __getattr__(name: str):
+    if name == "GPT_SERVICES_ENABLED":
+        return is_gpt_enabled()
+    elif name == "AUTH_ENABLED":
+        return get_auth_enabled()
+    elif name == "ALLOWED_EMAILS":
+        return get_allowed_emails()
+    raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
 
