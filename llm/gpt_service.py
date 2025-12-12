@@ -4,7 +4,7 @@ GPT Service for AI-powered project summarization, tagging, and report generation
 import os
 from pathlib import Path
 import json
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 from openai import AsyncOpenAI
 from dotenv import load_dotenv
 
@@ -14,15 +14,23 @@ load_dotenv("config/.env")
 
 # Import configuration
 try:
-    from config.config import is_gpt_enabled
+    from config.config import is_gpt_enabled, _get_config_value
 except ImportError:
     # Fallback if config module not available
     def is_gpt_enabled():
         return os.getenv("GPT_SERVICES_ENABLED", "false").lower() == "true"
+    def _get_config_value(key: str, default: Any = None):
+        return os.getenv(key, default)
 
 # Initialize client only if GPT is enabled
+# Get API key from either st.secrets or environment variables
 if is_gpt_enabled():
-    api_key = os.getenv('OPENAI_API_KEY')
+    try:
+        api_key = _get_config_value('OPENAI_API_KEY')
+    except NameError:
+        # Fallback if _get_config_value not available
+        api_key = os.getenv('OPENAI_API_KEY')
+    
     if not api_key:
         raise ValueError("OPENAI_API_KEY is required when GPT_SERVICES_ENABLED=true")
     client = AsyncOpenAI(api_key=api_key)

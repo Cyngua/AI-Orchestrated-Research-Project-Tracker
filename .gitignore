@@ -1,10 +1,12 @@
 # Database and data files
 /data/
-*.db
+# Seed database files are included in the repository
+# *.db
 
 # Configurations
 /config/.env
 .env
+.streamlit/secrets.toml
 
 # Python bytecode directories
 __pycache__/
